@@ -1,12 +1,17 @@
 import requests
 import json
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+API_KEY = os.getenv("OPENROUTER_API_KEY")
+
 
 response = requests.post(
   url="https://openrouter.ai/api/v1/chat/completions",
   headers={
-    "Authorization": "Bearer <OPENROUTER_API_KEY>",
-    "HTTP-Referer": "<YOUR_SITE_URL>", # Optional. Site URL for rankings on openrouter.ai.
-    "X-OpenRouter-Title": "<YOUR_SITE_NAME>", # Optional. Site title for rankings on openrouter.ai.
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json",
   },
   data=json.dumps({
     "model": "openai/gpt-5.2",
