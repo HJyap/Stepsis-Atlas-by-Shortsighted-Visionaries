@@ -1,0 +1,750 @@
+[
+    {
+        "study": "Gai et al. 2021",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=72",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality (non-survivor vs survivor)",
+        "timing": "At ICU admission",
+        "method": "Case-control comparison",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_1"
+        }
+    },
+    {
+        "study": "Gai et al. 2021",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=72",
+        "predictor": "SOFA score",
+        "outcome": "Mortality (non-survivor vs survivor)",
+        "timing": "At ICU admission",
+        "method": "Case-control comparison",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_1"
+        }
+    },
+    {
+        "study": "Gai et al. 2021",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=72",
+        "predictor": "Lactate level",
+        "outcome": "Mortality (non-survivor vs survivor)",
+        "timing": "At ICU admission",
+        "method": "Case-control comparison and ROC curve analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Significant difference between survivors and non-survivors; ROC analysis performed to determine best indicator for predicting mortality",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_1"
+        }
+    },
+    {
+        "study": "Gai et al. 2021",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=72",
+        "predictor": "Superior mesenteric artery (SMA) ultrasound parameters",
+        "outcome": "Mortality (non-survivor vs survivor)",
+        "timing": "At ICU admission",
+        "method": "Case-control comparison and ROC curve analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Significant difference between survivors and non-survivors; ROC analysis performed to determine best indicator for predicting mortality; text appears truncated",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_1"
+        }
+    },
+    {
+        "study": "Gai et al. 2022",
+        "population": "Patients with sepsis in intensive care units",
+        "sample_size": "Not reported",
+        "predictor": "Peak systolic velocity (PSV) of superior mesenteric artery (SMA) via ultrasound",
+        "outcome": "Mortality in sepsis",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression and ROC analysis",
+        "effect_size": "Adjusted OR 0.295 (95% CI: 0.094\u20130.925); Cutoff not reported",
+        "performance": "AUC 0.99, Sensitivity 0.99, Specificity 0.96",
+        "notes": "Low PSV identified as independent risk factor for mortality. APACHE II score, SOFA score, lactate, EDV, and RI were potential risk factors on univariate analysis but not independent predictors on multivariate analysis.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_2"
+        }
+    },
+    {
+        "study": "Gai et al. 2022",
+        "population": "Patients with sepsis in intensive care units",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality in sepsis",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Identified as potential risk factor on univariate analysis only; not retained as independent predictor in multivariate analysis.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_2"
+        }
+    },
+    {
+        "study": "Gai et al. 2022",
+        "population": "Patients with sepsis in intensive care units",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality in sepsis",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Identified as potential risk factor on univariate analysis only; not retained as independent predictor in multivariate analysis.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_2"
+        }
+    },
+    {
+        "study": "Gai et al. 2022",
+        "population": "Patients with sepsis in intensive care units",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level",
+        "outcome": "Mortality in sepsis",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Identified as potential risk factor on univariate analysis only; not retained as independent predictor in multivariate analysis.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_2"
+        }
+    },
+    {
+        "study": "Gai et al. 2022",
+        "population": "Patients with sepsis in intensive care units",
+        "sample_size": "Not reported",
+        "predictor": "End-diastolic velocity (EDV) of superior mesenteric artery (SMA) via ultrasound",
+        "outcome": "Mortality in sepsis",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Identified as potential risk factor on univariate analysis only; not retained as independent predictor in multivariate analysis.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_2"
+        }
+    },
+    {
+        "study": "Gai et al. 2022",
+        "population": "Patients with sepsis in intensive care units",
+        "sample_size": "Not reported",
+        "predictor": "Resistive index (RI) of superior mesenteric artery (SMA) via ultrasound",
+        "outcome": "Mortality in sepsis",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Identified as potential risk factor on univariate analysis only; not retained as independent predictor in multivariate analysis.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 1,
+            "chunk": "page_1_p_2"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Patients with sepsis (with or without septic shock) admitted to the ICU",
+        "sample_size": "Not reported",
+        "predictor": "Superior mesenteric artery (SMA) ultrasound",
+        "outcome": "Mortality",
+        "timing": "Within the first 24 hours of ICU admission",
+        "method": "Case-control study",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Sepsis defined by Sepsis 3.0 Criteria; septic shock defined as need for vasopressors to maintain MAP \u226565 mmHg and serum lactate >2 mmol/L despite adequate volume resuscitation. Study conducted at Qinhuangdao Jungong Hospital ICU, January\u2013November 2020.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 2,
+            "chunk": "page_2_p_3"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "ICU patients with sepsis or septic shock",
+        "sample_size": "Not reported",
+        "predictor": "SMA ultrasound parameters: end-diastolic velocity (EDV), peak systolic velocity (PSV), and resistive index (RI)",
+        "outcome": "Mortality",
+        "timing": "Within the first 24 hours of ICU admission",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "SMA measurement obtained 1-2 cm proximal to the artery; mean of three readings used; two experienced physicians performed evaluations using a 3.5-MHz sector probe (SonoSite); at least five consecutive cardiac cycles recorded per measurement",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Patients with sepsis",
+        "sample_size": "N=72 (42 non-survivors, 30 survivors)",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality (non-survivor vs. survivor)",
+        "timing": "Not reported",
+        "method": "Mann-Whitney U test / independent Student's t test; ROC analysis",
+        "effect_size": "Non-survivors: 22.67 \u00b1 4.28 vs. survivors: 17.43 \u00b1 3.17",
+        "performance": "P < 0.001",
+        "notes": "Variables significantly differing by univariate analysis were further analyzed by multiple logistic regression",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_2"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Patients with sepsis",
+        "sample_size": "N=72 (42 non-survivors, 30 survivors)",
+        "predictor": "SOFA score",
+        "outcome": "Mortality (non-survivor vs. survivor)",
+        "timing": "Not reported",
+        "method": "Mann-Whitney U test / independent Student's t test; ROC analysis",
+        "effect_size": "Non-survivors: 10.62 \u00b1 1.67 vs. survivors: 7.83 \u00b1 2.29",
+        "performance": "P < 0.001",
+        "notes": "Variables significantly differing by univariate analysis were further analyzed by multiple logistic regression",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_2"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Patients with sepsis",
+        "sample_size": "N=72 (42 non-survivors, 30 survivors)",
+        "predictor": "Lactate level",
+        "outcome": "Mortality (non-survivor vs. survivor)",
+        "timing": "Not reported",
+        "method": "Mann-Whitney U test / independent Student's t test; ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Statistically significant difference between non-survivors and survivors (exact values not provided in excerpt)",
+        "notes": "Text excerpt is truncated; full results not available",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_2"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients (survivors vs. non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Non-survivors: 22.67 \u00b1 4.28 vs. survivors: 17.43 \u00b1 3.17",
+        "performance": "P < 0.001",
+        "notes": "Variable included in stepwise multivariate logistic regression model selection but not retained in final model",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_3"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients (survivors vs. non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Non-survivors: 10.62 \u00b1 1.67 vs. survivors: 7.83 \u00b1 2.29",
+        "performance": "P < 0.001",
+        "notes": "Variable included in stepwise multivariate logistic regression model selection but not retained in final model",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_3"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients (survivors vs. non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Non-survivors: 3.79 \u00b1 1.05 mmol/L vs. survivors: 2.74 \u00b1 0.92 mmol/L",
+        "performance": "P < 0.001",
+        "notes": "Variable included in stepwise multivariate logistic regression model selection but not retained in final model",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_3"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients (survivors vs. non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Peak systolic velocity (PSV)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Stepwise multivariate logistic regression",
+        "effect_size": "Non-survivors: 78.92 \u00b1 4.75 cm/s vs. survivors: 100.8 \u00b1 7.10 cm/s; OR = 0.295",
+        "performance": "95% CI: 0.094\u20130.925; P < 0.001 (univariate)",
+        "notes": "Only PSV was retained in the final multivariate model. Patients with higher PSV (100.8 cm/s) have a 70.5% lower chance of dying than patients with lower PSV (78.92 cm/s)",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_3"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients (survivors vs. non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "End-diastolic velocity (EDV)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Non-survivors: 26.09 \u00b1 1.51 cm/s vs. survivors: 29.55 \u00b1 1.41 cm/s",
+        "performance": "P < 0.001",
+        "notes": "Variable included in stepwise multivariate logistic regression model selection but not retained in final model",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_3"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients (survivors vs. non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Resistive index (RI)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Univariate analysis",
+        "effect_size": "Non-survivors: 0.67 \u00b1 0.03 vs. survivors: 0.71 \u00b1 0.02",
+        "performance": "P < 0.001",
+        "notes": "Variable included in stepwise multivariate logistic regression model selection but not retained in final model",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 3,
+            "chunk": "page_3_p_3"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Septic patients in ICU",
+        "sample_size": "N=72 (survivors n=30, non-survivors n=42)",
+        "predictor": "Peak systolic velocity (PSV)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.99, Sensitivity 0.99, Specificity 0.96",
+        "notes": "PSV had the largest AUC among APACHE II score, SOFA score, lactate level, and EDV. Low PSV was an independent risk factor for mortality.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Septic patients in ICU",
+        "sample_size": "N=72 (survivors n=30, non-survivors n=42)",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 17.43 \u00b1 3.17; Non-survivors: 22.67 \u00b1 4.28",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Septic patients in ICU",
+        "sample_size": "N=72 (survivors n=30, non-survivors n=42)",
+        "predictor": "SOFA score",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 7.83 \u00b1 2.29; Non-survivors: 10.62 \u00b1 1.67",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Septic patients in ICU",
+        "sample_size": "N=72 (survivors n=30, non-survivors n=42)",
+        "predictor": "Lactate level (mmol/L)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 2.74 \u00b1 0.92; Non-survivors: 3.79 \u00b1 1.05",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Septic patients in ICU",
+        "sample_size": "N=72 (survivors n=30, non-survivors n=42)",
+        "predictor": "End-diastolic velocity (EDV) (cm/s)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 29.55 \u00b1 1.41; Non-survivors: 26.09 \u00b1 1.51",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Septic patients in ICU",
+        "sample_size": "N=72 (survivors n=30, non-survivors n=42)",
+        "predictor": "Resistance index (RI)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 0.71 \u00b1 0.02; Non-survivors: 0.67 \u00b1 0.03",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Septic patients in ICU",
+        "sample_size": "N=72 (survivors n=30, non-survivors n=42)",
+        "predictor": "Norepinephrine maximum dose (NEmax) (\u03bcg/kg/min)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 0.26 \u00b1 0.08; Non-survivors: 0.38 \u00b1 0.08",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_1"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Not reported (risk factor analysis in septic patients)",
+        "timing": "Not reported",
+        "method": "Univariate and multivariate logistic regression",
+        "effect_size": "Univariate OR 1.449 (95% CI 1.208-1.738)",
+        "performance": "Univariate p<0.001; Multivariate p=0.306",
+        "notes": "Published in PLOS ONE, September 6, 2022. DOI: 10.1371/journal.pone.0273377",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_2"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Not reported (risk factor analysis in septic patients)",
+        "timing": "Not reported",
+        "method": "Univariate and multivariate logistic regression",
+        "effect_size": "Univariate OR 1.974 (95% CI 1.433-2.719)",
+        "performance": "Univariate p<0.001; Multivariate p=0.104",
+        "notes": "Published in PLOS ONE, September 6, 2022. DOI: 10.1371/journal.pone.0273377",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_2"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate (mmol/L)",
+        "outcome": "Not reported (risk factor analysis in septic patients)",
+        "timing": "Not reported",
+        "method": "Univariate and multivariate logistic regression",
+        "effect_size": "Univariate OR 2.873 (95% CI 1.616-5.108)",
+        "performance": "Univariate p<0.001; Multivariate p=0.287",
+        "notes": "Published in PLOS ONE, September 6, 2022. DOI: 10.1371/journal.pone.0273377",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_2"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients",
+        "sample_size": "Not reported",
+        "predictor": "PSV (Peak systolic velocity, cm/s)",
+        "outcome": "Not reported (risk factor analysis in septic patients)",
+        "timing": "Not reported",
+        "method": "Univariate and multivariate logistic regression",
+        "effect_size": "Univariate OR 0.295 (95% CI 0.094-0.925); Multivariate OR 0.295 (95% CI 0.094-0.925)",
+        "performance": "Univariate p=0.036; Multivariate p=0.036",
+        "notes": "Ultrasound data. Published in PLOS ONE, September 6, 2022. DOI: 10.1371/journal.pone.0273377",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_2"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients",
+        "sample_size": "Not reported",
+        "predictor": "EDV (End diastolic velocity, cm/s)",
+        "outcome": "Not reported (risk factor analysis in septic patients)",
+        "timing": "Not reported",
+        "method": "Univariate and multivariate logistic regression",
+        "effect_size": "Univariate OR 0.219 (95% CI 0.111-0.432)",
+        "performance": "Univariate p<0.001; Multivariate p=0.546",
+        "notes": "Ultrasound data. Published in PLOS ONE, September 6, 2022. DOI: 10.1371/journal.pone.0273377",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_2"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Septic patients",
+        "sample_size": "Not reported",
+        "predictor": "RI (Resistive index)",
+        "outcome": "Not reported (risk factor analysis in septic patients)",
+        "timing": "Not reported",
+        "method": "Univariate and multivariate logistic regression",
+        "effect_size": "Univariate OR <0.001 (95% CI 0.001-0.001)",
+        "performance": "Univariate p<0.001; Multivariate p=0.550",
+        "notes": "Ultrasound data. OR value as reported may reflect OCR or formatting issue. Published in PLOS ONE, September 6, 2022. DOI: 10.1371/journal.pone.0273377",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 4,
+            "chunk": "page_4_p_2"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Critically ill patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Peak systolic velocity (PSV) of superior mesenteric artery (SMA)",
+        "outcome": "Mortality",
+        "timing": "Early monitoring",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC reported (exact value not reported in excerpt)",
+        "notes": "SMA ultrasound used for qualitative assessment of SMA flow; study published September 6, 2022 in PLOS ONE (doi: 10.1371/journal.pone.0273377)",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 5,
+            "chunk": "page_5_p_1"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Critically ill patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "End-diastolic velocity (EDV) of superior mesenteric artery (SMA)",
+        "outcome": "Mortality",
+        "timing": "Early monitoring",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC reported (exact value not reported in excerpt)",
+        "notes": "SMA ultrasound used for qualitative assessment of SMA flow; study published September 6, 2022 in PLOS ONE (doi: 10.1371/journal.pone.0273377)",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 5,
+            "chunk": "page_5_p_1"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Critically ill patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC reported (exact value not reported in excerpt)",
+        "notes": "Compared alongside SOFA, Lactate, PSV, EDV, and RI in ROC analysis",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 5,
+            "chunk": "page_5_p_1"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Critically ill patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC reported (exact value not reported in excerpt)",
+        "notes": "Compared alongside APACHE II, Lactate, PSV, EDV, and RI in ROC analysis",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 5,
+            "chunk": "page_5_p_1"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Critically ill patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC reported (exact value not reported in excerpt)",
+        "notes": "Compared alongside APACHE II, SOFA, PSV, EDV, and RI in ROC analysis",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 5,
+            "chunk": "page_5_p_1"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Critically ill patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Resistive index (RI) of superior mesenteric artery (SMA)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC reported (exact value not reported in excerpt)",
+        "notes": "Compared alongside APACHE II, SOFA, Lactate, PSV, and EDV in ROC analysis",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 5,
+            "chunk": "page_5_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Critically ill patients",
+        "sample_size": "Not reported",
+        "predictor": "Peak Systolic Velocity (PSV) of Superior Mesenteric Artery (SMA)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (sensitivity and specificity)",
+        "effect_size": "Not reported",
+        "performance": "High sensitivity and specificity (exact values not reported)",
+        "notes": "Non-survivor group showed low PSV, EDV, and RI compared to survivors",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 6,
+            "chunk": "page_6_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Critically ill patients",
+        "sample_size": "Not reported",
+        "predictor": "End Diastolic Velocity (EDV) of Superior Mesenteric Artery (SMA)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (sensitivity and specificity)",
+        "effect_size": "Not reported",
+        "performance": "High sensitivity and specificity (exact values not reported)",
+        "notes": "Non-survivor group showed low PSV, EDV, and RI compared to survivors",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 6,
+            "chunk": "page_6_p_1"
+        }
+    },
+    {
+        "study": "Not reported",
+        "population": "Critically ill patients",
+        "sample_size": "Not reported",
+        "predictor": "Resistive Index (RI) of Superior Mesenteric Artery (SMA)",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Non-survivor group showed low RI compared to survivors; RI alone not stated to have high sensitivity/specificity in this excerpt",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 6,
+            "chunk": "page_6_p_1"
+        }
+    },
+    {
+        "study": "Not reported 2022",
+        "population": "Patients with sepsis admitted to ICU, with or without septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Peak systolic velocity (PSV) of superior mesenteric artery (SMA) ultrasound",
+        "outcome": "Mortality",
+        "timing": "Early stage after ICU admission",
+        "method": "Correlation analysis and comparison with SOFA score",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Strong negative correlation observed between PSV and SOFA score; PSV found to be a better predictor of mortality than SOFA score; low PSV identified as independent risk factor for mortality. Published in PLOS ONE, doi: 10.1371/journal.pone.0273377, September 6, 2022.",
+        "source_info": {
+            "file": "Gai_2022.pdf",
+            "page": 6,
+            "chunk": "page_6_p_3"
+        }
+    }
+]

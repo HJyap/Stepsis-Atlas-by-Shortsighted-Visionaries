@@ -1,6 +1,8 @@
 .env
 articles/
-venv/
+.venv/
+chunks/
+extractions/
 
 __pycache__/
 *.py[cod]

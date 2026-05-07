@@ -1,0 +1,1484 @@
+[
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (≥80 years) hospitalized with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Male sex",
+        "outcome": "Sepsis (Sepsis-3 criteria)",
+        "timing": "At admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor, p-value not reported",
+        "notes": "Retrospective observational study with prospectively collected data at Hospital Clinic of Barcelona over 13 years. Prevalence of sepsis in very old CAP patients was 71%.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (≥80 years) hospitalized with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Chronic renal disease",
+        "outcome": "Sepsis (Sepsis-3 criteria)",
+        "timing": "At admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor, p-value not reported",
+        "notes": "Retrospective observational study with prospectively collected data at Hospital Clinic of Barcelona over 13 years.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (≥80 years) hospitalized with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Diabetes mellitus",
+        "outcome": "Sepsis (Sepsis-3 criteria)",
+        "timing": "At admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor, p-value not reported",
+        "notes": "Retrospective observational study with prospectively collected data at Hospital Clinic of Barcelona over 13 years.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (≥80 years) hospitalized with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Antibiotic therapy before admission",
+        "outcome": "Sepsis (Sepsis-3 criteria)",
+        "timing": "Prior to hospital admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independently associated with lower risk of sepsis, p-value not reported",
+        "notes": "Protective factor against sepsis development.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (≥80 years) hospitalized with CAP and sepsis (CAP-sepsis group)",
+        "sample_size": "N=1238",
+        "predictor": "Chronic renal disease",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor, p-value not reported",
+        "notes": "Analysis restricted to CAP-sepsis subgroup.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (≥80 years) hospitalized with CAP and sepsis (CAP-sepsis group)",
+        "sample_size": "N=1238",
+        "predictor": "Neurological disease",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor, p-value not reported",
+        "notes": "Analysis restricted to CAP-sepsis subgroup. In-hospital and 1-year mortality rates were increased in very old CAP patients who developed sepsis. 30-day and ICU mortality did not differ between patients with and without sepsis.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**Risk and Prognostic Factors in Very Old Patients with Sepsis Secondary to Community-Acquired Pneumonia**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Age (mean)",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "86.6 vs 85.9 years",
+        "performance": "p=0.030",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Male sex",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "43% vs 60%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Previous antibiotic in last week",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "30% vs 23%",
+        "performance": "p=0.020",
+        "notes": "Higher prevalence in no-sepsis group",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Pleuritic pain",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "27% vs 21%",
+        "performance": "p=0.021",
+        "notes": "Higher prevalence in no-sepsis group",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Altered mental status",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "19% vs 34%",
+        "performance": "p=0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Prior pneumonia (last year)",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "10% vs 16%",
+        "performance": "p=0.011",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Diabetes mellitus",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "20% vs 28%",
+        "performance": "p=0.007",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Chronic renal disease",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "6% vs 13%",
+        "performance": "p=0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Respiratory rate",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "Median 24 (IQR 20-30) vs 25 (IQR 22-32) breaths/min",
+        "performance": "p=0.017",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "Lymphocytes",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "Median 1002 (IQR 621-1560) vs 888 (IQR 510-1316) cell/mm3",
+        "performance": "p=0.002",
+        "notes": "Higher in no-sepsis group",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "PSI score",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "Median 107 (IQR 91-127) vs 123.5 (IQR 104-145)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old (≥80 years) patients with pneumonia",
+        "sample_size": "N=1238 (No sepsis: N=358, Sepsis: N=880)",
+        "predictor": "PSI risk class IV-V",
+        "outcome": "Presence of sepsis",
+        "timing": "At admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "78% vs 92%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "PSI score",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (median IQR)",
+        "effect_size": "Median 107 (IQR 91–127) in no sepsis vs 123.5 (IQR 104–145) in sepsis",
+        "performance": "p<0.001",
+        "notes": "PSI = Pneumonia Severity Index",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "PSI risk class IV–V",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "78% in no sepsis vs 92% in sepsis",
+        "performance": "p<0.001",
+        "notes": "PSI risk classes IV–V defined as >90 points, associated with highest 30-day mortality risk",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Severe CAP",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "11% in no sepsis vs 45% in sepsis",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "215 patients in no sepsis group and 594 patients in sepsis group with blood samples",
+        "predictor": "Bacteremia",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "9% in no sepsis vs 13% in sepsis",
+        "performance": "p=0.086",
+        "notes": "Calculated only for patients with blood samples",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Pleural effusion",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "13% in no sepsis vs 13% in sepsis",
+        "performance": "p=0.90",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Multilobar appearance on CXR",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "21% in no sepsis vs 23% in sepsis",
+        "performance": "p=0.36",
+        "notes": "CXR = chest X-ray",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Septic shock at admission",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "0% in no sepsis vs 7% in sepsis",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Do-not-resuscitate order",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "18% in no sepsis vs 18% in sepsis",
+        "performance": "p=0.96",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Empiric antibiotic monotherapy",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "41% in no sepsis vs 36% in sepsis",
+        "performance": "p=0.072",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Fluoroquinolone monotherapy",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "26% in no sepsis vs 21% in sepsis",
+        "performance": "p=0.10",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "β-lactam monotherapy",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "15% in no sepsis vs 14% in sepsis",
+        "performance": "p=0.57",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Combination antibiotic therapy",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "59% in no sepsis vs 64% in sepsis",
+        "performance": "p=0.072",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "β-lactams plus macrolides combination therapy",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "30% in no sepsis vs 29% in sepsis",
+        "performance": "p=0.87",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "β-lactams plus fluoroquinolones combination therapy",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "20% in no sepsis vs 26% in sepsis",
+        "performance": "p=0.021",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized CAP patients, no sepsis vs sepsis group",
+        "sample_size": "No sepsis group and sepsis group (total N not specified in excerpt)",
+        "predictor": "Appropriate empiric treatment",
+        "outcome": "Sepsis vs no sepsis in CAP",
+        "timing": "At admission",
+        "method": "Comparison between groups (proportion)",
+        "effect_size": "97% in no sepsis vs 96% in sepsis",
+        "performance": "p=0.57",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "CAP patients admitted to hospital, sepsis vs. no-sepsis groups",
+        "sample_size": "N=1224 (99% of cohort with antibiotic data)",
+        "predictor": "Sepsis at admission (vs. no-sepsis)",
+        "outcome": "Younger age, male sex, diabetes mellitus, chronic renal disease, prior pneumonia, prior antibiotic therapy, uncommon presentation, pleuritic pain, altered mental status, lymphocyte count, PSI risk class IV-V, severe CAP, etiologic diagnosis, MDR pathogens, empiric antibiotic regimen",
+        "timing": "At admission",
+        "method": "Comparative group analysis",
+        "effect_size": "Etiologic diagnosis: 34% vs. 27% (p=0.01); fluoroquinolone plus ß-lactam: 26% vs. 20% (p=0.021); inappropriate empiric treatment: 3% vs. 4% (p=0.57); MDR pathogens: 1% vs. 0.2%; septic shock at admission: 7% (61 patients)",
+        "performance": "p=0.01 for etiologic diagnosis; p=0.021 for fluoroquinolone plus ß-lactam use; p=0.57 for inappropriate empiric treatment",
+        "notes": "Sepsis group more likely younger, male, diabetic, chronic renal disease, prior pneumonia; less likely to have received prior antibiotics; lower lymphocyte counts; higher PSI IV-V and severe CAP rates; 61 patients (7%) presented with septic shock at admission; no significant difference in pathogen distribution between groups",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Male sex",
+        "outcome": "Development of sepsis",
+        "timing": "At admission",
+        "method": "Univariate logistic regression",
+        "effect_size": "OR 1.97 (95% CI 1.54 to 2.53)",
+        "performance": "p<0.001",
+        "notes": "Also significant in multivariable analysis: OR 1.87 (95% CI 1.46 to 2.41), p<0.001",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Current smoker (vs. never smoker)",
+        "outcome": "Development of sepsis",
+        "timing": "At admission",
+        "method": "Univariate logistic regression",
+        "effect_size": "OR 2.00 (95% CI 1.02 to 3.94)",
+        "performance": "p=0.044",
+        "notes": "Smoking status overall p<0.001 in univariate analysis; multivariable results not reported for this category",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Ex-smoker (vs. never smoker)",
+        "outcome": "Development of sepsis",
+        "timing": "At admission",
+        "method": "Univariate logistic regression",
+        "effect_size": "OR 1.58 (95% CI 1.21 to 2.06)",
+        "performance": "p=0.001",
+        "notes": "Smoking status overall p<0.001 in univariate analysis; multivariable results not reported for this category",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Previous antibiotic use in last week",
+        "outcome": "Development of sepsis",
+        "timing": "At admission",
+        "method": "Univariate logistic regression",
+        "effect_size": "OR 0.70 (95% CI 0.53 to 0.92)",
+        "performance": "p=0.010",
+        "notes": "Also significant in multivariable analysis: OR 0.71 (95% CI 0.54 to 0.94), p=0.016; protective effect",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Chronic renal disease",
+        "outcome": "Development of sepsis",
+        "timing": "At admission",
+        "method": "Univariate logistic regression",
+        "effect_size": "OR 2.30 (95% CI 1.43 to 3.69)",
+        "performance": "p=0.001",
+        "notes": "Also significant in multivariable analysis: OR 2.08 (95% CI 1.29 to 3.37), p=0.003",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Diabetes mellitus",
+        "outcome": "Development of sepsis",
+        "timing": "At admission",
+        "method": "Univariate logistic regression",
+        "effect_size": "OR 1.52 (95% CI 1.13 to 2.04)",
+        "performance": "p=0.006",
+        "notes": "Also significant in multivariable analysis: OR 1.42 (95% CI 1.05 to 1.92), p=0.024",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with community-acquired pneumonia (CAP)",
+        "sample_size": "N=1238",
+        "predictor": "Neurological chronic disease",
+        "outcome": "Development of sepsis",
+        "timing": "At admission",
+        "method": "Univariate logistic regression",
+        "effect_size": "OR 0.79 (95% CI 0.61 to 1.02)",
+        "performance": "p=0.074",
+        "notes": "Not included in multivariable analysis; did not reach conventional significance threshold",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with pneumonia (sepsis vs no-sepsis groups)",
+        "sample_size": "Not reported",
+        "predictor": "Male sex",
+        "outcome": "Sepsis",
+        "timing": "At presentation",
+        "method": "Multivariable logistic regression",
+        "effect_size": "OR 1.87 (not explicitly stated in excerpt; β=0.628 implies OR ~1.87)",
+        "performance": "AUC 0.62 (95% CI 0.59 to 0.65)",
+        "notes": "Hosmer–Lemeshow goodness-of-fit test p=0.86. Probability of sepsis calculated as Exp(β)/(1+Exp(β)), where β=0.514+0.628(male)−0.344(previous antibiotic)+0.734(acute renal failure)+0.349(diabetes mellitus).",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with pneumonia (sepsis vs no-sepsis groups)",
+        "sample_size": "Not reported",
+        "predictor": "Previous antibiotic therapy (last week)",
+        "outcome": "Sepsis (protective factor)",
+        "timing": "Prior to admission",
+        "method": "Multivariable logistic regression",
+        "effect_size": "β = −0.344",
+        "performance": "AUC 0.62 (95% CI 0.59 to 0.65)",
+        "notes": "Only protective factor identified in multivariable analysis. Hosmer–Lemeshow goodness-of-fit test p=0.86.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with pneumonia (sepsis vs no-sepsis groups)",
+        "sample_size": "Not reported",
+        "predictor": "Acute renal failure",
+        "outcome": "Sepsis",
+        "timing": "At presentation",
+        "method": "Multivariable logistic regression",
+        "effect_size": "β = 0.734",
+        "performance": "AUC 0.62 (95% CI 0.59 to 0.65)",
+        "notes": "Hosmer–Lemeshow goodness-of-fit test p=0.86. Probability of sepsis 54% without any risk factors and with protective factor; 90% with all three risk factors and without protective factor.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with pneumonia (sepsis vs no-sepsis groups)",
+        "sample_size": "Not reported",
+        "predictor": "Diabetes mellitus",
+        "outcome": "Sepsis",
+        "timing": "At presentation",
+        "method": "Multivariable logistic regression",
+        "effect_size": "OR 1.42 (95% CI 1.05 to 1.92)",
+        "performance": "p=0.024; AUC 0.62 (95% CI 0.59 to 0.65)",
+        "notes": "Also significant in univariate analysis: OR 1.52 (95% CI 1.13 to 2.04), p=0.006. Hosmer–Lemeshow goodness-of-fit test p=0.86.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with pneumonia (sepsis vs no-sepsis groups)",
+        "sample_size": "Not reported",
+        "predictor": "Neurological chronic disease",
+        "outcome": "Sepsis",
+        "timing": "At presentation",
+        "method": "Univariate logistic regression",
+        "effect_size": "OR 0.79 (95% CI 0.61 to 1.02)",
+        "performance": "p=0.074",
+        "notes": "Not included in multivariable model (p=0.074, not statistically significant). Multivariable result not reported.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.3. Risk Factors for Sepsis_",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized patients with community-acquired pneumonia (CAP), classified by presence or absence of sepsis",
+        "sample_size": "N=1238 (No sepsis: N=358; Sepsis: N=880)",
+        "predictor": "Sepsis (vs. no sepsis)",
+        "outcome": "Length of hospital stay",
+        "timing": "During hospitalization",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "Median 8 days (IQR 6-13) vs. 7 days (IQR 6-11)",
+        "performance": "P=0.005",
+        "notes": "Sepsis group had significantly longer hospital stays.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.4. Outcomes of Very Old Septic and Non-Septic Patients_",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized patients with CAP, classified by presence or absence of sepsis",
+        "sample_size": "N=1238 (No sepsis: N=358; Sepsis: N=880)",
+        "predictor": "Sepsis (vs. no sepsis)",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "15% (129/880) vs. 9% (32/358)",
+        "performance": "P=0.006",
+        "notes": "In-hospital mortality was significantly higher in the sepsis group.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.4. Outcomes of Very Old Septic and Non-Septic Patients_",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized patients with CAP, classified by presence or absence of sepsis",
+        "sample_size": "N=1238 (No sepsis: N=358; Sepsis: N=880)",
+        "predictor": "Sepsis (vs. no sepsis)",
+        "outcome": "30-day mortality",
+        "timing": "30 days from admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "15% (134/880) vs. 11% (40/358)",
+        "performance": "P=0.062",
+        "notes": "30-day mortality did not differ significantly between groups.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.4. Outcomes of Very Old Septic and Non-Septic Patients_",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized patients with CAP, classified by presence or absence of sepsis",
+        "sample_size": "N=1238 (No sepsis: N=358; Sepsis: N=880)",
+        "predictor": "Sepsis (vs. no sepsis)",
+        "outcome": "One-year mortality",
+        "timing": "One year from admission",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "22% (190/880) vs. 16% (56/358)",
+        "performance": "P=0.013",
+        "notes": "One-year mortality was significantly higher in the sepsis group.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.4. Outcomes of Very Old Septic and Non-Septic Patients_",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized patients with CAP, classified by presence or absence of sepsis",
+        "sample_size": "N=1238 (No sepsis: N=358; Sepsis: N=880)",
+        "predictor": "Sepsis (vs. no sepsis)",
+        "outcome": "ICU admission",
+        "timing": "During hospitalization",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "14% (119/880) vs. 5% (17/358)",
+        "performance": "P<0.001",
+        "notes": "ICU admission was significantly more frequent in the sepsis group.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.4. Outcomes of Very Old Septic and Non-Septic Patients_",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized patients with CAP admitted to ICU (No sepsis: N=17; Sepsis: N=119)",
+        "sample_size": "N=136 ICU patients",
+        "predictor": "Sepsis (vs. no sepsis)",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Comparison between sepsis and no-sepsis groups among ICU-admitted patients",
+        "effect_size": "17% (20/119) vs. 6% (1/17)",
+        "performance": "P=0.47",
+        "notes": "ICU mortality did not differ significantly between groups. Percentages calculated only for patients admitted to the ICU.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.4. Outcomes of Very Old Septic and Non-Septic Patients_",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized patients with CAP, classified by presence or absence of sepsis",
+        "sample_size": "N=1238 (No sepsis: N=358; Sepsis: N=880)",
+        "predictor": "Sepsis (vs. no sepsis)",
+        "outcome": "Non-invasive mechanical ventilation",
+        "timing": "During hospitalization",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "6% (38/880) vs. 0.4% (1/358)",
+        "performance": "P<0.001",
+        "notes": "Patients who initially received non-invasive ventilation but subsequently needed intubation were included in the invasive mechanical ventilation group.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.4. Outcomes of Very Old Septic and Non-Septic Patients_",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Hospitalized patients with CAP, classified by presence or absence of sepsis",
+        "sample_size": "N=1238 (No sepsis: N=358; Sepsis: N=880)",
+        "predictor": "Sepsis (vs. no sepsis)",
+        "outcome": "Invasive mechanical ventilation",
+        "timing": "During hospitalization",
+        "method": "Comparison between sepsis and no-sepsis groups",
+        "effect_size": "5% (34/880) vs. 1% (2/358)",
+        "performance": "P=0.003",
+        "notes": "Patients who initially received non-invasive ventilation but subsequently needed intubation were included in the invasive mechanical ventilation group.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.4. Outcomes of Very Old Septic and Non-Septic Patients_",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with severe CAP and sepsis, excluding those with septic shock, DNR orders, or missing DNR data",
+        "sample_size": "Not reported",
+        "predictor": "Chronic renal disease",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Propensity-adjusted multivariable analysis with bootstrapping",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.71 (95% CI 0.65–0.78) for the multivariable model",
+        "notes": "Septic shock patients (n=61), patients with DNR orders (n=207), and patients with missing DNR data (n=68) were excluded from this analysis",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.5. Factors Associated with 30-Day Mortality in Patients with Sepsis_",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with severe CAP and sepsis, excluding those with septic shock, DNR orders, or missing DNR data",
+        "sample_size": "Not reported",
+        "predictor": "Neurologic disease",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Propensity-adjusted multivariable analysis with bootstrapping",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.71 (95% CI 0.65–0.78) for the multivariable model",
+        "notes": "Independently associated with increased 30-day mortality; all variables remained significant after bootstrapping with small 95% CIs around original coefficients",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.5. Factors Associated with 30-Day Mortality in Patients with Sepsis_",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with severe CAP and sepsis, excluding those with septic shock, DNR orders, or missing DNR data",
+        "sample_size": "Not reported",
+        "predictor": "Diabetes mellitus",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Propensity-adjusted multivariable analysis with bootstrapping",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.71 (95% CI 0.65–0.78) for the multivariable model",
+        "notes": "Independently associated with decreased 30-day mortality; all variables remained significant after bootstrapping with small 95% CIs around original coefficients",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "_3.5. Factors Associated with 30-Day Mortality in Patients with Sepsis_",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with sepsis",
+        "sample_size": "N=640",
+        "predictor": "Chronic renal disease",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Weighted logistic regression (multivariable)",
+        "effect_size": "OR 2.57 (95% CI 1.35 to 4.89)",
+        "performance": "p=0.004",
+        "notes": "Also significant in univariate analysis: OR 2.60 (95% CI 1.40 to 4.83), p=0.003",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_25"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with sepsis",
+        "sample_size": "N=640",
+        "predictor": "Diabetes mellitus",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Weighted logistic regression (multivariable)",
+        "effect_size": "OR 0.44 (95% CI 0.21 to 0.89)",
+        "performance": "p=0.023",
+        "notes": "Protective factor. Also significant in univariate analysis: OR 0.49 (95% CI 0.22 to 0.88), p=0.021",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_25"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with sepsis",
+        "sample_size": "N=640",
+        "predictor": "Neurologic chronic disease",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Weighted logistic regression (multivariable)",
+        "effect_size": "OR 2.80 (95% CI 1.62 to 4.85)",
+        "performance": "p<0.001",
+        "notes": "Also significant in univariate analysis: OR 2.68 (95% CI 1.60 to 4.50), p<0.001",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_25"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with sepsis",
+        "sample_size": "N=640",
+        "predictor": "Nursing home residency",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Weighted logistic regression (univariate)",
+        "effect_size": "OR 2.19 (95% CI 1.21 to 3.94)",
+        "performance": "p<0.001",
+        "notes": "Not included in multivariable model",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_25"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with sepsis",
+        "sample_size": "N=640",
+        "predictor": "PSI risk class IV–V",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Weighted logistic regression (univariate)",
+        "effect_size": "OR 4.09 (95% CI 0.98 to 17.0)",
+        "performance": "p=0.054",
+        "notes": "Not included in multivariable model; did not reach statistical significance at p<0.05",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_25"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (hospitalized) with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Male sex",
+        "outcome": "Sepsis (Sepsis-3 criteria)",
+        "timing": "At hospital admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor, p-value not reported",
+        "notes": "71% of very old CAP patients presented with sepsis; 7% presented with septic shock",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_26"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (hospitalized) with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Chronic renal disease",
+        "outcome": "Sepsis (Sepsis-3 criteria)",
+        "timing": "At hospital admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor, p-value not reported",
+        "notes": "Chronic renal disease also independently associated with increased 30-day mortality",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_26"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (hospitalized) with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Diabetes mellitus",
+        "outcome": "Sepsis (Sepsis-3 criteria)",
+        "timing": "At hospital admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor, p-value not reported",
+        "notes": "Diabetes mellitus was associated with lower 30-day mortality",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_26"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (hospitalized) with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Antibiotic therapy in the week prior to admission",
+        "outcome": "Sepsis (Sepsis-3 criteria)",
+        "timing": "One week prior to hospital admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent protective factor, p-value not reported",
+        "notes": "Prior antibiotic therapy was a protective factor against presenting with sepsis",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_26"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (hospitalized) with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Sepsis (Sepsis-3 criteria) vs. no sepsis",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Higher in-hospital mortality in sepsis group, p-value not reported",
+        "notes": "Both in-hospital and one-year mortality were higher in patients with sepsis than those without",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_26"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (hospitalized) with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Chronic renal disease",
+        "outcome": "30-day mortality",
+        "timing": "At hospital admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independently associated with increased 30-day mortality, p-value not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_26"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (hospitalized) with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Chronic neurologic disease",
+        "outcome": "30-day mortality",
+        "timing": "At hospital admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independently associated with increased 30-day mortality, p-value not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_26"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients (hospitalized) with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Diabetes mellitus",
+        "outcome": "30-day mortality",
+        "timing": "At hospital admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Associated with lower 30-day mortality, p-value not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_26"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with community-acquired pneumonia (CAP)",
+        "sample_size": "Not reported",
+        "predictor": "Sepsis (Sepsis-3 definition, SOFA score change ≥2)",
+        "outcome": "Prevalence of sepsis in very old CAP patients",
+        "timing": "At presentation/admission",
+        "method": "Descriptive/observational study",
+        "effect_size": "71% of very old CAP patients had sepsis; 7% presented with septic shock; 11% of those with sepsis required ICU admission",
+        "performance": "Not reported",
+        "notes": "Used Sepsis-3 definition with SOFA score change ≥2; included nursing home residents; focused on very old patients",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_27"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with CAP, with and without sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Altered mental status",
+        "outcome": "Sepsis in very old CAP patients",
+        "timing": "At presentation",
+        "method": "Comparative descriptive analysis",
+        "effect_size": "More frequent in patients with sepsis vs. without sepsis",
+        "performance": "Not reported",
+        "notes": "Very old patients with sepsis presented less pleuritic pain and more altered mental status than patients without sepsis",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_27"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with CAP",
+        "sample_size": "Not reported",
+        "predictor": "Diabetes mellitus",
+        "outcome": "Development of sepsis in CAP patients",
+        "timing": "At admission (comorbidity)",
+        "method": "Risk factor analysis",
+        "effect_size": "Identified as risk factor for sepsis",
+        "performance": "Not reported",
+        "notes": "Supported finding from a Greek study; diabetes mellitus confirmed as risk factor for sepsis in CAP",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_27"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with CAP",
+        "sample_size": "Not reported",
+        "predictor": "Chronic renal disease",
+        "outcome": "Development of sepsis in CAP patients",
+        "timing": "At admission (comorbidity)",
+        "method": "Risk factor analysis",
+        "effect_size": "Identified as risk factor for sepsis",
+        "performance": "Not reported",
+        "notes": "Added as a new risk factor for sepsis beyond those identified in prior Greek study",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_27"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Very old patients with CAP",
+        "sample_size": "Not reported",
+        "predictor": "Male sex",
+        "outcome": "Development of sepsis in CAP patients",
+        "timing": "At admission",
+        "method": "Risk factor analysis",
+        "effect_size": "Identified as risk factor for sepsis",
+        "performance": "Not reported",
+        "notes": "Men generally have more chronic comorbidities than women, which may affect host defenses and increase morbidity and mortality",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "**4. Discussion**",
+            "page": 8,
+            "chunk": "page_8_chunk_27"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with CAP-related sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Chronic renal disease",
+        "outcome": "30-day mortality",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Chronic renal disease was associated with increased 30-day mortality in patients with CAP-related sepsis.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with CAP-related sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Chronic neurological disease",
+        "outcome": "30-day mortality",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Chronic neurological disease was associated with increased 30-day mortality in patients with CAP-related sepsis.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    },
+    {
+        "study": "Cilloniz 2019",
+        "population": "Patients with CAP-related sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Diabetes mellitus",
+        "outcome": "30-day mortality",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Diabetes mellitus was the only factor associated with a lower risk for 30-day mortality in patients with CAP-related sepsis.",
+        "source_info": {
+            "file": "Cilloniz_2019.pdf",
+            "doi": "10.3390/jcm8070961",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    }
+]

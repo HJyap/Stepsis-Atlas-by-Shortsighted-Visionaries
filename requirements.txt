@@ -4,3 +4,7 @@ dotenv
 os
 PyPDF2
 langchain-text-splitters
+pymupdf4llm
+langchain-openai
+langchain
+pymupdf
