@@ -1,0 +1,1370 @@
+[
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU (MIMIC-IV database)",
+        "sample_size": "N=8,433",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "HCT 20-<25%: OR 1.82 (95% CI 1.35-2.46); HCT 25-<30%: OR 1.38 (95% CI 1.10-1.73); HCT 30-<35%: OR 1.17 (95% CI 0.96-1.43); HCT 35-<40%: reference; HCT 40-<45%: OR 1.07 (95% CI 0.82-1.40); HCT ≥45%: OR 1.47 (95% CI 1.05-2.06)",
+        "performance": "p<0.001 for overall association",
+        "notes": "U-shaped association between HCT and 30-day mortality; HCT 35-<40% used as reference group; lowest mortality risk at HCT 35-40%",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "RESEARCH ARTICLE",
+            "page": 1,
+            "chunk": "page_1_chunk_1"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU (MIMIC-IV database)",
+        "sample_size": "N=8,433",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Restricted cubic spline (RCS) analysis",
+        "effect_size": "Nadir risk at approximately HCT 35-40%",
+        "performance": "Non-linear relationship confirmed, p for non-linearity <0.05",
+        "notes": "RCS demonstrated a U-shaped non-linear relationship between HCT and 30-day mortality in sepsis patients",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "RESEARCH ARTICLE",
+            "page": 1,
+            "chunk": "page_1_chunk_1"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU (MIMIC-IV database)",
+        "sample_size": "N=8,433",
+        "predictor": "Hematocrit (HCT) <25% (low HCT group)",
+        "outcome": "30-day mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Kaplan-Meier survival analysis",
+        "effect_size": "Significantly higher mortality in HCT <25% group compared to HCT 35-<40% reference group",
+        "performance": "Log-rank p<0.001",
+        "notes": "Survival curves showed significantly worse outcomes in both low and high HCT groups compared to the reference range",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "RESEARCH ARTICLE",
+            "page": 1,
+            "chunk": "page_1_chunk_1"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU, subgroup analysis by SOFA score",
+        "sample_size": "N=8,433",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Subgroup analysis with interaction testing",
+        "effect_size": "Consistent U-shaped association across subgroups stratified by age, gender, SOFA score, and comorbidities",
+        "performance": "No significant interaction detected across most subgroups (p for interaction >0.05)",
+        "notes": "Subgroup analyses confirmed robustness of the U-shaped association; results were consistent across different patient subgroups",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "RESEARCH ARTICLE",
+            "page": 1,
+            "chunk": "page_1_chunk_1"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU, extracted from MIMIC-IV database",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "Retrospective analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Study uses MIMIC-IV large-scale clinical database. Full statistical results not present in the provided excerpt.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "OPEN ACCESS",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Septic patients hospitalized in an advanced academic medical center in Boston, Massachusetts (MIMIC-IV database)",
+        "sample_size": "N=2057",
+        "predictor": "Hematocrit (HCT) level - low vs. regular",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission/hospitalization",
+        "method": "Multivariate Cox proportional hazards regression model",
+        "effect_size": "HR=1.589, 95% CI=1.009–2.979",
+        "performance": "p<0.05; 30-day mortality rates: low HCT 62.6%, regular HCT 27.5%, high HCT 9.9%",
+        "notes": "Low HCT identified as independent risk factor for 30-day mortality in sepsis patients. Study period 2008–2019. HCT classified into three groups: low, regular, and high.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Optimal cutoff: Not reported",
+        "performance": "Not reported",
+        "notes": "Study title only provided; no detailed results extracted from excerpt",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_10"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Association between hematocrit and 30-day mortality in sepsis patients; full results not available in provided excerpt",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_10"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis 3.0 patients admitted to ICU (MIMIC-IV database)",
+        "sample_size": "N=2057",
+        "predictor": "Hematocrit (HCT) level",
+        "outcome": "30-day mortality",
+        "timing": "Within 24 hours after ICU admission",
+        "method": "Comparison between survival and death groups",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Death group had lower hematocrit levels compared to survival group (P<0.05). 911 deaths within 30 days. Death group was also older with lower albumin, platelets, and hemoglobin levels.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "**Population and baseline characteristics**",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (hct) level (low vs. regular vs. high)",
+        "outcome": "30-day all-cause mortality",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "Not reported",
+        "performance": "P<0.05",
+        "notes": "30-day all-cause mortality rate was 44.2%. The proportion of patients with low hct levels was significantly increased in the 30-day mortality group compared to the survival group, while the proportions in the regular and high hct level groups gradually decreased.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "**Association of Hematocrit level with 30-day outcomes**",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Low hematocrit (hct) level",
+        "outcome": "30-day mortality",
+        "timing": "At admission or during ICU stay",
+        "method": "Multivariable Cox proportional hazards regression",
+        "effect_size": "HR = 1.589, 95% CI 1.099–2.297",
+        "performance": "P < 0.05",
+        "notes": "Low hct level remained an independent prognostic factor for sepsis after adjustment for confounding factors including age, albumin, platelets, bilirubin, red blood cell distribution width, lactate, Scr, SBP, DBP, MAP, SAPS II score, hypertension, heart failure, and mechanical ventilation.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "**Hematocrit is an independent prognostic predictor in sepsis patients**",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Age",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "70 years (non-survivors) vs 66 years (survivors)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Mechanical Ventilation",
+        "outcome": "30-day mortality",
+        "timing": "During ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "27.11% vs 20.24%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Hypertension (comorbidity)",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "11.64% vs 16.94%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Diabetes (comorbidity)",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "5.05% vs 5.15%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Respiratory failure (comorbidity)",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "41.05% vs 26.96%",
+        "performance": "p=0.014",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "CHF (comorbidity)",
+        "outcome": "30-day mortality",
+        "timing": "At admission",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "4.61% vs 2.62%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "SBP",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "113.41 mmHg vs 116.3 mmHg",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "DBP",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "57.0 mmHg vs 58.4 mmHg",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "MAP",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "72.0 mmHg vs 76.8 mmHg",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Albumin",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "3.0 g/dL vs 3.2 g/dL",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Hematocrit",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "35.0% vs 35.9%",
+        "performance": "p<0.001",
+        "notes": "Primary predictor of interest in this study",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Platelet",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "153.0 x10^9/L vs 181.0 x10^9/L",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Bilirubin",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "1.3 mg/dL vs 0.9 mg/dL",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Hemoglobin",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "9.6 g/dL vs 9.6 g/dL",
+        "performance": "p=0.037",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "RDW",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "14.6% vs 13.9%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Scr",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "1.6 mg/dL vs 1.3 mg/dL",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Lactate",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "2.5 mmol/L vs 1.9 mmol/L",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "Potassium",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "4.2 mEq/L vs 4.0 mEq/L",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "SOFA score",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "6.0 vs 4.0",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+        "predictor": "SAPSII score",
+        "outcome": "30-day mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Comparison between 30-day mortality and survival groups",
+        "effect_size": "52.0 vs 42.0",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=2057",
+        "predictor": "Hematocrit level (Low vs Regular vs High)",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Low hematocrit: 62.63% mortality; Regular hematocrit: 27.55% mortality; High hematocrit: 9.99% mortality",
+        "performance": "p<0.05",
+        "notes": "Low hematocrit group n=1222 (59.41%), Regular hematocrit group n=609 (29.61%), High hematocrit group n=226 (10.99%) of total cohort",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=2057",
+        "predictor": "SOFA score",
+        "outcome": "30-day mortality (non-survivors vs survivors)",
+        "timing": "At ICU admission",
+        "method": "Kruskal-Wallis test",
+        "effect_size": "Non-survivors: 6.0 [3.0, 9.0]; Survivors: 4.0 [3.0, 6.0]",
+        "performance": "p<0.001",
+        "notes": "Data expressed as median (IQR)",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=2057",
+        "predictor": "SAPSII score",
+        "outcome": "30-day mortality (non-survivors vs survivors)",
+        "timing": "At ICU admission",
+        "method": "Kruskal-Wallis test",
+        "effect_size": "Non-survivors: 52.0 [42.0, 63.0]; Survivors: 42.0 [33.0, 52.0]",
+        "performance": "p<0.001",
+        "notes": "Data expressed as median (IQR)",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=2057",
+        "predictor": "Potassium (mEq/L)",
+        "outcome": "30-day mortality (non-survivors vs survivors)",
+        "timing": "At ICU admission",
+        "method": "Kruskal-Wallis test",
+        "effect_size": "Non-survivors: 4.2 [3.7, 4.8]; Survivors: 4.0 [3.6, 4.5]",
+        "performance": "p<0.001",
+        "notes": "Data expressed as median (IQR)",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Age",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.018 (95% CI 1.014–1.023); Multivariable HR 1.016 (95% CI 1.011–1.022)",
+        "performance": "Univariate p<0.001; Multivariable p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Female sex",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate Cox regression",
+        "effect_size": "Univariate HR 1.105 (95% CI 0.970–1.259)",
+        "performance": "Univariate p=0.133",
+        "notes": "Not included in multivariable model",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "MAP (Mean Arterial Pressure)",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 0.996 (95% CI 0.994–0.998); Multivariable HR 0.998 (95% CI 0.995–0.999)",
+        "performance": "Univariate p<0.001; Multivariable p=0.025",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "DBP (Diastolic Blood Pressure)",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 0.987 (95% CI 0.981–0.992); Multivariable HR 0.995 (95% CI 0.996–1.000)",
+        "performance": "Univariate p<0.001; Multivariable p=0.038",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "SBP (Systolic Blood Pressure)",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 0.995 (95% CI 0.982–0.992); Multivariable HR 0.994 (95% CI 0.988–1.000)",
+        "performance": "Univariate p<0.001; Multivariable p=0.071",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Low hematocrit level",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.369 (95% CI 1.116–1.745); Multivariable HR 1.589 (95% CI 1.099–2.297)",
+        "performance": "Univariate p=0.003; Multivariable p<0.001",
+        "notes": "Reference category is regular hematocrit level",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "High hematocrit level",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.155 (95% CI 0.908–1.470); Multivariable HR 1.330 (95% CI 1.007–1.757)",
+        "performance": "Univariate p=0.243; Multivariable p=0.055",
+        "notes": "Reference category is regular hematocrit level",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "RDW (Red Cell Distribution Width)",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.120 (95% CI 1.091–1.149); Multivariable HR 1.072 (95% CI 1.040–1.105)",
+        "performance": "Univariate p<0.001; Multivariable p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Potassium",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate Cox regression",
+        "effect_size": "Univariate HR 1.078 (95% CI 0.998–1.165)",
+        "performance": "Univariate p=0.057",
+        "notes": "Not included in multivariable model",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Scr (Serum Creatinine)",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.066 (95% CI 1.027–1.105); Multivariable HR 1.014 (95% CI 0.971–1.059)",
+        "performance": "Univariate p=0.001; Multivariable p=0.519",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Albumin",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 0.915 (95% CI 0.841–0.994); Multivariable HR 0.941 (95% CI 0.859–1.031)",
+        "performance": "Univariate p=0.037; Multivariable p=0.191",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Hemoglobin",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate Cox regression",
+        "effect_size": "Univariate HR 0.986 (95% CI 0.929–1.009)",
+        "performance": "Univariate p=0.121",
+        "notes": "Not included in multivariable model",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Platelet",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.000 (95% CI 0.998–1.000); Multivariable HR 0.999 (95% CI 0.999–1.000)",
+        "performance": "Univariate p<0.001; Multivariable p=0.034",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Bilirubin",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.035 (95% CI 1.026–1.045); Multivariable HR 1.026 (95% CI 1.014–1.038)",
+        "performance": "Univariate p<0.001; Multivariable p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.123 (95% CI 1.099–1.148); Multivariable HR 1.087 (95% CI 1.061–1.114)",
+        "performance": "Univariate p<0.001; Multivariable p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate Cox regression",
+        "effect_size": "Univariate HR 1.002 (95% CI 0.985–1.020)",
+        "performance": "Univariate p=0.789",
+        "notes": "Not included in multivariable model",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "SAPSII score",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.020 (95% CI 1.016–1.024); Multivariable HR 1.011 (95% CI 1.006–1.016)",
+        "performance": "Univariate p<0.001; Multivariable p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Diabetes",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate Cox regression",
+        "effect_size": "Univariate HR 1.014 (95% CI 0.754–1.365)",
+        "performance": "Univariate p=0.952",
+        "notes": "Not included in multivariable model",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Hypertension",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 0.788 (95% CI 0.643–0.965); Multivariable HR 0.627 (95% CI 0.507–0.775)",
+        "performance": "Univariate p=0.021; Multivariable p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "COPD",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate Cox regression",
+        "effect_size": "Univariate HR 1.109 (95% CI 0.958–1.478)",
+        "performance": "Univariate p=0.116",
+        "notes": "Not included in multivariable model",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Respiratory failure",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate Cox regression",
+        "effect_size": "Univariate HR 0.950 (95% CI 0.831–1.086)",
+        "performance": "Univariate p=0.455",
+        "notes": "Not included in multivariable model",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "CHF (Congestive Heart Failure)",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.666 (95% CI 1.221–2.273); Multivariable HR 1.357 (95% CI 0.986–1.866)",
+        "performance": "Univariate p=0.001; Multivariable p=0.061",
+        "notes": "None",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis (primary cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Mechanical ventilation",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate and multivariable Cox regression",
+        "effect_size": "Univariate HR 1.981 (95% CI 1.703–2.305); Multivariable HR 0.460 (95% CI 0.393–0.540)",
+        "performance": "Univariate p<0.001; Multivariable p<0.001",
+        "notes": "Direction of effect reverses from univariate to multivariable model, suggesting confounding",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "Not reported",
+        "predictor": "Respiratory failure",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Logistic regression (univariate)",
+        "effect_size": "OR 0.950 (95% CI 0.831–1.086)",
+        "performance": "p=0.455",
+        "notes": "Not statistically significant in univariate analysis; multivariate result not reported for this predictor",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "Not reported",
+        "predictor": "CHF (Congestive heart failure)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Logistic regression (univariate)",
+        "effect_size": "OR 1.666 (95% CI 1.221–2.273)",
+        "performance": "p=0.001",
+        "notes": "Univariate result; multivariate OR 1.357 (95% CI 0.986–1.866), p=0.061 (not statistically significant in multivariate model)",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "Not reported",
+        "predictor": "Mechanical ventilation",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Logistic regression (univariate)",
+        "effect_size": "OR 1.981 (95% CI 1.703–2.305)",
+        "performance": "p<0.001",
+        "notes": "Univariate result; multivariate OR 0.460 (95% CI 0.393–0.540), p<0.001",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "Kaplan-Meier survival analysis",
+        "effect_size": "Not reported",
+        "performance": "P = 0.040",
+        "notes": "HCT level was categorized and used to compare 30-day survival rates; statistically significant difference found between HCT categories and 30-day mortality.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "**Kaplan-Meier survival curve analysis**",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (hct) level",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "Survival curve analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Figure 1 shows survival curves for the association between hct level and 30-day mortality. Specific statistical values not reported in the provided excerpt.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=2057",
+        "predictor": "Hematocrit (HCT) level",
+        "outcome": "30-day mortality",
+        "timing": "Within 24 hours after ICU admission",
+        "method": "Multivariate regression analysis",
+        "effect_size": "Low HCT (male <42%, female <37%) associated with increased 30-day mortality",
+        "performance": "Not reported",
+        "notes": "Low HCT was identified as an independent risk factor for prognosis in sepsis patients after correction for potential confounding factors; low HCT also associated with higher SAPS II scores",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Optimal cutoff: Not reported",
+        "performance": "Not reported",
+        "notes": "Study title only provided; no detailed results extracted from excerpt",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Association between hematocrit and 30-day mortality in sepsis patients; full results not available in provided excerpt",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Critically ill patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Patients with low HCT levels exhibited low platelets, low hemoglobin, and high 30-day mortality rate. Exact statistical results not provided in this excerpt.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Sepsis patients admitted to the ICU",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "Mortality (prognosis)",
+        "timing": "First day after ICU admission",
+        "method": "Retrospective study with multivariate adjustment",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Low HCT levels associated with enhanced disease severity and high mortality rate. HCT identified as an independent risk factor for prognosis. Data sourced from MIMIC database (single-center). Sample not classified by gender.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_28"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=4497",
+        "predictor": "Hematocrit (HCT)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission (first 24 hours)",
+        "method": "ROC analysis, multivariable logistic regression, restricted cubic spline",
+        "effect_size": "Optimal cutoff: HCT 30.15%; OR for low HCT (<30.15%) vs normal: Not reported separately; HCT treated as continuous and categorical variable",
+        "performance": "AUC 0.606 (95% CI: 0.587–0.625), p<0.001",
+        "notes": "U-shaped association between HCT and 30-day mortality observed via restricted cubic spline analysis; both low and high HCT associated with increased mortality",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_30"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=4497",
+        "predictor": "Low hematocrit (<30.15%)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission (first 24 hours)",
+        "method": "Multivariable logistic regression",
+        "effect_size": "OR 1.56 (95% CI: 1.27–1.92)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for confounders including age, gender, SOFA score, comorbidities, and other laboratory values",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_30"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=4497",
+        "predictor": "High hematocrit (>42%)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission (first 24 hours)",
+        "method": "Multivariable logistic regression",
+        "effect_size": "OR elevated compared to reference group (exact value not specified in excerpt)",
+        "performance": "p value not reported in excerpt",
+        "notes": "U-shaped relationship; both extremes of HCT associated with worse outcomes; reference group was normal HCT range",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_30"
+        }
+    },
+    {
+        "study": "Luo 2022",
+        "population": "Adult septic patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit in the first 24 hours after ICU admission",
+        "outcome": "30-day all-cause mortality",
+        "timing": "First 24 hours after ICU admission",
+        "method": "Multivariable analysis",
+        "effect_size": "Not reported",
+        "performance": "Limited sensitivity and specificity",
+        "notes": "Hematocrit was independently associated with increased 30-day all-cause mortality. Authors call for multicenter prospective studies to confirm findings.",
+        "source_info": {
+            "file": "Luo_2022.pdf",
+            "doi": "10.1371/journal.pone.0265758",
+            "section": "**Conclusion**",
+            "page": 8,
+            "chunk": "page_8_chunk_31"
+        }
+    }
+]
