@@ -23,3 +23,5 @@ response = requests.post(
     ]
   })
 )
+
+print(response.json())
