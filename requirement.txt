@@ -1,0 +1,7 @@
+requests
+json
+dotenv
+os
+PyPDF2
+langchain-text-splitters
+python==3.14

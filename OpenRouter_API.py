@@ -14,7 +14,7 @@ response = requests.post(
     "Content-Type": "application/json",
   },
   data=json.dumps({
-    "model": "openai/gpt-5.2",
+    "model": "anthropic/claude-sonnet-4.6",
     "messages": [
       {
         "role": "user",
