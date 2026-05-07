@@ -10,9 +10,6 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-# ==========================================
-# 1. THE SCHEMA
-# ==========================================
 class ClinicalEvidence(BaseModel):
     study: str = Field(description="Study author and year (e.g., 'Leona 2025').")
     population: str = Field(description="Patient population characteristics.")
@@ -28,14 +25,11 @@ class ClinicalEvidence(BaseModel):
 class ExtractionResult(BaseModel):
     evidence_list: List[ClinicalEvidence]
 
-# ==========================================
-# 2. THE EXTRACTION ENGINE
-# ==========================================
 def extract_sepsis_data(chunk_text):
     llm = ChatOpenAI(
         base_url="https://openrouter.ai/api/v1",
         api_key=API_KEY, 
-        model="nvidia/nemotron-3-super-120b-a12b:free", # Updated to the valid OpenRouter tag
+        model="nvidia/nemotron-3-super-120b-a12b:free", 
         temperature=0,
         default_headers={
             "HTTP-Referer": "http://localhost:3000",
@@ -45,7 +39,6 @@ def extract_sepsis_data(chunk_text):
     
     structured_llm = llm.with_structured_output(ExtractionResult)
     
-    # 🔥 HACKATHON UPGRADE: Added rules for Markdown Tables and Blank Cells
     system_prompt = """
     You are an expert AI clinical evidence assistant building a 'Sepsis Atlas'.
     Your job is to extract structured data from the provided scientific paper excerpts.
@@ -69,9 +62,7 @@ def extract_sepsis_data(chunk_text):
     chain = prompt | structured_llm
     return chain.invoke({"text": chunk_text})
 
-# ==========================================
-# 3. THE BATCH PROCESSOR
-# ==========================================
+
 def build_sepsis_atlas(input_chunks_file, output_atlas_file):
     with open(input_chunks_file, 'r', encoding='utf-8') as f:
         chunks = json.load(f)
@@ -88,10 +79,8 @@ def build_sepsis_atlas(input_chunks_file, output_atlas_file):
             
             if result and result.evidence_list:
                 for item in result.evidence_list:
-                    # Merge LLM data with Chunker metadata
                     entry = item.model_dump()
                     
-                    # 🔥 NEW: Injects DOI and Section along with the other metadata
                     entry["source_info"] = {
                         "file": chunk["metadata"].get("source_file", "Unknown"),
                         "doi": chunk["metadata"].get("doi", "Not reported"),
@@ -101,7 +90,6 @@ def build_sepsis_atlas(input_chunks_file, output_atlas_file):
                     }
                     master_atlas.append(entry)
 
-                    # Print to terminal to monitor progress
                     print(f"\nStudy: {entry['study']}")
                     print(f"Predictor: {entry['predictor']}")
                     print(f"Effect Size: {entry['effect_size']}")
@@ -111,31 +99,24 @@ def build_sepsis_atlas(input_chunks_file, output_atlas_file):
             else:
                 print(f"⏩ No relevant clinical data found in chunk {i+1}. Skipping.")
                 
-            time.sleep(1.5) # OpenRouter rate limit protection
+            time.sleep(1.5)
                 
         except Exception as e:
             print(f"❌ Error at chunk {i+1}: {e}")
-            time.sleep(3) # Back off on error
+            time.sleep(3)
 
-    # Save final JSON for your UI/Analysis
     with open(output_atlas_file, 'w', encoding='utf-8') as f:
         json.dump(master_atlas, f, indent=4, ensure_ascii=False)
         
     print(f"🎉 SUCCESS! Saved {len(master_atlas)} extracted rows to {output_atlas_file}")
 
-# ==========================================
-# 4. RUN IT!
-# ==========================================
+
 if __name__ == "__main__":
     INPUT_FOLDER = "/Users/hongjayyap/Stepsis-Atlas-by-Shortsighted-Visionaries/chunks" 
     OUTPUT_FOLDER = "/Users/hongjayyap/Stepsis-Atlas-by-Shortsighted-Visionaries/extractions/free_models"
-    
-    # 🔥 HACKATHON TIME-SAVER: Choose which files to extract!
-    
-    # Option 1: Extract everything in the folder
+        
     # FILES_TO_PROCESS = "ALL" 
     
-    # Option 2: Extract ONLY the files in this list
     FILES_TO_PROCESS = [
         "Park_2022.json",
         "Baloch_2022.json",
@@ -170,30 +151,26 @@ if __name__ == "__main__":
         "Zhang_2021.json"
     ]
 
-    # 1. Safety check: Create the extractions folder if it doesn't exist
     if not os.path.exists(OUTPUT_FOLDER):
         os.makedirs(OUTPUT_FOLDER)
         print(f"📁 Created output folder: {OUTPUT_FOLDER}")
 
-    # 2. Filter the files based on your choice above
     if FILES_TO_PROCESS == "ALL":
         json_files = [f for f in os.listdir(INPUT_FOLDER) if f.endswith('.json')]
     else:
-        # Only process the files in your list (and double check they actually exist in the folder!)
         json_files = [f for f in FILES_TO_PROCESS if os.path.exists(os.path.join(INPUT_FOLDER, f))]
 
-    print(f"🔍 Ready to process {len(json_files)} file(s)...\n")
+    print(f"Ready to process {len(json_files)} file(s)...\n")
 
-    # 3. Loop through your selected files
     for filename in json_files:
         input_file_path = os.path.join(INPUT_FOLDER, filename)
         output_file_path = os.path.join(OUTPUT_FOLDER, filename)
         
         print(f"==================================================")
-        print(f"📄 Starting extraction for: {filename}")
+        print(f"Starting extraction for: {filename}")
         print(f"==================================================")
         
         # Call your extraction engine
         build_sepsis_atlas(input_file_path, output_file_path)
         
-    print("\n🎉 BATCH EXTRACTION COMPLETE! Your selected files are ready.")
+    print("\nBATCH EXTRACTION COMPLETE! Your selected files are ready.")
