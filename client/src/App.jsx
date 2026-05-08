@@ -1,6 +1,6 @@
 import React from "react";
 import { sepsisData } from "./data";
-import { sendChatMessage } from "../../api";
+import { sendChatMessage } from "./services/api";
 import LeftPanel from "./components/LeftPanel";
 import MiddlePanel from "./components/MiddlePanel";
 import RightPanel from "./components/RightPanel";
