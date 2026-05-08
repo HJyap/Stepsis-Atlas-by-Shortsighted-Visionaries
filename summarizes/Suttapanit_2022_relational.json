@@ -1,0 +1,46 @@
+{
+    "study_cohort_level_records": [
+        {
+            "cohort_id": "Suttapanit_2022_Total",
+            "papers": "Suttapanit 2022",
+            "doi": "NA",
+            "encounters_period": "NA",
+            "population_location": "NA",
+            "data_sets": "NA",
+            "detailed_study_design_description": "Retrospective cohort study",
+            "population_description": "Patients with suspected sepsis presenting to the emergency department",
+            "cohort": "Total Cohort",
+            "cohort_size_n": "NA",
+            "cohort_characteristics": "Sepsis screening at ED triage; SOFA, qSOFA, SIRS criteria assessed",
+            "cohort_characteristics_timepoint": "At ED admission",
+            "mortality_rate_percent": "NA",
+            "mortality_timepoint": "In-Hospital Mortality"
+        }
+    ],
+    "predictor_model_level_records": [
+        {
+            "cohort_id": "Suttapanit_2022_Total",
+            "predictors": "SOFA (Sequential Organ Failure Assessment)",
+            "timing_of_predictor_measurement": "At ED admission",
+            "outcome": "In-Hospital Mortality",
+            "model_specification": "ROC analysis",
+            "effect_size_performance_and_significance": "Outperformed SIRS in predicting hospital mortality (exact statistics not reported in provided excerpts)"
+        },
+        {
+            "cohort_id": "Suttapanit_2022_Total",
+            "predictors": "qSOFA (quick Sequential Organ Failure Assessment)",
+            "timing_of_predictor_measurement": "At ED admission",
+            "outcome": "In-Hospital Mortality",
+            "model_specification": "ROC analysis",
+            "effect_size_performance_and_significance": "Predictive validity similar to SOFA (exact statistics not reported in provided excerpts)"
+        },
+        {
+            "cohort_id": "Suttapanit_2022_Total",
+            "predictors": "SIRS (Systemic Inflammatory Response Syndrome)",
+            "timing_of_predictor_measurement": "At ED admission",
+            "outcome": "In-Hospital Mortality",
+            "model_specification": "ROC analysis",
+            "effect_size_performance_and_significance": "Compared with SOFA; exact statistics not reported in provided excerpts"
+        }
+    ]
+}
