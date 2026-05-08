@@ -1,0 +1,22 @@
+{
+  "study": "Luo et al. 2022",
+  "population": "Adult patients (age ≥18 years) with sepsis (defined by Sepsis-3 criteria) admitted to internal medicine or surgical ICUs.",
+  "sample_size": "N=2057 (911 non-survivors, 1146 survivors)",
+  "predictor": "Hematocrit (HCT) level (categorized as low, regular, or high based on sex-specific quartiles)",
+  "outcome": "30-day all-cause mortality",
+  "timing": "HCT measured within the first 24 hours of ICU admission; mortality assessed at 30 days.",
+  "method": "Retrospective cohort study using the MIMIC-IV database (2008–2019); univariate and multivariable Cox proportional hazards regression; Kaplan-Meier survival analysis.",
+  "effect_size": "Low HCT vs. Regular HCT: Adjusted HR = 1.589 (95% CI: 1.099–2.297, p < 0.001); High HCT vs. Regular HCT: Adjusted HR = 1.330 (95% CI: 1.007–1.757, p = 0.055).",
+  "performance": "Not reported",
+  "notes": "Low HCT was identified as an independent risk factor for 30-day mortality. HCT levels were defined by sex: Low (male ≤42%, female ≤37%), Regular (male 42%–49%, female 37%–44%), and High (male ≥49%, female ≥44%). Evidence extracted from text, Tables 1-3, and Figure 1 (Kaplan-Meier curves). A discrepancy was noted between the abstract and Table 3 regarding the confidence interval; Table 3 values were used.",
+  "source_info": {
+    "file": "Luo_2022.pdf",
+    "center_page": null,
+    "page_range": {
+      "start": 1,
+      "end": 9
+    },
+    "included_pages": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "chunk": "all_pages_combined"
+  }
+}
