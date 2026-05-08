@@ -152,18 +152,14 @@ def process_chunks_to_relational_db(input_mapping_file, chunks_dir, output_dir):
     print("\n🎉 ALL ARTICLES PROCESSED SUCCESSFULLY!")
 
 if __name__ == "__main__":
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     # ==========================================
     # USER'S SPECIFIC DIRECTORY PATHS
     # ==========================================
     
-    # 1. Provide the mapping JSON array you showed me earlier here
-    INPUT_MAPPING = "../data_extract/extract_input.json" 
-    
-    # 2. Your specific chunks directory
-    CHUNKS_DIRECTORY = "../data_extract/text/chunks" 
-    
-    # 3. Your specific summarizes output directory
-    OUTPUT_DIRECTORY = "../data_extract"
+    INPUT_MAPPING = os.path.join(BASE_DIR, "../extract_input.json")
+    CHUNKS_DIRECTORY = os.path.join(BASE_DIR, "./chunks")
+    OUTPUT_DIRECTORY = os.path.join(BASE_DIR, "../")
     
     process_chunks_to_relational_db(INPUT_MAPPING, CHUNKS_DIRECTORY, OUTPUT_DIRECTORY)
 
