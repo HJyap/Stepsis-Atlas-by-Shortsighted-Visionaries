@@ -1,0 +1,483 @@
+import { useEffect, useMemo, useState } from "react";
+import DynamicGraph from "./DynamicGraph";
+
+function getVisualRowsByPaper(visualRows) {
+  const map = new Map();
+
+  (visualRows ?? []).forEach((row) => {
+    const paper = row.Paper || "Extracted article";
+
+    if (!map.has(paper)) {
+      map.set(paper, row);
+    }
+  });
+
+  return Array.from(map.values());
+}
+
+function extractNamedMetric(row, metricName) {
+  const combined = [
+    row?.["Cohort Characteristics"],
+    row?.["Effect / Performance"],
+    row?.Population,
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  const regex = new RegExp(`${metricName}\\s*[:=]?\\s*([0-9]+(?:\\.\\d+)?)`, "i");
+  const match = combined.match(regex);
+
+  return match?.[1] ?? "Not reported";
+}
+
+export default function RightPanel({ data, result, theme }) {
+  const [chartType, setChartType] = useState("");
+
+  const references = result.references ?? [];
+  const visualRows = result.visualRows ?? [];
+
+  const graphData =
+    result.status === "found"
+      ? data.filter((item) => references.some((ref) => ref.study === item.Study))
+      : [];
+
+  const visualEvidenceRows = useMemo(
+    () => getVisualRowsByPaper(visualRows),
+    [visualRows]
+  );
+
+  const [selectedStudy, setSelectedStudy] = useState(
+    references[0]?.study ?? visualEvidenceRows[0]?.Paper ?? data[0]?.Study ?? ""
+  );
+
+  useEffect(() => {
+    setSelectedStudy(
+      references[0]?.study ?? visualEvidenceRows[0]?.Paper ?? data[0]?.Study ?? ""
+    );
+  }, [data, references, visualEvidenceRows]);
+
+  useEffect(() => {
+    if (result.status === "found" && graphData.length > 0) {
+      setChartType("Lactate vs 28-day Mortality");
+    } else {
+      setChartType("");
+    }
+  }, [result, graphData.length]);
+
+  const activeStudy = graphData.some((d) => d.Study === selectedStudy)
+    ? selectedStudy
+    : graphData[0]?.Study ??
+      visualEvidenceRows.find((row) => row.Paper === selectedStudy)?.Paper ??
+      visualEvidenceRows[0]?.Paper ??
+      "";
+
+  const selectedData = graphData.find((d) => d.Study === activeStudy);
+  const selectedReference = references.find((ref) => ref.study === activeStudy);
+
+  const selectedVisualRow = visualEvidenceRows.find(
+    (row) => row.Paper === activeStudy
+  );
+
+  const visualReference = references.find(
+    (ref) => ref.study === selectedVisualRow?.Paper
+  );
+
+  const hasGraphEvidence = graphData.length > 0;
+  const hasVisualEvidence = !hasGraphEvidence && visualEvidenceRows.length > 0;
+
+  const sourceEvidence = selectedData
+    ? {
+        article: `${selectedData.Study}, ${selectedData.Year}`,
+        population: selectedData.Population,
+        source: selectedReference?.source ?? selectedData.Source,
+        excerpt:
+          selectedReference?.excerpt ??
+          "Evidence extracted from the matched article.",
+        sofa: selectedData.SOFA,
+        lactate: selectedData.Lactate,
+        mortality: `${selectedData["28-day Mortality"]}%`,
+        confidence: selectedReference?.confidence ?? selectedData.Confidence,
+      }
+    : selectedVisualRow
+      ? {
+          article: selectedVisualRow.Paper,
+          population: selectedVisualRow.Population || "Not reported",
+          source:
+            selectedVisualRow["Record Type"] ||
+            visualReference?.source ||
+            "Visual extraction output",
+          excerpt:
+            selectedVisualRow["Effect / Performance"] ||
+            visualReference?.excerpt ||
+            selectedVisualRow["Cohort Characteristics"] ||
+            selectedVisualRow.Population ||
+            "Evidence extracted from visual extraction output.",
+          sofa: extractNamedMetric(selectedVisualRow, "SOFA"),
+          lactate: extractNamedMetric(selectedVisualRow, "Lactate"),
+          mortality: selectedVisualRow["Mortality Rate"] || "Not reported",
+          confidence:
+            selectedVisualRow["Confidence Score"] ||
+            visualReference?.confidence ||
+            "Pending",
+        }
+      : null;
+
+  const getGraphSpec = () => {
+    if (result.status !== "found" || graphData.length === 0 || !chartType) {
+      return null;
+    }
+
+    const baseLayout = {
+      title: "Results from Matched Articles",
+      paper_bgcolor: theme.card,
+      plot_bgcolor: theme.card,
+      font: { color: theme.text },
+      title_font: { color: theme.title },
+      margin: { t: 56, r: 20, b: 56, l: 56 },
+    };
+
+    const axisStyle = (title) => ({
+      title,
+      gridcolor: theme.chartGrid ?? "rgba(15, 118, 110, 0.08)",
+      zerolinecolor: theme.chartGrid ?? "rgba(15, 118, 110, 0.08)",
+      tickfont: { color: theme.chartAxis ?? theme.text },
+      color: theme.chartAxis ?? theme.text,
+    });
+
+    if (chartType === "Lactate vs 28-day Mortality") {
+      return {
+        data: [
+          {
+            x: graphData.map((d) => d.Lactate),
+            y: graphData.map((d) => d["28-day Mortality"]),
+            mode: "markers",
+            type: "scatter",
+            marker: {
+              size: graphData.map((d) => d.N / 30),
+              color: theme.accent,
+              opacity: 0.85,
+              line: { color: theme.chartAxis ?? theme.text, width: 1 },
+            },
+            text: graphData.map((d) => d.Study),
+            hovertemplate:
+              "<b>%{text}</b><br>Lactate: %{x}<br>Mortality: %{y}%<extra></extra>",
+          },
+        ],
+        layout: {
+          ...baseLayout,
+          xaxis: axisStyle("Lactate (mmol/L)"),
+          yaxis: axisStyle("28-day Mortality (%)"),
+        },
+      };
+    }
+
+    if (chartType === "SOFA vs 28-day Mortality") {
+      return {
+        data: [
+          {
+            x: graphData.map((d) => d.SOFA),
+            y: graphData.map((d) => d["28-day Mortality"]),
+            mode: "markers",
+            type: "scatter",
+            marker: {
+              size: graphData.map((d) => d.N / 30),
+              color: theme.accent,
+              opacity: 0.85,
+              line: { color: theme.chartAxis ?? theme.text, width: 1 },
+            },
+            text: graphData.map((d) => d.Study),
+            hovertemplate:
+              "<b>%{text}</b><br>SOFA: %{x}<br>Mortality: %{y}%<extra></extra>",
+          },
+        ],
+        layout: {
+          ...baseLayout,
+          xaxis: axisStyle("SOFA Score"),
+          yaxis: axisStyle("28-day Mortality (%)"),
+        },
+      };
+    }
+
+    return {
+      data: [
+        {
+          x: graphData.map((d) => d.Study),
+          y: graphData.map((d) => d["Antibiotic Timing"]),
+          type: "bar",
+          marker: { color: theme.accent },
+          hovertemplate: "<b>%{x}</b><br>Timing: %{y} hours<extra></extra>",
+        },
+      ],
+      layout: {
+        ...baseLayout,
+        xaxis: axisStyle("Study"),
+        yaxis: axisStyle("Time to Antibiotic (hours)"),
+      },
+    };
+  };
+
+  return (
+    <div>
+      <div style={styles.card(theme)}>
+        <h2 style={styles.sectionTitle(theme)}>Graph</h2>
+
+        {result.status === "found" && graphData.length > 0 ? (
+          <>
+            <div style={styles.selectWrapper}>
+              <select
+                value={chartType}
+                onChange={(e) => setChartType(e.target.value)}
+                style={styles.select(theme)}
+              >
+                <option value="">Select a chart...</option>
+                <option>Lactate vs 28-day Mortality</option>
+                <option>SOFA vs 28-day Mortality</option>
+                <option>Antibiotic Timing vs Mortality</option>
+              </select>
+              <span style={styles.selectIcon(theme)}>▼</span>
+            </div>
+            <div style={{ height: "400px", marginTop: "15px" }}>
+              <DynamicGraph spec={getGraphSpec()} />
+            </div>
+          </>
+        ) : (
+          <div style={styles.emptyState(theme)}>
+            No graph data available for this query.
+          </div>
+        )}
+      </div>
+
+      <div style={{ ...styles.card(theme), marginTop: "20px" }}>
+        <h2 style={styles.sectionTitle(theme)}>Source Evidence</h2>
+
+        {result.status === "found" && (hasGraphEvidence || hasVisualEvidence) ? (
+          <>
+            <div style={styles.selectWrapper}>
+              <select
+                value={activeStudy}
+                onChange={(e) => setSelectedStudy(e.target.value)}
+                style={styles.select(theme)}
+              >
+                {hasGraphEvidence
+                  ? graphData.map((study) => (
+                      <option key={study.Study} value={study.Study}>
+                        {study.Study}
+                      </option>
+                    ))
+                  : visualEvidenceRows.map((row) => (
+                      <option key={row.Paper} value={row.Paper}>
+                        {row.Paper}
+                      </option>
+                    ))}
+              </select>
+              <span style={styles.selectIcon(theme)}>▼</span>
+            </div>
+
+            {sourceEvidence ? (
+              <div style={styles.sourceBox(theme)}>
+                <div style={styles.evidenceSection(theme)}>
+                  <span style={styles.evidenceLabel(theme)}>Article</span>
+                  <span style={styles.evidenceValue(theme)}>
+                    {sourceEvidence.article}
+                  </span>
+                </div>
+
+                <div style={styles.evidenceSection(theme)}>
+                  <span style={styles.evidenceLabel(theme)}>Population</span>
+                  <span style={styles.evidenceValue(theme)}>
+                    {sourceEvidence.population}
+                  </span>
+                </div>
+
+                <div style={styles.evidenceSection(theme)}>
+                  <span style={styles.evidenceLabel(theme)}>Reference</span>
+                  <span style={styles.evidenceValue(theme)}>
+                    {sourceEvidence.source}
+                  </span>
+                </div>
+
+                <div style={styles.excerpt(theme)}>
+                  <b>Evidence:</b> {sourceEvidence.excerpt}
+                </div>
+
+                <div style={styles.metricsContainer}>
+                  <div style={styles.metric(theme)}>
+                    <span style={styles.metricLabel(theme)}>SOFA</span>
+                    <span style={styles.metricValue(theme)}>
+                      {sourceEvidence.sofa}
+                    </span>
+                  </div>
+                  <div style={styles.metric(theme)}>
+                    <span style={styles.metricLabel(theme)}>Lactate</span>
+                    <span style={styles.metricValue(theme)}>
+                      {sourceEvidence.lactate}
+                    </span>
+                  </div>
+                  <div style={styles.metric(theme)}>
+                    <span style={styles.metricLabel(theme)}>Mortality</span>
+                    <span style={styles.metricValue(theme)}>
+                      {sourceEvidence.mortality}
+                    </span>
+                  </div>
+                </div>
+
+                <div style={styles.confidenceBox(theme)}>
+                  <span style={styles.confidenceLabel(theme)}>Confidence</span>
+                  <span style={styles.confidenceValue(theme)}>
+                    {sourceEvidence.confidence}
+                  </span>
+                </div>
+              </div>
+            ) : (
+              <div style={styles.emptyState(theme)}>
+                No matching reference found in the article set.
+              </div>
+            )}
+          </>
+        ) : (
+          <div style={styles.emptyState(theme)}>
+            No matching reference found in the article set.
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+const styles = {
+  card: (theme) => ({
+    background: theme.card,
+    border: `1px solid ${theme.cardBorder}`,
+    borderRadius: "20px",
+    padding: "22px",
+    boxShadow: theme.cardShadow,
+  }),
+  sectionTitle: (theme) => ({
+    color: theme.title,
+    fontSize: "22px",
+    fontWeight: "900",
+    marginBottom: "16px",
+  }),
+  selectWrapper: {
+    position: "relative",
+    marginBottom: "15px",
+  },
+  select: (theme) => ({
+    width: "100%",
+    padding: "12px 40px 12px 16px",
+    borderRadius: "8px",
+    border: `2px solid ${theme.accent}`,
+    background: theme.inputBg,
+    color: theme.text,
+    fontSize: "14px",
+    fontWeight: "600",
+    cursor: "pointer",
+    appearance: "none",
+  }),
+  selectIcon: (theme) => ({
+    position: "absolute",
+    right: "12px",
+    top: "50%",
+    transform: "translateY(-50%)",
+    color: theme.accent,
+    pointerEvents: "none",
+    fontSize: "12px",
+  }),
+  sourceBox: (theme) => ({
+    background: theme.sourceBg,
+    border: `1px solid ${theme.sourceBorder}`,
+    borderRadius: "12px",
+    padding: "18px",
+    marginTop: "15px",
+  }),
+  evidenceSection: (theme) => ({
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: "12px",
+    marginBottom: "12px",
+    paddingBottom: "10px",
+    borderBottom: `1px solid ${theme.softBorder}`,
+  }),
+  evidenceLabel: (theme) => ({
+    color: theme.title,
+    fontWeight: "700",
+    fontSize: "13px",
+    textTransform: "uppercase",
+  }),
+  evidenceValue: (theme) => ({
+    color: theme.text,
+    fontSize: "14px",
+    textAlign: "right",
+    flex: 1,
+  }),
+  excerpt: (theme) => ({
+    color: theme.text,
+    lineHeight: "1.7",
+    marginTop: "8px",
+  }),
+  metricsContainer: {
+    display: "grid",
+    gridTemplateColumns: "repeat(3, 1fr)",
+    gap: "10px",
+    marginTop: "16px",
+    marginBottom: "12px",
+  },
+  metric: (theme) => ({
+    background: theme.soft,
+    border: `1px solid ${theme.softBorder}`,
+    borderRadius: "8px",
+    padding: "10px",
+    textAlign: "center",
+  }),
+  metricLabel: (theme) => ({
+    display: "block",
+    color: theme.title,
+    fontSize: "11px",
+    fontWeight: "700",
+    textTransform: "uppercase",
+    marginBottom: "4px",
+  }),
+  metricValue: (theme) => ({
+    display: "block",
+    color: theme.text,
+    fontSize: "16px",
+    fontWeight: "800",
+  }),
+  confidenceBox: (theme) => ({
+    background: theme.soft,
+    border: `1px solid ${theme.accent}`,
+    borderRadius: "8px",
+    padding: "12px 14px",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginTop: "12px",
+  }),
+  confidenceLabel: (theme) => ({
+    color: theme.title,
+    fontWeight: "700",
+    fontSize: "13px",
+    textTransform: "uppercase",
+  }),
+  confidenceValue: (theme) => ({
+    color: theme.title,
+    fontSize: "18px",
+    fontWeight: "900",
+  }),
+  emptyState: (theme) => ({
+    height: "100%",
+    minHeight: "180px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+    color: theme.muted,
+    background: theme.soft,
+    border: `1px dashed ${theme.emptyBorder}`,
+    borderRadius: "18px",
+    padding: "24px",
+    lineHeight: "1.6",
+    marginTop: "15px",
+  }),
+};

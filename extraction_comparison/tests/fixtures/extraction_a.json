@@ -1,0 +1,192 @@
+[
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "p-SOFA",
+    "outcome": "30-day mortality",
+    "timing": "Within 24 hours of PICU admission",
+    "method": "Cross-validation study with ROC analysis",
+    "effect_size": "Median 8 (range 1-20) in non-survivors vs 4 (0-14) in survivors",
+    "performance": "AUC=0.81 (95% CI 0.76-0.86)",
+    "notes": "Significantly higher in non-survivors than survivors",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 2,
+      "chunk": "page_2_p_1",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "PRISM III",
+    "outcome": "30-day mortality",
+    "timing": "Within 24 hours of PICU admission",
+    "method": "Cross-validation study with ROC analysis",
+    "effect_size": "Median 10 (range 0-29) in non-survivors vs 3 (0-20) in survivors",
+    "performance": "AUC=0.75 (95% CI 0.69-0.81)",
+    "notes": "Significantly higher in non-survivors than survivors",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 2,
+      "chunk": "page_2_p_1",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "p-SOFA",
+    "outcome": "30-day mortality",
+    "timing": "Within 24 hours of PICU admission",
+    "method": "Cross-validation study with ROC analysis",
+    "effect_size": "AUC 0.81",
+    "performance": "AUC=0.81 (95% CI 0.76-0.86)",
+    "notes": "Maximum p-SOFA score had good discrimination",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 4,
+      "chunk": "page_4_p_1",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "PRISM III",
+    "outcome": "30-day mortality",
+    "timing": "Within 24 hours of PICU admission",
+    "method": "Cross-validation study with ROC analysis",
+    "effect_size": "AUC 0.75",
+    "performance": "AUC=0.75 (95% CI 0.69-0.81)",
+    "notes": "Maximum PRISM III had good discrimination",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 4,
+      "chunk": "page_4_p_1",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "p-SOFA",
+    "outcome": "30-day mortality",
+    "timing": "Within 24 hours of PICU admission",
+    "method": "Sensitivity and specificity at cut-off",
+    "effect_size": "Sensitivity 93.87%, Specificity 38.21%",
+    "performance": "Accuracy 69.93%",
+    "notes": "Cut-off >2 used for prediction",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 5,
+      "chunk": "page_5_p_1",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "p-SOFA",
+    "outcome": "30-day mortality",
+    "timing": "At PICU admission",
+    "method": "ROC curve analysis",
+    "effect_size": "AUC=0.81 (95% CI 0.76\u20130.86)",
+    "performance": "AUC=0.81",
+    "notes": "Comparable to El-Mashad et al. AUC=0.89",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 3,
+      "chunk": "page_3_p_1",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "p-SOFA",
+    "outcome": "30-day mortality",
+    "timing": "At PICU admission",
+    "method": "Comparison study",
+    "effect_size": "AUC 0.81 vs 0.75",
+    "performance": "Better than PRISM III",
+    "notes": "p-SOFA outperformed PRISM III for 30-day mortality",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 7,
+      "chunk": "page_7_p_1",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "p-SOFA",
+    "outcome": "30-day mortality",
+    "timing": "At PICU admission",
+    "method": "Cohort comparison",
+    "effect_size": "Not reported",
+    "performance": "Not reported",
+    "notes": "Higher mortality with higher p-SOFA",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 6,
+      "chunk": "page_6_p_2",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "p-SOFA",
+    "outcome": "30-day mortality",
+    "timing": "At PICU admission",
+    "method": "ROC curve analysis",
+    "effect_size": "AUC 0.81",
+    "performance": "AUC=0.81 (95% CI 0.76-0.86)",
+    "notes": "p-SOFA score was significantly greater in non-survivors",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 8,
+      "chunk": "page_8_p_1",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  },
+  {
+    "study": "Baloch et al. 2022",
+    "population": "Critically ill children in PICU",
+    "sample_size": "N=286",
+    "predictor": "PRISM III",
+    "outcome": "30-day mortality",
+    "timing": "At PICU admission",
+    "method": "Sensitivity and specificity",
+    "effect_size": "Sensitivity 55.83%, Specificity 77.24%",
+    "performance": "Accuracy 65.03%",
+    "notes": "Cut-off >8 used for prediction",
+    "source_info": {
+      "file": "Baloch_2022.pdf",
+      "page": 5,
+      "chunk": "page_5_p_2",
+      "doi": "10.7759/cureus.21055",
+      "section": "General"
+    }
+  }
+]
