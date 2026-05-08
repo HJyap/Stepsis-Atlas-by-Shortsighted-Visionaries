@@ -266,15 +266,142 @@ def update_sepsis_atlas_file(input_extracted_file, output_standardized_file):
     
     print(f"✨ Saved properly ordered file: {output_standardized_file}")
 
+class GlobalBaselines(BaseModel):
+    mortality_rate: str = Field(default="Not reported", description="Overall mortality rate.")
+    sofa_score: str = Field(default="Not reported", description="Overall/median SOFA score.")
+    lactate: str = Field(default="Not reported", description="Overall/median Lactate levels.")
+    apache_ii: str = Field(default="Not reported", description="Overall/median APACHE II score.")
+    mechanical_ventilation: str = Field(default="Not reported", description="Percentage on mechanical ventilation.")
+    icu_los: str = Field(default="Not reported", description="ICU length of stay.")
+    hospital_los: str = Field(default="Not reported", description="Hospital length of stay.")
+    septic_shock: str = Field(default="Not reported", description="Percentage with septic shock.")
+    creatinine: str = Field(default="Not reported", description="Overall/median creatinine.")
+    platelets: str = Field(default="Not reported", description="Overall/median platelets.")
+    bilirubin: str = Field(default="Not reported", description="Overall/median bilirubin.")
+    albumin: str = Field(default="Not reported", description="Overall/median albumin.")
+    procalcitonin: str = Field(default="Not reported", description="Overall/median procalcitonin.")
+    vasopressor_use: str = Field(default="Not reported", description="Percentage using vasopressors.")
+    rrt_use: str = Field(default="Not reported", description="Percentage using RRT/dialysis.")
+    sensitivity: str = Field(default="Not reported", description="Diagnostic sensitivity.")
+    specificity: str = Field(default="Not reported", description="Diagnostic specificity.")
+    auc_value: str = Field(default="Not reported", description="AUC/AUROC value.")
 
+def extract_missing_baselines(paper_summary_text):
+    """Fast LLM to pull out the missing clinical baselines for the schema alignment"""
+    llm = ChatOpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=API_KEY, 
+        model="anthropic/claude-sonnet-4.6", 
+        temperature=0
+    )
+    structured_llm = llm.with_structured_output(GlobalBaselines)
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", "You are aligning a database schema. Extract the overall cohort baseline values for the requested clinical variables from the provided data summary. Keep it concise (e.g., 'Median 6', '45%'). If a variable is completely missing, output 'Not reported'."),
+        ("human", "Here is the data summary:\n\n{text}")
+    ])
+    try:
+        return (prompt | structured_llm).invoke({"text": paper_summary_text})
+    except Exception as e:
+        print(f"❌ Baseline Extraction Error: {e}")
+        return GlobalBaselines()
+
+def align_vision_schema(input_standardized_file, output_complete_file):
+    """Function 3: Schema Alignment (Standardized -> Complete)"""
+    if not os.path.exists(input_standardized_file):
+        print(f"⚠️  Skipping {input_standardized_file} - file not found.")
+        return
+
+    with open(input_standardized_file, 'r', encoding='utf-8') as f:
+        rows = json.load(f)
+
+    # 1. Build a tight summary from the existing rows
+    extracted_summary_lines = []
+    for r in rows:
+        pop = r.get("population", "")
+        sz = r.get("sample_size", "")
+        if isinstance(sz, dict): # Handle our nested dict from earlier
+            sz = sz.get("total", "Not reported")
+        pred = r.get("predictor", "")
+        eff = r.get("effect_size", "")
+        perf = r.get("performance", "")
+        line = f"Pop: {pop} | N: {sz} | Predictor: {pred} | Effect: {eff} | Perf: {perf}"
+        extracted_summary_lines.append(line)
+        
+    unique_summary_lines = list(set(extracted_summary_lines))
+    combined_summary_text = "\n".join(unique_summary_lines)
+
+    # 2. Extract the missing clinical variables ONCE per file
+    print(f"\n🧠 Fetching missing Vision columns for {os.path.basename(input_standardized_file)}...")
+    baselines = extract_missing_baselines(combined_summary_text)
+
+    # 3. REBUILD EACH ROW TO EXACTLY MATCH YOUR FRIEND'S VISION MODEL SCHEMA
+    aligned_rows = []
+    for row in rows:
+        
+        # Grab Age and Gender from the previous step
+        age_val = row.get("cohort_age", row.get("age", "Not reported"))
+        gender_val = row.get("cohort_gender", row.get("gender", "Not reported"))
+        
+        # Flatten sample_size back to string if it was nested
+        sample_val = row.get("sample_size", "Not reported")
+        if isinstance(sample_val, dict):
+            sample_val = sample_val.get("total", "Not reported")
+
+        aligned_row = {
+            "study": row.get("study", "Not reported"),
+            "population": row.get("population", "Not reported"),
+            "sample_size": sample_val,
+            "predictor": row.get("predictor", "Not reported"),
+            "standardized_predictor": row.get("standardized_predictor", row.get("predictor", "Not reported")),
+            "outcome": row.get("outcome", "Not reported"),
+            "standardized_outcome": row.get("standardized_outcome", row.get("outcome", "Not reported")),
+            "timing": row.get("timing", "Not reported"),
+            "method": row.get("method", "Not reported"),
+            "effect_size": row.get("effect_size", "Not reported"),
+            "performance": row.get("performance", "Not reported"),
+            
+            # 🔥 INJECT THE NEW MISSING COLUMNS IN EXACT ORDER
+            "mortality_rate": baselines.mortality_rate,
+            "sofa_score": baselines.sofa_score,
+            "age": age_val,
+            "lactate": baselines.lactate,
+            "apache_ii": baselines.apache_ii,
+            "mechanical_ventilation": baselines.mechanical_ventilation,
+            "gender": gender_val,
+            "icu_los": baselines.icu_los,
+            "hospital_los": baselines.hospital_los,
+            "septic_shock": baselines.septic_shock,
+            "creatinine": baselines.creatinine,
+            "platelets": baselines.platelets,
+            "bilirubin": baselines.bilirubin,
+            "albumin": baselines.albumin,
+            "procalcitonin": baselines.procalcitonin,
+            "vasopressor_use": baselines.vasopressor_use,
+            "rrt_use": baselines.rrt_use,
+            "sensitivity": baselines.sensitivity,
+            "specificity": baselines.specificity,
+            "auc_value": baselines.auc_value,
+            
+            "notes": row.get("notes", "None"),
+            "source_info": row.get("source_info", {})
+        }
+        aligned_rows.append(aligned_row)
+
+    # Save to the final Complete folder
+    with open(output_complete_file, 'w', encoding='utf-8') as f:
+        json.dump(aligned_rows, f, indent=4, ensure_ascii=False)
+    
+    print(f"✨ Schema Aligned & Saved: {output_complete_file}")
 
 if __name__ == "__main__":
     CHUNKS_FOLDER = "/Users/hongjayyap/Stepsis-Atlas-by-Shortsighted-Visionaries/chunks" 
     EXTRACTIONS_FOLDER = "/Users/hongjayyap/Stepsis-Atlas-by-Shortsighted-Visionaries/extractions"
     STANDARDIZED_FOLDER = "/Users/hongjayyap/Stepsis-Atlas-by-Shortsighted-Visionaries/standardized_extractions"
+    COMPLETE_FOLDER = "/Users/hongjayyap/Stepsis-Atlas-by-Shortsighted-Visionaries/complete_extractions"
         
     os.makedirs(STANDARDIZED_FOLDER, exist_ok=True)
     os.makedirs(EXTRACTIONS_FOLDER, exist_ok=True)
+    os.makedirs(COMPLETE_FOLDER, exist_ok=True)
     # FILES_TO_PROCESS = "ALL" 
     
     FILES_TO_PROCESS = [
@@ -321,6 +448,7 @@ if __name__ == "__main__":
         chunk_file = os.path.join(CHUNKS_FOLDER, filename)
         extracted_file = os.path.join(EXTRACTIONS_FOLDER, filename)
         standardized_file = os.path.join(STANDARDIZED_FOLDER, filename)
+        complete_file = os.path.join(COMPLETE_FOLDER, filename)
         
         # 🟢 =======================================================
         # 🟢 THE TOGGLE ZONE: Comment/Uncomment what you want to run
@@ -330,6 +458,8 @@ if __name__ == "__main__":
         # build_sepsis_atlas(chunk_file, extracted_file)
         
         # OPTION B: Run the fast ontology/demographic update (Extractions -> Standardized)
-        update_sepsis_atlas_file(extracted_file, standardized_file)
+        #update_sepsis_atlas_file(extracted_file, standardized_file)
+        
+        align_vision_schema(standardized_file, complete_file)
         
     print("\nBATCH PROCESSING COMPLETE!")
