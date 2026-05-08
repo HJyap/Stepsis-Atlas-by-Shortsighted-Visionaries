@@ -1,0 +1,47 @@
+{
+  "study": "Suttapanit et al. 2022",
+  "population": "Adult patients (>18 years) presenting to the emergency department (ED) of a tertiary-care university hospital with an initial diagnosis of sepsis or infection-related conditions and treated with a sepsis protocol.",
+  "sample_size": "N=550 (482 survivors, 68 non-survivors)",
+  "predictor": "National Early Warning Score (NEWS), quick Sequential Organ Failure Assessment (qSOFA), Search Out Severity (SOS) score, Emergency Severity Index (ESI) triage, and Systemic Inflammatory Response System (SIRS) criteria",
+  "outcome": "Primary: 28-day mortality; Secondary: 28-day mechanical ventilator usage and 28-day vasopressor usage",
+  "timing": "Predictors measured at ED triage; outcomes measured at 28 days",
+  "method": "Retrospective cross-sectional study; ROC analysis (AUROC) with 95% CI",
+  "effect_size": "NEWS AUROC: 0.770 (95% CI: 0.705-0.835); SOS AUROC: 0.749 (95% CI: 0.685-0.815); qSOFA AUROC: 0.7473 (95% CI: 0.688-0.806); ESI AUROC: 0.599 (95% CI: 0.542-0.656); SIRS AUROC: 0.588 (95% CI: 0.522-0.654)",
+  "performance": "NEWS provided the highest AUROC for 28-day mortality (0.770) and outperformed other scores for mechanical ventilator and vasopressor usage prediction.",
+  "mortality_rate": "12.4% (n=68) at 28 days",
+  "sofa_score": "Not reported (qSOFA used as predictor)",
+  "age": "Mean age 69 years",
+  "lactate": "Not reported",
+  "apache_ii": "Not reported",
+  "mechanical_ventilation": "23.2% (overall 28-day usage)",
+  "gender": "46.7% male",
+  "icu_los": "Not reported",
+  "hospital_los": "Not reported",
+  "septic_shock": "Not reported",
+  "creatinine": "Not reported",
+  "platelets": "Not reported",
+  "bilirubin": "Not reported",
+  "albumin": "Not reported",
+  "procalcitonin": "Not reported",
+  "vasopressor_use": "18.1% (overall 28-day usage)",
+  "rrt_use": "Not reported",
+  "sensitivity": "Reported in Table 3 (not fully visible in text, but NEWS AUROC is 0.770)",
+  "specificity": "Reported in Table 3 (not fully visible in text, but NEWS AUROC is 0.770)",
+  "auc_value": "NEWS: 0.770; SOS: 0.749; qSOFA: 0.747; ESI: 0.599; SIRS: 0.588",
+  "notes": "Evidence extracted from abstract (page 2), methods (page 3), results text, flow chart (Figure 1), and ROC curve (Figure 2) on page 4. The study concludes NEWS is the most accurate triage tool for predicting 28-day mortality in sepsis patients.",
+  "source_info": {
+    "file": "Suttapanit_2022.pdf",
+    "center_page": 2,
+    "page_range": {
+      "start": 1,
+      "end": 4
+    },
+    "included_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "chunk": "pages_001_to_004_combined"
+  }
+}
