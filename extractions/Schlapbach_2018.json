@@ -1,0 +1,2415 @@
+[
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric ICU patients (<18 years) admitted with infection to ICUs in Australia and New Zealand",
+        "sample_size": "N=2594",
+        "predictor": "Age-adapted SOFA (≥2-point increase)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Adjusted AUROC analysis",
+        "effect_size": "Mortality increase from 1.9% to 7.6% with ≥2-point increase",
+        "performance": "Adjusted AUROC 0.829 (95% CI 0.791–0.868)",
+        "notes": "Significantly higher discrimination than qSOFA and SIRS (p<0.001)",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric ICU patients (<18 years) admitted with infection to ICUs in Australia and New Zealand",
+        "sample_size": "N=2594",
+        "predictor": "PELOD-2 (≥2-point increase)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Adjusted AUROC analysis",
+        "effect_size": "Mortality increase from 1.7% to 7.3% with ≥2-point increase",
+        "performance": "Adjusted AUROC 0.816 (95% CI 0.777–0.854)",
+        "notes": "Significantly higher discrimination than qSOFA and SIRS (p<0.001)",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric ICU patients (<18 years) admitted with infection to ICUs in Australia and New Zealand",
+        "sample_size": "N=2594",
+        "predictor": "qSOFA (≥2-point increase)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Adjusted AUROC analysis",
+        "effect_size": "Mortality increase from 3.9% to 8.1% with ≥2-point increase",
+        "performance": "Adjusted AUROC 0.739 (95% CI 0.695–0.784)",
+        "notes": "Lower discrimination than age-adapted SOFA and PELOD-2",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric ICU patients (<18 years) admitted with infection to ICUs in Australia and New Zealand",
+        "sample_size": "N=2594",
+        "predictor": "SIRS (≥2-point increase)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Adjusted AUROC analysis",
+        "effect_size": "Mortality increase from 3.1% to 6.8% with ≥2-point increase",
+        "performance": "Adjusted AUROC 0.710 (95% CI 0.664–0.756)",
+        "notes": "Lowest discrimination among all scores; lacks specificity to identify children at substantially higher risk of mortality",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric ICU patients (<18 years) admitted with infection to ICUs in Australia and New Zealand",
+        "sample_size": "N=2594",
+        "predictor": "Age-adapted SOFA, qSOFA, PELOD-2, SIRS (≥2-point increase)",
+        "outcome": "Death or ICU length of stay ≥3 days",
+        "timing": "At ICU admission",
+        "method": "Crude and adjusted AUROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "949/2594 (36.6%) patients met the composite outcome of death or ICU LOS ≥3 days; 151/2594 (5.8%) died",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS criteria (≥2 SIRS criteria)",
+        "outcome": "Mortality",
+        "timing": "At ICU admission",
+        "method": "Comparative performance analysis / ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Lower specificity for identifying children at substantially higher risk of mortality compared to organ dysfunction measures",
+        "notes": "SIRS criteria lack specificity to identify children with infection at substantially higher risk of mortality.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Take‑home message**",
+            "page": 2,
+            "chunk": "page_2_chunk_6"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "Age-specific SOFA scores (adapted Sepsis-3 criteria)",
+        "outcome": "Mortality",
+        "timing": "At ICU admission",
+        "method": "Comparative performance analysis / ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Better performance than Sepsis-2-based criteria (SIRS) for identifying mortality risk",
+        "notes": "Adapting Sepsis-3 criteria using age-specific SOFA scores performs better than Sepsis-2-based criteria. Findings support need to translate Sepsis-3 criteria into paediatric-specific sepsis definitions.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Take‑home message**",
+            "page": 2,
+            "chunk": "page_2_chunk_6"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years admitted to ICUs (adult or combined adult/paediatric) in Australia and New Zealand with suspected or proven infection",
+        "sample_size": "Not reported",
+        "predictor": "Not reported",
+        "outcome": "Not reported",
+        "timing": "At ICU admission",
+        "method": "Multicentre binational cohort study",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Data sourced from ANZICS Adult Patient Database and ANZPIC registry. Study approved by Human Research and Ethics Committee. Specialized paediatric ICUs not included in primary database.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Study population**",
+            "page": 2,
+            "chunk": "page_2_chunk_7"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2 score",
+        "outcome": "In-hospital mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Primary outcome was in-hospital mortality. Secondary composite outcome was in-hospital mortality or ICU length of stay ≥3 days. SIRS criteria, PELOD-2, SOFA, and qSOFA were calculated. Age-specific cut-offs applied per 2005 Pediatric Sepsis Consensus statement.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Outcomes and definitions**",
+            "page": 2,
+            "chunk": "page_2_chunk_8"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "In-hospital mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Primary outcome was in-hospital mortality. Secondary composite outcome was in-hospital mortality or ICU length of stay ≥3 days.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Outcomes and definitions**",
+            "page": 2,
+            "chunk": "page_2_chunk_8"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "In-hospital mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Primary outcome was in-hospital mortality. Secondary composite outcome was in-hospital mortality or ICU length of stay ≥3 days.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Outcomes and definitions**",
+            "page": 2,
+            "chunk": "page_2_chunk_8"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS criteria",
+        "outcome": "In-hospital mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Age-specific cut-offs applied per 2005 Pediatric Sepsis Consensus statement and subsequent correction. Primary outcome was in-hospital mortality.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Outcomes and definitions**",
+            "page": 2,
+            "chunk": "page_2_chunk_8"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Abnormal heart rate (SIRS criterion)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "8.3% mortality in those meeting criterion",
+        "performance": "N=1295 (57.0%) met criterion; 108 deaths (8.3%)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Increased respiratory rate (SIRS criterion)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "5.6% mortality in those meeting criterion",
+        "performance": "N=1896 (83.5%) met criterion; 106 deaths (5.6%)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Abnormal temperature (SIRS criterion)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "8.2% mortality in those meeting criterion",
+        "performance": "N=1091 (48.0%) met criterion; 89 deaths (8.2%)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=669",
+        "predictor": "High temperature (SIRS criterion)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "31.1% of deaths met criterion",
+        "performance": "N=669 (29.5%) met criterion; 47 deaths (31.1% of all deaths)",
+        "notes": "Subgroup of abnormal temperature",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=487",
+        "predictor": "Low temperature (SIRS criterion)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "32.5% of deaths met criterion",
+        "performance": "N=487 (21.4%) met criterion; 49 deaths (32.5% of all deaths)",
+        "notes": "Subgroup of abnormal temperature",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Abnormal white-cell count (SIRS criterion)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "7.7% mortality in those meeting criterion",
+        "performance": "N=1342 (59.1%) met criterion; 103 deaths (7.7%)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=1106",
+        "predictor": "High WCC (SIRS criterion)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "37.8% of deaths met criterion",
+        "performance": "N=1106 (48.7%) met criterion; 57 deaths (37.8% of all deaths)",
+        "notes": "Subgroup of abnormal white-cell count",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=248",
+        "predictor": "Low WCC (SIRS criterion)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "30.5% of deaths met criterion",
+        "performance": "N=248 (10.9%) met criterion; 46 deaths (30.5% of all deaths)",
+        "notes": "Subgroup of abnormal white-cell count",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "2 or more SIRS criteria not present",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "3.2% mortality",
+        "performance": "N=413 (18.2%); 13 deaths (3.2%)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "2 or more SIRS criteria present",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "6.8% mortality",
+        "performance": "N=1858 (81.8%); 126 deaths (6.8%)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Paediatric SIRS not present (fewer than 2 SIRS criteria or no abnormal temperature/WCC)",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "3.5% mortality",
+        "performance": "N=596 (26.2%); 21 deaths (3.5%)",
+        "notes": "Paediatric SIRS defined as 2 or more SIRS criteria, one of which must be abnormal temperature or white cell count",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Paediatric SIRS present",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "7.0% mortality",
+        "performance": "N=1675 (73.8%); 118 deaths (7.0%)",
+        "notes": "Paediatric SIRS defined as 2 or more SIRS criteria, one of which must be abnormal temperature or white cell count",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=57",
+        "predictor": "0 SIRS criteria",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "3.5% (95% CI 0.04–12.1)",
+        "performance": "N=57 (2.5%); 2 deaths (3.5%, 95% CI 0.04–12.1)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=356",
+        "predictor": "1 SIRS criterion",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "3.1% (95% CI 1.6–5.5)",
+        "performance": "N=356 (15.6%); 11 deaths (3.1%, 95% CI 1.6–5.5)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=704",
+        "predictor": "2 SIRS criteria",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "4.3% (95% CI 2.9–6.0)",
+        "performance": "N=704 (31.0%); 30 deaths (4.3%, 95% CI 2.9–6.0)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=756",
+        "predictor": "3 SIRS criteria",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "6.5% (95% CI 4.8–8.5)",
+        "performance": "N=756 (33.3%); 49 deaths (6.5%, 95% CI 4.8–8.5)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=398",
+        "predictor": "4 SIRS criteria",
+        "outcome": "Primary outcome (mortality)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "11.8% (95% CI 8.8–15.4)",
+        "performance": "N=398 (17.5%); 47 deaths (11.8%, 95% CI 8.8–15.4)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Abnormal heart rate (SIRS criterion)",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "45.8% secondary outcome rate in those meeting criterion",
+        "performance": "N=1295 (57.0%) met criterion; 593 (45.8%) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Increased respiratory rate (SIRS criterion)",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "36.9% secondary outcome rate in those meeting criterion",
+        "performance": "N=1896 (83.5%) met criterion; 700 (36.9%) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Abnormal temperature (SIRS criterion)",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "46.7% secondary outcome rate in those meeting criterion",
+        "performance": "N=1091 (48.0%) met criterion; 509 (46.7%) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Abnormal white-cell count (SIRS criterion)",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "42.8% secondary outcome rate in those meeting criterion",
+        "performance": "N=1342 (59.1%) met criterion; 574 (42.8%) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "2 or more SIRS criteria not present",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "29.1% secondary outcome rate",
+        "performance": "N=413 (18.2%); 120 (29.1%) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "2 or more SIRS criteria present",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "40.8% secondary outcome rate",
+        "performance": "N=1858 (81.8%); 758 (40.8%) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Paediatric SIRS not present",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "29.5% secondary outcome rate",
+        "performance": "N=596 (26.2%); 176 (29.5%) met secondary outcome",
+        "notes": "Paediatric SIRS defined as 2 or more SIRS criteria, one of which must be abnormal temperature or white cell count",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=2271",
+        "predictor": "Paediatric SIRS present",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "41.9% secondary outcome rate",
+        "performance": "N=1675 (73.8%); 702 (41.9%) met secondary outcome",
+        "notes": "Paediatric SIRS defined as 2 or more SIRS criteria, one of which must be abnormal temperature or white cell count",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=57",
+        "predictor": "0 SIRS criteria",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "33.3% (95% CI 21.4–47.1)",
+        "performance": "N=57 (2.5%); 19 (33.3%, 95% CI 21.4–47.1) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=356",
+        "predictor": "1 SIRS criterion",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "28.4% (95% CI 23.7–33.4)",
+        "performance": "N=356 (15.6%); 101 (28.4%, 95% CI 23.7–33.4) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=704",
+        "predictor": "2 SIRS criteria",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "32.7% (95% CI 29.2–36.3)",
+        "performance": "N=704 (31.0%); 230 (32.7%, 95% CI 29.2–36.3) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=756",
+        "predictor": "3 SIRS criteria",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "39.3% (95% CI 35.8–42.9)",
+        "performance": "N=756 (33.3%); 297 (39.3%, 95% CI 35.8–42.9) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "N=398",
+        "predictor": "4 SIRS criteria",
+        "outcome": "Secondary outcome (mortality or ICU LOS ≥3 days)",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "58.0% (95% CI 53.0–62.9)",
+        "performance": "N=398 (17.5%); 231 (58.0%, 95% CI 53.0–62.9) met secondary outcome",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Statistics**",
+            "page": 3,
+            "chunk": "page_3_chunk_11"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients aged <18 years admitted to adult or mixed ICU due to infection, recorded in ANZICS Adult Patient Database",
+        "sample_size": "N=2594",
+        "predictor": "Severe sepsis classification",
+        "outcome": "Hospital mortality",
+        "timing": "ICU admission",
+        "method": "Descriptive analysis",
+        "effect_size": "Mortality rate 7.4% in severe sepsis group",
+        "performance": "151/2594 (5.8%) overall hospital mortality; 7.4% mortality in severe sepsis subgroup",
+        "notes": "1510 (58.3%) classified as severe sepsis; data from 2000-2016; 121 episodes excluded (duplicates, transfers, missing outcomes)",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Study population**",
+            "page": 4,
+            "chunk": "page_4_chunk_13"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients aged <18 years admitted to adult or mixed ICU due to infection, recorded in ANZICS Adult Patient Database",
+        "sample_size": "N=2594",
+        "predictor": "Severe sepsis classification",
+        "outcome": "Hospital mortality or ICU length of stay ≥3 days (composite secondary outcome)",
+        "timing": "ICU admission",
+        "method": "Descriptive analysis",
+        "effect_size": "Secondary outcome met in 43.9% of severe sepsis patients",
+        "performance": "949/2594 (36.6%) met secondary outcome overall; 43.9% in severe sepsis subgroup",
+        "notes": "1510 (58.3%) classified as severe sepsis; data from 2000-2016; secondary outcome defined as death in hospital or ICU LOS ≥3 days",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Study population**",
+            "page": 4,
+            "chunk": "page_4_chunk_13"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271 (with complete SIRS data)",
+        "predictor": "Number of SIRS criteria (<2 vs ≥2)",
+        "outcome": "Mortality (primary outcome)",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Between-group difference",
+        "effect_size": "Mortality 3.1% (<2 SIRS) vs 6.8% (≥2 SIRS); difference 3.6%, 95% CI 1.6–5.7",
+        "performance": "p=0.005",
+        "notes": "SIRS data incomplete in 323/2594 (12.4%) episodes; 57/2271 (2.2%) had no SIRS criteria",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "3 SIRS criteria (vs <2 SIRS criteria as reference)",
+        "outcome": "Mortality (primary outcome)",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression",
+        "effect_size": "OR 1.94, 95% CI 1.02–3.70",
+        "performance": "Not reported",
+        "notes": "2 SIRS criteria was not significant for primary outcome",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "3 SIRS criteria (vs <2 SIRS criteria as reference)",
+        "outcome": "Secondary outcome",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression",
+        "effect_size": "OR 1.46, 95% CI 1.12–1.92",
+        "performance": "Not reported",
+        "notes": "2 SIRS criteria was not significant for secondary outcome",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "4 SIRS criteria (vs <2 SIRS criteria as reference)",
+        "outcome": "Mortality (primary outcome)",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression",
+        "effect_size": "OR 3.31, 95% CI 1.72–6.37",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "4 SIRS criteria (vs <2 SIRS criteria as reference)",
+        "outcome": "Secondary outcome",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression",
+        "effect_size": "OR 2.97, 95% CI 2.19–4.03",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "Paediatric SIRS (meeting paediatric SIRS definition)",
+        "outcome": "Mortality (primary outcome)",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression adjusted for baseline risk",
+        "effect_size": "OR 1.83, 95% CI 1.13–2.99",
+        "performance": "p=0.015",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "≥2 SIRS criteria",
+        "outcome": "Mortality (primary outcome)",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression adjusted for baseline risk",
+        "effect_size": "OR 2.00, 95% CI 1.10–3.64",
+        "performance": "p=0.023",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "Paediatric SIRS (meeting paediatric SIRS definition)",
+        "outcome": "Secondary outcome",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression adjusted for baseline risk",
+        "effect_size": "OR 1.54, 95% CI 1.25–1.90",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "≥2 SIRS criteria",
+        "outcome": "Secondary outcome",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression adjusted for baseline risk",
+        "effect_size": "OR 1.50, 95% CI 1.21–1.85",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children admitted to ICU",
+        "sample_size": "N=2271",
+        "predictor": "Each additional SIRS criterion",
+        "outcome": "Mortality (primary outcome)",
+        "timing": "First 24 hours of ICU admission",
+        "method": "Logistic regression adjusted for baseline risk",
+        "effect_size": "OR 1.50, 95% CI 1.25–1.81",
+        "performance": "p<0.001",
+        "notes": "Each additional SIRS criterion associated with 50% increase in relative odds for primary outcome",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SIRS criteria**",
+            "page": 4,
+            "chunk": "page_4_chunk_14"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality",
+        "timing": "First 24 h of ICU admission",
+        "method": "Descriptive analysis / mortality by score",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Mortality by SOFA score measured during first 24 h of ICU admission; data presented in Fig. 2",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS criteria",
+        "outcome": "Mortality",
+        "timing": "First 24 h of ICU admission",
+        "method": "Descriptive analysis / mortality by score",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Mortality by SIRS criteria measured during first 24 h of ICU admission; data presented in Fig. 2",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2 score",
+        "outcome": "Mortality",
+        "timing": "First 24 h of ICU admission",
+        "method": "Descriptive analysis / mortality by score",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Mortality by PELOD-2 score measured during first 24 h of ICU admission; data presented in Fig. 2",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "Mortality",
+        "timing": "First 24 h of ICU admission",
+        "method": "Descriptive analysis / mortality by score",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Mortality by qSOFA score measured during first 24 h of ICU admission; data presented in Fig. 2",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "Secondary outcome (not further specified)",
+        "timing": "First 24 h of ICU admission",
+        "method": "Logistic regression / OR",
+        "effect_size": "OR 1.38, 95% CI 1.27–1.52",
+        "performance": "p < 0.001",
+        "notes": "38% increase in odds for secondary outcome per unit increase in qSOFA",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "Not reported",
+        "timing": "First 24 h of ICU admission",
+        "method": "Between-group difference",
+        "effect_size": "Between-group difference 4.2%, 95% CI 2.3–6.1",
+        "performance": "p < 0.001",
+        "notes": "Comparison between patients with qSOFA >= 2 vs qSOFA < 2",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Infected pediatric patients",
+        "sample_size": "N=1690 with SOFA ≥2 out of total infected cohort",
+        "predictor": "Age-adapted SOFA score ≥2",
+        "outcome": "Mortality",
+        "timing": "At presentation/admission",
+        "method": "Between-group comparison",
+        "effect_size": "Mortality increased from 1.9% to 7.6% (between-group difference 5.7%, 95% CI 4.0–7.4)",
+        "performance": "p<0.001",
+        "notes": "74.2% of infected patients had age-adapted SOFA ≥2",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Infected pediatric patients",
+        "sample_size": "N=1690 with SOFA ≥2 out of total infected cohort",
+        "predictor": "Age-adapted SOFA score ≥2",
+        "outcome": "Secondary outcome (composite adverse outcome)",
+        "timing": "At presentation/admission",
+        "method": "Between-group comparison",
+        "effect_size": "Secondary outcome increased from 17.6% to 46.1% (between-group difference 28.5%, 95% CI 24.7–32.4)",
+        "performance": "p<0.001",
+        "notes": "Secondary outcome defined as composite adverse outcome",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Infected pediatric patients",
+        "sample_size": "N=374 (14.4%) with PELOD-2 ≥8",
+        "predictor": "PELOD-2 score ≥8",
+        "outcome": "Mortality",
+        "timing": "At presentation/admission",
+        "method": "Between-group comparison",
+        "effect_size": "Mortality 22.2% vs 3.0% in those with scores <8",
+        "performance": "p<0.001",
+        "notes": "PELOD-2 ≥8 identified as best cutoff for higher mortality",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Infected pediatric patients",
+        "sample_size": "N=374 (14.4%) with PELOD-2 ≥8",
+        "predictor": "PELOD-2 score ≥8",
+        "outcome": "Secondary outcome (composite adverse outcome)",
+        "timing": "At presentation/admission",
+        "method": "Between-group comparison",
+        "effect_size": "Secondary outcome 79.4% vs 20.6% in those with scores <8",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Infected pediatric patients",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2 score ≥2",
+        "outcome": "Mortality",
+        "timing": "At presentation/admission",
+        "method": "Between-group comparison",
+        "effect_size": "Mortality 7.3% vs 1.7% in those with scores <2",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Infected pediatric patients",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2 score ≥2",
+        "outcome": "Secondary outcome (composite adverse outcome)",
+        "timing": "At presentation/admission",
+        "method": "Between-group comparison",
+        "effect_size": "Secondary outcome 43.8% vs 17.2% in those with scores <2",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Infected pediatric patients",
+        "sample_size": "N=1200 with qSOFA ≥2; N=1059 with qSOFA <2",
+        "predictor": "qSOFA score ≥2 (altered mentation, arterial hypotension, tachypnea)",
+        "outcome": "Mortality",
+        "timing": "At presentation/admission",
+        "method": "Between-group comparison",
+        "effect_size": "Mortality 8.1% (97/1200) vs 3.9% (41/1059)",
+        "performance": "Not reported",
+        "notes": "Text appears truncated; qSOFA components: altered mentation, arterial hypotension, tachypnea",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "Primary outcome (in-hospital mortality)",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.829",
+        "performance": "AUROC = 0.829; significantly higher than SIRS, severe sepsis, and qSOFA (p < 0.001); not significantly higher than PELOD-2 (p = 0.970)",
+        "notes": "Discrimination was highest for SOFA among criteria for the primary outcome",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS",
+        "outcome": "Primary outcome (in-hospital mortality)",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.727",
+        "performance": "AUROC = 0.727; significantly lower than SOFA (p < 0.001)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "Severe sepsis criteria",
+        "outcome": "Primary outcome (in-hospital mortality)",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.711",
+        "performance": "AUROC = 0.711; significantly lower than SOFA (p < 0.001)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Primary outcome (in-hospital mortality)",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.739",
+        "performance": "AUROC = 0.739; significantly lower than SOFA (p < 0.001)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2",
+        "outcome": "Primary outcome (in-hospital mortality)",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.816",
+        "performance": "AUROC = 0.816; not significantly different from SOFA (p = 0.970)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2",
+        "outcome": "Secondary outcome",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.771",
+        "performance": "AUROC = 0.771; significantly higher than SIRS (p < 0.001), severe sepsis (p < 0.001), qSOFA (p < 0.001), and SOFA (p < 0.001)",
+        "notes": "Discrimination was highest for PELOD-2 among criteria for the secondary outcome",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS",
+        "outcome": "Secondary outcome",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.676",
+        "performance": "AUROC = 0.676; significantly lower than PELOD-2 (p < 0.001)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "Severe sepsis criteria",
+        "outcome": "Secondary outcome",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.677",
+        "performance": "AUROC = 0.677; significantly lower than PELOD-2 (p < 0.001)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Secondary outcome",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.682",
+        "performance": "AUROC = 0.682; significantly lower than PELOD-2 (p < 0.001)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "Secondary outcome",
+        "timing": "Not reported",
+        "method": "AUROC / ROC analysis",
+        "effect_size": "AUROC = 0.751",
+        "performance": "AUROC = 0.751; significantly lower than PELOD-2 (p < 0.001)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2 (cutpoint score ≥ 8)",
+        "outcome": "In-hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis with binary cutpoint",
+        "effect_size": "Cutpoint ≥ 8; adjusted AUROC = 0.812 (95% CI 0.774–0.851)",
+        "performance": "Adjusted AUROC = 0.812 (95% CI 0.774–0.851); sensitivity 88.1%; specificity 55.7%",
+        "notes": "Best binary performance for PELOD-2 was at a cutpoint score of ≥ 8",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Comparison of SIRS, severe sepsis, SOFA, PELOD‑2 and qSOFA**",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years with suspected or confirmed infection admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "SIRS",
+        "outcome": "Discrimination (AUROC) on ICU admission",
+        "timing": "ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Table 2 presents crude and adjusted AUROCs for SIRS, SOFA, PELOD-2, and qSOFA; image content was omitted and specific values could not be extracted.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years with suspected or confirmed infection admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "Discrimination (AUROC) on ICU admission",
+        "timing": "ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Table 2 presents crude and adjusted AUROCs for SIRS, SOFA, PELOD-2, and qSOFA; image content was omitted and specific values could not be extracted.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years with suspected or confirmed infection admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2",
+        "outcome": "Discrimination (AUROC) on ICU admission",
+        "timing": "ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Table 2 presents crude and adjusted AUROCs for SIRS, SOFA, PELOD-2, and qSOFA; image content was omitted and specific values could not be extracted.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Patients < 18 years with suspected or confirmed infection admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Discrimination (AUROC) on ICU admission",
+        "timing": "ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Table 2 presents crude and adjusted AUROCs for SIRS, SOFA, PELOD-2, and qSOFA; image content was omitted and specific values could not be extracted.",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS N criteria",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.630 (0.583–0.676); Adjusted AUC 0.727 (0.682–0.772)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS N criteria",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.603 (0.580–0.626); Adjusted AUC 0.676 (0.654–0.699)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS ≥ 2 criteria (paediatric)",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.559 (0.528–0.591); Adjusted AUC 0.710 (0.664–0.756)",
+        "notes": "Sensitivity 84.9%, Specificity 27.0%, NPV 96.5%, PPV 7.0%",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS ≥ 2 criteria (paediatric)",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.551 (0.533–0.568); Adjusted AUC 0.664 (0.641–0.687)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS ≥ 2 criteria (any)",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.563 (0.532–0.594); Adjusted AUC 0.708 (0.664–0.751)",
+        "notes": "Sensitivity 83.4%, Specificity 29.1%, NPV 96.6%, PPV 6.8%",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS ≥ 2 criteria (any)",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.565 (0.548–0.582); Adjusted AUC 0.673 (0.652–0.694)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "Severe sepsis 2005 consensus",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.586 (0.550–0.622); Adjusted AUC 0.711 (0.667–0.755)",
+        "notes": "Sensitivity 74.5%, Specificity 42.7%, NPV 96.5%, PPV 7.4%",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "Severe sepsis 2005 consensus",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.592 (0.574–0.611); Adjusted AUC 0.677 (0.656–0.698)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.782 (0.738–0.827); Adjusted AUC 0.829 (0.791–0.868)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.731 (0.710–0.752); Adjusted AUC 0.751 (0.730–0.772)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA ≥ 2 criteria",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.595 (0.571–0.620); Adjusted AUC 0.743 (0.701–0.785)",
+        "notes": "Sensitivity 92.1%, Specificity 26.9%, NPV 98.1%, PPV 7.6%",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA ≥ 2 criteria",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.615 (0.599–0.631); Adjusted AUC 0.702 (0.689–0.723)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD score",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.774 (0.731–0.818); Adjusted AUC 0.816 (0.777–0.854)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD score",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.750 (0.730–0.770); Adjusted AUC 0.771 (0.752–0.790)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD ≥ 2 criteria",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.601 (0.578–0.625); Adjusted AUC 0.726 (0.685–0.767)",
+        "notes": "Sensitivity 91.9%, Specificity 28.3%, NPV 98.3%, PPV 7.3%",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD ≥ 2 criteria",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.613 (0.597–0.629); Adjusted AUC 0.694 (0.673–0.715)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD ≥ 8 criteria",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.719 (0.679–0.759); Adjusted AUC 0.812 (0.774–0.851)",
+        "notes": "Sensitivity 88.1%, Specificity 55.7%, NPV 97.0%, PPV 22.2%",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD ≥ 8 criteria",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.633 (0.618–0.649); Adjusted AUC 0.744 (0.724–0.764)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.638 (0.588–0.687); Adjusted AUC 0.739 (0.695–0.784)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.597 (0.575–0.620); Adjusted AUC 0.682 (0.659–0.704)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA ≥ 2 criteria",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.591 (0.552–0.631); Adjusted AUC 0.722 (0.677–0.767)",
+        "notes": "Sensitivity 70.3%, Specificity 48.0%, NPV 96.1%, PPV 8.1%",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA ≥ 2 criteria",
+        "outcome": "Mortality and/or ICU LOS ≥ 3 days",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "Crude AUC 0.581 (0.560–0.601); Adjusted AUC 0.679 (0.656–0.701)",
+        "notes": "None",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children aged <18 years admitted to ICU with infection",
+        "sample_size": "N=2594",
+        "predictor": "SOFA",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / discriminatory capacity assessment",
+        "effect_size": "Not reported",
+        "performance": "Superior prognostic accuracy compared to SIRS, severe sepsis, and qSOFA",
+        "notes": "Multicentre cohort study; external validation of SIRS, severe sepsis, SOFA, PELOD-2, and qSOFA",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children aged <18 years admitted to ICU with infection",
+        "sample_size": "N=2594",
+        "predictor": "PELOD-2",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / discriminatory capacity assessment",
+        "effect_size": "Not reported",
+        "performance": "Superior prognostic accuracy compared to SIRS, severe sepsis, and qSOFA",
+        "notes": "Multicentre cohort study; external validation of SIRS, severe sepsis, SOFA, PELOD-2, and qSOFA",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children aged <18 years admitted to ICU with infection",
+        "sample_size": "N=2594",
+        "predictor": "SOFA",
+        "outcome": "Composite outcome of in-hospital mortality or ICU length of stay ≥3 days",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / discriminatory capacity assessment",
+        "effect_size": "Not reported",
+        "performance": "Superior prognostic accuracy compared to SIRS, severe sepsis, and qSOFA",
+        "notes": "Multicentre cohort study; external validation of SIRS, severe sepsis, SOFA, PELOD-2, and qSOFA",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children aged <18 years admitted to ICU with infection",
+        "sample_size": "N=2594",
+        "predictor": "PELOD-2",
+        "outcome": "Composite outcome of in-hospital mortality or ICU length of stay ≥3 days",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / discriminatory capacity assessment",
+        "effect_size": "Not reported",
+        "performance": "Superior prognostic accuracy compared to SIRS, severe sepsis, and qSOFA",
+        "notes": "Multicentre cohort study; external validation of SIRS, severe sepsis, SOFA, PELOD-2, and qSOFA",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children aged <18 years admitted to ICU with infection",
+        "sample_size": "N=2594",
+        "predictor": "SIRS",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / discriminatory capacity assessment",
+        "effect_size": "Not reported",
+        "performance": "Inferior prognostic accuracy compared to SOFA and PELOD-2; lacked specificity to identify children at substantially higher mortality risk",
+        "notes": "Multicentre cohort study; external validation of SIRS, severe sepsis, SOFA, PELOD-2, and qSOFA",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children aged <18 years admitted to ICU with infection",
+        "sample_size": "N=2594",
+        "predictor": "qSOFA",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / discriminatory capacity assessment",
+        "effect_size": "Not reported",
+        "performance": "Inferior prognostic accuracy compared to SOFA and PELOD-2",
+        "notes": "Multicentre cohort study; external validation of SIRS, severe sepsis, SOFA, PELOD-2, and qSOFA",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Paediatric patients admitted to ICU with infection",
+        "sample_size": "Not reported",
+        "predictor": "≥2 SIRS criteria",
+        "outcome": "In-hospital mortality (primary outcome) and secondary outcomes",
+        "timing": "At ICU admission",
+        "method": "ROC analysis, logistic regression",
+        "effect_size": "Each additional SIRS criterion associated with increase in relative odds of primary and secondary outcomes; significance only reached at 3 or 4 SIRS criteria",
+        "performance": "Sensitivity of ≥2 SIRS criteria inferior to incremental increase by ≥2 points; specificity and positive predictive value poor",
+        "notes": "≥2 SIRS criteria present in 81.8% of paediatric ICU patients with infection; SIRS criteria not externally validated in large paediatric ICU cohorts",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS Score",
+        "outcome": "In-hospital mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Crude and adjusted models compared; exact AUROC values not provided in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA Score",
+        "outcome": "In-hospital mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Crude and adjusted models compared; exact AUROC values not provided in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA Score",
+        "outcome": "In-hospital mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Crude and adjusted models compared; exact AUROC values not provided in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD Score",
+        "outcome": "In-hospital mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Crude and adjusted models compared; exact AUROC values not provided in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS Score",
+        "outcome": "In-hospital mortality or ICU length of stay of 3 days or more",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Secondary outcome; crude and adjusted models compared; exact AUROC values not provided in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA Score",
+        "outcome": "In-hospital mortality or ICU length of stay of 3 days or more",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Secondary outcome; crude and adjusted models compared; exact AUROC values not provided in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA Score",
+        "outcome": "In-hospital mortality or ICU length of stay of 3 days or more",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Secondary outcome; crude and adjusted models compared; exact AUROC values not provided in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Pediatric ICU patients with suspected infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD Score",
+        "outcome": "In-hospital mortality or ICU length of stay of 3 days or more",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Secondary outcome; crude and adjusted models compared; exact AUROC values not provided in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_23"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children with infection admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "SIRS criteria",
+        "outcome": "Death or prolonged ICU stay",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / binary categorization",
+        "effect_size": "Not reported",
+        "performance": "Inferior to SOFA and PELOD-2",
+        "notes": "SIRS operationalises inflammation; found to perform inferior to organ dysfunction scores for predicting death or prolonged ICU stay",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children with infection admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Age-adapted SOFA score",
+        "outcome": "Death or prolonged ICU stay",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / binary categorization",
+        "effect_size": "SOFA increase ≥2 points",
+        "performance": "Superior to SIRS; similar performance to PELOD-2",
+        "notes": "SOFA ≥2 increase used to identify presence of ≥1 new organ dysfunction per Sepsis-3 criteria; age-adapted cut-offs applied",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children with infection admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2 score",
+        "outcome": "Death or prolonged ICU stay",
+        "timing": "At ICU admission",
+        "method": "ROC analysis / binary categorization",
+        "effect_size": "PELOD-2 ≥8 performed best among binary categorizations",
+        "performance": "Superior to SIRS; similar performance to age-adapted SOFA",
+        "notes": "PELOD-2 age-specific cut-offs applied for cardiovascular and renal dysfunction; PELOD-2 ≥2 captures ≥1 organ dysfunction but PELOD-2 ≥8 predominantly reflects multiorgan dysfunction",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Children with infection admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "Death or prolonged ICU stay",
+        "timing": "At ICU admission",
+        "method": "Binary categorization",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "qSOFA included in comparison of discrete scores simplified to binary categorizations; specific performance metrics not reported in this excerpt",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Critically ill children with infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS-based sepsis criteria (2 variables)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "Not reported",
+        "performance": "Poor specificity and poor diagnostic performance",
+        "notes": "SIRS-based criteria had poor specificity to discriminate children with infection at substantially higher mortality risk",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Critically ill children with infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Prognostic accuracy analysis",
+        "effect_size": "Not reported",
+        "performance": "Significantly greater prognostic accuracy compared to SIRS-based criteria",
+        "notes": "Findings support age-specific translation of Sepsis-3 definitions using validated measures of organ dysfunction",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Critically ill children with infection",
+        "sample_size": "Not reported",
+        "predictor": "PELOD-2",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Prognostic accuracy analysis",
+        "effect_size": "Not reported",
+        "performance": "Significantly greater prognostic accuracy compared to SIRS-based criteria",
+        "notes": "Findings support age-specific translation of Sepsis-3 definitions using validated measures of organ dysfunction",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Schlapbach 2018",
+        "population": "Critically ill children with infection in the ICU",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Organ dysfunction and worse outcomes",
+        "timing": "At ICU admission",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "Not reported",
+        "performance": "Poor performance",
+        "notes": "qSOFA may not be of sufficient clinical value as a screening tool for paediatric age groups within the ICU",
+        "source_info": {
+            "file": "Schlapbach_2018.pdf",
+            "doi": "10.1007/s00134-017-5021-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    }
+]

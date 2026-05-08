@@ -1,0 +1,1047 @@
+[
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients with abdominal sepsis requiring open abdomen (OA) as part of Damage Control Surgery",
+        "sample_size": "N=113",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality",
+        "timing": "At admission/perioperative",
+        "method": "Multivariate analysis",
+        "effect_size": "OR 1.18; 95% CI 1.05–1.32",
+        "performance": "p=0.005",
+        "notes": "113 of 1474 patients operated for abdominal sepsis (7.6%) underwent OA. Overall mortality was 43.4%, morbidity 76.6%, DFC rate 97.8%.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients with abdominal sepsis requiring open abdomen (OA) as part of Damage Control Surgery",
+        "sample_size": "N=113",
+        "predictor": "Frailty Clinical Scale",
+        "outcome": "Mortality",
+        "timing": "At admission/perioperative",
+        "method": "Multivariate analysis",
+        "effect_size": "OR 4.66; 95% CI 3.19–6.12",
+        "performance": "p<0.0001",
+        "notes": "113 of 1474 patients operated for abdominal sepsis (7.6%) underwent OA. Overall mortality was 43.4%, morbidity 76.6%, DFC rate 97.8%.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients with abdominal sepsis requiring open abdomen (OA) as part of Damage Control Surgery",
+        "sample_size": "N=113",
+        "predictor": "ASA grade IV",
+        "outcome": "Mortality",
+        "timing": "At admission/perioperative",
+        "method": "Multivariate analysis",
+        "effect_size": "OR 7.86; 95% CI 2.18–28.27",
+        "performance": "p=0.002",
+        "notes": "113 of 1474 patients operated for abdominal sepsis (7.6%) underwent OA. Overall mortality was 43.4%, morbidity 76.6%, DFC rate 97.8%. ASA score >2 in 87.9% of patients.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients with open abdomen (OA) treatment for abdominal sepsis/emergency (bowel perforation, bowel infarction, abdominal abscesses, infected necrotizing pancreatitis)",
+        "sample_size": "N=113",
+        "predictor": "Overall mortality during OA treatment and within 30 days of definitive fascial closure",
+        "outcome": "Mortality",
+        "timing": "During OA treatment and within 30 days from definitive fascial closure",
+        "method": "Descriptive statistics, chi-square or Fisher's exact test (p-value reported)",
+        "effect_size": "20 patients (40.8%) deceased during OA treatment; 29 (59.2%) deceased within 30 days of fascial closure",
+        "performance": "Overall mortality 43.4%; p=0.02 for timing of death comparison",
+        "notes": "Causes of death: cardiopulmonary complications (55%), multiorgan failure due to sepsis (41%), irreversible brain damage (4%). No mortality between 30 and 90 days.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients with open abdomen (OA) treatment for abdominal sepsis/emergency",
+        "sample_size": "N=113",
+        "predictor": "Morbidity rate",
+        "outcome": "Morbidity",
+        "timing": "During OA treatment period",
+        "method": "Descriptive statistics",
+        "effect_size": "76.6% morbidity rate",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "OA surviving patients",
+        "sample_size": "N=92 (surviving patients)",
+        "predictor": "Definitive fascial closure rate",
+        "outcome": "Fascial closure",
+        "timing": "Following OA treatment",
+        "method": "Descriptive statistics",
+        "effect_size": "97.8% achieved definitive fascial closure",
+        "performance": "Not reported",
+        "notes": "10 patients (10.8%) required a prosthetic mesh; skin was contextually closed in 94.6% of cases.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients with open abdomen (OA) treatment for abdominal sepsis/emergency",
+        "sample_size": "N=113",
+        "predictor": "TAC technique at first look",
+        "outcome": "Distribution of OA management technique",
+        "timing": "At first look (index operation)",
+        "method": "Descriptive statistics",
+        "effect_size": "NPWT with commercial kits: 53 (46.9%); Vacuum-pack: 38 (33.6%); Skin-closure: 18 (15.9%); Mesh-mediated NPWT: 4 (3.5%)",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients with open abdomen (OA) treatment for abdominal sepsis/emergency",
+        "sample_size": "N=113",
+        "predictor": "OA duration and number of looks",
+        "outcome": "OA management characteristics",
+        "timing": "During OA treatment",
+        "method": "Descriptive statistics (mean ± SD)",
+        "effect_size": "Mean OA duration: 2.8 ± 1.7 days; Mean number of looks: 1.2 ± 0.8",
+        "performance": "Not reported",
+        "notes": "49% of cases presented a 1A grade on modified Björck classification at 2nd look.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients with open abdomen (OA) treatment for abdominal sepsis/emergency",
+        "sample_size": "N=101 (nutrition data)",
+        "predictor": "Type of nutrition during OA treatment",
+        "outcome": "Nutritional support distribution",
+        "timing": "During OA treatment",
+        "method": "Descriptive statistics",
+        "effect_size": "Parenteral: 96 (95.0%); Enteral: 2 (2.0%); Enteral + parenteral: 3 (3.0%)",
+        "performance": "Not reported",
+        "notes": "ICU length of stay mean ± SD: 13.7 ± 12.8 days.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen management for sepsis/abdominal emergencies",
+        "sample_size": "N=113",
+        "predictor": "Time to surgery",
+        "outcome": "Mortality",
+        "timing": "Preoperative",
+        "method": "Univariate analysis",
+        "effect_size": "Non-survived: 9.63 ± 7.16 h vs. survived: 8.87 ± 6.48 h",
+        "performance": "p = 0.712",
+        "notes": "No significant difference in time to surgery between survivors and non-survivors",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen management for sepsis/abdominal emergencies",
+        "sample_size": "N=113",
+        "predictor": "Time to surgery",
+        "outcome": "Postoperative complications",
+        "timing": "Preoperative",
+        "method": "Univariate analysis",
+        "effect_size": "Complicated: 9.48 ± 7.02 h vs. non-complicated: 6.71 ± 3.38 h",
+        "performance": "p = 0.237",
+        "notes": "No significant difference in time to surgery between complicated and non-complicated patients",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen management for sepsis/abdominal emergencies",
+        "sample_size": "N=113",
+        "predictor": "Frailty Clinical Scale",
+        "outcome": "Mortality",
+        "timing": "Preoperative",
+        "method": "Univariate analysis",
+        "effect_size": "Non-survived: 4 (IQR 2–9) vs. survived: 3 (IQR 1–8)",
+        "performance": "p = 0.001",
+        "notes": "Significant difference in frailty score between survivors and non-survivors",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen management for sepsis/abdominal emergencies",
+        "sample_size": "N=113",
+        "predictor": "Frailty Clinical Scale",
+        "outcome": "Postoperative complications",
+        "timing": "Preoperative",
+        "method": "Univariate analysis",
+        "effect_size": "Complicated: 3 (IQR 1–8) vs. non-complicated: 3 (IQR 2–7)",
+        "performance": "p = 0.632",
+        "notes": "No significant difference in frailty score between complicated and non-complicated patients",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen management for sepsis/abdominal emergencies",
+        "sample_size": "N=113",
+        "predictor": "Age",
+        "outcome": "Mortality",
+        "timing": "Preoperative",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "p = 0.05",
+        "notes": "None",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen management for sepsis/abdominal emergencies",
+        "sample_size": "N=113",
+        "predictor": "Neurological disorders",
+        "outcome": "Mortality",
+        "timing": "Preoperative",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "p = 0.05",
+        "notes": "None",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen management for sepsis/abdominal emergencies",
+        "sample_size": "N=113",
+        "predictor": "ASA IV classification",
+        "outcome": "Mortality",
+        "timing": "Preoperative",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "p = 0.04",
+        "notes": "None",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen management for sepsis/abdominal emergencies",
+        "sample_size": "N=113",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality",
+        "timing": "Preoperative",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "p = 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients who underwent open abdomen management with definitive fascial closure",
+        "sample_size": "Not reported for regression cohort; 64 patients at 1-year follow-up",
+        "predictor": "APACHE II score (per 1-point increase)",
+        "outcome": "Perioperative mortality",
+        "timing": "Perioperative",
+        "method": "Multivariable logistic regression",
+        "effect_size": "OR 1.18 (95% CI 1.05–1.32)",
+        "performance": "p < 0.05",
+        "notes": "Each 1-point increase in APACHE II score associated with 18% increase in odds of perioperative mortality",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients who underwent open abdomen management with definitive fascial closure",
+        "sample_size": "Not reported for regression cohort",
+        "predictor": "Frailty Clinical Scale",
+        "outcome": "Perioperative mortality",
+        "timing": "Perioperative",
+        "method": "Multivariable logistic regression",
+        "effect_size": "OR 4.66 (95% CI 3.19–6.12)",
+        "performance": "p < 0.0001",
+        "notes": "None",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients who underwent open abdomen management with definitive fascial closure",
+        "sample_size": "Not reported for regression cohort",
+        "predictor": "ASA IV classification",
+        "outcome": "Perioperative mortality",
+        "timing": "Perioperative",
+        "method": "Multivariable logistic regression",
+        "effect_size": "OR 7.86 (95% CI 2.18–28.27)",
+        "performance": "p < 0.05",
+        "notes": "None",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients who underwent open abdomen management with definitive fascial closure",
+        "sample_size": "N=64",
+        "predictor": "Post-closure follow-up status",
+        "outcome": "1-year mortality (non-surgical/non-OA-related causes)",
+        "timing": "1-year follow-up after definitive fascial closure",
+        "method": "Descriptive",
+        "effect_size": "23/64 patients (36%)",
+        "performance": "Not reported",
+        "notes": "Deaths were neither for surgical reasons nor for causes related to the open abdomen",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients who underwent open abdomen management with definitive fascial closure",
+        "sample_size": "Not reported",
+        "predictor": "Post-closure complications (wound dehiscence, tertiary peritonitis, hemorrhage, abdominal abscesses, bowel ischemia, urinary fistula)",
+        "outcome": "30-day reintervention rate",
+        "timing": "30 days after definitive fascial closure",
+        "method": "Descriptive",
+        "effect_size": "21.5% reintervention rate",
+        "performance": "Not reported",
+        "notes": "Reasons: wound dehiscence (n=5), tertiary peritonitis (n=7), hemorrhage (n=5), multiple abdominal abscesses (n=1), bowel ischemia (n=1), urinary fistula (n=1)",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients undergoing open abdomen (OA) for septic shock due to abdominal diseases",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality",
+        "timing": "At admission or perioperative period",
+        "method": "Predictive factor analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "APACHE II identified as a predictive factor for mortality in patients undergoing OA for septic shock due to abdominal diseases",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Discussion**",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients undergoing open abdomen (OA) for septic shock due to abdominal diseases",
+        "sample_size": "Not reported",
+        "predictor": "Frailty Clinical Scale",
+        "outcome": "Mortality",
+        "timing": "At admission or perioperative period",
+        "method": "Predictive factor analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Frailty Clinical Scale identified as a predictive factor for mortality in patients undergoing OA for septic shock due to abdominal diseases",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Discussion**",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients undergoing open abdomen (OA) for septic shock due to abdominal diseases",
+        "sample_size": "Not reported",
+        "predictor": "ASA score IV",
+        "outcome": "Mortality",
+        "timing": "At admission or perioperative period",
+        "method": "Predictive factor analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ASA score IV identified as a predictive factor for mortality in patients undergoing OA for septic shock due to abdominal diseases. 88.3% of patients had ASA score greater than II. Definitive fascial closure obtained within 3 days in 97.8% of patients; only 25% required more than two surgical revisions.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Discussion**",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "ASA IV",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation/preoperative",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "23 (35.9%) vs 27 (55.1%)",
+        "performance": "p=0.04",
+        "notes": "Statistically significant difference between groups",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "APACHE II score",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation",
+        "method": "t-test or Mann-Whitney U",
+        "effect_size": "13.2 ± 5.3 vs 18.4 ± 6.6",
+        "performance": "p=0.001",
+        "notes": "Statistically significant difference between groups",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "Frailty clinical scale",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation",
+        "method": "Mann-Whitney U (median with IQR reported)",
+        "effect_size": "Median 3 (IQR 1–8) vs 4 (IQR 2–9)",
+        "performance": "p=0.001",
+        "notes": "Statistically significant difference between groups",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "Age",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation",
+        "method": "t-test",
+        "effect_size": "65.8 ± 14.0 vs 71.2 ± 14.3",
+        "performance": "p=0.05",
+        "notes": "Borderline significance",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "Neurological disorders",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "3 (4.8%) vs 7 (17.5%)",
+        "performance": "p=0.05",
+        "notes": "Borderline significance",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "Male gender",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "33 (51.6%) vs 26 (53.1%)",
+        "performance": "p=0.87",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "BMI",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation",
+        "method": "t-test",
+        "effect_size": "26.6 ± 5.0 vs 26.1 ± 4.6",
+        "performance": "p=0.59",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "Charlson age-comorbidity index",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation",
+        "method": "t-test",
+        "effect_size": "4.2 ± 2.6 vs 5.0 ± 1.8",
+        "performance": "p=0.07",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "Mannheim Peritonitis Index ≥30",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At presentation",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "6 (9.4%) vs 9 (18.4%)",
+        "performance": "p=0.16",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "Time to surgery (hours)",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "Perioperative",
+        "method": "t-test",
+        "effect_size": "8.87 ± 6.48 vs 9.63 ± 7.16",
+        "performance": "p=0.71",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "TAC technique",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "Perioperative",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "NPWT 27 (42.2%) vs 26 (53.1%); Vacuum-pack 24 (37.5%) vs 14 (28.6%); Skin-closure 12 (18.8%) vs 6 (12.2%); Mesh-mediated NPWT 1 (1.6%) vs 3 (6.1%)",
+        "performance": "p=0.29",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "1A Björck's grade at 2nd look",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "At second look",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "31 (48.4%) vs 18 (36.7%)",
+        "performance": "p=0.21",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management, comparing survivors vs non-survivors (or two clinical groups)",
+        "sample_size": "N=111 (n=64 in one group, n=49 in another)",
+        "predictor": "ICU length of stay",
+        "outcome": "Group comparison (likely mortality or clinical outcome)",
+        "timing": "Post-operative",
+        "method": "t-test",
+        "effect_size": "14.5 ± 10.6 vs 12.4 ± 15.5",
+        "performance": "p=0.44",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) management with temporary abdominal closure (TAC)",
+        "sample_size": "Not reported",
+        "predictor": "BMI, ASA score, APACHE II score, TAC/NPWT technique, OA duration, ICU stay",
+        "outcome": "Definitive fascial closure",
+        "timing": "Perioperative and ICU period",
+        "method": "Statistical analysis with significance testing",
+        "effect_size": "Not reported",
+        "performance": "Overall weighted closure rate of 50.2% (range 3.2–100%)",
+        "notes": "Bold p-values rounded to second decimal reported for significant findings. Analysis of ASA carried out by two levels: IV vs III or less. BMI analyzed as 30 or over vs 29 or less. One variable analyzed as 1A vs 1B or over. Heterogeneity and methodology bias noted among included studies. Negative pressure wound therapy associated with greater efficacy for definitive fascial closure.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients treated with open abdomen (OA)",
+        "sample_size": "Not reported in this excerpt",
+        "predictor": "Frailty clinical scale",
+        "outcome": "Not explicitly named outcome (binary logistic regression dependent variable, likely mortality or failure of definitive fascial closure)",
+        "timing": "At admission or perioperative assessment",
+        "method": "Multivariate binary logistic regression with stepwise backward selection",
+        "effect_size": "Step 1: OR 0.60 (95% CI 0.12–1.08); Step 5: OR 4.66 (95% CI 3.19–6.12)",
+        "performance": "Step 1: p=0.013; Step 5: p<0.0001",
+        "notes": "Frailty clinical scale was significant in both Step 1 and Step 5 of the multivariate model. The direction of the OR changed between steps, which may reflect model refinement during stepwise selection.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients treated with open abdomen (OA)",
+        "sample_size": "Not reported in this excerpt",
+        "predictor": "APACHE II",
+        "outcome": "Not explicitly named outcome (binary logistic regression dependent variable)",
+        "timing": "At admission or perioperative assessment",
+        "method": "Multivariate binary logistic regression with stepwise backward selection",
+        "effect_size": "Step 1: OR 1.20 (95% CI 1.05–1.37); Step 5: OR 1.18 (95% CI 1.05–1.32)",
+        "performance": "Step 1: p=0.008; Step 5: p=0.005",
+        "notes": "APACHE II was significant in both Step 1 and Step 5 of the multivariate model.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients treated with open abdomen (OA)",
+        "sample_size": "Not reported in this excerpt",
+        "predictor": "ASA IV",
+        "outcome": "Not explicitly named outcome (binary logistic regression dependent variable)",
+        "timing": "At admission or perioperative assessment",
+        "method": "Multivariate binary logistic regression with stepwise backward selection",
+        "effect_size": "Step 1: OR 6.74 (95% CI 1.78–25.47); Step 5: OR 7.86 (95% CI 2.18–28.27)",
+        "performance": "Step 1: p=0.005; Step 5: p=0.002",
+        "notes": "ASA IV was significant in both Step 1 and Step 5. ASA III or less used as reference category (OR 1.00) in Step 5.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients treated with open abdomen (OA)",
+        "sample_size": "Not reported in this excerpt",
+        "predictor": "Age",
+        "outcome": "Not explicitly named outcome (binary logistic regression dependent variable)",
+        "timing": "At admission or perioperative assessment",
+        "method": "Multivariate binary logistic regression with stepwise backward selection",
+        "effect_size": "OR 0.99 (95% CI 0.94–1.04)",
+        "performance": "p=0.73",
+        "notes": "Not significant in Step 1; not retained in Step 5.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients treated with open abdomen (OA)",
+        "sample_size": "Not reported in this excerpt",
+        "predictor": "Male sex",
+        "outcome": "Not explicitly named outcome (binary logistic regression dependent variable)",
+        "timing": "At admission or perioperative assessment",
+        "method": "Multivariate binary logistic regression with stepwise backward selection",
+        "effect_size": "OR 1.29 (95% CI 0.32–5.13)",
+        "performance": "p=0.72",
+        "notes": "Not significant in Step 1; not retained in Step 5.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients treated with open abdomen (OA)",
+        "sample_size": "Not reported in this excerpt",
+        "predictor": "Neurological disorders",
+        "outcome": "Not explicitly named outcome (binary logistic regression dependent variable)",
+        "timing": "At admission or perioperative assessment",
+        "method": "Multivariate binary logistic regression with stepwise backward selection",
+        "effect_size": "OR 2.26 (95% CI 0.27–19.23)",
+        "performance": "p=0.46",
+        "notes": "Not significant in Step 1; not retained in Step 5.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Septic patients treated with open abdomen (OA)",
+        "sample_size": "Not reported in this excerpt",
+        "predictor": "MPI (Mannheim Peritonitis Index)",
+        "outcome": "Not explicitly named outcome (binary logistic regression dependent variable)",
+        "timing": "At admission or perioperative assessment",
+        "method": "Multivariate binary logistic regression with stepwise backward selection",
+        "effect_size": "OR 2.63 (95% CI 0.51–13.53)",
+        "performance": "p=0.25",
+        "notes": "Not significant in Step 1; not retained in Step 5.",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) with NPWT for various indications including abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Timing of death relative to fascial closure (during OA vs. after definitive fascial closure)",
+        "outcome": "Mortality",
+        "timing": "During OA vs. after definitive fascial closure",
+        "method": "Comparative analysis",
+        "effect_size": "40.8% mortality during OA vs. 59.2% after definitive fascial closure",
+        "performance": "p=0.02",
+        "notes": "No differences in OA duration, number of looks, or Björck classification were found between survivors and non-survivors",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) with NPWT",
+        "sample_size": "Not reported",
+        "predictor": "OA duration, number of looks, Björck classification",
+        "outcome": "Mortality (survivors vs. non-survivors)",
+        "timing": "During OA management",
+        "method": "Comparative analysis",
+        "effect_size": "No difference detected",
+        "performance": "Not reported",
+        "notes": "These variables did not differ between survivors and non-survivors, suggesting mortality was not solely a direct consequence of ongoing abdominal sepsis",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Patients undergoing open abdomen (OA) with NPWT",
+        "sample_size": "Not reported",
+        "predictor": "Entero-atmospheric fistula (EAF) rate",
+        "outcome": "EAF formation",
+        "timing": "During OA",
+        "method": "Descriptive/comparative",
+        "effect_size": "EAF rate 2.2% in current series vs. up to 26% in literature",
+        "performance": "Not reported",
+        "notes": "Low EAF rate speculated to be related to relatively short OA duration of 2.8 days",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Critical patients undergoing open abdomen (OA) for sepsis/peritonitis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality",
+        "timing": "Perioperative",
+        "method": "Multivariate analysis",
+        "effect_size": "OR 1.18; 95% CI 1.05–1.32",
+        "performance": "p = 0.005",
+        "notes": "Three variables independently associated with mortality identified via univariate and multivariate analysis",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Critical patients undergoing open abdomen (OA) for sepsis/peritonitis",
+        "sample_size": "Not reported",
+        "predictor": "Frailty Clinical Scale",
+        "outcome": "Mortality",
+        "timing": "Perioperative",
+        "method": "Multivariate analysis",
+        "effect_size": "OR 4.66; 95% CI 3.19–6.12",
+        "performance": "p < 0.0001",
+        "notes": "Three variables independently associated with mortality identified via univariate and multivariate analysis",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Critical patients undergoing open abdomen (OA) for sepsis/peritonitis",
+        "sample_size": "Not reported",
+        "predictor": "ASA score IV",
+        "outcome": "Mortality",
+        "timing": "Perioperative",
+        "method": "Multivariate analysis",
+        "effect_size": "OR 7.86; 95% CI 2.18–28.27",
+        "performance": "p = 0.002",
+        "notes": "Three variables independently associated with mortality identified via univariate and multivariate analysis",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Critically ill patients undergoing open abdomen (OA) for severe abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Postoperative mortality",
+        "timing": "Preoperative/admission",
+        "method": "Multivariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Independent predictive factor of mortality",
+        "notes": "OA performed for severe abdominal sepsis; fascial closure achieved in almost all patients despite high mortality and complication rates",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Conclusions**",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Critically ill patients undergoing open abdomen (OA) for severe abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Frailty Clinical Scale",
+        "outcome": "Postoperative mortality",
+        "timing": "Preoperative/admission",
+        "method": "Multivariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Independent predictive factor of mortality",
+        "notes": "OA performed for severe abdominal sepsis; fascial closure achieved in almost all patients despite high mortality and complication rates",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Conclusions**",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Tartaglia 2021",
+        "population": "Critically ill patients undergoing open abdomen (OA) for severe abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "ASA class IV",
+        "outcome": "Postoperative mortality",
+        "timing": "Preoperative/admission",
+        "method": "Multivariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Independent predictive factor of mortality",
+        "notes": "OA performed for severe abdominal sepsis; fascial closure achieved in almost all patients despite high mortality and complication rates",
+        "source_info": {
+            "file": "Tartaglia_2021.pdf",
+            "doi": "10.1007/s13304-021-01012-8",
+            "section": "**Conclusions**",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    }
+]

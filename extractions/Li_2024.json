@@ -1,0 +1,1370 @@
+[
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis admitted to the emergency department",
+        "sample_size": "N=209",
+        "predictor": "SIC score on day 2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2 after admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.601 (95% CI: 0.524–0.679)",
+        "notes": "Non-survivors showed significantly higher SIC scores on day 2 than survivors (P<0.05). No significant difference between groups on day 1 (P>0.05).",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis admitted to the emergency department",
+        "sample_size": "N=209",
+        "predictor": "SIC score on day 4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4 after admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.749 (95% CI: 0.674–0.823)",
+        "notes": "Non-survivors showed significantly higher SIC scores on day 4 than survivors (P<0.001). SIC score on day 4 demonstrated more accurate predictive performance than on day 2.",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis admitted to the emergency department",
+        "sample_size": "N=209",
+        "predictor": "SIC score on day 4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4 after admission",
+        "method": "Cox proportional hazards model",
+        "effect_size": "HR=3.736 (95% CI: 2.025–6.891)",
+        "performance": "Not reported",
+        "notes": "SIC score on day 4 was an independent risk factor for 28-day mortality. In non-survivors, SIC scores gradually increased during the first 4 days (P<0.05). In survivors, SIC scores rose on day 2 then fell below day 1 levels by day 4 (P<0.05).",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis admitted to the emergency department",
+        "sample_size": "N=209",
+        "predictor": "SOFA score on days 2 and 4",
+        "outcome": "28-day mortality",
+        "timing": "Days 2 and 4 after admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Comparable to SIC scores on days 2 and 4",
+        "notes": "SIC scores demonstrated comparable predictive accuracy for 28-day mortality to SOFA scores on days 2 and 4. Specific AUC values for SOFA not reported in the excerpt.",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score (persistent high)",
+        "outcome": "28-day mortality",
+        "timing": "Time course measurement during ICU stay",
+        "method": "Time course analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Time course of SIC scores differed between surviving and non-surviving patients; persistent high SIC scores can predict 28-day mortality",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score (persistent high)",
+        "outcome": "28-day mortality",
+        "timing": "Time course measurement during ICU stay",
+        "method": "Time course analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Time course of SOFA scores differed between surviving and non-surviving patients; persistent high SOFA scores can predict 28-day mortality",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Consecutive patients with sepsis admitted to hospital, excluding those with incomplete data or who died within 24h of admission",
+        "sample_size": "N=209",
+        "predictor": "Sepsis-induced coagulopathy (SIC) score (PT-INR, platelet count, SOFA)",
+        "outcome": "28-day mortality",
+        "timing": "At admission",
+        "method": "Baseline clinical characteristics comparison between survivors and nonsurvivors",
+        "effect_size": "Not reported",
+        "performance": "28-day mortality rate: 37.3% (78/209)",
+        "notes": "SIC scoring system uses PT-INR (0-2 points), platelet count (0-2 points), and total SOFA (0-2 points). Nonsurvivors were older and had more septic shock than survivors. No significant differences in sex, BMI, comorbidities, or infection sites between groups.",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Statistical analysis**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Elderly sepsis patients (aged ≥65 years) admitted to ICU",
+        "sample_size": "N=209 (Survivors n=131, Non-survivors n=78)",
+        "predictor": "Age",
+        "outcome": "28-day mortality (non-survivor vs survivor)",
+        "timing": "Baseline (ICU admission)",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Median 85 (IQR 80, 90) vs 81 (IQR 70, 88)",
+        "performance": "p=0.002",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Elderly sepsis patients (aged ≥65 years) admitted to ICU",
+        "sample_size": "N=209 (Survivors n=131, Non-survivors n=78)",
+        "predictor": "D-dimer (mg/L)",
+        "outcome": "28-day mortality (non-survivor vs survivor)",
+        "timing": "Baseline (ICU admission)",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Median 4.24 (IQR 1.75, 7.88) vs 2.27 (IQR 1.17, 5.13)",
+        "performance": "p=0.006",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Elderly sepsis patients (aged ≥65 years) admitted to ICU",
+        "sample_size": "N=209 (Survivors n=131, Non-survivors n=78)",
+        "predictor": "BMI (kg/m2)",
+        "outcome": "28-day mortality (non-survivor vs survivor)",
+        "timing": "Baseline (ICU admission)",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Mean 20.99 ± 4.41 vs 22.18 ± 4.20",
+        "performance": "p=0.053",
+        "notes": "Trend toward significance but not statistically significant",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Elderly sepsis patients (aged ≥65 years) admitted to ICU",
+        "sample_size": "N=209 (Survivors n=131, Non-survivors n=78)",
+        "predictor": "Fibrinogen (g/L)",
+        "outcome": "28-day mortality (non-survivor vs survivor)",
+        "timing": "Baseline (ICU admission)",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Median 4.06 (IQR 2.94, 5.31) vs 4.81 (IQR 3.27, 5.46)",
+        "performance": "p=0.089",
+        "notes": "Trend toward significance but not statistically significant",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "N=209 (survivors n=131, non-survivors n=78)",
+        "predictor": "D-dimer",
+        "outcome": "28-day mortality (survivor vs non-survivor)",
+        "timing": "On admission",
+        "method": "Group comparison",
+        "effect_size": "Survivors: 2.27 (1.17, 5.13) mg/L; Non-survivors: 4.24 (1.75, 7.88) mg/L",
+        "performance": "p=0.006",
+        "notes": "Higher D-dimer levels observed in non-survivors",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "N=209 (survivors n=131, non-survivors n=78)",
+        "predictor": "Albumin",
+        "outcome": "28-day mortality (survivor vs non-survivor)",
+        "timing": "On admission",
+        "method": "Group comparison",
+        "effect_size": "Survivors: 34.96 ± 6.09 g/L; Non-survivors: 32.22 ± 6.00 g/L",
+        "performance": "p=0.002",
+        "notes": "Lower albumin concentrations observed in non-survivors",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "N=209 (survivors n=131, non-survivors n=78)",
+        "predictor": "Lactate",
+        "outcome": "28-day mortality (survivor vs non-survivor)",
+        "timing": "On admission",
+        "method": "Group comparison",
+        "effect_size": "Survivors: 2.20 (1.30, 4.26) mmol/L; Non-survivors: 3.01 (1.85, 5.88) mmol/L",
+        "performance": "p=0.009",
+        "notes": "Higher lactate levels observed in non-survivors",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "N=209 (survivors n=131, non-survivors n=78)",
+        "predictor": "APACHE II score",
+        "outcome": "28-day mortality (survivor vs non-survivor)",
+        "timing": "On admission",
+        "method": "Group comparison",
+        "effect_size": "Survivors: 21.00 (17.00, 27.00); Non-survivors: 27.00 (22.75, 33.00)",
+        "performance": "p<0.001",
+        "notes": "Higher APACHE II scores in non-survivors",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "N=209 (survivors n=131, non-survivors n=78)",
+        "predictor": "Septic shock",
+        "outcome": "28-day mortality (survivor vs non-survivor)",
+        "timing": "On admission",
+        "method": "Group comparison",
+        "effect_size": "Survivors: 34/131 (26.0%); Non-survivors: 35/78 (44.9%)",
+        "performance": "p=0.005",
+        "notes": "Higher proportion of septic shock in non-survivors",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "N=209 (survivors n=131, non-survivors n=78)",
+        "predictor": "Length of stay",
+        "outcome": "28-day mortality (survivor vs non-survivor)",
+        "timing": "During ICU stay",
+        "method": "Group comparison",
+        "effect_size": "Survivors: 17.00 (10.00, 32.00) days; Non-survivors: 7.50 (3.00, 15.25) days",
+        "performance": "p<0.001",
+        "notes": "Survivors had longer length of stay than non-survivors",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "N=209 (survivors n=131, non-survivors n=78)",
+        "predictor": "Fibrinogen",
+        "outcome": "28-day mortality (survivor vs non-survivor)",
+        "timing": "On admission",
+        "method": "Group comparison",
+        "effect_size": "Survivors: 4.81 (3.27, 5.46) g/L; Non-survivors: 4.06 (2.94, 5.31) g/L",
+        "performance": "p=0.089",
+        "notes": "No statistically significant difference between groups",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (ICU)",
+        "sample_size": "N=209 (survivors n=131, non-survivors n=78)",
+        "predictor": "Creatinine",
+        "outcome": "28-day mortality (survivor vs non-survivor)",
+        "timing": "On admission",
+        "method": "Group comparison",
+        "effect_size": "Survivors: 131.00 (89.00, 192.00) umol/L; Non-survivors: 175.90 (100.78, 239.75) umol/L",
+        "performance": "p=0.050",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (survivors and non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "SIC (Sepsis-Induced Coagulopathy) score trajectory over days 1, 2, and 4",
+        "outcome": "28-day mortality (survivor vs. non-survivor)",
+        "timing": "Days 1, 2, and 4 of ICU admission",
+        "method": "Generalized estimating equation (GEE) model with simple-effect analysis",
+        "effect_size": "Non-survivors showed higher SIC scores on day 2 (P<0.05) and day 4 (P<0.001) than survivors; no significant difference on day 1 (P>0.05)",
+        "performance": "Main effect of group: Wald χ2=23.151, P<0.001; main effect of time: Wald χ2=33.427, P<0.001; interaction effect: Wald χ2=55.008, P<0.001",
+        "notes": "Non-survivors: SIC scores gradually increased during first 4 days (P<0.001). Survivors: SIC scores rose on day 2 (P<0.05) then fell below day 1 levels by day 4 (P<0.001).",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Time course of sepsis-induced coagulopathy scores**",
+            "page": 4,
+            "chunk": "page_4_chunk_18"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients (survivors and non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score trajectory over days 1, 2, and 4",
+        "outcome": "28-day mortality (survivor vs. non-survivor)",
+        "timing": "Days 1, 2, and 4 of ICU admission",
+        "method": "Generalized estimating equation (GEE) model with simple-effect analysis",
+        "effect_size": "Non-survivors showed higher SOFA scores than survivors at all three time points (P<0.001)",
+        "performance": "Main effect of group: Wald χ2=33.434, P<0.001; main effect of time: Wald χ2=18.062, P<0.001; interaction effect: Wald χ2=42.390, P<0.001",
+        "notes": "Non-survivors: SOFA scores continuously increased during first 4 days (P<0.05). Survivors: SOFA scores temporarily increased on day 2 (P<0.05) then decreased below day 1 levels by day 4 (P<0.05).",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Time course of sepsis-induced coagulopathy scores**",
+            "page": 4,
+            "chunk": "page_4_chunk_18"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=209 (day 1 and day 2); N=186 (day 4)",
+        "predictor": "SIC score on day 1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2A; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=209 (day 1 and day 2); N=186 (day 4)",
+        "predictor": "SOFA score on day 1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2A; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=209",
+        "predictor": "SIC score on day 2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2B; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=209",
+        "predictor": "Change in SIC score from day 1 to day 2",
+        "outcome": "28-day mortality",
+        "timing": "Days 1 to 2",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2B; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=209",
+        "predictor": "SOFA score on day 2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2B; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=209",
+        "predictor": "Change in SOFA score from day 1 to day 2",
+        "outcome": "28-day mortality",
+        "timing": "Days 1 to 2",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2B; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=186",
+        "predictor": "SIC score on day 4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2C; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=186",
+        "predictor": "Change in SIC score from day 1 to day 4",
+        "outcome": "28-day mortality",
+        "timing": "Days 1 to 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2C; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=186",
+        "predictor": "SOFA score on day 4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2C; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=186",
+        "predictor": "Change in SOFA score from day 1 to day 4",
+        "outcome": "28-day mortality",
+        "timing": "Days 1 to 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curves presented in Fig. 2C; specific AUC values not provided in this excerpt",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (day 1 and day 2); N=186 (day 4)",
+        "predictor": "SIC score on day 1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.545 (95% CI: 0.465–0.625), P=0.277 (not significant)",
+        "notes": "Survivors/non-survivors: 131/78 on day 1",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**The predictive efficacy of sepsis-induced coagulopathy scores for 28-day mortality**",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209",
+        "predictor": "SIC score on day 2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.601 (95% CI: 0.524–0.679), P<0.05",
+        "notes": "Survivors/non-survivors: 131/78 on day 2",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**The predictive efficacy of sepsis-induced coagulopathy scores for 28-day mortality**",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209",
+        "predictor": "ΔSIC score-d2 (change in SIC score between days 1 and 2)",
+        "outcome": "28-day mortality",
+        "timing": "Days 1–2",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.583 (95% CI: 0.504–0.662), P<0.05",
+        "notes": "No significant difference between AUC of SIC and ΔSIC scores at all time points (P>0.05)",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**The predictive efficacy of sepsis-induced coagulopathy scores for 28-day mortality**",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=186",
+        "predictor": "SIC score on day 4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.749 (95% CI: 0.674–0.823), P<0.001",
+        "notes": "Survivors/non-survivors: 131/55 on day 4",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**The predictive efficacy of sepsis-induced coagulopathy scores for 28-day mortality**",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=186",
+        "predictor": "ΔSIC score-d4 (change in SIC score between days 1 and 4)",
+        "outcome": "28-day mortality",
+        "timing": "Days 1–4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.758 (95% CI: 0.682–0.834), P<0.001",
+        "notes": "Performance of SIC and ΔSIC scores comparable to SOFA scores on days 2 and 4; SOFA performed better than SIC on day 1 (Z=2.479, P=0.013)",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**The predictive efficacy of sepsis-induced coagulopathy scores for 28-day mortality**",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "SIC score-d1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: Not reported",
+        "performance": "AUC 0.545 (95% CI: 0.465, 0.625)",
+        "notes": "Sensitivity and specificity not reported for this variable",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "SOFA score-d1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: 6.5",
+        "performance": "AUC 0.658 (95% CI: 0.582, 0.734); Sensitivity 0.654, Specificity 0.573",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "SIC score-d2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: 2.5",
+        "performance": "AUC 0.601 (95% CI: 0.524, 0.679); Sensitivity 0.821, Specificity 0.336",
+        "notes": "SIC on day 2 was not independently associated with patient outcomes in multivariate Cox proportional hazards analysis",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "ΔSIC score-d2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2 (change from baseline)",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: 0.5",
+        "performance": "AUC 0.583 (95% CI: 0.504, 0.662); Sensitivity 0.500, Specificity 0.634",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "SOFA score-d2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: 8.5",
+        "performance": "AUC 0.660 (95% CI: 0.583, 0.736); Sensitivity 0.500, Specificity 0.779",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "ΔSOFA score-d2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2 (change from baseline)",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: Not reported",
+        "performance": "AUC 0.552 (95% CI: 0.470, 0.633)",
+        "notes": "Sensitivity and specificity not reported for this variable",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "SIC score-d4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: 3.5",
+        "performance": "AUC 0.749 (95% CI: 0.674, 0.823); Sensitivity 0.745, Specificity 0.656",
+        "notes": "SIC on day 4 was an independent predictor of 28-day mortality in multivariate Cox proportional hazards analysis",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "ΔSIC score-d4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4 (change from baseline)",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: 1.5",
+        "performance": "AUC 0.758 (95% CI: 0.682, 0.834); Sensitivity 0.455, Specificity 0.916",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "SOFA score-d4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: 6.5",
+        "performance": "AUC 0.763 (95% CI: 0.684, 0.842); Sensitivity 0.673, Specificity 0.786",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "ΔSOFA score-d4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4 (change from baseline)",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff: 0.5",
+        "performance": "AUC 0.761 (95% CI: 0.683, 0.839); Sensitivity 0.636, Specificity 0.763",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "N=209 (Model 1), N=186 (Model 2)",
+        "predictor": "Age, albumin levels, APACHE II score, SIC score-d4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "Multivariate Cox proportional hazards analysis",
+        "effect_size": "Not reported",
+        "performance": "Independent predictors identified",
+        "notes": "Age, albumin levels, APACHE II score, and SIC on day 4 were independent predictors of 28-day mortality; SIC on day 2 was not independently associated with patient outcomes",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Poor predictive performance; inferior to SOFA score on day 1",
+        "notes": "Initial SIC scores were poorly correlated with prognosis of sepsis patients",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Comparable to SOFA score on day 2; high SIC score on day 2 indicated unfavorable outcomes",
+        "notes": "High SIC scores on day 2 indicated unfavorable outcomes",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Comparable to SOFA score on day 4; more accurate than SIC score on day 2",
+        "notes": "SIC score on day 4 more accurately predicted 28-day mortality than on day 2; high SIC score on day 4 indicated unfavorable outcomes",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "ΔSIC score (days 1 to 4)",
+        "outcome": "28-day mortality",
+        "timing": "Change between day 1 and day 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Comparable to ΔSOFA score; more accurate than SIC score on day 2",
+        "notes": "ΔSIC between days 1 and 4 more accurately predicted 28-day mortality than SIC on day 2",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score on day 1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Better than SIC score on day 1",
+        "notes": "SOFA performed better than SIC on day 1",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score on days 2 and 4",
+        "outcome": "28-day mortality",
+        "timing": "Days 2 and 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Comparable to SIC and ΔSIC scores on days 2 and 4",
+        "notes": "None",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Emergency patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2 of admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.601 (95% CI: 0.524–0.679)",
+        "notes": "SIC on day 2 was not independently associated with mortality in multivariate analysis after adjusting for age, D-dimer, albumin, lactate levels, SOFA score, APACHE II score, and septic shock",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Emergency patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4 of admission",
+        "method": "ROC analysis and multivariate analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.749 (95% CI: 0.674–0.823)",
+        "notes": "SIC on day 4 was an independent risk factor for 28-day mortality after adjusting for age, D-dimer, albumin, lactate levels, SOFA score, APACHE II score, and septic shock. SIC scores on days 2 and 4 were significantly higher in non-survivors than in survivors; no significant difference in SIC score on day 1 between survivors and non-survivors",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Emergency patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1 of admission",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Not reported",
+        "performance": "No significant difference detected",
+        "notes": "Emergency rather than ICU patients enrolled, leading to relatively early assessment of SIC scores, which may partially explain poor performance of initial SIC scores",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 1",
+        "outcome": "28-day mortality",
+        "timing": "Day 1",
+        "method": "Comparison of predictive accuracy",
+        "effect_size": "Not reported",
+        "performance": "Lower predictive accuracy than SOFA score on day 1",
+        "notes": "SIC score on day 1 was independently associated with mortality along with age, D-dimer, albumin, lactate levels, SOFA score, APACHE II score, and septic shock",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2",
+        "method": "Multivariable analysis",
+        "effect_size": "Not reported",
+        "performance": "Not independently associated with mortality",
+        "notes": "SIC score on day 2 was not independently associated with mortality",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on days 2 and 4",
+        "outcome": "28-day mortality",
+        "timing": "Days 2 and 4",
+        "method": "Comparison of predictive accuracy",
+        "effect_size": "Not reported",
+        "performance": "Comparable predictive accuracy to SOFA scores on days 2 and 4",
+        "notes": "SIC scores demonstrated comparable predictive accuracy to SOFA scores on days 2 and 4",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Age",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Multivariate Cox proportional hazards analysis (Model 1)",
+        "effect_size": "HR 1.044, 95% CI 1.016–1.072",
+        "performance": "p=0.002",
+        "notes": "Model 1",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Albumin",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Multivariate Cox proportional hazards analysis (Model 1)",
+        "effect_size": "HR 0.950, 95% CI 0.918–0.985",
+        "performance": "p=0.005",
+        "notes": "Model 1",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Multivariate Cox proportional hazards analysis (Model 1)",
+        "effect_size": "HR 1.080, 95% CI 1.018–1.147",
+        "performance": "p=0.011",
+        "notes": "Model 1",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Multivariate Cox proportional hazards analysis (Model 1)",
+        "effect_size": "HR 1.069, 95% CI 1.039–1.101",
+        "performance": "p<0.001",
+        "notes": "Model 1",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Age",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Multivariate Cox proportional hazards analysis (Model 2)",
+        "effect_size": "HR 1.048, 95% CI 1.015–1.083",
+        "performance": "p=0.005",
+        "notes": "Model 2",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Albumin",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Multivariate Cox proportional hazards analysis (Model 2)",
+        "effect_size": "HR 0.940, 95% CI 0.899–0.982",
+        "performance": "p=0.005",
+        "notes": "Model 2",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Multivariate Cox proportional hazards analysis (Model 2)",
+        "effect_size": "HR 1.058, 95% CI 1.021–1.095",
+        "performance": "p=0.002",
+        "notes": "Model 2",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIC-d4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "Multivariate Cox proportional hazards analysis (Model 2)",
+        "effect_size": "HR 3.736, 95% CI 2.025–6.891",
+        "performance": "p<0.001",
+        "notes": "Model 2; SIC-d4 = Sepsis-Induced Coagulopathy score at day 4",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Discussion**",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis (excluding those with history of thrombocytopenia and coagulopathy)",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 2",
+        "outcome": "28-day mortality",
+        "timing": "Day 2",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Sensitivity 0.821, Specificity 0.336",
+        "notes": "SIC score had high sensitivity but low specificity on day 2 for predicting 28-day mortality",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_27"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis (excluding those with history of thrombocytopenia and coagulopathy)",
+        "sample_size": "Not reported",
+        "predictor": "SIC score on day 4",
+        "outcome": "28-day mortality",
+        "timing": "Day 4",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Specificity 0.656",
+        "notes": "Specificity of SIC score increased to 0.656 on day 4; SOFA scores on day 4 performed better in predicting 28-day mortality than those on days 1 and 2",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_27"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis (excluding those with history of thrombocytopenia and coagulopathy)",
+        "sample_size": "Not reported",
+        "predictor": "ΔSIC scores (change from baseline)",
+        "outcome": "28-day mortality",
+        "timing": "All time points considered",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Higher specificity than fixed-day SIC scores at all time points; no significant difference from fixed-day SIC scores overall",
+        "notes": "No significant difference between fixed-day SIC scores and ΔSIC scores in predicting 28-day mortality, but ΔSIC had higher specificity at all time points; combining SIC and ΔSIC scores recommended for better prognostic evaluation",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_27"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis (survivors vs. non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "SIC score trajectory (persistent high vs. decreasing)",
+        "outcome": "Mortality (survival vs. non-survival)",
+        "timing": "Days 1–4 after admission",
+        "method": "Time course analysis comparing survivors and non-survivors",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "SIC scores increased continuously during first 4 days in non-survivors; in survivors, scores began to decrease on day 4 after a temporary increase on day 2. Persistent high SIC scores predict outcomes.",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Conclusions**",
+            "page": 7,
+            "chunk": "page_7_chunk_31"
+        }
+    },
+    {
+        "study": "Li 2024",
+        "population": "Patients with sepsis (survivors vs. non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score trajectory (persistent high vs. decreasing)",
+        "outcome": "Mortality (survival vs. non-survival)",
+        "timing": "Days 1–4 after admission",
+        "method": "Time course analysis comparing survivors and non-survivors",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "SOFA scores increased continuously during first 4 days in non-survivors; in survivors, scores began to decrease on day 4 after a temporary increase on day 2. Persistent high SOFA scores predict outcomes.",
+        "source_info": {
+            "file": "Li_2024.pdf",
+            "doi": "10.1186/s12879-024-09154-x",
+            "section": "**Conclusions**",
+            "page": 7,
+            "chunk": "page_7_chunk_31"
+        }
+    }
+]

@@ -1,0 +1,2624 @@
+[
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Not reported",
+        "outcome": "Not reported",
+        "timing": "Not reported",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "The provided text contains only author names and affiliations with no clinical findings, statistical results, or outcome data to extract.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "A multicentre prospective registry of one thousand sepsis patients admitted in Indian ICUs: (SEPSIS INDIA) study",
+            "page": 1,
+            "chunk": "page_1_chunk_2"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (including septic shock) admitted to ICU, Indian Sepsis Registry",
+        "sample_size": "N=1172 (septic shock n=500, without shock n=672)",
+        "predictor": "Adequate source control",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU admission",
+        "method": "Multivariate analysis",
+        "effect_size": "Protective (direction not quantified)",
+        "performance": "Not reported",
+        "notes": "Community-acquired infections predominant; lung most common source; 65% gram negative organisms; 50% carbapenem-resistance in gram negative blood culture isolates",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (including septic shock) admitted to ICU, Indian Sepsis Registry",
+        "sample_size": "N=1172 (septic shock n=500, without shock n=672)",
+        "predictor": "Correct choice of empiric antibiotic",
+        "outcome": "Hospital mortality",
+        "timing": "At initiation of treatment",
+        "method": "Multivariate analysis",
+        "effect_size": "Protective (direction not quantified)",
+        "performance": "Not reported",
+        "notes": "Community-acquired infections predominant; lung most common source; 65% gram negative organisms; 50% carbapenem-resistance in gram negative blood culture isolates",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (including septic shock) admitted to ICU, Indian Sepsis Registry",
+        "sample_size": "N=1172 (septic shock n=500, without shock n=672)",
+        "predictor": "Use of intravenous thiamine",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU admission",
+        "method": "Multivariate analysis",
+        "effect_size": "Protective (direction not quantified)",
+        "performance": "Not reported",
+        "notes": "Community-acquired infections predominant; lung most common source; 65% gram negative organisms; 50% carbapenem-resistance in gram negative blood culture isolates",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU in India",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score on admission",
+        "outcome": "Poor outcome",
+        "timing": "On admission",
+        "method": "Comparative predictor analysis",
+        "effect_size": "Not reported",
+        "performance": "Comparatively better predictor of poor outcome",
+        "notes": "Gram negative infection was predominant cause of sepsis with high incidence of carbapenem resistance. Escherichia coli, Klebsiella Spp and Acinetobacter Spp were predominant causative organisms. Tropical infections constituted a minority of sepsis population with low hospital mortality.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_6"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU in India",
+        "sample_size": "Not reported",
+        "predictor": "Nosocomial infection as source of sepsis",
+        "outcome": "Hospital mortality / poor outcome",
+        "timing": "On admission",
+        "method": "Registry-based epidemiological analysis",
+        "effect_size": "Worst outcomes associated with nosocomial infections",
+        "performance": "Not reported",
+        "notes": "Source control, correct empirical antibiotic selection, and intravenous thiamine were identified as protective factors.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_6"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU in India",
+        "sample_size": "Not reported",
+        "predictor": "Source control, correct empirical antibiotic selection, and intravenous thiamine",
+        "outcome": "Hospital mortality / poor outcome",
+        "timing": "During ICU admission",
+        "method": "Registry-based epidemiological analysis",
+        "effect_size": "Protective",
+        "performance": "Not reported",
+        "notes": "CTRI Registration: CTRI:2022/07/044516. These factors were identified as protective against poor outcomes in sepsis.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_6"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis or septic shock (Sepsis-3 criteria), 19 participating centres",
+        "sample_size": "N=1172",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "Day of sepsis diagnosis",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.768",
+        "notes": "Compared to qSOFA (AUC 0.70) and SIRS (AUC 0.54)",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis or septic shock (Sepsis-3 criteria), 19 participating centres",
+        "sample_size": "N=1172",
+        "predictor": "qSOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "Day of sepsis diagnosis",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.70",
+        "notes": "Compared to SOFA (AUC 0.768) and SIRS (AUC 0.54)",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis or septic shock (Sepsis-3 criteria), 19 participating centres",
+        "sample_size": "N=1172",
+        "predictor": "SIRS criteria",
+        "outcome": "Hospital mortality",
+        "timing": "Day of sepsis diagnosis",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.54",
+        "notes": "Compared to SOFA (AUC 0.768) and qSOFA (AUC 0.70)",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis or septic shock (Sepsis-3 criteria), 19 participating centres",
+        "sample_size": "N=1172 (sepsis n=672, septic shock n=500)",
+        "predictor": "Sepsis vs septic shock classification",
+        "outcome": "Hospital mortality",
+        "timing": "ICU admission",
+        "method": "Observed mortality rate comparison",
+        "effect_size": "Sepsis: 25.6%, Septic shock: 50.8%, Overall: 36.3%",
+        "performance": "p<0.001",
+        "notes": "Predicted mortality rate (APACHE II): overall 40%, sepsis 25%, septic shock 55%; SMR: overall 0.9, sepsis 1.02, septic shock 0.92",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Male gender",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "High BMI",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "High Charlson comorbidity index",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Transfer to ICU from the ward",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Nosocomial infection",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Septic shock",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Clinical features of hypoperfusion",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Low pH",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Low bicarbonate",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Low platelet count",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "High sodium",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "High creatinine",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Lower albumin",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Low glucose",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Baseline/admission",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Less fluid infused within 1 hour during initial resuscitation",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Initial resuscitation (within 1 hour)",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Less fluid infused within 3 hours during initial resuscitation",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Initial resuscitation (within 3 hours)",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Increased lactate",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Initial resuscitation",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Vasopressor use",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Initial resuscitation",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU sepsis patients (deceased vs. surviving subjects)",
+        "sample_size": "Not reported",
+        "predictor": "Albumin infusion",
+        "outcome": "Unfavorable outcome (mortality)",
+        "timing": "Initial resuscitation",
+        "method": "Univariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Significant association",
+        "notes": "Part of univariate analysis on dataset comprising 99 variables",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Results**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis or septic shock",
+        "sample_size": "N=1172 (septic shock n=500, sepsis without shock n=672)",
+        "predictor": "APACHE II score",
+        "outcome": "Hospital mortality",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics, comparison between groups",
+        "effect_size": "Septic shock mean APACHE II 26.22 (SD 14.36) vs Sepsis mean APACHE II 18.63 (SD 9.62)",
+        "performance": "p<0.001",
+        "notes": "Observed hospital mortality: total cohort 36.34% (n=426), septic shock 50.8% (n=254), sepsis without shock 25.6% (n=172). Predicted hospital mortality (per mean APACHE II): total 40%, septic shock 55%, sepsis 25%. Standardised mortality ratio (SMR): total 0.9, septic shock 0.92, sepsis 1.024.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis or septic shock",
+        "sample_size": "N=1172 (septic shock n=500, sepsis without shock n=672)",
+        "predictor": "SOFA score",
+        "outcome": "Severity stratification between sepsis and septic shock groups",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "Septic shock mean SOFA 8.30 (SD 3.78) vs Sepsis mean SOFA 5.51 (SD 3.02); total cohort mean 6.70 (SD 3.64)",
+        "performance": "Not reported",
+        "notes": "SOFA score reported as demographic/severity descriptor; no p-value provided for this variable in the table.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis or septic shock",
+        "sample_size": "N=1172 (septic shock n=500, sepsis without shock n=672)",
+        "predictor": "Charlson Comorbidity Index",
+        "outcome": "Comorbidity burden characterisation",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "Total cohort mean 3.52 (SD 2.46); septic shock mean 3.50 (SD 2.67); sepsis mean 3.53 (SD 2.29)",
+        "performance": "Not reported",
+        "notes": "No statistically significant difference between groups reported for this variable.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis or septic shock",
+        "sample_size": "N=1172 (septic shock n=500, sepsis without shock n=672)",
+        "predictor": "Site of infection",
+        "outcome": "Infection source characterisation",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics (frequency)",
+        "effect_size": "Blood most common: total 41.6%, septic shock 46.9%, sepsis 36.9%; Respiratory tract: total 24.0%, septic shock 19.2%, sepsis 28.2%; Urine: total 25.0%, septic shock 22.1%, sepsis 27.5%",
+        "performance": "Not reported",
+        "notes": "Community-acquired infection: total 81.9%, septic shock 76.8%, sepsis 85.7%. Other sites include CNS, Heart, Bones/Joints, Female Reproductive System, Head/Neck.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Source control",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Significantly associated with better outcomes",
+        "notes": "Factors significantly associated with better outcomes included source control, correct empirical antibiotic choice, and loading dose of antibiotic.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Correct choice of empirical antibiotic",
+        "outcome": "Hospital mortality",
+        "timing": "At initiation of antibiotic therapy",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Significantly associated with better outcomes",
+        "notes": "Empiric antibiotic choice was correct in 62% of patients when compared to subsequent culture results.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Administration of a loading dose of antibiotic",
+        "outcome": "Hospital mortality",
+        "timing": "At initiation of antibiotic therapy",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Significantly associated with better outcomes",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Early enteral nutrition support",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Associated with better outcomes",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Successful extubation",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Associated with better outcomes",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Stress ulcer prophylaxis",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Associated with better outcomes",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Extended infusion of beta-lactam antibiotics",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Not significantly associated with better outcomes",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "De-escalation of antibiotics",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Not significantly associated with better outcomes",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Empirical antifungal therapy",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Associated with worse outcomes",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis infected with carbapenem-resistant organism",
+        "sample_size": "Not reported",
+        "predictor": "Carbapenem-resistant organism infection",
+        "outcome": "Unadjusted hospital mortality",
+        "timing": "At time of infection identification",
+        "method": "Unadjusted comparison",
+        "effect_size": "31% mortality in carbapenem-resistant vs 21% in carbapenem-sensitive",
+        "performance": "Not reported",
+        "notes": "Carbapenem-resistant organisms detected in 57% of all positive blood cultures. Gram-negative organisms constituted 80% of all positive blood cultures.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Risk factors for drug-resistant bacterial infections",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Not associated with increased mortality",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "Mean (SD): All 6.7 (3.639), Alive 5.51 (3.13), Dead 8.78 (3.53)",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "qSOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "Mean (SD): All 1.87 (0.904), Alive 1.63 (0.89), Dead 2.30 (0.75)",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "SIRS score",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "Mean (SD): All 2.86 (0.931), Alive 2.80 (0.99), Dead 2.98 (0.81)",
+        "performance": "p = 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "APACHE II score",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "Median [IQR]: All 21 [14.00, 26.00], Alive 17.00 [12.00, 24.00], Dead 23.00 [19.00, 31.00]",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Charlson comorbidity index",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "Median [IQR]: All 3 [2.00, 5.00], Alive 3.00 [2.00, 5.00], Dead 4.00 [2.00, 5.00]",
+        "performance": "p = 0.004",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Age",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "Median [IQR]: All 65 [52.75, 74.00], Alive 65.00 [53.00, 74.00], Dead 64.50 [52.25, 74.00]",
+        "performance": "p = 0.866",
+        "notes": "Not significant",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Gender (Male)",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "Male: 719 (61.3%); Alive 434 (58.2%), Dead 285 (66.9%)",
+        "performance": "p = 0.003",
+        "notes": "Female: 453 (38.7%); Alive 312 (41.8%), Dead 141 (33.1%)",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "BMI",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "Median [IQR]: All 20.59 [17.81, 25.00], Alive 19.95 [17.30, 23.30], Dead 23.44 [19.12, 30.36]",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Community acquired infection",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "960 (81.9%); Alive 637 (85.4%), Dead 323 (75.8%)",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Hospital acquired infection",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "165 (14.1%); Alive 89 (11.9%), Dead 76 (17.8%)",
+        "performance": "p = 0.007",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "ICU acquired infection",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "47 (4%); Alive 20 (2.7%), Dead 27 (6.3%)",
+        "performance": "p = 0.003",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Septic shock as per Sepsis-3 criteria",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "500 (42.6%); Alive 246 (33.0%), Dead 254 (59.6%)",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Clinical feature of hypoperfusion",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "338 (28.8%); Alive 166 (22.3%), Dead 172 (40.4%)",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Risk factor for antibiotic resistant infection",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "371 (31.7%); Alive 248 (33.2%), Dead 123 (28.9%)",
+        "performance": "p = 0.133",
+        "notes": "Not significant",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Dialysis (organ support)",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "64 (5.5%); Alive 42 (5.6%), Dead 22 (5.2%)",
+        "performance": "p = 0.79",
+        "notes": "Not significant",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Ventilation (organ support)",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "394 (33.6%); Alive 165 (22.1%), Dead 229 (53.8%)",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172 (Alive=746, In-hospital death=426)",
+        "predictor": "Ventilation and dialysis (organ support)",
+        "outcome": "Hospital mortality",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Univariate analysis",
+        "effect_size": "71 (6.1%); Alive 29 (3.9%), Dead 42 (9.9%)",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Mechanical ventilation",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Chi-square / Fisher's exact test",
+        "effect_size": "22.1% survivors vs 53.8% non-survivors",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Ventilation and dialysis",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Chi-square / Fisher's exact test",
+        "effect_size": "3.9% survivors vs 9.9% non-survivors",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "PaO2 (mmHg)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 263.95 [167.51, 350.00] vs Non-survivors: 130.85 [70.25, 231.48]",
+        "performance": "p<0.001",
+        "notes": "Overall median [IQR]: 212 [110.00, 320.25]",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Arterial pH",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 7.39 [7.30, 7.45] vs Non-survivors: 7.30 [7.20, 7.40]",
+        "performance": "p<0.001",
+        "notes": "Overall median [IQR]: 7.36 [7.26, 7.43]",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Serum HCO3 (mmol/L)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 21.00 [17.10, 24.40] vs Non-survivors: 19.78 [15.03, 23.37]",
+        "performance": "p=0.003",
+        "notes": "Overall median [IQR]: 20.50 [16.00, 24.20]",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Platelet count (µL)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 171374.86 [133000.00, 254000.00] vs Non-survivors: 135766.13 [70000.00, 203750.00]",
+        "performance": "p<0.001",
+        "notes": "Overall median [IQR]: 160000 [100000.00, 240000.00]",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Serum creatinine (mg/dl)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 1.50 [0.95, 2.66] vs Non-survivors: 1.80 [1.00, 2.93]",
+        "performance": "p=0.052",
+        "notes": "Overall median [IQR]: 1.60 [0.98, 2.80]; not statistically significant",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Serum albumin (g/dl)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 3.20 [2.80, 3.52] vs Non-survivors: 2.58 [2.20, 3.00]",
+        "performance": "p<0.001",
+        "notes": "Overall median [IQR]: 3.0 [2.50, 3.40]",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Blood glucose (mg/dl)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "On the day of sepsis diagnosis",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 180.00 [134.00, 226.18] vs Non-survivors: 152.39 [126.00, 189.77]",
+        "performance": "p<0.001",
+        "notes": "Overall median [IQR]: 169 [130.00, 213.57]",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Fluid type: Normal saline (%)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "Initial resuscitation",
+        "method": "Chi-square / Fisher's exact test",
+        "effect_size": "Survivors: 67.3% vs Non-survivors: 58.9%",
+        "performance": "p=0.004",
+        "notes": "Overall: 753 (64.2%)",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Fluid type: Ringer's lactate (%)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "Initial resuscitation",
+        "method": "Chi-square / Fisher's exact test",
+        "effect_size": "Survivors: 2.3% vs Non-survivors: 4.0%",
+        "performance": "p=0.104",
+        "notes": "Overall: 34 (2.9%); not statistically significant",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Fluid type: Other balanced (%)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "Initial resuscitation",
+        "method": "Chi-square / Fisher's exact test",
+        "effect_size": "Survivors: 19.4% vs Non-survivors: 27.9%",
+        "performance": "p=0.001",
+        "notes": "Overall: 264 (22.5%)",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Amount of fluid infused in 1 hour (ml)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "Initial resuscitation (first 1 hour)",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 210.02 [100.00, 500.00] vs Non-survivors: 181.93 [60.00, 500.00]",
+        "performance": "p=0.001",
+        "notes": "Overall median [IQR]: 200 [83.00, 500.00]",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients (survivors vs non-survivors)",
+        "sample_size": "N=1172 (survivors=746, non-survivors=426)",
+        "predictor": "Amount of fluid infused in 3 hours (ml)",
+        "outcome": "Hospital mortality (survivor vs non-survivor)",
+        "timing": "Initial resuscitation (first 3 hours)",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Survivors: 430.76 [240.00, 800.00] vs Non-survivors: 300.00 [150.00, 758.75]",
+        "performance": "p=0.001",
+        "notes": "Overall median [IQR]: 387.59 [200.00, 786.65]",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Albumin infusion within 3 hours",
+        "outcome": "In-hospital mortality",
+        "timing": "Within 3 hours of admission",
+        "method": "Univariate comparison",
+        "effect_size": "233 (19.9%) overall; 56 (7.5%) alive vs 177 (41.5%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Lactate level at 1 hour (mmol/l)",
+        "outcome": "In-hospital mortality",
+        "timing": "1 hour after admission",
+        "method": "Univariate comparison",
+        "effect_size": "Median 2.30 [IQR 1.40, 3.90] overall; 2.10 [1.30, 3.35] alive vs 2.76 [1.60, 4.72] deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Correct empiric antibiotic choice",
+        "outcome": "In-hospital mortality",
+        "timing": "At initiation of antibiotic therapy",
+        "method": "Univariate comparison",
+        "effect_size": "889 (75.9%) overall; 583 (78.2%) alive vs 306 (71.8%) deceased",
+        "performance": "p=0.016",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Beta-lactam given as extended infusion",
+        "outcome": "In-hospital mortality",
+        "timing": "During antibiotic therapy",
+        "method": "Univariate comparison",
+        "effect_size": "773 (66%) overall; 458 (61.4%) alive vs 315 (73.9%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Loading dose of antibiotic",
+        "outcome": "In-hospital mortality",
+        "timing": "At initiation of antibiotic therapy",
+        "method": "Univariate comparison",
+        "effect_size": "1009 (86.1%) overall; 656 (87.9%) alive vs 353 (82.9%) deceased",
+        "performance": "p=0.018",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Descalation of antibiotic",
+        "outcome": "In-hospital mortality",
+        "timing": "During antibiotic therapy",
+        "method": "Univariate comparison",
+        "effect_size": "416 (35.5%) overall; 266 (35.7%) alive vs 150 (35.2%) deceased",
+        "performance": "p=0.899",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Blood culture positive",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "577 (49.2%) overall; 349 (46.8%) alive vs 228 (53.5%) deceased",
+        "performance": "p=0.029",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Carbapenem-resistant organism (culture sensitivity)",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "327 (27%) overall; 194 (26.0%) alive vs 133 (31.2%) deceased",
+        "performance": "p=0.058",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Carbapenem-sensitive organism (culture sensitivity)",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "240 (20%) overall; 149 (20.0%) alive vs 91 (21.4%) deceased",
+        "performance": "p=0.599",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Corticosteroids use",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "474 (40.4%) overall; 210 (28.2%) alive vs 264 (62.0%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Vitamin C use",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "46 (3.9%) overall; 30 (4.0%) alive vs 16 (3.8%) deceased",
+        "performance": "p=0.877",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Thiamine use",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "382 (32.6%) overall; 317 (42.5%) alive vs 65 (15.3%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Extracorporeal therapy",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "105 (9%) overall; 26 (3.5%) alive vs 79 (18.5%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Bicarbonate therapy",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "260 (22.2%) overall; 110 (14.7%) alive vs 150 (35.2%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Non-invasive ventilation (NIV)",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "286 (24.4%) overall; 182 (24.4%) alive vs 104 (24.4%) deceased",
+        "performance": "p=1",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "High-flow nasal oxygen (HFNO)",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "275 (23.5%) overall; 183 (24.5%) alive vs 92 (21.6%) deceased",
+        "performance": "p=0.282",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Invasive ventilation",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "563 (48%) overall; 206 (27.6%) alive vs 357 (83.8%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Reintubation",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "41 (3.5%) overall; 18 (9.6%) alive vs 23 (6.7%) deceased",
+        "performance": "p=0.24",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Prone positioning",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "39 (3.3%) overall; 16 (8.6%) alive vs 23 (6.7%) deceased",
+        "performance": "p=0.486",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Recruitment maneuver",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "67 (5.7%) overall; 18 (9.9%) alive vs 49 (14.6%) deceased",
+        "performance": "p=0.169",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Renal support",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "357 (30.5%) overall; 156 (20.9%) alive vs 201 (47.2%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Encephalopathy",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "369 (31.5%) overall; 135 (18.1%) alive vs 234 (54.9%) deceased",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to hospital",
+        "sample_size": "N=1172 (Alive at discharge n=746, In-hospital death n=426)",
+        "predictor": "Coagulopathy",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Univariate comparison",
+        "effect_size": "169 (14.4%) overall; 87 (11.7%) alive vs 82 (19.2%) deceased",
+        "performance": "p=0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_20"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Renal support",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 20.9%, Non-survivors: 47.2%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Encephalopathy",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 18.1%, Non-survivors: 54.9%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Coagulopathy",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 11.7%, Non-survivors: 19.2%",
+        "performance": "p = 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Liver dysfunction",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 12.5%, Non-survivors: 18.8%",
+        "performance": "p = 0.005",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Nosocomial infection",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 10.6%, Non-survivors: 71.8%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Early nutrition",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 86.5%, Non-survivors: 78.6%",
+        "performance": "p = 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Blood transfusion",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 21.7%, Non-survivors: 37.3%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Platelet transfusion",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 5.2%, Non-survivors: 14.8%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "FFP transfusion",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 4.6%, Non-survivors: 18.8%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "DVT prophylaxis",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 61.0%, Non-survivors: 60.1%",
+        "performance": "p = 0.804",
+        "notes": "No significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Stress ulcer prophylaxis",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 96.2%, Non-survivors: 91.5%",
+        "performance": "p = 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Continuous infusion sedation",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 15.3%, Non-survivors: 45.5%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Neuromuscular blocker infusion",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 4.8%, Non-survivors: 14.3%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "Clinical improvement",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 81.8%, Non-survivors: 4.2%",
+        "performance": "p < 0.001",
+        "notes": "Comparison between ICU survivors and non-survivors",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "ICU patients with sepsis",
+        "sample_size": "N=1171",
+        "predictor": "ICU discharge status",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "ICU discharge",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Survivors: 100% alive, Non-survivors: 97.2% dead",
+        "performance": "p < 0.001",
+        "notes": "746 survivors discharged alive; 414 non-survivors discharged dead; 12 non-survivors discharged alive",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172",
+        "predictor": "Hospital length of stay",
+        "outcome": "In-hospital death vs alive at discharge",
+        "timing": "During hospitalization",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Alive: 10.00 [6.00, 14.00] days; Dead: 8.00 [4.00, 15.00] days",
+        "performance": "p < 0.001",
+        "notes": "Median [IQR] reported",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_22"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172",
+        "predictor": "ICU length of stay",
+        "outcome": "In-hospital death vs alive at discharge",
+        "timing": "During ICU admission",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Alive: 5.50 [4.00, 9.00] days; Dead: 6.00 [3.00, 13.00] days",
+        "performance": "p=0.286",
+        "notes": "Median [IQR] reported; not statistically significant",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_22"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1172",
+        "predictor": "Unanticipated cardiac arrest",
+        "outcome": "In-hospital death vs alive at discharge",
+        "timing": "During hospitalization",
+        "method": "Comparison between survivors and non-survivors",
+        "effect_size": "Alive: 10 (1.3%); Dead: 162 (38.0%)",
+        "performance": "p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_22"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients with tropical infections (Dengue, Malaria, Typhus) within the sepsis cohort",
+        "sample_size": "N=32",
+        "predictor": "Tropical infection with sepsis",
+        "outcome": "Hospital mortality",
+        "timing": "During hospitalization",
+        "method": "Descriptive analysis",
+        "effect_size": "Hospital mortality 3.13%",
+        "performance": "Not reported",
+        "notes": "Average age 45 years (SD 20), 65% male, SOFA 4.41, APACHE II 8.75, average length of stay 6 days; much lower mortality than general septic cohort",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_22"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 1.216 (95% CI 1.112–1.331)",
+        "performance": "Not reported",
+        "notes": "Independent predictor of increased hospital mortality",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "Charlson comorbidity index",
+        "outcome": "Hospital mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 1.216 (95% CI 1.112–1.331)",
+        "performance": "Not reported",
+        "notes": "Independent predictor of increased hospital mortality",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "BMI",
+        "outcome": "Hospital mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 1.153 (95% CI 1.108–1.199)",
+        "performance": "Not reported",
+        "notes": "Independent predictor of increased hospital mortality",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "Nosocomial infection",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 36.695 (95% CI 22.587–59.615)",
+        "performance": "Not reported",
+        "notes": "Independent predictor of increased hospital mortality",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "PaO2",
+        "outcome": "Hospital mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 0.997 (95% CI 0.996–0.999)",
+        "performance": "Not reported",
+        "notes": "Higher PaO2 independently associated with improved survival",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "Serum albumin",
+        "outcome": "Hospital mortality",
+        "timing": "At admission/ICU stay",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 0.324 (95% CI 0.225–0.467)",
+        "performance": "Not reported",
+        "notes": "Higher albumin independently associated with improved survival",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "Source control",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 0.227 (95% CI 0.132–0.389)",
+        "performance": "Not reported",
+        "notes": "Source control independently associated with improved survival",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "Correct empiric antibiotic",
+        "outcome": "Hospital mortality",
+        "timing": "At initiation of treatment",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 0.519 (95% CI 0.171–0.495)",
+        "performance": "Not reported",
+        "notes": "Correct empirical antibiotic choice independently associated with improved survival",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients admitted to participating ICUs",
+        "sample_size": "Not reported",
+        "predictor": "Intravenous Thiamine",
+        "outcome": "Hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Multivariable binary logistic regression",
+        "effect_size": "OR 0.291 (95% CI 0.196–0.587)",
+        "performance": "Not reported",
+        "notes": "Use of intravenous thiamine independently associated with improved survival",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis and septic shock patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "SIRS score",
+        "outcome": "Hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.54",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Discussion**",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis and septic shock patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.70",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Discussion**",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis and septic shock patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.76",
+        "notes": "SOFA consistently found to be the best discriminator for hospital mortality across studies",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Discussion**",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients discharged alive from hospital",
+        "sample_size": "Not reported",
+        "predictor": "ICU and hospital length of stay",
+        "outcome": "Cost-effectiveness and quality control marker",
+        "timing": "During ICU/hospital stay",
+        "method": "Descriptive statistics",
+        "effect_size": "Average ICU LOS 8 days; average hospital LOS 11 days for sepsis",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Discussion**",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Septic shock patients discharged alive from hospital",
+        "sample_size": "Not reported",
+        "predictor": "ICU and hospital length of stay",
+        "outcome": "Cost-effectiveness and quality control marker",
+        "timing": "During ICU/hospital stay",
+        "method": "Descriptive statistics",
+        "effect_size": "Average ICU LOS 8 days; average hospital LOS 11 days for septic shock",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Discussion**",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Standardized Mortality Ratio (SMR)",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "SMR calculation",
+        "effect_size": "SMR 0.9 for sepsis; SMR 0.92 for septic shock",
+        "performance": "Not reported",
+        "notes": "Improvement from previous Indian study which reported SMR of 1.4",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Discussion**",
+            "page": 9,
+            "chunk": "page_9_chunk_29"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients in ICU (Indian cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Nosocomial infections associated with sepsis or organ failure",
+        "outcome": "Mortality",
+        "timing": "During ICU admission",
+        "method": "Multivariable logistic regression (independent predictor)",
+        "effect_size": "Not reported",
+        "performance": "Highest independent predictor of mortality",
+        "notes": "Empirical choice of appropriate antibiotic and adequate source control also identified as independent predictors of mortality.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 10,
+            "chunk": "page_10_chunk_31"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients in ICU (Indian cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Low serum albumin",
+        "outcome": "Mortality",
+        "timing": "On admission",
+        "method": "Multivariable logistic regression (independent predictor)",
+        "effect_size": "Not reported",
+        "performance": "Independent predictor of mortality",
+        "notes": "Authors note many patients are malnourished, emphasising importance of nutritional screening and management upon admission.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 10,
+            "chunk": "page_10_chunk_31"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Sepsis patients in ICU (Indian cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Intravenous thiamine (independent use)",
+        "outcome": "Survival (improved)",
+        "timing": "During ICU admission",
+        "method": "Multivariable logistic regression (independent predictor)",
+        "effect_size": "Not reported",
+        "performance": "Significantly associated with improved survival",
+        "notes": "Independent use of IV thiamine (not in combination with vitamin C and hydrocortisone). Literature on independent use of thiamine in sepsis is sparse.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 10,
+            "chunk": "page_10_chunk_31"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Minority subset of sepsis patients with tropical infections",
+        "sample_size": "2.9% of study population",
+        "predictor": "Tropical infections",
+        "outcome": "Mortality",
+        "timing": "During ICU admission",
+        "method": "Descriptive/comparative analysis",
+        "effect_size": "Mortality rate 13.9%",
+        "performance": "Lower than general septic population; higher than overall study cohort",
+        "notes": "Demographics and outcomes comparable to INDICAP II point prevalence study; similar age and SOFA score reported.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "General",
+            "page": 10,
+            "chunk": "page_10_chunk_31"
+        }
+    },
+    {
+        "study": "Todi 2024",
+        "population": "Patients with sepsis and septic shock admitted to ICUs in India (sepsis 3 criteria)",
+        "sample_size": "N>1000",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Predictive scoring comparison",
+        "effect_size": "Not reported",
+        "performance": "Best predictive score for hospital mortality among scores evaluated",
+        "notes": "Multicentre, prospective registry study. Hospital mortality was 25% in sepsis and 50% in septic shock. One third of infections were due to Carbapenem-resistant Gram-negative organisms. Nosocomial infection had the worst odds for mortality.",
+        "source_info": {
+            "file": "Todi_2024.pdf",
+            "doi": "10.1186/s13054-024-05176-8",
+            "section": "**Conclusion**",
+            "page": 10,
+            "chunk": "page_10_chunk_35"
+        }
+    }
+]

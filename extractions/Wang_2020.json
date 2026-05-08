@@ -1,0 +1,3403 @@
+[
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill adults admitted to ICUs for at least 24 hours in tertiary hospitals in China",
+        "sample_size": "N=4,910 (2,086 with sepsis or septic shock)",
+        "predictor": "Sepsis or septic shock on ICU admission or within first 48 hours",
+        "outcome": "ICU mortality",
+        "timing": "On ICU admission or within first 48 hours",
+        "method": "Multicenter prospective observational cohort study",
+        "effect_size": "ICU mortality: sepsis 13.1%, septic shock 39.0%",
+        "performance": "Not reported",
+        "notes": "ICU mortality varied according to geographical region. Acinetobacter, Pseudomonas, and Staphylococcus infections associated with increased ICU mortality. Age, APACHE II scores, pre-existing cardiovascular diseases, malignant tumors, and renal replacement therapy also identified as risk factors.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "Renal replacement therapy (RRT)",
+        "outcome": "Mortality in patients with sepsis",
+        "timing": "During ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor for mortality",
+        "notes": "RRT identified as independent risk factor for mortality in sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_5"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "Septic shock",
+        "outcome": "Mortality in patients with sepsis",
+        "timing": "During ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor for mortality",
+        "notes": "Septic shock identified as independent risk factor for mortality in sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_5"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "Prompt administration of antibiotics",
+        "outcome": "Mortality in patients with septic shock",
+        "timing": "Within first hours of presentation",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.65, 95% CI 0.46–0.92",
+        "performance": "Statistically significant reduction in mortality",
+        "notes": "Prompt antibiotic administration associated with improved outcome in septic shock",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_5"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "30 mL/kg initial fluid resuscitation during first 3 hours",
+        "outcome": "Mortality in patients with septic shock",
+        "timing": "First 3 hours of presentation",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.43, 95% CI 0.30–0.63",
+        "performance": "Statistically significant reduction in mortality",
+        "notes": "30 mL/kg fluid resuscitation in first 3 h associated with improved outcome in septic shock",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_5"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients admitted to ICUs in the CCCST cohort",
+        "sample_size": "N=4,910 (2,086 with sepsis, 2,824 without sepsis)",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "ICU mortality",
+        "timing": "During ICU admission",
+        "method": "Descriptive comparison",
+        "effect_size": "27.2% (sepsis) vs. 9.5% (non-sepsis)",
+        "performance": "Not reported",
+        "notes": "Sepsis defined by Sepsis-3 criteria; 1,134 (54.4%) of sepsis patients had septic shock",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Characteristics of the Participants",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients admitted to ICUs in the CCCST cohort",
+        "sample_size": "N=4,910 (2,086 with sepsis, 2,824 without sepsis)",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "In-hospital mortality",
+        "timing": "During hospital admission",
+        "method": "Descriptive comparison",
+        "effect_size": "33.0% (sepsis) vs. 13.1% (non-sepsis)",
+        "performance": "Not reported",
+        "notes": "Sepsis defined by Sepsis-3 criteria",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Characteristics of the Participants",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients admitted to ICUs in the CCCST cohort",
+        "sample_size": "N=4,910 (2,086 with sepsis, 2,824 without sepsis)",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "Mechanical ventilation requirement",
+        "timing": "During ICU admission",
+        "method": "Descriptive comparison",
+        "effect_size": "77.4% (sepsis) vs. 64.2% (non-sepsis)",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Characteristics of the Participants",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients admitted to ICUs in the CCCST cohort",
+        "sample_size": "N=4,910 (2,086 with sepsis, 2,824 without sepsis)",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "Renal replacement therapy requirement",
+        "timing": "During ICU admission",
+        "method": "Descriptive comparison",
+        "effect_size": "18.3% (sepsis) vs. 11.6% (non-sepsis)",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Characteristics of the Participants",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients admitted to ICUs in the CCCST cohort",
+        "sample_size": "N=4,910 (2,086 with sepsis, 2,824 without sepsis)",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "Length of ICU stay (days)",
+        "timing": "During ICU admission",
+        "method": "Descriptive comparison",
+        "effect_size": "Median 8.0 days (sepsis) vs. 4.0 days (non-sepsis)",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Characteristics of the Participants",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients admitted to ICUs in the CCCST cohort",
+        "sample_size": "N=4,910 (2,086 with sepsis, 2,824 without sepsis)",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "APACHE II score",
+        "timing": "ICU admission",
+        "method": "Descriptive comparison",
+        "effect_size": "Median 19.0 (sepsis) vs. 13.0 (non-sepsis)",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Characteristics of the Participants",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients admitted to ICUs in the CCCST cohort",
+        "sample_size": "N=4,910 (2,086 with sepsis, 2,824 without sepsis)",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "SOFA score",
+        "timing": "ICU admission",
+        "method": "Descriptive comparison",
+        "effect_size": "Median 8.0 (sepsis) vs. 6.0 (non-sepsis)",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Characteristics of the Participants",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with sepsis",
+        "sample_size": "N=2,084",
+        "predictor": "Site of infection (lungs vs abdomen)",
+        "outcome": "Distribution of infection sites in sepsis",
+        "timing": "At diagnosis",
+        "method": "Descriptive statistics",
+        "effect_size": "Lungs 55.5%, abdomen 24.4%",
+        "performance": "Not reported",
+        "notes": "Most common site was lungs, followed by abdomen",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organisms",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with sepsis who underwent microorganism culture",
+        "sample_size": "N=1,843 cultured; 1,275 positive cultures",
+        "predictor": "Microorganism culture results",
+        "outcome": "Prevalence of gram-positive vs gram-negative organisms",
+        "timing": "At diagnosis",
+        "method": "Descriptive statistics",
+        "effect_size": "Gram-positive 31.9%, gram-negative 74.4% among positive isolates",
+        "performance": "Not reported",
+        "notes": "Acinetobacter (29.0%) most common gram-negative; Staphylococcus (18.2%) most common gram-positive",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organisms",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with hospital-acquired sepsis vs community-acquired sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Hospital-acquired vs community-acquired sepsis",
+        "outcome": "Prevalence of Acinetobacter and Pseudomonas isolates",
+        "timing": "At diagnosis",
+        "method": "Descriptive statistics",
+        "effect_size": "Acinetobacter: 34.2% vs 25.2%; Pseudomonas: 25.1% vs 19.8%",
+        "performance": "Not reported",
+        "notes": "Hospital-acquired sepsis associated with higher rates of Acinetobacter and Pseudomonas",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organisms",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock vs without septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Septic shock status",
+        "outcome": "Prevalence of Pseudomonas, Candida, and Klebsiella isolates",
+        "timing": "At diagnosis",
+        "method": "Descriptive statistics",
+        "effect_size": "Pseudomonas: 24.1% vs 19.3%; Candida: 21.8% vs 19.3%; Klebsiella: 8.9% vs 15.1%",
+        "performance": "Not reported",
+        "notes": "Pseudomonas and Candida more common in septic shock; Klebsiella less common in septic shock",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organisms",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with sepsis (hospital-acquired vs. community-acquired)",
+        "sample_size": "Not reported",
+        "predictor": "Hospital-acquired vs. community-acquired sepsis",
+        "outcome": "AKI occurrence",
+        "timing": "At onset of sepsis",
+        "method": "Descriptive comparison",
+        "effect_size": "45.1% vs. 39.1%",
+        "performance": "Not reported",
+        "notes": "Hospital-acquired sepsis patients were more likely to have AKI than community-acquired sepsis patients.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organ Dysfunction and Elements of Sepsis",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with sepsis (hospital-acquired vs. community-acquired)",
+        "sample_size": "Not reported",
+        "predictor": "Hospital-acquired vs. community-acquired sepsis",
+        "outcome": "ARDS occurrence",
+        "timing": "At onset of sepsis",
+        "method": "Descriptive comparison",
+        "effect_size": "37.3% vs. 49.4%",
+        "performance": "Not reported",
+        "notes": "Hospital-acquired sepsis patients were less likely to have ARDS than community-acquired sepsis patients.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organ Dysfunction and Elements of Sepsis",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with sepsis (hospital-acquired vs. community-acquired)",
+        "sample_size": "Not reported",
+        "predictor": "Hospital-acquired vs. community-acquired sepsis",
+        "outcome": "Antibiotic administration pre-ICU",
+        "timing": "Pre-ICU",
+        "method": "Descriptive comparison",
+        "effect_size": "79.8% vs. 70.4%",
+        "performance": "Not reported",
+        "notes": "Hospital-acquired sepsis patients more commonly received antibiotics pre-ICU.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organ Dysfunction and Elements of Sepsis",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with sepsis (hospital-acquired vs. community-acquired)",
+        "sample_size": "Not reported",
+        "predictor": "Hospital-acquired vs. community-acquired sepsis",
+        "outcome": "Antibiotics within 1 hour after recognition of sepsis",
+        "timing": "Within 1 hour of sepsis recognition",
+        "method": "Descriptive comparison",
+        "effect_size": "76.5% vs. 53.6%",
+        "performance": "Not reported",
+        "notes": "Hospital-acquired sepsis patients more commonly received antibiotics within 1 hour after sepsis recognition.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organ Dysfunction and Elements of Sepsis",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with sepsis (hospital-acquired vs. community-acquired)",
+        "sample_size": "Not reported",
+        "predictor": "Hospital-acquired vs. community-acquired sepsis",
+        "outcome": "Enteral nutritional therapy",
+        "timing": "During ICU stay",
+        "method": "Descriptive comparison",
+        "effect_size": "61.8% vs. 52.3%",
+        "performance": "Not reported",
+        "notes": "Hospital-acquired sepsis patients more commonly received enteral nutritional therapy.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organ Dysfunction and Elements of Sepsis",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "All patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Prior antibiotic use before sepsis onset",
+        "outcome": "Antibiotic exposure rate",
+        "timing": "Before onset of sepsis",
+        "method": "Descriptive statistics",
+        "effect_size": "74.4%",
+        "performance": "Not reported",
+        "notes": "Approximately three-fourths of all sepsis patients had been given antibiotics before the onset of sepsis.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organ Dysfunction and Elements of Sepsis",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "All patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Blood culture positivity",
+        "outcome": "Bacteremia retention in blood culture",
+        "timing": "At onset of sepsis",
+        "method": "Descriptive statistics",
+        "effect_size": "63.2%",
+        "performance": "Not reported",
+        "notes": "63.2% of all sepsis patients retained bacteria in their blood culture.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Organ Dysfunction and Elements of Sepsis",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Age",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "Mean age: All 61.6±17.9, Non-sepsis 60.9±18.0, Sepsis 62.5±17.8",
+        "performance": "p=0.047",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Sex (male)",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 63.7%, Non-sepsis 62.5%, Sepsis 65.3%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "APACHE II score",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "Median: All 16.0 (IQR 10.0–22.0), Non-sepsis 13.0 (IQR 8.0–19.0), Sepsis 19.0 (IQR 14.0–25.0)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Initial SOFA score",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "Median: All 8.0 (IQR 5.0–11.0), Non-sepsis 6.0 (IQR 4.0–9.0), Sepsis 8.0 (IQR 5.0–11.0)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Mean SOFA score",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "During ICU stay",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "Median: All 6.0 (IQR 4.0–10.0), Non-sepsis 5.0 (IQR 3.0–8.0), Sepsis 7.0 (IQR 4.0–10.0)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Max SOFA score",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "During ICU stay",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "Median: All 9.0 (IQR 6.0–12.0), Non-sepsis 7.0 (IQR 4.0–10.0), Sepsis 9.0 (IQR 6.0–13.0)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Admission diagnosis",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "Sepsis diagnosis: 1,407 (28.7%) overall; Pneumonia: 859 (17.5%); Trauma: 295 (6.0%); Postoperative monitoring: 947 (19.3%); Gastrointestinal: 374 (7.6%); Heart failure: 411 (8.4%); Neurological: 320 (6.5%); Others: 297 (6.0%)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Comorbidity: Respiratory disease",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 12.0%, Non-sepsis 9.1%, Sepsis 15.9%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Comorbidity: Cardiovascular disease",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 18.7%, Non-sepsis 18.7%, Sepsis 18.7%",
+        "performance": "p=0.974",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Comorbidity: Hypertension",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 35.5%, Non-sepsis 34.5%, Sepsis 36.8%",
+        "performance": "p=0.099",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Comorbidity: Diabetes mellitus",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 17.8%, Non-sepsis 16.4%, Sepsis 19.7%",
+        "performance": "p=0.003",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Comorbidity: Chronic renal failure",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 11.1%, Non-sepsis 9.1%, Sepsis 13.7%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Comorbidity: Cancer",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 10.2%, Non-sepsis 10.3%, Sepsis 9.9%",
+        "performance": "p=0.633",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Comorbidity: Cirrhosis",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 2.4%, Non-sepsis 2.9%, Sepsis 1.8%",
+        "performance": "p=0.018",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Number of comorbidities",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "On admission",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "None: All 32.9%, Non-sepsis 38.5%, Sepsis 25.1%; 1: All 39.2%, Non-sepsis 36.5%, Sepsis 39.2%; 2: All 17.0%, Non-sepsis 15.7%, Sepsis 18.8%; ≥3: All 10.9%, Non-sepsis 9.3%, Sepsis 12.9%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Mechanical ventilation (MV)",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "During ICU stay",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 69.8%, Non-sepsis 64.2%, Sepsis 77.4%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Renal replacement therapy (RRT)",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "During ICU stay",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 14.4%, Non-sepsis 11.6%, Sepsis 18.3%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Vasopressor use",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "During ICU stay",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 56.4%, Non-sepsis 41.3%, Sepsis 76.9%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in China",
+        "sample_size": "N=4,910 (Non-sepsis n=2,824; Sepsis n=2,086)",
+        "predictor": "Number of organ failures (0)",
+        "outcome": "Sepsis vs. non-sepsis",
+        "timing": "During ICU stay",
+        "method": "Comparison of baseline characteristics",
+        "effect_size": "All 38.7%, Non-sepsis 50.9%, Sepsis 22.2%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Septic shock patients in ICU",
+        "sample_size": "N=4,910 (non-shock: 2,824; shock: 2,086)",
+        "predictor": "Vasopressor use",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Comparative analysis",
+        "effect_size": "Non-shock: 41.3%, Shock: 76.9%",
+        "performance": "p<0.001",
+        "notes": "Septic shock group vs non-shock group comparison",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Septic shock patients in ICU",
+        "sample_size": "N=4,910 (non-shock: 2,824; shock: 2,086)",
+        "predictor": "Renal replacement therapy (RRT)",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Comparative analysis",
+        "effect_size": "Non-shock: 11.6%, Shock: 18.3%",
+        "performance": "p<0.001",
+        "notes": "Septic shock group vs non-shock group comparison",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Septic shock patients in ICU",
+        "sample_size": "N=4,910 (non-shock: 2,824; shock: 2,086)",
+        "predictor": "Number of organ failures",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Comparative analysis",
+        "effect_size": "≥3 organ failures: Non-shock 1.7%, Shock 23.3%",
+        "performance": "p<0.001",
+        "notes": "Septic shock group vs non-shock group comparison; 0 failures: 50.9% vs 22.2%; 1 failure: 30.9% vs 23.2%; 2 failures: 16.5% vs 31.3%",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "All sepsis patients in ICU",
+        "sample_size": "N=4,910",
+        "predictor": "ICU length of stay",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Comparative analysis",
+        "effect_size": "Overall median 6.0 days (IQR 3.0–12.0); Non-shock: 4.0 (2.0–9.0); Shock: 8.0 (4.0–16.0)",
+        "performance": "p<0.001",
+        "notes": "Septic shock group vs non-shock group comparison",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "All sepsis patients in ICU",
+        "sample_size": "N=4,910",
+        "predictor": "Hospital length of stay",
+        "outcome": "Hospital mortality",
+        "timing": "During hospital stay",
+        "method": "Comparative analysis",
+        "effect_size": "Overall median 17.0 days (IQR 10.0–27.0); Non-shock: 17.0 (10.0–25.0); Shock: 18.0 (10.0–29.0)",
+        "performance": "p=0.002",
+        "notes": "Septic shock group vs non-shock group comparison",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "All sepsis patients in ICU",
+        "sample_size": "N=4,910",
+        "predictor": "Septic shock status",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Comparative analysis",
+        "effect_size": "Overall: 17.0%; Non-shock: 9.5%; Shock: 27.2%",
+        "performance": "p<0.001",
+        "notes": "Septic shock group vs non-shock group comparison",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "All sepsis patients in ICU",
+        "sample_size": "N=4,910",
+        "predictor": "Septic shock status",
+        "outcome": "Hospital mortality",
+        "timing": "During hospital stay",
+        "method": "Comparative analysis",
+        "effect_size": "Overall: 21.5%; Non-shock: 13.1%; Shock: 33.0%",
+        "performance": "p<0.001",
+        "notes": "Septic shock group vs non-shock group comparison",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Septic shock patients in ICU",
+        "sample_size": "N=2,086",
+        "predictor": "30 ml/kg fluid bolus resuscitation goal fulfillment within first 3 h",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "First 3 hours after ICU admission or onset of septic shock",
+        "method": "Comparative analysis",
+        "effect_size": "Survivors: 43.6%, Non-survivors: 32.4%",
+        "performance": "Not reported",
+        "notes": "No significant differences in intravenous fluid administration between groups (24.2 vs. 21.1 ml/kg)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Septic shock patients in ICU",
+        "sample_size": "N=2,086",
+        "predictor": "Antibiotics given within 1 h of onset",
+        "outcome": "ICU mortality (survivors vs non-survivors)",
+        "timing": "Within 1 hour of septic shock onset",
+        "method": "Comparative analysis",
+        "effect_size": "Survivors: 55.9%, Non-survivors: 49.3%",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with and without sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "ICU mortality",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "27.2% (sepsis) vs. 9.5% (no sepsis)",
+        "performance": "Not reported",
+        "notes": "ICU mortality varied by region; ranged from 20.0% (East China) to 50.0% (Southwest China) in septic shock patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Outcomes",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with and without sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Sepsis diagnosis",
+        "outcome": "In-hospital mortality",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "33.0% (sepsis) vs. 13.1% (no sepsis)",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Outcomes",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients stratified by sepsis severity",
+        "sample_size": "Not reported",
+        "predictor": "Severity of sepsis (including septic shock)",
+        "outcome": "ICU and in-hospital mortality",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "Gradual increase in mortality with increasing severity; septic shock associated with decreased length of hospital stay but significantly increased in-hospital mortality",
+        "performance": "Not reported",
+        "notes": "Patients with septic shock had decreased length of hospital stay despite increased in-hospital mortality",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Outcomes",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Number of dysfunctional organs",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Descriptive statistics / graphical analysis (Figure 2, Supplementary Figure 1)",
+        "effect_size": "Direct relationship between number of dysfunctional organs and ICU mortality",
+        "performance": "Not reported",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Outcomes",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "No comorbid conditions",
+        "outcome": "ICU mortality",
+        "timing": "At sepsis onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Associated with relatively lower ICU mortality after adjusting for potential confounders",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Use of antibiotics within 1 h of sepsis onset",
+        "outcome": "ICU mortality",
+        "timing": "Within 1 h of sepsis onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.65, 95% CI 0.46–0.92",
+        "performance": "Not reported",
+        "notes": "Associated with relatively lower ICU mortality after adjusting for potential confounders",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Advanced age",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Independent risk factor for ICU mortality in patients with sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "High APACHE II score",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Independent risk factor for ICU mortality in patients with sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Comorbid cardiovascular diseases",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Independent risk factor for ICU mortality in patients with sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Comorbid tumors",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Independent risk factor for ICU mortality in patients with sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures",
+        "sample_size": "Not reported",
+        "predictor": "Infection with Acinetobacter",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Independent risk factor for ICU mortality in patients with sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures",
+        "sample_size": "Not reported",
+        "predictor": "Infection with Pseudomonas",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Independent risk factor for ICU mortality in patients with sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures",
+        "sample_size": "Not reported",
+        "predictor": "Infection with Staphylococcus",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Independent risk factor for ICU mortality in patients with sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Use of RRT",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Independent risk factor for ICU mortality in patients with sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Septic shock",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.92, 95% CI 2.04–4.17",
+        "performance": "Not reported",
+        "notes": "Patients with septic shock had a nearly 3-fold increased risk of mortality compared to those without shock",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Resuscitation goal of 30 ml/kg during first 3 h",
+        "outcome": "ICU mortality",
+        "timing": "Within first 3 h of septic shock onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.43, 95% CI 0.30–0.63",
+        "performance": "Not reported",
+        "notes": "Achieving resuscitation goal decreased odds ratio for mortality in patients with septic shock",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Administering antibiotics within 1 h of septic shock onset",
+        "outcome": "ICU mortality",
+        "timing": "Within 1 h of septic shock onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.65, 95% CI 0.46–0.92",
+        "performance": "Not reported",
+        "notes": "Administering antibiotics within 1 h decreased odds ratio for mortality in patients with septic shock",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "Factors Associated With Mortality in All Patients With Sepsis",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - Lung",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 599 (50.7%), Hospital-acquired: 588 (61.7%)",
+        "performance": "p=0.001",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - Pleura",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 87 (7.4%), Hospital-acquired: 34 (3.8%)",
+        "performance": "p<0.001",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - Abdomen",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 370 (31.3%), Hospital-acquired: 140 (15.5%)",
+        "performance": "p<0.001",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - Urinary tract",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 65 (5.5%), Hospital-acquired: 23 (2.5%)",
+        "performance": "p=0.001",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - Bloodstream",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 73 (6.2%), Hospital-acquired: 84 (9.3%)",
+        "performance": "p=0.008",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - Catheter-related sites",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 5 (0.4%), Hospital-acquired: 37 (4.1%)",
+        "performance": "p<0.001",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - Wound/soft tissue",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 56 (4.7%), Hospital-acquired: 51 (5.6%)",
+        "performance": "p=0.359",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - CNS",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 28 (2.4%), Hospital-acquired: 6 (0.7%)",
+        "performance": "p=0.002",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Site of infection - Unknown",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 152 (12.9%), Hospital-acquired: 162 (17.9%)",
+        "performance": "p=0.001",
+        "notes": "Distribution of infection sites by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Results of culture",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Positive: Community-acquired 734 (62.2%), Hospital-acquired 541 (59.8%); Negative: 294 (24.9%) vs 274 (30.3%); Undetermined: 153 (13.0%) vs 90 (9.9%)",
+        "performance": "p=0.007",
+        "notes": "Distribution of culture results by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Origin of infection: Community-acquired vs Hospital-acquired",
+        "outcome": "Isolated organism - Acinetobacter",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Community-acquired: 185 (25.2%), Hospital-acquired: 185 (34.2%)",
+        "performance": "p<0.001",
+        "notes": "Distribution of isolated organisms by origin of infection",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Severity of sepsis: Sepsis vs Septic shock",
+        "outcome": "Site of infection - Pleura",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Sepsis: 75 (7.9%), Septic shock: 46 (4.1%)",
+        "performance": "p<0.001",
+        "notes": "Distribution of infection sites by severity of sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Severity of sepsis: Sepsis vs Septic shock",
+        "outcome": "Site of infection - Abdomen",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Sepsis: 252 (26.5%), Septic shock: 258 (22.8%)",
+        "performance": "p=0.049",
+        "notes": "Distribution of infection sites by severity of sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Severity of sepsis: Sepsis vs Septic shock",
+        "outcome": "Site of infection - Catheter-related sites",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Sepsis: 31 (3.3%), Septic shock: 11 (1.0%)",
+        "performance": "p<0.001",
+        "notes": "Distribution of infection sites by severity of sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Severity of sepsis: Sepsis vs Septic shock",
+        "outcome": "Site of infection - Wound/soft tissue",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Sepsis: 79 (8.3%), Septic shock: 28 (2.5%)",
+        "performance": "p<0.001",
+        "notes": "Distribution of infection sites by severity of sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Severity of sepsis: Sepsis vs Septic shock",
+        "outcome": "Site of infection - Unknown",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Sepsis: 115 (12.1%), Septic shock: 199 (19.5%)",
+        "performance": "p=0.001",
+        "notes": "Distribution of infection sites by severity of sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Severity of sepsis: Sepsis vs Septic shock",
+        "outcome": "Results of culture",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Positive: Sepsis 535 (56.2%), Septic shock 740 (65.3%); Negative: 238 (25.0%) vs 330 (29.1%); Undetermined: 179 (18.8%) vs 64 (5.6%)",
+        "performance": "p<0.001",
+        "notes": "Distribution of culture results by severity of sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "N=2,086",
+        "predictor": "Severity of sepsis: Sepsis vs Septic shock",
+        "outcome": "Isolated organism - Klebsiella",
+        "timing": "At admission/diagnosis",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "Sepsis: 81 (15.1%), Septic shock: 66 (8.9%)",
+        "performance": "p=0.001",
+        "notes": "Distribution of isolated organisms by severity of sepsis",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients",
+        "sample_size": "N=1274 (Escherichia); N=1274 (Klebsiella); N=1274 (Pseudomonas); N=1274 (Fungi); N=1274 (Candida); N=1274 (Aspergillus)",
+        "predictor": "Causative organism: Escherichia",
+        "outcome": "Group comparison (subgroup 1 vs subgroup 2)",
+        "timing": "At diagnosis/admission",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "256 (20.1%) total; 153 (20.8%) vs 103 (19.0%); 105 (19.6%) vs 151 (20.4%)",
+        "performance": "p=0.426 (first comparison); p=0.732 (second comparison)",
+        "notes": "Patients may have had more than one organism isolated",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients",
+        "sample_size": "N=1274",
+        "predictor": "Causative organism: Klebsiella",
+        "outcome": "Group comparison (subgroup 1 vs subgroup 2)",
+        "timing": "At diagnosis/admission",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "147 (11.5%) total; 83 (11.3%) vs 64 (11.8%); 81 (15.1%) vs 66 (8.9%)",
+        "performance": "p=0.773 (first comparison); p=0.001 (second comparison)",
+        "notes": "Patients may have had more than one organism isolated",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients",
+        "sample_size": "N=1274",
+        "predictor": "Causative organism: Pseudomonas",
+        "outcome": "Group comparison (subgroup 1 vs subgroup 2)",
+        "timing": "At diagnosis/admission",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "281 (22.0%) total; 145 (19.8%) vs 136 (25.1%); 103 (19.3%) vs 178 (24.1%)",
+        "performance": "p=0.022 (first comparison); p=0.041 (second comparison)",
+        "notes": "Patients may have had more than one organism isolated",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients",
+        "sample_size": "N=1274",
+        "predictor": "Causative organism: Fungi (Candida, yeasts, Aspergillus, and Pneumocystis carinii)",
+        "outcome": "Group comparison (subgroup 1 vs subgroup 2)",
+        "timing": "At diagnosis/admission",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "326 (25.6%) total; 189 (25.7%) vs 137 (25.3%); 125 (23.3%) vs 201 (27.2%)",
+        "performance": "p=0.863 (first comparison); p=0.125 (second comparison)",
+        "notes": "Patients may have had more than one organism isolated; Fungi includes Candida, yeasts, Aspergillus, and Pneumocystis carinii",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients",
+        "sample_size": "N=1274",
+        "predictor": "Causative organism: Candida",
+        "outcome": "Group comparison (subgroup 1 vs subgroup 2)",
+        "timing": "At diagnosis/admission",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "249 (19.5%) total; 146 (19.9%) vs 103 (19.0%); 88 (16.4%) vs 161 (21.8%)",
+        "performance": "p=0.704 (first comparison); p=0.018 (second comparison)",
+        "notes": "Patients may have had more than one organism isolated",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients",
+        "sample_size": "N=1274",
+        "predictor": "Causative organism: Aspergillus",
+        "outcome": "Group comparison (subgroup 1 vs subgroup 2)",
+        "timing": "At diagnosis/admission",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "25 (2.7%) total; 18 (2.5%) vs 17 (3.1%); 13 (2.4%) vs 22 (3.0%)",
+        "performance": "p=0.456 (first comparison); p=0.558 (second comparison)",
+        "notes": "Patients may have had more than one organism isolated; total percentage noted as 2.7% in source table",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in Chinese tertiary hospitals with sepsis or septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Prompt administration of antibiotics and sufficient fluid resuscitation",
+        "outcome": "In-hospital mortality / survival",
+        "timing": "During ICU admission",
+        "method": "Large-scale multicenter prospective cohort study",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "More than two-fifths of patients developed sepsis on admission or within 48h of ICU admission; more than half had septic shock; in-hospital mortality in septic shock patients was 44.4%; Acinetobacter and Pseudomonas were the most common isolated microorganisms",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "DISCUSSION",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients in Chinese tertiary hospitals with septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Septic shock diagnosis",
+        "outcome": "In-hospital mortality",
+        "timing": "On ICU admission or within 48h",
+        "method": "Large-scale multicenter prospective cohort study",
+        "effect_size": "Not reported",
+        "performance": "In-hospital mortality 44.4%",
+        "notes": "Patients who stayed in ICU for less than 24h were excluded; sepsis prevalence was more than two-fifths of ICU admissions",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "DISCUSSION",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Number of organ failures",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Cohort study, descriptive analysis",
+        "effect_size": "1 organ failure: ICU mortality 9.9%; 4 or more organ failures: ICU mortality 60.8%",
+        "performance": "Not reported",
+        "notes": "Overall ICU mortality 17.0%; in-hospital mortality 21.5%. Sepsis ICU mortality 27.2%; sepsis in-hospital mortality 33.0%. Septic shock ICU mortality 39.0%; septic shock in-hospital mortality 44.4%.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "DISCUSSION",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "SOFA-respiratory sub-score",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "All: 3 (2–3); Community-acquired: 3 (2–3); Hospital-acquired: 3 (2–4)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "SOFA-cardiovascular sub-score",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "All: 2 (0–4); Community-acquired: 2 (1–4); Hospital-acquired: 2 (2–4)",
+        "performance": "p=0.012",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "SOFA-coagulation sub-score",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "All: 0 (0–2); Community-acquired: 0 (0–2); Hospital-acquired: 0 (0–1)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "SOFA-hepatic sub-score",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "All: 0 (0–2); Community-acquired: 0 (0–0); Hospital-acquired: 1 (0–2)",
+        "performance": "p=0.048",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "SOFA-renal sub-score",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "All: 0 (0–2); Community-acquired: 0 (0–2); Hospital-acquired: 0 (0–2)",
+        "performance": "p=0.949",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "SOFA-CNS sub-score",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "All: 1 (0–3); Community-acquired: 1 (0–3); Hospital-acquired: 1 (0–2)",
+        "performance": "p=0.805",
+        "notes": "CNS: central nervous system",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "ARDS (organ dysfunction)",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Chi-square or Fisher's exact test, n (%)",
+        "effect_size": "All: 924 (44.3%); Community-acquired: 583 (49.4%); Hospital-acquired: 341 (37.7%)",
+        "performance": "p<0.001",
+        "notes": "ARDS: acute respiratory distress syndrome",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "AKI (organ dysfunction)",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Chi-square or Fisher's exact test, n (%)",
+        "effect_size": "All: 870 (41.7%); Community-acquired: 462 (39.1%); Hospital-acquired: 408 (45.1%)",
+        "performance": "p=0.006",
+        "notes": "AKI: acute kidney injury",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "Blood culture obtained pre-antibiotics",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "Pre-antibiotic administration",
+        "method": "Chi-square or Fisher's exact test, n (%)",
+        "effect_size": "All: 1,318 (63.2%); Community-acquired: 718 (60.8%); Hospital-acquired: 600 (66.3%)",
+        "performance": "p=0.004",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "Administration of antibiotics pre-ICU",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "Pre-ICU",
+        "method": "Chi-square or Fisher's exact test, n (%)",
+        "effect_size": "All: 1,553 (74.4%); Community-acquired: 831 (70.4%); Hospital-acquired: 722 (79.8%)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "Administration of antibiotics within 1 h of sepsis or septic shock onset",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "Within 1 hour of sepsis or septic shock onset",
+        "method": "Chi-square or Fisher's exact test, n (%)",
+        "effect_size": "All: 1,328 (63.7%); Community-acquired: 636 (53.6%); Hospital-acquired: 692 (76.5%)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "Nutritional therapy (none, pre-ICU, post-ICU)",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "ICU admission",
+        "method": "Chi-square or Fisher's exact test, n (%)",
+        "effect_size": "None: All 225 (10.8%), CA 147 (12.4%), HA 78 (8.6%); Pre-ICU: All 257 (12.3%), CA 131 (11.1%), HA 126 (13.9%); Post-ICU: All 1,604 (76.9%), CA 903 (76.5%), HA 701 (77.5%)",
+        "performance": "p=0.006",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis in China",
+        "sample_size": "N=2,086 (community-acquired n=1,181; hospital-acquired n=905)",
+        "predictor": "Nutrition prescription during ICU (enteral, parenteral, enteral+parenteral)",
+        "outcome": "Comparison between community-acquired and hospital-acquired sepsis",
+        "timing": "During ICU stay",
+        "method": "Chi-square or Fisher's exact test, n (%)",
+        "effect_size": "Enteral: All 907 (56.5%), CA 474 (52.3%), HA 433 (61.8%); Parenteral: All 488 (30.4%), CA 313 (34.7%), HA 175 (25.0%); Enteral+Parenteral: All 209 (13.1%), CA 116 (12.8%), HA 93 (13.3%)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with septic shock in China",
+        "sample_size": "Survivors n=692; Non-survivors n=442",
+        "predictor": "Intravenous fluid administration at 3 hours (ml/kg)",
+        "outcome": "Survival vs. non-survival in septic shock",
+        "timing": "Within 3 hours of septic shock onset",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "Survivors: 24.2 (11.1–30.6); Non-survivors: 21.1 (14.1–30.5)",
+        "performance": "p=0.741",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with septic shock in China",
+        "sample_size": "Survivors n=692; Non-survivors n=442",
+        "predictor": "Intravenous fluid administration at 6 hours (ml/kg)",
+        "outcome": "Survival vs. non-survival in septic shock",
+        "timing": "Within 6 hours of septic shock onset",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "Survivors: 33.8 (16.4–46.5); Non-survivors: 35.9 (21.7–50.7)",
+        "performance": "p=0.004",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with septic shock in China",
+        "sample_size": "Survivors n=692; Non-survivors n=442",
+        "predictor": "Intravenous fluid administration at 24 hours (ml/kg)",
+        "outcome": "Survival vs. non-survival in septic shock",
+        "timing": "Within 24 hours of septic shock onset",
+        "method": "Median (IQR) comparison, p-value",
+        "effect_size": "Survivors: 56.7 (38.2–81.5); Non-survivors: 63.4 (44.1–95.5)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "Not reported",
+        "predictor": "Fluid resuscitation ≥30 ml/kg during first 3 h",
+        "outcome": "Not reported",
+        "timing": "First 3 hours",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "302 (43.6%) vs 143 (32.4%)",
+        "performance": "p<0.001",
+        "notes": "Comparison between two groups of sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "Not reported",
+        "predictor": "Fluid resuscitation ≥30 ml/kg during first 6 h",
+        "outcome": "Not reported",
+        "timing": "First 6 hours",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "213 (30.8%) vs 126 (28.5%)",
+        "performance": "p=0.238",
+        "notes": "Comparison between two groups of sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "Not reported",
+        "predictor": "Vasopressor administration during first 3 h",
+        "outcome": "Not reported",
+        "timing": "First 3 hours",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "360 (52.0%) vs 254 (57.5%)",
+        "performance": "p=0.073",
+        "notes": "Comparison between two groups of sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "Not reported",
+        "predictor": "Vasopressor administration during first 6 h",
+        "outcome": "Not reported",
+        "timing": "First 6 hours",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "394 (56.9%) vs 281 (63.6%)",
+        "performance": "p=0.026",
+        "notes": "Comparison between two groups of sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "Not reported",
+        "predictor": "Vasopressor administration during first 24 h",
+        "outcome": "Not reported",
+        "timing": "First 24 hours",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "457 (66.0%) vs 315 (71.3%)",
+        "performance": "p=0.066",
+        "notes": "Comparison between two groups of sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "Not reported",
+        "predictor": "Antibiotics within 1 h",
+        "outcome": "Not reported",
+        "timing": "Within 1 hour",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "387 (55.9%) vs 218 (49.3%)",
+        "performance": "p=0.030",
+        "notes": "Comparison between two groups of sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients in China",
+        "sample_size": "Not reported",
+        "predictor": "Blood culture pre-antibiotics",
+        "outcome": "Not reported",
+        "timing": "Pre-antibiotics",
+        "method": "Chi-square or Fisher's exact test",
+        "effect_size": "501 (72.4%) vs 321 (72.6%)",
+        "performance": "p=0.753",
+        "notes": "Comparison between two groups of sepsis patients",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients admitted to ICU with onset of sepsis on admission to the ICU",
+        "sample_size": "N=1,407",
+        "predictor": "APACHE II score on admission",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "APACHE II median 20.0 (IQR 15.0–26.0)",
+        "performance": "ICU mortality 32.2% (95% CI 29.8–34.6%)",
+        "notes": "Hospital mortality 39.0% (95% CI 36.5–41.6%); ICU LOS 9.0 days (IQR 4.0–17.0); Hospital LOS 18.0 days (IQR 10.0–28.0)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients admitted to ICU with onset of sepsis on admission to the ICU",
+        "sample_size": "N=1,407",
+        "predictor": "SOFA score on admission",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "SOFA median 8.0 (IQR 5.0–12.0)",
+        "performance": "ICU mortality 32.2% (95% CI 29.8–34.6%)",
+        "notes": "Hospital mortality 39.0% (95% CI 36.5–41.6%)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients admitted to ICU with onset of sepsis within 48 h of ICU admission",
+        "sample_size": "N=679",
+        "predictor": "APACHE II score",
+        "outcome": "ICU mortality",
+        "timing": "Within 48 h of ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "APACHE II median 18.0 (IQR 13.0–24.0)",
+        "performance": "ICU mortality 16.8% (95% CI 13.8–19.6%)",
+        "notes": "Hospital mortality 20.5% (95% CI 17.4–23.5%); ICU LOS 7.0 days (IQR 4.0–13.0); Hospital LOS 8.0 days (IQR 10.0–29.0)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients admitted to ICU with onset of sepsis within 48 h of ICU admission",
+        "sample_size": "N=679",
+        "predictor": "SOFA score",
+        "outcome": "ICU mortality",
+        "timing": "Within 48 h of ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "SOFA median 8.0 (IQR 5.0–11.0)",
+        "performance": "ICU mortality 16.8% (95% CI 13.8–19.6%)",
+        "notes": "Hospital mortality 20.5% (95% CI 17.4–23.5%)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients without shock admitted to ICU",
+        "sample_size": "N=952",
+        "predictor": "APACHE II score",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "APACHE II median 17.0 (IQR 12.0–22.0)",
+        "performance": "ICU mortality 13.1% (95% CI 11.0–15.3%)",
+        "notes": "Hospital mortality 19.3% (95% CI 16.8–21.8%); ICU LOS 9.0 days (IQR 4.0–15.0); Hospital LOS 19.0 days (IQR 11.0–29.0)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients without shock admitted to ICU",
+        "sample_size": "N=952",
+        "predictor": "SOFA score",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "SOFA median 6.0 (IQR 4.0–9.0)",
+        "performance": "ICU mortality 13.1% (95% CI 11.0–15.3%)",
+        "notes": "Hospital mortality 19.3% (95% CI 16.8–21.8%)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Septic shock patients admitted to ICU",
+        "sample_size": "N=1,134",
+        "predictor": "APACHE II score",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "APACHE II median 22.0 (IQR 16.0–28.0)",
+        "performance": "ICU mortality 39.0% (95% CI 36.1–41.8%)",
+        "notes": "Hospital mortality 44.4% (95% CI 41.6–47.3%); ICU LOS 9.0 days (IQR 4.0–17.0); Hospital LOS 17.0 days (IQR 9.0–28.0)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Septic shock patients admitted to ICU",
+        "sample_size": "N=1,134",
+        "predictor": "SOFA score",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "SOFA median 9.0 (IQR 6.0–13.0)",
+        "performance": "ICU mortality 39.0% (95% CI 36.1–41.8%)",
+        "notes": "Hospital mortality 44.4% (95% CI 41.6–47.3%)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Community-acquired sepsis patients admitted to ICU",
+        "sample_size": "N=1,185",
+        "predictor": "APACHE II score",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "APACHE II median 19.0 (IQR 14.0–25.0)",
+        "performance": "ICU mortality 26.2% (95% CI 23.7–28.7%)",
+        "notes": "Hospital mortality 32.0% (95% CI 29.3–34.7%); ICU LOS 7.0 days (IQR 4.0–15.0); Hospital LOS 16.0 days (IQR 9.0–27.0)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Community-acquired sepsis patients admitted to ICU",
+        "sample_size": "N=1,185",
+        "predictor": "SOFA score",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "SOFA median 8.0 (IQR 5.0–12.0)",
+        "performance": "ICU mortality 26.2% (95% CI 23.7–28.7%)",
+        "notes": "Hospital mortality 32.0% (95% CI 29.3–34.7%)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Hospital-acquired sepsis patients admitted to ICU",
+        "sample_size": "N=905",
+        "predictor": "APACHE II score",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "APACHE II median 19.0 (IQR 14.0–25.0)",
+        "performance": "ICU mortality 28.5% (95% CI 25.6–31.5%)",
+        "notes": "Hospital mortality 34.3% (95% CI 31.2–37.4%); ICU LOS 9.0 days (IQR 4.0–17.0); Hospital LOS 21.0 days (IQR 12.0–30.0)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Hospital-acquired sepsis patients admitted to ICU",
+        "sample_size": "N=905",
+        "predictor": "SOFA score",
+        "outcome": "ICU mortality",
+        "timing": "On admission to the ICU",
+        "method": "Descriptive statistics",
+        "effect_size": "SOFA median 8.0 (IQR 5.0–11.0)",
+        "performance": "ICU mortality 28.5% (95% CI 25.6–31.5%)",
+        "notes": "Hospital mortality 34.3% (95% CI 31.2–37.4%)",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Initial antibiotic administration within 1 hour of onset of sepsis",
+        "outcome": "ICU mortality",
+        "timing": "Within 1 hour of sepsis onset",
+        "method": "Logistic regression / odds ratio analysis",
+        "effect_size": "OR 0.58, 95% CI: 0.42–0.81",
+        "performance": "42% decrease in ICU mortality",
+        "notes": "SSC 2016 guidelines recommend early optimization of antibiotic therapy",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_29"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Early effective fluid resuscitation",
+        "outcome": "ICU mortality",
+        "timing": "Early (at onset of septic shock)",
+        "method": "Logistic regression / odds ratio analysis",
+        "effect_size": "OR 0.43, 95% CI: 0.30–0.63",
+        "performance": "More than 50% decrease in ICU mortality",
+        "notes": "SSC 2016 guidelines recommend early sufficient fluid resuscitation for sepsis and septic shock",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_29"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Lung as site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 2.44 (95% CI 1.98–2.99)",
+        "performance": "ICU mortality 34.7% (95% CI 31.9–37.4%)",
+        "notes": "Hospital mortality 40.8% (95% CI 38.0–43.6%). Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Pleura as site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 1.14 (95% CI 0.77–1.71)",
+        "performance": "ICU mortality 29.8% (95% CI 21.5–38.0%)",
+        "notes": "Hospital mortality 36.4% (95% CI 27.7–45.1%). Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Abdomen as site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.75 (95% CI 0.59–1.19)",
+        "performance": "ICU mortality 22.9% (95% CI 19.3–26.6%)",
+        "notes": "Hospital mortality 29.6% (95% CI 25.6–33.6%). Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Urinary tract as site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 1.07 (95% CI 0.66–1.71)",
+        "performance": "ICU mortality 28.4% (95% CI 18.8–38.0%)",
+        "notes": "Hospital mortality 34.1% (95% CI 24.0–44.2%). Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Bloodstream as site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 1.28 (95% CI 0.90–1.81)",
+        "performance": "ICU mortality 31.8% (95% CI 24.5–39.2%)",
+        "notes": "Hospital mortality 36.3% (95% CI 28.7–43.9%). Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Catheter-related as site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.63 (95% CI 0.29–1.36)",
+        "performance": "ICU mortality 19.0% (95% CI 6.7–31.4%)",
+        "notes": "Hospital mortality 21.4% (95% CI 8.5–34.4%). Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Wound/soft tissue as site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.32 (95% CI 0.18–0.60)",
+        "performance": "ICU mortality 11.2% (95% CI 5.14–17.3%)",
+        "notes": "Hospital mortality 15.0% (95% CI 8.1–21.8%). Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "CNS as site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.82 (95% CI 0.37–1.83)",
+        "performance": "ICU mortality 23.5% (95% CI 8.5–38.6%)",
+        "notes": "Hospital mortality 26.5% (95% CI 10.9–42.1%). CNS = central nervous system. Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Unknown site of infection",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.41 (95% CI 0.30–0.57)",
+        "performance": "ICU mortality 14.6% (95% CI 10.7–18.6%)",
+        "notes": "Hospital mortality 18.2% (95% CI 13.9–22.4%). Patients may have one or more sites of infection.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Gram-positive isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 2.18 (95% CI 1.70–2.78)",
+        "performance": "ICU mortality 45.7% (95% CI 40.8–50.7%)",
+        "notes": "Hospital mortality 51.6% (95% CI 46.6–56.5%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Staphylococcus isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 3.18 (95% CI 2.38–4.27)",
+        "performance": "ICU mortality 56.0% (95% CI 49.6–62.5%)",
+        "notes": "Hospital mortality 61.6% (95% CI 55.3–67.9%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Enterococcus isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 1.37 (95% CI 0.95–1.99)",
+        "performance": "ICU mortality 40.2% (95% CI 31.7–48.6%)",
+        "notes": "Hospital mortality 46.2% (95% CI 37.6–54.8%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Gram-negative isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 1.31 (95% CI 1.00–1.73)",
+        "performance": "ICU mortality 35.1% (95% CI 32.1–38.1%)",
+        "notes": "Hospital mortality 41.5% (95% CI 38.4–44.7%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Acinetobacter isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 1.99 (95% CI 1.56–2.65)",
+        "performance": "ICU mortality 44.9% (95% CI 39.8–50.0%)",
+        "notes": "Hospital mortality 51.4% (95% CI 46.2–56.5%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Escherichia isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.59 (95% CI 0.43–0.80)",
+        "performance": "ICU mortality 24.6% (95% CI 19.3–29.9%)",
+        "notes": "Hospital mortality 29.3% (95% CI 23.7–34.9%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Klebsiella isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.83 (95% CI 0.57–1.20)",
+        "performance": "ICU mortality 29.9% (95% CI 22.4–37.4%)",
+        "notes": "Hospital mortality 36.1% (95% CI 28.2–43.9%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Pseudomonas isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 2.39 (95% CI 1.82–3.13)",
+        "performance": "ICU mortality 49.5% (95% CI 43.6–55.4%)",
+        "notes": "Hospital mortality 54.8% (95% CI 49.0–60.7%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Fungi isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.84 (95% CI 0.64–1.10)",
+        "performance": "ICU mortality 30.7% (95% CI 25.6–35.7%)",
+        "notes": "Hospital mortality 38.3% (95% CI 33.0–43.7%). Fungi includes Candida, yeasts, Aspergillus and Pneumocystis carinii. Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Candida isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.99 (95% CI 0.74–1.32)",
+        "performance": "ICU mortality 33.3% (95% CI 27.4–39.2%)",
+        "notes": "Hospital mortality 42.2% (95% CI 36.0–48.3%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "ICU patients with sepsis and positive cultures in China",
+        "sample_size": "Not reported",
+        "predictor": "Aspergillus isolated organism",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission/during ICU stay",
+        "method": "Unadjusted odds ratio",
+        "effect_size": "OR 0.68 (95% CI 0.21–1.46)",
+        "performance": "ICU mortality 25.7% (95% CI 10.5–41.0%)",
+        "notes": "Hospital mortality 28.6% (95% CI 12.8–44.3%). Patients may have had more than one organism isolated.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_30"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis or septic shock in tertiary hospitals in China",
+        "sample_size": "N=2,086",
+        "predictor": "Age (per 1 year increase)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.04 (95% CI 1.03–1.05)",
+        "performance": "p<0.001",
+        "notes": "First cohort study investigating epidemiology of sepsis in critically ill patients in tertiary hospitals in China",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis or septic shock in tertiary hospitals in China",
+        "sample_size": "N=2,086",
+        "predictor": "APACHE II score (per one point increase)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.16 (95% CI 1.13–1.21)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis or septic shock in tertiary hospitals in China",
+        "sample_size": "N=2,086",
+        "predictor": "No comorbid condition",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.40 (95% CI 0.24–0.64)",
+        "performance": "p<0.001",
+        "notes": "Protective effect compared to having comorbidities",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis or septic shock in tertiary hospitals in China",
+        "sample_size": "N=2,086",
+        "predictor": "Comorbid cardiovascular disease",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.15 (95% CI 1.45–3.20)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis or septic shock in tertiary hospitals in China",
+        "sample_size": "N=2,086",
+        "predictor": "Comorbid tumor (malignant)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.43 (95% CI 1.39–4.23)",
+        "performance": "p=0.002",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis or septic shock in tertiary hospitals in China",
+        "sample_size": "N=2,086",
+        "predictor": "Septic shock",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.68 (95% CI 1.84–3.92)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill patients with sepsis or septic shock in tertiary hospitals in China",
+        "sample_size": "N=2,086",
+        "predictor": "Isolated Acinetobacter microorganism",
+        "outcome": "ICU mortality",
+        "timing": "During ICU stay",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.21 (95% CI 1.51–3.25)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients (general cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Cardiovascular disease",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.15 (95% CI 1.45–3.20)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for age, sex, APACHE II score, SOFA-initial score, comorbid conditions, use of MV, RRT and vasopressors, sites of infection, isolated organisms, use of antibiotics within 1 h, use of antibiotics pre-sepsis, and septic shock.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients (general cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Tumor",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.43 (95% CI 1.39–4.23)",
+        "performance": "p=0.002",
+        "notes": "Adjusted for age, sex, APACHE II score, SOFA-initial score, comorbid conditions, use of MV, RRT and vasopressors, sites of infection, isolated organisms, use of antibiotics within 1 h, use of antibiotics pre-sepsis, and septic shock.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients (general cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Septic shock",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.68 (95% CI 1.84–3.92)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for age, sex, APACHE II score, SOFA-initial score, comorbid conditions, use of MV, RRT and vasopressors, sites of infection, isolated organisms, use of antibiotics within 1 h, use of antibiotics pre-sepsis, and septic shock.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients (general cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Isolated microorganism: Acinetobacter",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.21 (95% CI 1.51–3.25)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for age, sex, APACHE II score, SOFA-initial score, comorbid conditions, use of MV, RRT and vasopressors, sites of infection, isolated organisms, use of antibiotics within 1 h, use of antibiotics pre-sepsis, and septic shock.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients (general cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Isolated microorganism: Pseudomonas",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.09 (95% CI 1.36–3.23)",
+        "performance": "p=0.001",
+        "notes": "Adjusted for age, sex, APACHE II score, SOFA-initial score, comorbid conditions, use of MV, RRT and vasopressors, sites of infection, isolated organisms, use of antibiotics within 1 h, use of antibiotics pre-sepsis, and septic shock.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients (general cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Isolated microorganism: Staphylococcus",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.31 (95% CI 1.08–3.25)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for age, sex, APACHE II score, SOFA-initial score, comorbid conditions, use of MV, RRT and vasopressors, sites of infection, isolated organisms, use of antibiotics within 1 h, use of antibiotics pre-sepsis, and septic shock.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients (general cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Renal replacement therapy",
+        "outcome": "Mortality (adjusted)",
+        "timing": "During hospitalization",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.49 (95% CI 1.72–3.61)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for age, sex, APACHE II score, SOFA-initial score, comorbid conditions, use of MV, RRT and vasopressors, sites of infection, isolated organisms, use of antibiotics within 1 h, use of antibiotics pre-sepsis, and septic shock.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Sepsis patients (general cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Use of antibiotics within 1 h",
+        "outcome": "Mortality (adjusted)",
+        "timing": "Within 1 hour of sepsis onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.58 (95% CI 0.42–0.81)",
+        "performance": "p=0.001",
+        "notes": "Protective factor. Adjusted for age, sex, APACHE II score, SOFA-initial score, comorbid conditions, use of MV, RRT and vasopressors, sites of infection, isolated organisms, use of antibiotics within 1 h, use of antibiotics pre-sepsis, and septic shock.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock",
+        "sample_size": "N=1,134",
+        "predictor": "Age (per 1 year increase)",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.04 (95% CI 1.03–1.06)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for age, APACHE II score, SOFA-initial score, comorbid cardiovascular diseases, hypertension, diabetes mellitus and chronic renal failure, use of MV, RRT and vasopressors, administration of antibiotics within 1 h, and 30 mL/kg fluid resuscitation within the first 3 h.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock",
+        "sample_size": "N=1,134",
+        "predictor": "APACHE II score (per one point increase)",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.17 (95% CI 1.13–1.20)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for age, APACHE II score, SOFA-initial score, comorbid cardiovascular diseases, hypertension, diabetes mellitus and chronic renal failure, use of MV, RRT and vasopressors, administration of antibiotics within 1 h, and 30 mL/kg fluid resuscitation within the first 3 h.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock",
+        "sample_size": "N=1,134",
+        "predictor": "Isolated microorganism: Pseudomonas",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.14 (95% CI 1.32–3.47)",
+        "performance": "p=0.002",
+        "notes": "Adjusted for age, APACHE II score, SOFA-initial score, comorbid cardiovascular diseases, hypertension, diabetes mellitus and chronic renal failure, use of MV, RRT and vasopressors, administration of antibiotics within 1 h, and 30 mL/kg fluid resuscitation within the first 3 h.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock",
+        "sample_size": "N=1,134",
+        "predictor": "Isolated microorganism: Staphylococcus",
+        "outcome": "Mortality (adjusted)",
+        "timing": "At admission/diagnosis",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.36 (95% CI 1.96–4.77)",
+        "performance": "p=0.001",
+        "notes": "Adjusted for age, APACHE II score, SOFA-initial score, comorbid cardiovascular diseases, hypertension, diabetes mellitus and chronic renal failure, use of MV, RRT and vasopressors, administration of antibiotics within 1 h, and 30 mL/kg fluid resuscitation within the first 3 h.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock",
+        "sample_size": "N=1,134",
+        "predictor": "Renal replacement therapy",
+        "outcome": "Mortality (adjusted)",
+        "timing": "During hospitalization",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 3.14 (95% CI 2.09–4.73)",
+        "performance": "p<0.001",
+        "notes": "Adjusted for age, APACHE II score, SOFA-initial score, comorbid cardiovascular diseases, hypertension, diabetes mellitus and chronic renal failure, use of MV, RRT and vasopressors, administration of antibiotics within 1 h, and 30 mL/kg fluid resuscitation within the first 3 h.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock",
+        "sample_size": "N=1,134",
+        "predictor": "Use of antibiotics within 1 h",
+        "outcome": "Mortality (adjusted)",
+        "timing": "Within 1 hour of septic shock onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.65 (95% CI 0.46–0.92)",
+        "performance": "p=0.001",
+        "notes": "Protective factor. Adjusted for age, APACHE II score, SOFA-initial score, comorbid cardiovascular diseases, hypertension, diabetes mellitus and chronic renal failure, use of MV, RRT and vasopressors, administration of antibiotics within 1 h, and 30 mL/kg fluid resuscitation within the first 3 h.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Patients with septic shock",
+        "sample_size": "N=1,134",
+        "predictor": "30 mL/kg initial resuscitation during first 3 h",
+        "outcome": "Mortality (adjusted)",
+        "timing": "Within first 3 hours of septic shock onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.43 (95% CI 0.30–0.63)",
+        "performance": "p<0.001",
+        "notes": "Protective factor. Adjusted for age, APACHE II score, SOFA-initial score, comorbid cardiovascular diseases, hypertension, diabetes mellitus and chronic renal failure, use of MV, RRT and vasopressors, administration of antibiotics within 1 h, and 30 mL/kg fluid resuscitation within the first 3 h.",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill adults with sepsis in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "Acinetobacter infection",
+        "outcome": "ICU mortality",
+        "timing": "During ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor (p not reported)",
+        "notes": "Identified as independent risk factor for ICU mortality",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_33"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill adults with sepsis in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "Pseudomonas infection",
+        "outcome": "ICU mortality",
+        "timing": "During ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor (p not reported)",
+        "notes": "Identified as independent risk factor for ICU mortality",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_33"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill adults with sepsis in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "Staphylococcus infection",
+        "outcome": "ICU mortality",
+        "timing": "During ICU admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Independent risk factor (p not reported)",
+        "notes": "Identified as independent risk factor for ICU mortality",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_33"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill adults with sepsis in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "Initial administration of antibiotics within 1 hour of sepsis onset",
+        "outcome": "ICU mortality",
+        "timing": "Within 1 hour of sepsis onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Decreased risk of mortality (p not reported)",
+        "notes": "Early antibiotic administration associated with reduced mortality risk",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_33"
+        }
+    },
+    {
+        "study": "Wang 2020",
+        "population": "Critically ill adults with sepsis in tertiary hospitals in China",
+        "sample_size": "Not reported",
+        "predictor": "Adequate fluid resuscitation",
+        "outcome": "ICU mortality",
+        "timing": "At sepsis onset",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Decreased risk of mortality (p not reported)",
+        "notes": "Adequate fluid resuscitation associated with reduced mortality risk",
+        "source_info": {
+            "file": "Wang_2020.pdf",
+            "doi": "10.3389/fmed.2020.593808",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_33"
+        }
+    }
+]

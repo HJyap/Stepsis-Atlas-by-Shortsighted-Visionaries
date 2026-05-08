@@ -1,0 +1,1389 @@
+[
+    {
+        "study": "Zhang 2019",
+        "population": "Patients with sepsis and septic shock according to Sepsis-3 definition admitted to the ICU at Sichuan University West China Hospital",
+        "sample_size": "N=631",
+        "predictor": "SIRS criteria",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.53; 95% CI 0.49–0.57",
+        "notes": "SIRS-positive sepsis/septic shock: 538 (85.3%) patients, 168 (31.2%) died; SIRS-negative: 93 (14.7%) patients, 20 (21.5%) died; p=0.06 for mortality difference between groups",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Patients with sepsis and septic shock according to Sepsis-3 definition admitted to the ICU at Sichuan University West China Hospital",
+        "sample_size": "N=631",
+        "predictor": "SOFA criteria",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.70; 95% CI 0.66–0.74; p≤0.01",
+        "notes": "SOFA criteria demonstrated significantly better predictive validity for in-hospital mortality compared to SIRS criteria (p≤0.01)",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis or septic shock (Sepsis-3 definition)",
+        "sample_size": "N=631 (SIRS-positive: N=538; SIRS-negative: N=93)",
+        "predictor": "SIRS status (SIRS-positive vs SIRS-negative)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Pairwise assessment (chi-square or Fisher's exact test)",
+        "effect_size": "Not reported",
+        "performance": "SIRS-positive mortality: 31.2% (168/538); SIRS-negative mortality: 21.5% (20/93); p=0.06",
+        "notes": "Patients excluded for ICU LOS <24h (n=247), secondary ICU admission (n=121), age <18 years (n=2). No missing data reported.",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Study cohort characteristics",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis, divided into SIRS-positive and SIRS-negative cohorts",
+        "sample_size": "N=631",
+        "predictor": "SIRS status (SIRS-positive vs SIRS-negative)",
+        "outcome": "Septic shock rate",
+        "timing": "Upon ICU arrival",
+        "method": "Pairwise comparison",
+        "effect_size": "Not reported",
+        "performance": "p=0.044",
+        "notes": "Rate of septic shock was higher in SIRS-positive than SIRS-negative cohort",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Baseline risk",
+            "page": 3,
+            "chunk": "page_3_chunk_16"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis, divided into SIRS-positive and SIRS-negative cohorts",
+        "sample_size": "N=631",
+        "predictor": "Patient age",
+        "outcome": "SIRS status (positive vs negative)",
+        "timing": "Upon ICU arrival",
+        "method": "Pairwise comparison",
+        "effect_size": "Not reported",
+        "performance": "p=0.011",
+        "notes": "Age was higher in the SIRS-negative cohort than in the SIRS-positive cohort",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Baseline risk",
+            "page": 3,
+            "chunk": "page_3_chunk_16"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis, divided into SIRS-positive and SIRS-negative cohorts",
+        "sample_size": "N=631",
+        "predictor": "SOFA score",
+        "outcome": "Difference between SIRS-positive and SIRS-negative cohorts",
+        "timing": "Upon ICU arrival",
+        "method": "Pairwise comparison",
+        "effect_size": "Median SOFA=9 (all patients)",
+        "performance": "Not significant",
+        "notes": "SOFA scores were available for 631 patients; no significant difference between cohorts",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Baseline risk",
+            "page": 3,
+            "chunk": "page_3_chunk_16"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis, divided into SIRS-positive and SIRS-negative cohorts",
+        "sample_size": "N=631",
+        "predictor": "APACHE II score",
+        "outcome": "Difference between SIRS-positive and SIRS-negative cohorts",
+        "timing": "Upon ICU arrival",
+        "method": "Pairwise comparison",
+        "effect_size": "Median APACHE II=25 (all patients)",
+        "performance": "Not significant",
+        "notes": "No significant difference in APACHE II scores between cohorts",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Baseline risk",
+            "page": 3,
+            "chunk": "page_3_chunk_16"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis, divided into SIRS-positive and SIRS-negative cohorts",
+        "sample_size": "N=631",
+        "predictor": "Length of ICU stay",
+        "outcome": "Difference between SIRS-positive and SIRS-negative cohorts",
+        "timing": "During ICU admission",
+        "method": "Pairwise comparison",
+        "effect_size": "Median 13 days (range 7-24 days) in both cohorts",
+        "performance": "p=0.622",
+        "notes": "No significant difference between SIRS-positive and SIRS-negative cohorts",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Baseline risk",
+            "page": 3,
+            "chunk": "page_3_chunk_16"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis, divided into SIRS-positive and SIRS-negative cohorts",
+        "sample_size": "N=631",
+        "predictor": "Length of hospital stay",
+        "outcome": "Difference between SIRS-positive and SIRS-negative cohorts",
+        "timing": "During hospitalization",
+        "method": "Pairwise comparison",
+        "effect_size": "Median 22 days (SIRS-positive) vs 20 days (SIRS-negative); overall median 22 days (range 12.5-35 days)",
+        "performance": "p=0.569",
+        "notes": "No significant difference between cohorts",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Baseline risk",
+            "page": 3,
+            "chunk": "page_3_chunk_16"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis, divided into SIRS-positive and SIRS-negative cohorts",
+        "sample_size": "N=631",
+        "predictor": "Rate of mechanical ventilation",
+        "outcome": "Difference between SIRS-positive and SIRS-negative cohorts",
+        "timing": "During ICU admission",
+        "method": "Pairwise comparison",
+        "effect_size": "Not reported",
+        "performance": "p>0.05",
+        "notes": "No significant difference between cohorts",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Baseline risk",
+            "page": 3,
+            "chunk": "page_3_chunk_16"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis, divided into SIRS-positive and SIRS-negative cohorts",
+        "sample_size": "N=631",
+        "predictor": "Rate of continuous renal replacement therapy",
+        "outcome": "Difference between SIRS-positive and SIRS-negative cohorts",
+        "timing": "During ICU admission",
+        "method": "Pairwise comparison",
+        "effect_size": "Not reported",
+        "performance": "p>0.05",
+        "notes": "No significant difference between cohorts; median duration of CRRT was 10 days",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Baseline risk",
+            "page": 3,
+            "chunk": "page_3_chunk_16"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Hospitalized patients assessed for SIRS score and Sepsis-3 definition subsets",
+        "sample_size": "Not reported",
+        "predictor": "SIRS score (≥2 vs. <2)",
+        "outcome": "Hospital mortality",
+        "timing": "At hospital admission or during hospitalization",
+        "method": "Distribution analysis with trend testing",
+        "effect_size": "Fold change (ratio) of hospital mortality higher in age intervals 3, 6, and 7",
+        "performance": "No increasing trend with increasing SIRS scores (p > 0.05)",
+        "notes": "Trend held true for both SIRS-positive and SIRS-negative cohorts",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Distribution of hospital mortality",
+            "page": 3,
+            "chunk": "page_3_chunk_17"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Hospitalized patients with sepsis or septic shock per Sepsis-3 definition",
+        "sample_size": "Not reported",
+        "predictor": "Sepsis-3 subgroup classification (sepsis vs. septic shock)",
+        "outcome": "Hospital mortality",
+        "timing": "At hospital admission or during hospitalization",
+        "method": "Distribution analysis",
+        "effect_size": "Not reported",
+        "performance": "Hospital mortality higher in septic shock subgroups than sepsis subgroups (p < 0.001)",
+        "notes": "Based on new Sepsis-3 definition subsets",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Distribution of hospital mortality",
+            "page": 3,
+            "chunk": "page_3_chunk_17"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Patients with SIRS-positive sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Increased heart rate",
+        "outcome": "Meeting SIRS criteria",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "Most frequent SIRS criterion",
+        "performance": "Not reported",
+        "notes": "Followed by increased respiratory rate or low PaCO2, then abnormal white cell count",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "SIRS in new Sepsis-3 definition",
+            "page": 3,
+            "chunk": "page_3_chunk_18"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Patients with SIRS-negative sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Increased heart rate",
+        "outcome": "Meeting SIRS criteria",
+        "timing": "At presentation",
+        "method": "Descriptive frequency analysis",
+        "effect_size": "Most frequent single criterion",
+        "performance": "Not reported",
+        "notes": "Same most frequent criterion as in SIRS-positive sepsis patients",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "SIRS in new Sepsis-3 definition",
+            "page": 3,
+            "chunk": "page_3_chunk_18"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for hospital mortality",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "Length of hospital stay",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for hospital mortality",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "Length of ICU stay",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for hospital mortality",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "28-day mechanical ventilation",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for hospital mortality",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "Rate of mechanical ventilation",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for hospital mortality",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "Administration of vasopressors",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for hospital mortality",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for both hospital mortality and SIRS positivity",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "SIRS positivity",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for SIRS positivity",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients (sepsis-related)",
+        "sample_size": "Not reported",
+        "predictor": "Hospital length of stay",
+        "outcome": "SIRS positivity",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "Not reported",
+        "performance": "p < 0.05",
+        "notes": "Identified as statistically significant risk factor for SIRS positivity",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Multivariate logistic regression analysis",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Hospitalized patients assessed for sepsis/infection",
+        "sample_size": "Not reported",
+        "predictor": "SIRS criteria",
+        "outcome": "Hospital mortality",
+        "timing": "Baseline (admission)",
+        "method": "ROC analysis (AUROC comparison)",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.53",
+        "notes": "SIRS AUROC significantly lower than age (0.62, p<0.01), APACHE II (0.73, p<0.01), and SOFA (0.70, p<0.01)",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Predictive efficacy",
+            "page": 4,
+            "chunk": "page_4_chunk_21"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Hospitalized patients assessed for sepsis/infection",
+        "sample_size": "Not reported",
+        "predictor": "Age (baseline risk model)",
+        "outcome": "Hospital mortality",
+        "timing": "Baseline (admission)",
+        "method": "ROC analysis (AUROC comparison)",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.62",
+        "notes": "Significantly higher than SIRS (p<0.01)",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Predictive efficacy",
+            "page": 4,
+            "chunk": "page_4_chunk_21"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Hospitalized patients assessed for sepsis/infection",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Hospital mortality",
+        "timing": "Baseline (admission)",
+        "method": "ROC analysis (AUROC comparison)",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.73",
+        "notes": "Significantly higher than SIRS (p<0.01)",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Predictive efficacy",
+            "page": 4,
+            "chunk": "page_4_chunk_21"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Hospitalized patients assessed for sepsis/infection",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "Baseline (admission)",
+        "method": "ROC analysis (AUROC comparison)",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.70",
+        "notes": "Significantly higher than SIRS (p<0.01)",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Predictive efficacy",
+            "page": 4,
+            "chunk": "page_4_chunk_21"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Critically ill patients",
+        "sample_size": "Not reported",
+        "predictor": "SIRS criteria",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Predictive validity analysis",
+        "effect_size": "Not reported",
+        "performance": "Poor predictive validity",
+        "notes": "Text excerpt is incomplete; only partial finding reported regarding SIRS criteria having poor predictive validity for hospital mortality in critically ill patients.",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Discussion",
+            "page": 4,
+            "chunk": "page_4_chunk_22"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "Age (years)",
+        "outcome": "Baseline characteristic",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "Median 60.0, IQR 46.0–73.0",
+        "performance": "Not reported",
+        "notes": "Comparison between SIRS-positive (N=538) and SIRS-negative (N=93) sepsis groups",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "Male sex",
+        "outcome": "Baseline characteristic",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "417 (66.1%)",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: 359/528 (66.7%); SIRS-negative: 58/92 (62.4%); P=0.412",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "APACHE II score",
+        "outcome": "Baseline characteristic",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "Median 25.0, IQR 20.0–29.0",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: median 25, IQR 20–29; SIRS-negative: median 24, IQR 20–28; P=0.087",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "SOFA score",
+        "outcome": "Baseline characteristic",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "Median 9, IQR 7–12",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: median 9, IQR 7–13; SIRS-negative: median 9, IQR 7–11; P=0.05",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "SIRS score",
+        "outcome": "Baseline characteristic",
+        "timing": "ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "Median 3.0, IQR 2.0–3.0",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: median 3.0, IQR 2.0–3.0; SIRS-negative: median 1.0, IQR 1.0–1.0; P<0.001",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "Duration of ICU stay (days)",
+        "outcome": "Hospital outcome",
+        "timing": "During hospitalization",
+        "method": "Descriptive statistics",
+        "effect_size": "Median 13.0, IQR 7.0–24.0",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: median 13.0, IQR 7.0–24.0; SIRS-negative: median 13.0, IQR 8.0–22.0; P=0.622",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "Duration of hospital stay (days)",
+        "outcome": "Hospital outcome",
+        "timing": "During hospitalization",
+        "method": "Descriptive statistics",
+        "effect_size": "Median 22.0, IQR 12.5–35.0",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: median 22.0, IQR 12.0–36; SIRS-negative: median 20.0, IQR 13.0–28.0; P=0.569",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=573",
+        "predictor": "28-day ventilator-free days",
+        "outcome": "Hospital outcome",
+        "timing": "28 days",
+        "method": "Descriptive statistics",
+        "effect_size": "Median 8.0, IQR 4.0–16.0",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: median 9.0, IQR 4.0–17.0 (N=489); SIRS-negative: median 8.0, IQR 3.0–14.0 (N=84); P=0.159",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU requiring CRRT",
+        "sample_size": "N=109",
+        "predictor": "Duration of CRRT (days)",
+        "outcome": "Hospital outcome",
+        "timing": "During hospitalization",
+        "method": "Descriptive statistics",
+        "effect_size": "Median 10, IQR 5.0–20.0",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: median 8.5, IQR 5.0–17.0 (N=96); SIRS-negative: median 14.0, IQR 10.0–23.0 (N=13); P=0.560",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "Hospital mortality",
+        "outcome": "28-day mortality",
+        "timing": "During hospitalization",
+        "method": "Descriptive statistics",
+        "effect_size": "188 (29.8%)",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: 168/538 (31.2%); SIRS-negative: 20/93 (21.5%); P=0.058",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "Septic shock",
+        "outcome": "Hospital outcome subgroup",
+        "timing": "During hospitalization",
+        "method": "Descriptive statistics",
+        "effect_size": "212 (33.6%)",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: 189/538 (35.1%); SIRS-negative: 23/93 (24.7%); P=0.044",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=631",
+        "predictor": "Acute kidney failure requiring CRRT",
+        "outcome": "Hospital outcome subgroup",
+        "timing": "During hospitalization",
+        "method": "Descriptive statistics",
+        "effect_size": "109 (17.3%)",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: 96/538 (17.8%); SIRS-negative: 13/93 (14.0%); P=0.363",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "All patients with sepsis admitted to ICU",
+        "sample_size": "N=573",
+        "predictor": "Mechanical ventilation",
+        "outcome": "Hospital outcome subgroup",
+        "timing": "During hospitalization",
+        "method": "Descriptive statistics",
+        "effect_size": "573 (90.8%)",
+        "performance": "Not reported",
+        "notes": "SIRS-positive: 489/538 (90.9%); SIRS-negative: 84/93 (90.3%); P=0.861",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis according to the new Sepsis-3 definition",
+        "sample_size": "Not reported",
+        "predictor": "SIRS-positive status (fulfilling at least two SIRS criteria)",
+        "outcome": "Identification of sepsis or septic shock among ICU patients",
+        "timing": "At ICU admission",
+        "method": "Descriptive analysis / proportion reporting",
+        "effect_size": "85.3% SIRS-positive, 14.7% SIRS-negative",
+        "performance": "SIRS assessment missed approximately 1 in 6 patients with infections at high risk of death",
+        "notes": "SIRS-negative status defined as fulfilling zero or one SIRS criterion. Study conducted in ICUs of a developing country. Comparison made against Sepsis-3 (SOFA-based) definition.",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_24"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIRS score",
+        "outcome": "Hospital mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "AUROC lower than SOFA; lower than Kaukonen's study",
+        "notes": "APACHE II scores ≥24 in 55.6% of patients. SIRS AUROC was much lower than SOFA AUROC for discriminating hospital mortality.",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "AUROC higher than SIRS",
+        "notes": "SOFA demonstrated better discrimination of hospital mortality compared to SIRS.",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_26"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis or septic shock during initial episode of suspected infection",
+        "sample_size": "N=631",
+        "predictor": "SIRS criteria (abnormal temperature, increased heart rate, increased respiratory rate or decreased PaCO2, abnormal white-cell count)",
+        "outcome": "Diagnosis of sepsis (SIRS-positive vs SIRS-negative severe sepsis)",
+        "timing": "Initial episode of suspected infection during ICU stay",
+        "method": "Distribution analysis with group comparison",
+        "effect_size": "SIRS-positive: 538/631 (85.3%); SIRS-negative: 93/631 (14.7%); Median SIRS criteria met: 3 (IQR 2-3) in SIRS-positive vs 1 (IQR 1-1) in SIRS-negative",
+        "performance": "P < 0.001 for all comparisons between SIRS-positive and SIRS-negative groups",
+        "notes": "Abnormal temperature met in 46.5% of SIRS-positive vs 6.5% of SIRS-negative; Increased heart rate met in 94.1% vs 46.2%; Increased respiratory rate or decreased PaCO2 met in 83.3% vs 16.1%; Abnormal white-cell count met in 61.6% vs 14.1%. Distribution of SIRS criteria count: 0 criteria in 2.5%, 1 criterion in 12.2%, 2 criteria in 31.7%, 3 criteria in 34.5%, 4 criteria in 19.0% of all patients.",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Strengths",
+            "page": 7,
+            "chunk": "page_7_chunk_27"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Age",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.00 (95% CI 0.97–1.02)",
+        "performance": "p=0.97",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Sex",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.04 (95% CI 0.41–2.63)",
+        "performance": "p=0.94",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.09 (95% CI 1.02–1.16)",
+        "performance": "p=0.01",
+        "notes": "APACHE: Acute Physiology and Chronic Health Evaluation",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.18 (95% CI 0.90–1.55)",
+        "performance": "p=0.23",
+        "notes": "qSOFA: quick Sepsis-related Organ Failure Assessment",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Hospital length of stay",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.96 (95% CI 0.94–0.98)",
+        "performance": "p<0.01",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "ICU length of stay",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.03 (95% CI 1.00–1.05)",
+        "performance": "p=0.02",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "28-day ventilator-free days",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.01 (95% CI 0.95–1.07)",
+        "performance": "p<0.01",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Mechanical ventilation",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 3.33 (95% CI 1.15–9.64)",
+        "performance": "p=0.03",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Duration of CRRT",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.98 (95% CI 0.94–1.01)",
+        "performance": "p=0.20",
+        "notes": "CRRT: Continuous renal replacement treatment",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "CRRT",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.88 (95% CI 0.28–12.60)",
+        "performance": "p=0.51",
+        "notes": "CRRT: Continuous renal replacement treatment",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.18 (95% CI 1.12–1.25)",
+        "performance": "p<0.01",
+        "notes": "SOFA: Sepsis-related Organ Failure Assessment",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Vasopressors",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.67 (95% CI 1.87–3.80)",
+        "performance": "p<0.01",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SIRS",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.06 (95% CI 0.87–1.29)",
+        "performance": "p=0.56",
+        "notes": "SIRS: Systemic Inflammatory Response Syndrome",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Age",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.98 (95% CI 0.94–1.02)",
+        "performance": "p=0.32",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Sex",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.40 (95% CI 0.35–5.61)",
+        "performance": "p=0.63",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.02 (95% CI 0.92–1.12)",
+        "performance": "p=0.75",
+        "notes": "APACHE: Acute Physiology and Chronic Health Evaluation",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 2.92 (95% CI 2.06–4.13)",
+        "performance": "p<0.01",
+        "notes": "qSOFA: quick Sepsis-related Organ Failure Assessment",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Hospital length of stay",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.97 (95% CI 0.94–0.99)",
+        "performance": "p=0.01",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "ICU length of stay",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.00 (95% CI 0.99–1.01)",
+        "performance": "p=0.93",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "28-day ventilator-free days",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.02 (95% CI 0.99–1.05)",
+        "performance": "p=0.16",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Mechanical ventilation",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.60 (95% CI 0.26–1.36)",
+        "performance": "p=0.22",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Duration of CRRT",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.02 (95% CI 0.97–1.06)",
+        "performance": "p=0.45",
+        "notes": "CRRT: Continuous renal replacement treatment",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "CRRT",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.53 (95% CI 0.12–19.72)",
+        "performance": "p=0.74",
+        "notes": "CRRT: Continuous renal replacement treatment",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 0.98 (95% CI 0.90–1.06)",
+        "performance": "p=0.60",
+        "notes": "SOFA: Sepsis-related Organ Failure Assessment",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Vasopressors",
+        "outcome": "SIRS positive",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression",
+        "effect_size": "OR 1.34 (95% CI 0.71–2.55)",
+        "performance": "p=0.37",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_28"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "ICU patients with suspected infection (Sepsis-3 cohort)",
+        "sample_size": "N=631",
+        "predictor": "Age, APACHE II, SOFA, and SIRS",
+        "outcome": "Hospital mortality",
+        "timing": "During episode of suspected infection in the ICU",
+        "method": "ROC analysis (AUC with 95% CI)",
+        "effect_size": "Not reported",
+        "performance": "AUC with 95% CI reported graphically (Fig. 4); specific values not reported in extracted text",
+        "notes": "SIRS criteria evaluated during episode of suspected infection, recorded every 1-2 hours on observation charts. Specific AUC values not extractable from omitted figure.",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Limitations",
+            "page": 8,
+            "chunk": "page_8_chunk_29"
+        }
+    },
+    {
+        "study": "Zhang 2019",
+        "population": "Sepsis patients (Sepsis-3 definition)",
+        "sample_size": "Not reported",
+        "predictor": "SIRS criteria",
+        "outcome": "In-hospital death",
+        "timing": "Not reported",
+        "method": "Comparative predictive efficacy analysis",
+        "effect_size": "Not reported",
+        "performance": "SIRS criteria weaker than SOFA criteria for predicting in-hospital death",
+        "notes": "Cohort study using Sepsis-3 definition; SOFA criteria outperformed SIRS criteria in predictive efficacy for in-hospital mortality",
+        "source_info": {
+            "file": "Zhang_2019.pdf",
+            "doi": "10.1186/s12879-019-3790-0",
+            "section": "Conclusions",
+            "page": 9,
+            "chunk": "page_9_chunk_34"
+        }
+    }
+]

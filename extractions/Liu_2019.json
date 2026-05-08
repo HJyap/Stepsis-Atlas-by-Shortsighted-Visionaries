@@ -1,0 +1,2187 @@
+[
+    {
+        "study": "Liu 2019",
+        "population": "Septic patients admitted to ICU",
+        "sample_size": "N=1865",
+        "predictor": "Serum lactate level (24-h average)",
+        "outcome": "Mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.664 (95% CI 0.639–0.689)",
+        "notes": "Lactate was an independent predictor of sepsis prognosis. Higher lactate group had higher mortality than lower lactate group.",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Septic patients admitted to ICU",
+        "sample_size": "N=1865",
+        "predictor": "SOFA score (worst score in first 24 h)",
+        "outcome": "Mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.686 (95% CI 0.661–0.710)",
+        "notes": "SOFA discriminative ability similar to lactate. Timing of lactate relative to SOFA and qSOFA scores was inconsistent.",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Septic patients admitted to ICU",
+        "sample_size": "N=1865",
+        "predictor": "qSOFA score (worst score in first 24 h)",
+        "outcome": "Mortality",
+        "timing": "First 24 hours of ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.547 (95% CI 0.521–0.574)",
+        "notes": "AUROC of lactate was significantly higher than that of qSOFA. Timing of lactate relative to SOFA and qSOFA scores was inconsistent.",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "Prognosis (mortality)",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Study uses MIMIC III database; evaluates lactate alongside qSOFA and SOFA for prognostic value in sepsis",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Prognosis (mortality)",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Study uses MIMIC III database; evaluates qSOFA alongside lactate and SOFA for prognostic value in sepsis",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "Prognosis (mortality)",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Study uses MIMIC III database; evaluates SOFA alongside lactate and qSOFA for prognostic value in sepsis",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Abstract",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "N=1865",
+        "predictor": "Lactate levels (lactate group 1 vs lactate group 2)",
+        "outcome": "Not reported",
+        "timing": "Not reported",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Significant difference between lactate groups (p value not reported)",
+        "notes": "Baseline characteristics, vital signs, laboratory parameters and outcomes summarized in Table 1. Full statistical results not provided in the excerpt.",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Baseline characteristics and outcomes",
+            "page": 2,
+            "chunk": "page_2_chunk_11"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "33.88% vs. 59.23%",
+        "performance": "p < 0.001",
+        "notes": "Patients divided into lower vs. higher lactate groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "90-day mortality",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "43.57% vs. 67.81%",
+        "performance": "p < 0.001",
+        "notes": "Patients divided into lower vs. higher lactate groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "1-year mortality",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "51.46% vs. 71.39%",
+        "performance": "p < 0.001",
+        "notes": "Patients divided into lower vs. higher lactate groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "In-hospital mortality",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "34.99% vs. 60.80%",
+        "performance": "p < 0.001",
+        "notes": "Patients divided into lower vs. higher lactate groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "Overall mortality",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "60.12% vs. 77.97%",
+        "performance": "p < 0.001",
+        "notes": "Patients divided into lower vs. higher lactate groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "SOFA score",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "Median 7 vs. 11",
+        "performance": "p < 0.001",
+        "notes": "Patients divided into lower vs. higher lactate groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "qSOFA score ≥2 points",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "84.48% vs. 91.99%",
+        "performance": "Not reported",
+        "notes": "Patients divided into lower vs. higher lactate groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "Severe sepsis rate",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "96.05% vs. 94.13%",
+        "performance": "p = 0.057",
+        "notes": "No statistically significant correlation found",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (lower vs. higher, median 2.05 mmol/L vs. 4.95 mmol/L)",
+        "outcome": "Septic shock",
+        "timing": "Not reported",
+        "method": "Comparative analysis",
+        "effect_size": "63.29% vs. 70.24%",
+        "performance": "p = 0.002",
+        "notes": "Higher proportion of septic shock in higher lactate group",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_12"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (higher vs lower group)",
+        "outcome": "30-day mortality",
+        "timing": "Admission/baseline",
+        "method": "Survival analysis (Kaplan-Meier)",
+        "effect_size": "Not reported",
+        "performance": "Higher lactate group had increased 30-day mortality",
+        "notes": "Patients in lower lactate group had better short-term and long-term survival rates",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Lactate is an independent prognostic predictor in sepsis patients",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (higher vs lower group)",
+        "outcome": "90-day mortality",
+        "timing": "Admission/baseline",
+        "method": "Survival analysis (Kaplan-Meier)",
+        "effect_size": "Not reported",
+        "performance": "Higher lactate group had increased 90-day mortality",
+        "notes": "Patients in lower lactate group had better short-term and long-term survival rates",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Lactate is an independent prognostic predictor in sepsis patients",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (higher vs lower group)",
+        "outcome": "1-year mortality",
+        "timing": "Admission/baseline",
+        "method": "Survival analysis (Kaplan-Meier)",
+        "effect_size": "Not reported",
+        "performance": "Higher lactate group had increased 1-year mortality",
+        "notes": "Patients in lower lactate group had better short-term and long-term survival rates",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Lactate is an independent prognostic predictor in sepsis patients",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level (higher vs lower group)",
+        "outcome": "In-hospital mortality",
+        "timing": "Admission/baseline",
+        "method": "Survival analysis (Kaplan-Meier)",
+        "effect_size": "Not reported",
+        "performance": "Higher lactate group had increased in-hospital mortality",
+        "notes": "Patients in lower lactate group had better short-term and long-term survival rates",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Lactate is an independent prognostic predictor in sepsis patients",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "Overall survival (OS)",
+        "timing": "Admission/baseline",
+        "method": "Multivariate analysis",
+        "effect_size": "Not reported",
+        "performance": "Lactate remained an independent prognostic factor for sepsis (Table 2)",
+        "notes": "Univariate analysis included age, sex, ethnicity, admission type, ICU type, haemoglobin, albumin, WBC, bilirubin, BUN, potassium, sodium, bicarbonate, Cr, platelets, and lactate; significant factors were adjusted in multivariate analysis",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Lactate is an independent prognostic predictor in sepsis patients",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "qSOFA score correlation",
+        "timing": "Admission/baseline",
+        "method": "Correlation analysis",
+        "effect_size": "r = 0.084",
+        "performance": "p < 0.001",
+        "notes": "Higher lactate levels correlate with higher qSOFA scores",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Lactate is an independent prognostic predictor in sepsis patients",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "SOFA score correlation",
+        "timing": "Admission/baseline",
+        "method": "Correlation analysis",
+        "effect_size": "r = 0.430",
+        "performance": "p < 0.001",
+        "notes": "Higher lactate levels correlate with higher SOFA scores",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Lactate is an independent prognostic predictor in sepsis patients",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Suspected infectious adult patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "30-day mortality",
+        "timing": "At presentation/admission",
+        "method": "ROC analysis / AUROC",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.664",
+        "notes": "Discriminative power of lactate was significantly higher than qSOFA (AUROC 0.547) and similar to SOFA (AUROC 0.686) for 30-day mortality",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Comparison of lactate to SOFA and qSOFA scores",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Suspected infectious adult patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "30-day mortality",
+        "timing": "At presentation/admission",
+        "method": "ROC analysis / AUROC",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.547",
+        "notes": "Sepsis-3 criteria recommended qSOFA for prompt identification of suspected infectious patients likely to have poor outcomes",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Comparison of lactate to SOFA and qSOFA scores",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Suspected infectious adult patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "30-day mortality",
+        "timing": "At presentation/admission",
+        "method": "ROC analysis / AUROC",
+        "effect_size": "Not reported",
+        "performance": "AUROC 0.686",
+        "notes": "Discriminative power of SOFA was similar to lactate (AUROC 0.664) for 30-day mortality",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Comparison of lactate to SOFA and qSOFA scores",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Suspected infectious adult patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "90-day mortality",
+        "timing": "At presentation/admission",
+        "method": "ROC analysis / AUROC",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Same trends as 30-day mortality observed; lactate outperformed qSOFA and was similar to SOFA",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Comparison of lactate to SOFA and qSOFA scores",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Suspected infectious adult patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "Hospital mortality",
+        "timing": "At presentation/admission",
+        "method": "ROC analysis / AUROC",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Same trends as 30-day mortality observed; lactate outperformed qSOFA and was similar to SOFA",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Comparison of lactate to SOFA and qSOFA scores",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Suspected infectious adult patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "1-year mortality",
+        "timing": "At presentation/admission",
+        "method": "ROC analysis / AUROC",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Same trends as 30-day mortality observed; lactate outperformed qSOFA and was similar to SOFA",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Comparison of lactate to SOFA and qSOFA scores",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Age",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline",
+        "method": "Group comparison",
+        "effect_size": "70 (56–80) vs 66 (55.5–77)",
+        "performance": "p=0.057",
+        "notes": "Lactate group 1 vs Lactate group 2 baseline characteristic comparison",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Sex (Female %)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline",
+        "method": "Group comparison",
+        "effect_size": "502 (43.05%) vs 300 (42.92%)",
+        "performance": "p=0.955",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Ethnicity (White %)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline",
+        "method": "Group comparison",
+        "effect_size": "883 (71.43%) vs 473 (67.67%)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Heart Rate (HR)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline vital signs",
+        "method": "Group comparison",
+        "effect_size": "93 (79–107.5) vs 101 (82.5–112)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Systolic Blood Pressure (SBP)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline vital signs",
+        "method": "Group comparison",
+        "effect_size": "106 (99–111.5) vs 104 (95.5–112)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Diastolic Blood Pressure (DBP)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline vital signs",
+        "method": "Group comparison",
+        "effect_size": "54 (48–61) vs 53 (49–61.5)",
+        "performance": "p=0.092",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Mean Blood Pressure (MBP)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline vital signs",
+        "method": "Group comparison",
+        "effect_size": "70 (66–76.5) vs 68 (64–77)",
+        "performance": "p=0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Respiratory Rate (RR)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline vital signs",
+        "method": "Group comparison",
+        "effect_size": "21 (19–24) vs 23 (19.5–26)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Temperature (T)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline vital signs",
+        "method": "Group comparison",
+        "effect_size": "37 (36–37) vs 37 (36–37)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "SpO2",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline vital signs",
+        "method": "Group comparison",
+        "effect_size": "97 (95–99) vs 97 (94–98)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Hemoglobin (mmol/L)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline laboratory parameters",
+        "method": "Group comparison",
+        "effect_size": "10.2 (9.1–12.79) vs 10.4 (9.2–11.8)",
+        "performance": "p=0.051",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Albumin (mmol/L)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline laboratory parameters",
+        "method": "Group comparison",
+        "effect_size": "2.7 (2.3–3.1) vs 2.6 (2.2–3.1)",
+        "performance": "p=0.220",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "WBC (mmol/L)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline laboratory parameters",
+        "method": "Group comparison",
+        "effect_size": "14.2 (9.2–40) vs 13.45 (7.55–20.43)",
+        "performance": "p=0.423",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Bilirubin (mmol/L)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline laboratory parameters",
+        "method": "Group comparison",
+        "effect_size": "0.8 (0.4–1.8) vs 1.35 (0.6–4.1)",
+        "performance": "p=0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "BUN (mmol/L)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline laboratory parameters",
+        "method": "Group comparison",
+        "effect_size": "35 (21–57) vs 36.5 (22.5–78.55)",
+        "performance": "p=0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Potassium (mmol/L)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline laboratory parameters",
+        "method": "Group comparison",
+        "effect_size": "4.1 (3.8–4.6) vs 4.4 (3.9–4.9)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Sodium (mmol/L)",
+        "outcome": "Group comparison (Lactate group 1 vs Lactate group 2)",
+        "timing": "Baseline laboratory parameters",
+        "method": "Group comparison",
+        "effect_size": "138.5 (135–141.38) vs 138 (134.5–141.5)",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_15"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "BUN",
+        "outcome": "Group comparison (survivors vs non-survivors or severity groups)",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "35 (21–57) vs 36.5 (22.5–78.55) vs 35.5 (21.5–56)",
+        "performance": "p=0.001",
+        "notes": "Values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "Potassium",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "4.1 (3.8–4.6) vs 4.4 (3.9–4.9) vs 4.2 (3.8–4.8)",
+        "performance": "p<0.001",
+        "notes": "Values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "Sodium",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "138.5 (135–141.38) vs 138 (134.5–141.5) vs 138 (135–141.5)",
+        "performance": "p<0.001",
+        "notes": "Values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "Bicarbonate",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "20.5 (18–24) vs 17.5 (14.5–20.5) vs 19.5 (16–22.5)",
+        "performance": "p<0.001",
+        "notes": "Values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "Creatinine (Cr)",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "1.6 (1–2.8) vs 1.9 (1.2–3.1) vs 1.8 (1.08–3)",
+        "performance": "p<0.001",
+        "notes": "Values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "Platelet",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "193.5 (120.25–290.5) vs 154 (86.5–241.25) vs 180 (104.5–265.38)",
+        "performance": "p=0.300",
+        "notes": "Not statistically significant; values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "Lactate",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "2.05 (1.53–2.80) vs 4.95 (3.90–7.35) vs 3.23 (2.04–4.96)",
+        "performance": "p<0.001",
+        "notes": "Values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "SAPS II",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "47 (37–56) vs 57 (46–69) vs 50 (40–61)",
+        "performance": "p<0.001",
+        "notes": "Values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "SOFA",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "7 (5–10) vs 11 (8–13) vs 8 (6–11)",
+        "performance": "p<0.001",
+        "notes": "Values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "GCS",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "15 (14–15) vs 15 (13–15) vs 15 (13–15)",
+        "performance": "p=0.685",
+        "notes": "Not statistically significant; values reported as median (IQR) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "qSOFA",
+        "outcome": "Group comparison",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "Distribution: qSOFA 0: 26 (2.23%) vs 10 (0.015%) vs 36 (1.93%); qSOFA 1: 155 (13.29%) vs 46 (6.58%) vs 201 (10.78%); qSOFA 2: 763 (65.44%) vs 486 (69.53%) vs 1249 (66.97%); qSOFA 3: 222 (19.04%) vs 157 (22.46%) vs 379 (20.32%)",
+        "performance": "p<0.001",
+        "notes": "Values reported as n (%) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "Group assignment (clinical subgroup)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "395 (33.88%) vs 414 (59.23%) vs 809 (43.38%)",
+        "performance": "p<0.001",
+        "notes": "Values reported as n (%) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1864",
+        "predictor": "Group assignment (clinical subgroup)",
+        "outcome": "90-day mortality",
+        "timing": "ICU admission",
+        "method": "Group comparison",
+        "effect_size": "508 (43.57%) vs 474 (67.81%) vs 982 (52.65%)",
+        "performance": "p<0.001",
+        "notes": "Values reported as n (%) across three groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Lactate levels (group 1 vs group 2)",
+        "outcome": "1-year mortality",
+        "timing": "Baseline (ICU admission)",
+        "method": "Log Rank-Mantel test",
+        "effect_size": "Lactate group 1: 51.46% vs Lactate group 2: 71.39%",
+        "performance": "p < 0.001",
+        "notes": "Lactate group 1 had lower 1-year mortality than Lactate group 2",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Lactate levels (group 1 vs group 2)",
+        "outcome": "Hospital mortality",
+        "timing": "Baseline (ICU admission)",
+        "method": "Log Rank-Mantel test",
+        "effect_size": "Lactate group 1: 34.99% vs Lactate group 2: 60.80%",
+        "performance": "p < 0.001",
+        "notes": "Lactate group 1 had lower hospital mortality than Lactate group 2",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Lactate levels (group 1 vs group 2)",
+        "outcome": "Septic shock",
+        "timing": "Baseline (ICU admission)",
+        "method": "Chi-square or equivalent comparison",
+        "effect_size": "Lactate group 1: 63.29% vs Lactate group 2: 70.24%",
+        "performance": "p = 0.002",
+        "notes": "Lactate group 2 had significantly higher rate of septic shock",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Patients with sepsis admitted to ICU",
+        "sample_size": "N=1865 (Lactate group 1: N=1166, Lactate group 2: N=699)",
+        "predictor": "Lactate levels (group 1 vs group 2)",
+        "outcome": "Severe sepsis",
+        "timing": "Baseline (ICU admission)",
+        "method": "Chi-square or equivalent comparison",
+        "effect_size": "Lactate group 1: 96.05% vs Lactate group 2: 94.13%",
+        "performance": "p = 0.057",
+        "notes": "No statistically significant difference in severe sepsis rate between lactate groups",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_17"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Age",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 1.564 (95% CI 1.360–1.799); Multivariate HR 1.637 (95% CI 1.397–1.917)",
+        "performance": "Univariate p<0.001; Multivariate p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Sex",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 1.103 (95% CI 0.959–1.269); Multivariate HR 1.076 (95% CI 1.008–1.148)",
+        "performance": "Univariate p=0.170; Multivariate p=0.027",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Ethnicity",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate Cox regression analysis",
+        "effect_size": "Univariate HR 1.094 (95% CI 1.031–1.161)",
+        "performance": "Univariate p=0.003",
+        "notes": "Not included in multivariate model",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Admission type",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 0.624 (95% CI 0.474–0.820); Multivariate HR 0.698 (95% CI 0.522–0.934)",
+        "performance": "Univariate p=0.001; Multivariate p=0.015",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "ICU type",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate Cox regression analysis",
+        "effect_size": "Univariate HR 0.906 (95% CI 0.843–0.973)",
+        "performance": "Univariate p=0.007",
+        "notes": "Not included in multivariate model",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Hemoglobin",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate Cox regression analysis",
+        "effect_size": "Univariate HR 0.858 (95% CI 0.748–0.985)",
+        "performance": "Univariate p=0.030",
+        "notes": "Not included in multivariate model",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Albumin",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 0.862 (95% CI 0.746–0.997); Multivariate HR 0.813 (95% CI 0.697–0.949)",
+        "performance": "Univariate p=0.045; Multivariate p=0.009",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "WBC",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate Cox regression analysis",
+        "effect_size": "Univariate HR 1.009 (95% CI 0.879–1.158)",
+        "performance": "Univariate p=0.896",
+        "notes": "Not included in multivariate model",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Bilirubin",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 1.576 (95% CI 1.354–1.836); Multivariate HR 1.366 (95% CI 1.160–1.607)",
+        "performance": "Univariate p<0.001; Multivariate p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "BUN",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 1.816 (95% CI 1.576–2.093); Multivariate HR 1.285 (95% CI 1.086–1.520)",
+        "performance": "Univariate p<0.001; Multivariate p=0.003",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Potassium",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 1.672 (95% CI 1.453–1.924); Multivariate HR 1.578 (95% CI 1.342–1.855)",
+        "performance": "Univariate p<0.001; Multivariate p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Sodium",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate Cox regression analysis",
+        "effect_size": "Univariate HR 0.966 (95% CI 0.841–1.108)",
+        "performance": "Univariate p=0.619",
+        "notes": "Not included in multivariate model",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Bicarbonate",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 0.635 (95% CI 0.553–0.730); Multivariate HR 0.793 (95% CI 0.674–0.932)",
+        "performance": "Univariate p<0.001; Multivariate p=0.005",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Cr",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate Cox regression analysis",
+        "effect_size": "Univariate HR 1.649 (95% CI 1.434–1.897)",
+        "performance": "Univariate p<0.001",
+        "notes": "Not included in multivariate model",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Platelet",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis",
+        "effect_size": "Univariate HR 0.703 (95% CI 0.612–0.808); Multivariate HR 0.789 (95% CI 0.671–0.928)",
+        "performance": "Univariate p<0.001; Multivariate p=0.004",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "30-day mortality",
+        "timing": "Admission",
+        "method": "Univariate and multivariate Cox regression analysis; ROC curve analysis",
+        "effect_size": "Univariate HR 2.304 (95% CI 2.007–2.646); Multivariate HR 1.936 (95% CI 1.649–2.271)",
+        "performance": "Univariate p<0.001; Multivariate p<0.001; sensitivity, specificity, PPV, NPV, LR+/- reported in Table 4",
+        "notes": "LR+/- values partially consistent with results from a previous study",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Critically ill patients (ICU)",
+        "sample_size": "Not reported",
+        "predictor": "Lactate and SOFA score",
+        "outcome": "Severity of illness (SOFA score correlation)",
+        "timing": "Not reported",
+        "method": "Pearson correlation analysis",
+        "effect_size": "r = 0.43",
+        "performance": "P = 0",
+        "notes": "Association between lactate levels and SOFA score reported in Fig. 3",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Discussion",
+            "page": 6,
+            "chunk": "page_6_chunk_19"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.664 (95% CI: 0.639–0.689)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "90-day mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.656 (95% CI: 0.632–0.681)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.668 (95% CI: 0.643–0.693)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "1-year mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.636 (95% CI: 0.611–0.661)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.547 (95% CI: 0.521–0.574)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "90-day mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.539 (95% CI: 0.513–0.565)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.544 (95% CI: 0.518–0.571)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "1-year mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.541 (95% CI: 0.514–0.567)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.686 (95% CI: 0.661–0.710)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "90-day mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.673 (95% CI: 0.648–0.697)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.695 (95% CI: 0.671–0.719)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "1-year mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.653 (95% CI: 0.628–0.677)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate + qSOFA",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.672 (95% CI: 0.647–0.697)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate + qSOFA",
+        "outcome": "90-day mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.661 (95% CI: 0.636–0.685)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate + qSOFA",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.674 (95% CI: 0.650–0.699)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate + qSOFA",
+        "outcome": "1-year mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.640 (95% CI: 0.616–0.665)",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_20"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 1.453, LR- 0.512",
+        "performance": "Sensitivity 0.512, Specificity 0.730, PPV 0.592, NPV 0.339",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 0.817, LR- 0.481",
+        "performance": "Sensitivity 0.236, Specificity 0.822, PPV 0.496, NPV 0.416",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "30-day mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 1.521, LR- 0.480",
+        "performance": "Sensitivity 0.545, Specificity 0.725, PPV 0.603, NPV 0.325",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "90-day mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 2.023, LR- 0.566",
+        "performance": "Sensitivity 0.414, Specificity 0.820, PPV 0.669, NPV 0.361",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "90-day mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 1.159, LR- 0.837",
+        "performance": "Sensitivity 0.230, Specificity 0.827, PPV 0.594, NPV 0.509",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "90-day mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 2.178, LR- 0.737",
+        "performance": "Sensitivity 0.510, Specificity 0.740, PPV 0.685, NPV 0.424",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 1.994, LR- 0.563",
+        "performance": "Sensitivity 0.421, Specificity 0.829, PPV 0.666, NPV 0.360",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 0.856, LR- 0.529",
+        "performance": "Sensitivity 0.234, Specificity 0.822, PPV 0.515, NPV 0.429",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "Hospital mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 1.475, LR- 0.443",
+        "performance": "Sensitivity 0.645, Specificity 0.647, PPV 0.595, NPV 0.307",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "1-year mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 3.117, LR- 1.097",
+        "performance": "Sensitivity 0.394, Specificity 0.804, PPV 0.757, NPV 0.523",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "1-year mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 1.478, LR- 1.174",
+        "performance": "Sensitivity 0.232, Specificity 0.838, PPV 0.673, NPV 0.568",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "1-year mortality",
+        "timing": "Not reported",
+        "method": "Diagnostic performance analysis",
+        "effect_size": "LR+ 2.637, LR- 0.993",
+        "performance": "Sensitivity 0.482, Specificity 0.738, PPV 0.725, NPV 0.498",
+        "notes": "None",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_21"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Patients with infection admitted to the emergency department (sepsis cohort)",
+        "sample_size": "Not reported",
+        "predictor": "Serum lactate",
+        "outcome": "Short-term and long-term mortality",
+        "timing": "At admission",
+        "method": "Cox regression model; ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "Superior prognostic accuracy compared to qSOFA; similar predictive validity to SOFA",
+        "notes": "Lactate was positively associated with qSOFA/SOFA scores and prognosis. Lactate was an independent prognostic predictor by Cox regression.",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_22"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Patients with infection admitted to the emergency department (sepsis cohort)",
+        "sample_size": "Not reported",
+        "predictor": "SOFA",
+        "outcome": "Mortality",
+        "timing": "At admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "AUROC: 0.738 (sensitivity 0.482, specificity 0.725, PPV 0.498, LR+ 2.637, LR- 0.993)",
+        "performance": "AUROC 0.738",
+        "notes": "SOFA predictive validity was similar to serum lactate. Combining lactate with qSOFA yielded predictive ability close to SOFA alone.",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_22"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Patients with infection admitted to the emergency department (sepsis cohort)",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA",
+        "outcome": "Mortality",
+        "timing": "At admission",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "AUROC lower than that found in Ho's study; far less sensitivity but similar specificity compared to lactate and SOFA",
+        "notes": "qSOFA showed capacity to predict mortality but with lower AUROC than previously reported. Combining lactate with qSOFA improved predictive ability close to SOFA alone.",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_22"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Septic patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "qSOFA score",
+        "outcome": "Hospital mortality",
+        "timing": "ICU admission",
+        "method": "ROC analysis / sensitivity and specificity assessment",
+        "effect_size": "Not reported",
+        "performance": "Low sensitivity, relatively high specificity",
+        "notes": "qSOFA was compared to lactate for predicting mortality; lactate described as more stable than qSOFA when sedation is used",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_23"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Septic patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate level",
+        "outcome": "Hospital mortality",
+        "timing": "ICU admission",
+        "method": "Correlation and ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Reasonably sensitive; more stable than qSOFA when sedation is used",
+        "notes": "Lactate levels correlated significantly with SOFA scores; high lactate considered a warning signal for organ dysfunction",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_23"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "Adult septic patients in the ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "Short-term and long-term mortality",
+        "timing": "First lactate measurement after sepsis onset",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Low sensitivity, moderate specificity",
+        "notes": "Retrospective study; approximately half of adult sepsis patients excluded due to lack of laboratory testing; time between first lactate measurement and sepsis onset was inconsistent; data collected from different types of ICUs introducing treatment heterogeneity",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Liu 2019",
+        "population": "ICU patients (CCU, CSRU, MICU, SICU, TSICU)",
+        "sample_size": "Not reported",
+        "predictor": "Lactate",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUROC)",
+        "effect_size": "Not reported",
+        "performance": "AUROC reported per ICU type (see supplementary figures/tables)",
+        "notes": "Study compared predictive performance of lactate, qSOFA, and SOFA for mortality across different ICU types using MIMIC database. Specific AUROC values not extractable from this excerpt.",
+        "source_info": {
+            "file": "Liu_2019.pdf",
+            "doi": "10.1186/s13049-019-0609-3",
+            "section": "Publisher’s Note",
+            "page": 9,
+            "chunk": "page_9_chunk_34"
+        }
+    }
+]

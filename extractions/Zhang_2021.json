@@ -1,0 +1,610 @@
+[
+    {
+        "study": "Zhang 2021",
+        "population": "Septic patients (sepsis-3 criteria) admitted to ICU on day 1",
+        "sample_size": "N=5,443 (development); N=5,658 (validation)",
+        "predictor": "Sepsis Mortality Risk Score (SMRS) - developed using LASSO technique",
+        "outcome": "30-day mortality",
+        "timing": "Day 1 of ICU entry",
+        "method": "LASSO variable selection, logistic regression model, ROC analysis, calibration slope, Brier score, decision curve analysis",
+        "effect_size": "Risk stratification: low (3.2%), moderate (12.4%), high (30.7%), very high (68.1%) in development; 2.8%, 10.5%, 21.1%, 51.2% in validation",
+        "performance": "AUC 0.789 (development), AUC 0.765 (validation); calibration slope 0.862, Brier value 0.140 (validation); positive net benefit on decision curve analysis",
+        "notes": "Development cohort from MIMIC III database; external validation from eICU database. 30-day mortality was 16.7% in development set and 20.1% in validation set. Authors note further modification and external validation required.",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "Kai Zhang[1†] , Shufang Zhang[2†] , Wei Cui , Yucai Hong , Gensheng Zhang * and Zhongheng Zhang *",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis-3 patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "SMRS (Sepsis Mortality Risk Score)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission",
+        "method": "LASSO regression, machine learning models (MARS, XGBoost, and others)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Study developed SMRS and four machine learning models to predict 30-day mortality in sepsis-3 patients. External validation performed using eICU database. Insufficient detail provided in the extracted text to report specific performance metrics.",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "INTRODUCTION",
+            "page": 2,
+            "chunk": "page_2_chunk_7"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Age",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 66.0 (53.0–78.0) years; Non-survivors: 75.0 (61.0–84.0) years",
+        "performance": "p<0.001",
+        "notes": "Median (IQR) reported",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Ethnicity",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "White: 70.1% non-survivors vs 72.9% survivors; Black: 6.0% vs 9.3%; Others: 23.9% vs 17.8%",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Admission type (Emergency)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "97.7% non-survivors vs 92.0% survivors",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Heart failure (comorbidity)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "23.7% non-survivors vs 16.4% survivors",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Hypertension (comorbidity)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "18.4% non-survivors vs 15.5% survivors",
+        "performance": "p=0.026",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "COPD (comorbidity)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "23.6% non-survivors vs 19.6% survivors",
+        "performance": "p=0.006",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Renal failure (comorbidity)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "22.2% non-survivors vs 17.6% survivors",
+        "performance": "p=0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Hepatopathy (comorbidity)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "12.7% non-survivors vs 9.5% survivors",
+        "performance": "p=0.003",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Need for RRT",
+        "outcome": "In-hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "12.6% non-survivors vs 6.2% survivors",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "Need for mechanical ventilation",
+        "outcome": "In-hospital mortality",
+        "timing": "During ICU stay",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "61.5% non-survivors vs 45.9% survivors",
+        "performance": "p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "SAPS II score",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 37 (29–46); Non-survivors: 53 (42–65)",
+        "performance": "p<0.001",
+        "notes": "Median (IQR) reported",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "APS III score",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 45 (34–57); Non-survivors: 67 (51–87)",
+        "performance": "p<0.001",
+        "notes": "Median (IQR) reported",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "OASIS score",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 34 (28–39); Non-survivors: 42 (36–49)",
+        "performance": "p<0.001",
+        "notes": "Median (IQR) reported",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "LODS score",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 4 (3–6); Non-survivors: 7 (5–10)",
+        "performance": "p<0.001",
+        "notes": "Median (IQR) reported",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "SOFA score",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 5 (3–7); Non-survivors: 7 (5–11)",
+        "performance": "p<0.001",
+        "notes": "Median (IQR) reported",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "SIRS score",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 3 (2–4); Non-survivors: 3 (3–4)",
+        "performance": "p<0.001",
+        "notes": "Median (IQR) reported",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set (MIMIC database)",
+        "sample_size": "N=5,443 (survivors=4,536, non-survivors=907)",
+        "predictor": "qSOFA score",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "Univariate comparison between survivors and non-survivors",
+        "effect_size": "Survivors: 2 (2–2); Non-survivors: 2 (2–3)",
+        "performance": "p<0.001",
+        "notes": "Median (IQR) reported",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Adult ICU patients meeting Sepsis-3 criteria from MIMIC III database",
+        "sample_size": "N=5,443 (907 non-survivors, 4,536 survivors)",
+        "predictor": "Multiple clinical variables (excluding BMI, albumin, bands, bilirubin due to >20% missing data)",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Prediction model development (TRIPOD guidelines)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Development set from MIMIC III (N=5,443); validation set from eICU database (N=5,658, 1,042 deaths, mortality rate 20.1%). Variables with >20% missing data excluded.",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "Participants",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in development set",
+        "sample_size": "N=5,443",
+        "predictor": "Sepsis Mortality Risk Score (SMRS) - 13-factor composite score (range 0-34)",
+        "outcome": "In-hospital mortality",
+        "timing": "At ICU admission",
+        "method": "LASSO regression model, ROC analysis, calibration (Brier score, calibration slope)",
+        "effect_size": "Low risk (0-6 points): 3.2% mortality; Moderate risk (7-11 points): 12.4% mortality; High risk (12-14 points): 30.7% mortality; Very high risk (≥15 points): 68.1% mortality",
+        "performance": "AUC 0.789; calibration slope 1.000; Brier value 0.110",
+        "notes": "SMRS outperformed other severity scores in discrimination. VIF < 5 confirmed no significant multicollinearity. 35 features reduced to 15 via LASSO, then 13 entered final model.",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "Model Development",
+            "page": 4,
+            "chunk": "page_4_chunk_18"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in external validation set",
+        "sample_size": "Not reported",
+        "predictor": "SMRS (Sepsis Mortality Risk Score)",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis (AUC), calibration slope, Brier score, Decision Curve Analysis (DCA)",
+        "effect_size": "AUC: 0.765; calibration slope: 0.862; Brier value: 0.140",
+        "performance": "AUC 0.765; SMRS vs. APACHE IV: P=0.221; SMRS vs. SAPS II: P=0.177",
+        "notes": "SMRS stratified patients into low (2.8%), moderate (10.5%), high (21.1%), and very high (51.2%) mortality risk groups. Net benefit of SMRS comparable to SAPS II and APACHE IV and better than SOFA between threshold probabilities of 10-80%.",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "Model Performance",
+            "page": 4,
+            "chunk": "page_4_chunk_19"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in external validation set",
+        "sample_size": "Not reported",
+        "predictor": "APACHE IV",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "AUC: 0.754",
+        "performance": "AUC 0.754",
+        "notes": "Compared to SMRS (AUC 0.765); no statistically significant difference (P=0.221).",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "Model Performance",
+            "page": 4,
+            "chunk": "page_4_chunk_19"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients in external validation set",
+        "sample_size": "Not reported",
+        "predictor": "SAPS II",
+        "outcome": "30-day mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "AUC: 0.751",
+        "performance": "AUC 0.751",
+        "notes": "Compared to SMRS (AUC 0.765); no statistically significant difference (P=0.177).",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "Model Performance",
+            "page": 4,
+            "chunk": "page_4_chunk_19"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "XGBoost algorithm (machine learning model)",
+        "outcome": "Mortality (stratified by SMRS)",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC)",
+        "effect_size": "Not reported",
+        "performance": "AUC > 0.8 in development set; best performance among four models in development and validation sets",
+        "notes": "Other models tested included logistic regression (AUC ≤ 0.8). SMRS risk categories: low, moderate, high, very high with mortality rates 0%, 10.5%, 21.1%, 51.2% respectively.",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "Model Performance",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "ICU patients with sepsis (Sepsis-3 criteria)",
+        "sample_size": "Not reported",
+        "predictor": "Sepsis Mortality Risk Score (SMRS)",
+        "outcome": "30-day mortality",
+        "timing": "ICU admission",
+        "method": "Scoring system with LASSO regression; ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Discrimination comparable to APACHE IV and SAPS II; significantly better than SOFA in validation set",
+        "notes": "SMRS contains 13 simple variables recorded in clinical routines. Developed using Sepsis-3 criteria. Described as showing moderate performance in predicting 30-day mortality and risk-stratifying ICU patients with sepsis.",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis-3 ICU patients",
+        "sample_size": "Not reported",
+        "predictor": "SMRS (Sepsis Mortality Risk Score)",
+        "outcome": "30-day mortality",
+        "timing": "Within first 24 h of admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC reported in ROC curves for development and validation sets (values not explicitly stated in excerpt)",
+        "notes": "SMRS constructed using LASSO method identifying 13 predictive features from 35 clinical variables; includes mechanical ventilation, serum lactate, hypothermia, hypotension, and advanced age",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis-3 ICU patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "30-day mortality",
+        "timing": "Initial/admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC: 0.69",
+        "notes": "SOFA score had low discriminatory power for 30-day mortality prediction in this study's sepsis-3 population",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis-3 ICU patients",
+        "sample_size": "Not reported",
+        "predictor": "Mechanical ventilation within first 24 h of admission",
+        "outcome": "30-day mortality",
+        "timing": "Within first 24 h of admission",
+        "method": "Logistic regression / LASSO",
+        "effect_size": "OR approximately 2 (two-fold increase in odds of death)",
+        "performance": "Not reported",
+        "notes": "Mechanical ventilation included as a predictor in the SMRS model",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "Sepsis-3 ICU patients",
+        "sample_size": "Not reported",
+        "predictor": "Serum lactate",
+        "outcome": "30-day mortality",
+        "timing": "Within first 24 h of admission",
+        "method": "LASSO feature selection",
+        "effect_size": "Assigned 3 or 6 points in final risk score",
+        "performance": "Not reported",
+        "notes": "Serum lactate identified as strong predictor of mortality; included in SMRS",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_23"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SMRS (Sepsis Mortality Risk Score)",
+        "outcome": "Mortality risk",
+        "timing": "ICU admission",
+        "method": "Decision curve analysis (DCA)",
+        "effect_size": "80% probability threshold considered sufficient for accurate mortality risk assessment",
+        "performance": "Not reported",
+        "notes": "SMRS demonstrated robust discrimination and calibration; compared against SAPS II, SOFA, and APACHE IV in development and validation sets",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    },
+    {
+        "study": "Zhang 2021",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "XGBoost model",
+        "outcome": "Mortality prediction",
+        "timing": "ICU admission",
+        "method": "Machine learning model comparison",
+        "effect_size": "Not reported",
+        "performance": "Outperformed SAPS II and SOFA",
+        "notes": "Machine learning techniques, particularly XGBoost, showed high potential in sepsis population mortality prediction",
+        "source_info": {
+            "file": "Zhang_2021.pdf",
+            "doi": "10.3389/fmed.2020.609769",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_24"
+        }
+    }
+]

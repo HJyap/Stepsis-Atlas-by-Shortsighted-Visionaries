@@ -1,0 +1,705 @@
+[
+    {
+        "study": "Kochkin 2021",
+        "population": "Adult patients with refractory septic shock requiring norepinephrine >0.5 mcg/kg/min to maintain mean arterial pressure",
+        "sample_size": "N=79",
+        "predictor": "SOFA score",
+        "outcome": "Mortality (lethal outcome)",
+        "timing": "At ICU admission/assessment",
+        "method": "Multivariate analysis (logistic regression)",
+        "effect_size": "adj. OR 1.626 [95% CI 1.313; 2.014]",
+        "performance": "p < 0.001",
+        "notes": "SOFA score was the only significant independent predictor in multivariate analysis. Age, P/F ratio, lactate concentration, procalcitonin level, and norepinephrine dose did not show predictive ability in multivariate analysis. SOFA range 8-16 points.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "Предикторы летального исхода у пациентов с рефрактерным септическим шоком",
+            "page": 1,
+            "chunk": "page_1_chunk_2"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Adult patients with refractory septic shock requiring norepinephrine >0.5 mcg/kg/min to maintain mean arterial pressure",
+        "sample_size": "N=79",
+        "predictor": "Norepinephrine dose",
+        "outcome": "Mortality (lethal outcome)",
+        "timing": "At ICU admission/assessment",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.989 [95% CI 0.934; 1.000], p < 0.001",
+        "notes": "Norepinephrine dose was identified as a significant predictor in ROC analysis alongside SOFA score, despite not reaching significance in multivariate logistic regression.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "Предикторы летального исхода у пациентов с рефрактерным септическим шоком",
+            "page": 1,
+            "chunk": "page_1_chunk_2"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Predictors of lethal outcome in refractory septic shock",
+        "outcome": "Mortality in refractory septic shock",
+        "timing": "Not reported",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Only citation/title information available in the provided excerpt. No primary statistical results or findings were extractable from the text provided.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "Предикторы летального исхода у пациентов с рефрактерным септическим шоком",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Adult patients with refractory septic shock requiring norepinephrine >0.5 μg/kg/min to maintain mean arterial pressure, aged 42–74 years",
+        "sample_size": "N=79",
+        "predictor": "SOFA score",
+        "outcome": "Lethal outcome (mortality)",
+        "timing": "At admission/ICU assessment",
+        "method": "Multivariate logistic regression and ROC analysis",
+        "effect_size": "adj. OR: 1.626 [95% CI: 1.313; 2.014]",
+        "performance": "p < 0.001",
+        "notes": "SOFA score was the only significant independent predictor in multivariate analysis. Age, oxygenation index, lactate, procalcitonin, and norepinephrine dose had no predictive value in multivariate analysis.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "Predictors of Lethal Outcomes in Patients with Refractory Septic Shock",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Adult patients with refractory septic shock requiring norepinephrine >0.5 μg/kg/min to maintain mean arterial pressure, aged 42–74 years",
+        "sample_size": "N=79",
+        "predictor": "Norepinephrine dose",
+        "outcome": "Lethal outcome (mortality)",
+        "timing": "At admission/ICU assessment",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.989 [95% CI 0.934; 1.000], p < 0.001",
+        "notes": "Norepinephrine dose was a significant predictor in ROC analysis but not in multivariate logistic regression. SOFA score severity ranged from 8 to 16.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "Predictors of Lethal Outcomes in Patients with Refractory Septic Shock",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Not reported",
+        "outcome": "Lethal outcomes in refractory septic shock",
+        "timing": "Not reported",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Only citation metadata provided; no primary experimental findings, statistical results, or outcome data extractable from the supplied text excerpt.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "Predictors of Lethal Outcomes in Patients with Refractory Septic Shock",
+            "page": 1,
+            "chunk": "page_1_chunk_5"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with sepsis who developed refractory septic shock, aged 42–74 years (mean 59.7 ± 7.8), SOFA score 8–16 points, requiring norepinephrine ≥ 0.5 µg·kg⁻¹·min⁻¹ to maintain MAP > 65 mmHg, on mechanical ventilation ≤ 24 h at inclusion",
+        "sample_size": "N=79 (48 male, 31 female)",
+        "predictor": "Refractory septic shock requiring norepinephrine infusion > 0.5 µg·kg⁻¹·min⁻¹",
+        "outcome": "Not reported",
+        "timing": "Within 24 hours of septic shock diagnosis",
+        "method": "Retrospective analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Sepsis diagnosed per Sepsis-3 criteria. Refractory septic shock defined as requiring norepinephrine > 0.5 µg·kg⁻¹·min⁻¹ to maintain MAP > 65 mmHg. No primary outcome data reported in this excerpt.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "**Материалы и методы**",
+            "page": 2,
+            "chunk": "page_2_chunk_8"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock managed in ICU according to Surviving Sepsis Campaign guidelines",
+        "sample_size": "N=80 (35 deaths)",
+        "predictor": "28-day mortality outcome",
+        "outcome": "28-day mortality",
+        "timing": "Day 1 after vasopressor initiation",
+        "method": "Descriptive analysis",
+        "effect_size": "44% (35/80 patients) 28-day mortality; 17% (6 patients) of fatal outcomes within first 3 days",
+        "performance": "Not reported",
+        "notes": "Primary infection source: lungs 55%, abdominal cavity 35%, unknown/other 10%. Causes of death: cardiovascular failure progression 85% (30 patients), DIC 11% (4 patients), respiratory failure/ARDS progression 3% (1 patient).",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "_Критерии исключения:_",
+            "page": 2,
+            "chunk": "page_2_chunk_12"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Age (Возраст)",
+        "outcome": "Fatal outcome (lethal outcome)",
+        "timing": "Not reported",
+        "method": "ROC analysis (univariate)",
+        "effect_size": "Cutoff: >57 years",
+        "performance": "AUC 0.670 [95% CI 0.550; 0.790], p=0.01; Sensitivity 80.0%, Specificity 56.8%",
+        "notes": "None",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Arterial blood lactate concentration (Лактат)",
+        "outcome": "Fatal outcome (lethal outcome)",
+        "timing": "Not reported",
+        "method": "ROC analysis (univariate)",
+        "effect_size": "Cutoff: >4.6 mmol/L",
+        "performance": "AUC 0.808 [95% CI 0.712; 0.905], p<0.001; Sensitivity 65.7%, Specificity 90.9%",
+        "notes": "None",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Noradrenaline dose required to maintain mean arterial pressure above 65 mmHg (НА)",
+        "outcome": "Unfavorable outcome (lethal outcome)",
+        "timing": "Not reported",
+        "method": "ROC analysis (univariate)",
+        "effect_size": "Cutoff: >0.57 mcg/kg/min",
+        "performance": "AUC 0.745 [95% CI 0.634; 0.836], p<0.0001; Sensitivity 71.4%, Specificity 81.8%",
+        "notes": "None",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "Procalcitonin concentration (ПКТ)",
+        "outcome": "Fatal outcome (lethal outcome)",
+        "timing": "Not reported",
+        "method": "ROC analysis (univariate)",
+        "effect_size": "Cutoff: >14.1 ng/mL",
+        "performance": "AUC 0.950 [95% CI 0.899; 1.000], p<0.001; Sensitivity 85.71%, Specificity 100%",
+        "notes": "None",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "P/F ratio (PaO2/FiO2)",
+        "outcome": "Fatal outcome (lethal outcome)",
+        "timing": "Not reported",
+        "method": "ROC analysis (univariate)",
+        "effect_size": "Cutoff: <184 mmHg",
+        "performance": "AUC 0.756 [95% CI 0.647; 0.866], p<0.0001; Sensitivity 65.7%, Specificity 81.8%",
+        "notes": "None",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_13"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Worsening of organ failure score on SOFA scale (SOFA score >11)",
+        "outcome": "28-day mortality (lethal outcome)",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Cutoff >11 points; Sensitivity 94.3%, Specificity 93.2%",
+        "performance": "AUC 0.984 [95% CI 0.964; 1.000], p<0.001",
+        "notes": "Most significant predictor identified by ROC analysis",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Presence of diabetes mellitus",
+        "outcome": "28-day mortality",
+        "timing": "At admission/baseline comorbidity",
+        "method": "Comparative analysis",
+        "effect_size": "28-day mortality 100% in diabetic patients vs 33.3% in non-diabetic patients",
+        "performance": "p<0.001",
+        "notes": "Only comorbid condition identified as a significant predictor of lethal outcome in refractory septic shock patients",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Need for renal replacement therapy",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Binary predictor analysis",
+        "effect_size": "Not reported",
+        "performance": "p=0.443",
+        "notes": "Not a significant predictor of 28-day mortality",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Use of additional vasopressor agents",
+        "outcome": "28-day mortality",
+        "timing": "Not reported",
+        "method": "Binary predictor analysis",
+        "effect_size": "Not reported",
+        "performance": "p=0.882",
+        "notes": "Not a significant predictor of 28-day mortality",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Oxygenation index",
+        "outcome": "28-day mortality (lethal outcome)",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC reported (exact value not stated in excerpt); see Fig. 2",
+        "notes": "ROC curve presented in Fig. 2; exact AUC value not explicitly stated in the extracted text",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_14"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients in refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Lethal outcome (mortality)",
+        "timing": "Not reported",
+        "method": "Multivariate analysis (logistic regression)",
+        "effect_size": "adj. OR 1.626 [95% CI 1.313; 2.014]",
+        "performance": "p < 0.001",
+        "notes": "Each 1-point increase in SOFA score increases the risk of lethal outcome by 62.6%. Norepinephrine dose was not confirmed as a significant predictor of lethal outcome in refractory septic shock.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "Diabetes mellitus in history",
+        "outcome": "Lethal outcome",
+        "timing": "At admission/baseline",
+        "method": "Descriptive cross-tabulation",
+        "effect_size": "100% mortality in patients with diabetes (13/13) vs 33.3% in patients without diabetes (22/66)",
+        "performance": "Not reported",
+        "notes": "All 13 patients with diabetes in history died; none survived",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "SOFA score",
+        "outcome": "Lethal outcome",
+        "timing": "At admission/baseline",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 1.626 (95% CI 1.313–2.014)",
+        "performance": "p=0.000, Wald=19.863",
+        "notes": "Only statistically significant predictor in multivariate model",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "Additional vasopressors (Доп. вазопрессоры)",
+        "outcome": "Lethal outcome",
+        "timing": "During ICU stay",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 1.377 (95% CI 0.638–2.972)",
+        "performance": "p=0.415, Wald=0.664",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "Age (Возраст)",
+        "outcome": "Lethal outcome",
+        "timing": "At admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 0.981 (95% CI 0.925–1.042)",
+        "performance": "p=0.535, Wald=0.385",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "Renal replacement therapy (ЗПТ)",
+        "outcome": "Lethal outcome",
+        "timing": "During ICU stay",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 2.298 (95% CI 0.269–19.593)",
+        "performance": "p=0.447, Wald=0.579",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "Lactate (Лактат)",
+        "outcome": "Lethal outcome",
+        "timing": "At admission/baseline",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 0.986 (95% CI 0.763–1.274)",
+        "performance": "p=0.916, Wald=0.011",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "Sex (Пол)",
+        "outcome": "Lethal outcome",
+        "timing": "At admission",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 1.288 (95% CI 0.550–3.017)",
+        "performance": "p=0.559, Wald=0.341",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "Procalcitonin (Прокальцитонин)",
+        "outcome": "Lethal outcome",
+        "timing": "At admission/baseline",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 1.000 (95% CI 0.980–1.020)",
+        "performance": "p=0.982, Wald=0.000",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "N=79",
+        "predictor": "IO (ИО)",
+        "outcome": "Lethal outcome",
+        "timing": "At admission/baseline",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 0.993 (95% CI 0.978–1.009)",
+        "performance": "p=0.389, Wald=0.743",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Norepinephrine dose (Доза НА)",
+        "outcome": "Lethal outcome",
+        "timing": "During ICU stay",
+        "method": "Multivariate logistic regression",
+        "effect_size": "adj. OR 1.024 (95% CI 0.999–1.050)",
+        "performance": "p=0.058, Wald=3.599",
+        "notes": "Borderline non-significant in multivariate model for septic shock",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Lethal outcome",
+        "timing": "At admission/baseline",
+        "method": "Multivariate logistic regression (Table 3)",
+        "effect_size": "adj. OR 9.616 (95% CI 2.512–36.805)",
+        "performance": "p=0.001, Wald=10.924",
+        "notes": "Multivariate analysis of informativity of norepinephrine dose and SOFA score; SOFA statistically significant",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Fatal outcome (lethal)",
+        "timing": "Not reported",
+        "method": "Logistic regression (multivariate)",
+        "effect_size": "adj. OR 9.616 [95% CI 2.512; 36.805]",
+        "performance": "p = 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Noradrenaline (norepinephrine) vasopressor dose",
+        "outcome": "Fatal outcome (lethal)",
+        "timing": "Not reported",
+        "method": "Logistic regression (multivariate)",
+        "effect_size": "adj. OR 1.024 [95% CI 0.999; 1.050]",
+        "performance": "p = 0.058",
+        "notes": "Not statistically significant at p<0.05",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Combined SOFA score and noradrenaline vasopressor dose",
+        "outcome": "Fatal outcome (lethal)",
+        "timing": "Not reported",
+        "method": "ROC analysis (combined model)",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.989 [95% CI 0.934; 1.000], p < 0.001",
+        "notes": "Joint analysis of SOFA and noradrenaline dose provided more accurate and reliable prognosis of fatal outcome",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Lethal outcome (mortality)",
+        "timing": "Not reported",
+        "method": "Multivariate regression analysis and ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.984 [95% CI 0.964; 1.000], p < 0.001",
+        "notes": "SOFA score was the only significant independent predictor of lethal outcome in refractory septic shock. Other candidate predictors (P/F ratio, need for renal replacement therapy, lactate, norepinephrine dose) did not demonstrate significance in multivariate analysis.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "**Обсуждение**",
+            "page": 4,
+            "chunk": "page_4_chunk_18"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Patients included in ROC analysis",
+        "sample_size": "N=106",
+        "predictor": "Not reported",
+        "outcome": "Adverse outcome (unfavorable prognosis)",
+        "timing": "Not reported",
+        "method": "ROC analysis and logistic regression analysis",
+        "effect_size": "OR 6.04 [95% CI 2.2; 15.06]",
+        "performance": "AUC 0.760 [95% CI 0.66; 0.86], p<0.001; OR p<0.01",
+        "notes": "Multivariate analysis did not confirm high prognostic significance of several indicators that appeared significant in univariate analysis. Authors note that univariate analysis alone is insufficient and multivariate analysis is necessary to properly identify predictors of adverse outcome. Possible limitation noted as insufficient sample size.",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_19"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Adult patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "Logistic regression (adjusted OR)",
+        "effect_size": "adj. OR 1.626 [95% CI 1.313; 2.014]",
+        "performance": "p < 0.001",
+        "notes": "SOFA score identified as independent predictor of mortality in refractory septic shock",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "**Выводы**",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    },
+    {
+        "study": "Kochkin 2021",
+        "population": "Adult patients with refractory septic shock",
+        "sample_size": "Not reported",
+        "predictor": "Norepinephrine dose",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.989 [95% CI 0.934; 1.000], p < 0.001",
+        "notes": "Norepinephrine dose identified as significant predictor alongside SOFA score",
+        "source_info": {
+            "file": "Kochkin_2021.pdf",
+            "doi": "10.21292/2078-5658-2021-18-3-30-35",
+            "section": "**Выводы**",
+            "page": 5,
+            "chunk": "page_5_chunk_20"
+        }
+    }
+]

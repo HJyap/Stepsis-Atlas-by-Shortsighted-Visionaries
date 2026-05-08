@@ -1,0 +1,1788 @@
+[
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients admitted to ICU",
+        "sample_size": "N=1983",
+        "predictor": "Myocardial enzymes (LDH, CK, CK-MB, troponin) and clinical characteristics integrated into a nomogram",
+        "outcome": "One-year mortality",
+        "timing": "At ICU admission",
+        "method": "Multivariate logistic regression, ROC analysis, calibration curve, decision curve analysis; compared with LDH alone, SOFA, and SAPS II",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Data extracted from MIMIC-III database; training/testing split 7:3; univariate logistic regression used for variable screening followed by stepwise regression",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "LDH (lactate dehydrogenase)",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Logistic regression / ROC analysis",
+        "effect_size": "OR = 1.28, 95% CI: 1.18–1.52",
+        "performance": "AUC = 0.773 (training set, 95% CI: 0.748–0.798); AUC = 0.750 (testing set, 95% CI: 0.711–0.789) for LDH-model",
+        "notes": "LDH alone was inferior to the LDH-model nomogram. LDH-model also outperformed SOFA score and SAPS II score. Calibration curve showed good agreement; decision curve analysis demonstrated clinical utility.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "LDH-model nomogram (age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, alkaline phosphatase, vasopressor, Elixhauser score, respiratory failure, LDH)",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Nomogram / ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Training set AUC = 0.773 (95% CI: 0.748–0.798); Testing set AUC = 0.750 (95% CI: 0.711–0.789)",
+        "notes": "Model superior to LDH alone, SOFA score, and SAPS II score. Calibration curve indicated good agreement between predictive and actual outcomes; decision curve analysis demonstrated clinical utility.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Abstract**",
+            "page": 1,
+            "chunk": "page_1_chunk_4"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in the ICU (MIMIC-III database)",
+        "sample_size": "Not reported",
+        "predictor": "Myocardial enzymes (CK, CK-MB, AST, LDH) and LDH/ALB ratio combined with clinical features",
+        "outcome": "One-year mortality",
+        "timing": "At ICU admission or during ICU stay",
+        "method": "Prediction model combining clinical features",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Study purpose stated; actual statistical results not provided in this excerpt. The study aimed to investigate the relationship between myocardial enzymes and one-year mortality and to establish a prediction model using MIMIC-III database.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_7"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU aged ≥18 years with ≥24h ICU admission and ≥1 day survival time",
+        "sample_size": "N=1,983 (training set n=1,388; testing set n=595)",
+        "predictor": "Not reported",
+        "outcome": "Not reported",
+        "timing": "ICU admission",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Mean age 67.79 ± 15.31 years; 46.44% had congestive heart failure; 26.42% had history of malignant disease. No primary experimental findings with statistical results reported in this excerpt.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Participants’ characteristics**",
+            "page": 3,
+            "chunk": "page_3_chunk_15"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients from a database, split into training and testing sets",
+        "sample_size": "N=1388 total (training set: death group n=788, survival group n=600)",
+        "predictor": "Congestive heart failure, malignant tumor, atrial fibrillation, respiratory failure, Elixhauser score",
+        "outcome": "One-year mortality",
+        "timing": "At admission/baseline",
+        "method": "Comparison between death and survival groups",
+        "effect_size": "Not reported",
+        "performance": "Differences statistically significant between death and survival groups (P not specified for individual variables)",
+        "notes": "One-year mortality rate was 56.13%. Median Elixhauser score was 24.00 for total population. 42.16% had atrial fibrillation. Training and testing sets were well-balanced (all variables P>0.05 between sets).",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_16"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "LDH (lactate dehydrogenase)",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Multivariate logistic regression (Model 1 and Model 2)",
+        "effect_size": "Model 1: OR = 1.28, 95% CI: 1.09–1.49; Model 2 (adjusted): OR = 1.28, 95% CI: 1.18–1.52",
+        "performance": "Model 1: P = 0.002; Model 2: P = 0.005",
+        "notes": "AST, CK, and CK-MB were not significantly associated with one-year mortality in sepsis patients.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**The association of different myocardial enzymes and one‑year mortality among patients with sepsis**",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "AST",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not statistically significant",
+        "notes": "No statistically significant difference found between AST and one-year mortality.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**The association of different myocardial enzymes and one‑year mortality among patients with sepsis**",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "CK (creatine kinase)",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not statistically significant",
+        "notes": "No statistically significant difference found between CK and one-year mortality.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**The association of different myocardial enzymes and one‑year mortality among patients with sepsis**",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "CK-MB",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not statistically significant",
+        "notes": "No statistically significant difference found between CK-MB and one-year mortality.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**The association of different myocardial enzymes and one‑year mortality among patients with sepsis**",
+            "page": 4,
+            "chunk": "page_4_chunk_17"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "LDH-model (LDH combined with clinical features)",
+        "outcome": "Not reported (mortality or adverse outcome implied)",
+        "timing": "Not reported",
+        "method": "ROC analysis, calibration curve, DCA",
+        "effect_size": "Not reported",
+        "performance": "Training set: AUC 0.773 (95%CI: 0.748–0.798), sensitivity 0.761 (95%CI: 0.732–0.791), specificity 0.662 (95%CI: 0.624–0.700), accuracy 0.718 (95%CI: 0.695–0.742); Testing set: AUC 0.750 (95%CI: 0.711–0.789), sensitivity 0.751 (95%CI: 0.704–0.798), specificity 0.619 (95%CI: 0.561–0.676), accuracy 0.691 (95%CI: 0.654–0.728)",
+        "notes": "LDH-model exhibited superior predictive performance compared to LDH alone, SOFA score, and SAPS II score in both training and testing sets. DCA curves also showed higher clinical benefit for LDH-model under the same risk threshold.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Validation and comparison of prediction model**",
+            "page": 4,
+            "chunk": "page_4_chunk_18"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "LDH-model (integrating LDH, age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, ALP, vasopressor, Elixhauser score, and respiratory failure)",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Nomogram prediction model",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "An online prediction nomogram was developed and is available at https://songqy.shinyapps.io/DynNomapp/",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Development of prediction model (LDH‑model)**",
+            "page": 4,
+            "chunk": "page_4_chunk_19"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (retrospective cohort study)",
+        "sample_size": "Not reported",
+        "predictor": "LDH (lactate dehydrogenase) integrated with clinical features (age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, ALP, vasopressor, Elixhauser score, respiratory failure) — LDH-model nomogram",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Nomogram prediction model with internal validation; compared against LDH alone, SOFA score, and SAPS II score",
+        "effect_size": "Not reported",
+        "performance": "Good performance on internal validation (specific metrics not reported in excerpt)",
+        "notes": "Model integrates LDH with 11 clinical features. Compared favorably to LDH alone, SOFA score, and SAPS II score. Example patient: male, age 81, LDH 371 IU/L, potassium 4.8 mEq/L, calcium 11.1 mg/dL, albumin 4 g/dL, hemoglobin 8.9 g/dL, ALP 159 IU/L, no vasopressor, Elixhauser score 42.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Sample**",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (retrospective cohort study)",
+        "sample_size": "Not reported",
+        "predictor": "LDH (lactate dehydrogenase) alone",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Statistical association analysis; ROC/comparison analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported (used as comparator; LDH-model outperformed LDH alone)",
+        "notes": "LDH was independently associated with risk of one-year mortality in sepsis patients.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Sample**",
+            "page": 4,
+            "chunk": "page_4_chunk_20"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Age",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean 64.06 ± 16.12 (survival) vs 71.04 ± 14.24 (death), t = -8.40",
+        "performance": "p < 0.001",
+        "notes": "Training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Gender (Male)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Male: 54.67% (survival) vs 60.15% (death), χ2 = 4.202",
+        "performance": "p = 0.040",
+        "notes": "Training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Ethnicity",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "White: 77.33% (survival) vs 84.26% (death); Asian: 4.67% vs 1.90%; Black: 12.00% vs 8.88%; Hispanic: 6.00% vs 4.95%; χ2 = 14.338",
+        "performance": "p = 0.002",
+        "notes": "Training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Heart rate (times/min)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean 98.76 ± 21.32 (survival) vs 96.29 ± 22.09 (death), t = 2.09",
+        "performance": "p = 0.037",
+        "notes": "Training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "DBP (mmHg)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean 63.55 ± 19.27 (survival) vs 60.15 ± 17.94 (death), t = 3.39",
+        "performance": "p < 0.001",
+        "notes": "Training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Marital status",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Married: 49.17% (survival) vs 47.34% (death), χ2 = 0.458",
+        "performance": "p = 0.499",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "ICU type",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "MICU: 70.17% (survival) vs 65.48% (death), χ2 = 5.795",
+        "performance": "p = 0.215",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Length of stay (days)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 5.02 (2.59, 12.17) (survival) vs 6.07 (2.90, 12.80) (death), Z = -1.573",
+        "performance": "p = 0.116",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Respiratory rate (times/min)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean 21.56 ± 6.64 (survival) vs 21.51 ± 6.60 (death), t = 0.15",
+        "performance": "p = 0.881",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Temperature (°C)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean 36.88 ± 3.54 (survival) vs 36.59 ± 1.22 (death), t = 1.90",
+        "performance": "p = 0.058",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "SBP (mmHg)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean 115.60 ± 24.79 (survival) vs 114.63 ± 25.84 (death), t = 0.71",
+        "performance": "p = 0.479",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "MAP (mmHg)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean 77.16 ± 19.75 (survival) vs 75.76 ± 18.78 (death), t = 1.34",
+        "performance": "p = 0.180",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "SPO2",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean 95.98 ± 7.30 (survival) vs 95.70 ± 7.40 (death), t = 0.71",
+        "performance": "p = 0.478",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis ICU patients in training set",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "WBC (K/uL)",
+        "outcome": "In-hospital mortality (death vs survival)",
+        "timing": "ICU admission",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 12.50 (8.20, 18.10) (survival) vs 11.70 (7.40, 16.80) (death), Z = 1.925",
+        "performance": "p = 0.054",
+        "notes": "Not statistically significant; training set from MIMIC database",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_21"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "SPO2",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 95.82 ± 7.35, Survivors 95.98 ± 7.30, Non-survivors 95.70 ± 7.40",
+        "performance": "t = 0.71, p = 0.478",
+        "notes": "No significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "WBC (K/uL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 11.90 (7.70, 17.40), Survivors 12.50 (8.20, 18.10), Non-survivors 11.70 (7.40, 16.80)",
+        "performance": "Z = 1.925, p = 0.054",
+        "notes": "Trend toward significance but not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "RBC (m/uL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 3.75 ± 0.77, Survivors 3.87 ± 0.76, Non-survivors 3.66 ± 0.77",
+        "performance": "t = 5.26, p < 0.001",
+        "notes": "Significantly higher in survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Sodium (mEq/L)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 137.59 ± 6.55, Survivors 137.64 ± 6.45, Non-survivors 137.54 ± 6.62",
+        "performance": "t = 0.29, p = 0.772",
+        "notes": "No significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Potassium (mEq/L)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 4.43 ± 1.00, Survivors 4.26 ± 0.95, Non-survivors 4.56 ± 1.02",
+        "performance": "t = -5.57, p < 0.001",
+        "notes": "Significantly higher in non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Phosphate (mg/dL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 3.60 (2.80, 4.60), Survivors 3.30 (2.60, 4.30), Non-survivors 3.80 (3.00, 4.90)",
+        "performance": "Z = -6.595, p < 0.001",
+        "notes": "Significantly higher in non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Calcium (mg/dL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 8.21 ± 1.06, Survivors 8.08 ± 1.05, Non-survivors 8.31 ± 1.06",
+        "performance": "t = -4.03, p < 0.001",
+        "notes": "Significantly higher in non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "PLT (K/uL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 210.00 (133.00, 303.00), Survivors 215.00 (145.50, 292.00), Non-survivors 207.50 (123.00, 311.00)",
+        "performance": "Z = 1.093, p = 0.274",
+        "notes": "No significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "pH",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 7.34 ± 0.12, Survivors 7.33 ± 0.12, Non-survivors 7.34 ± 0.12",
+        "performance": "t = -1.31, p = 0.191",
+        "notes": "No significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Lactate (mmol/L)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 2.30 (1.50, 3.80), Survivors 2.20 (1.50, 3.80), Non-survivors 2.30 (1.50, 3.70)",
+        "performance": "Z = -0.597, p = 0.550",
+        "notes": "No significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Magnesium (mg/dL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 1.94 ± 0.51, Survivors 1.87 ± 0.48, Non-survivors 2.00 ± 0.52",
+        "performance": "t = -4.75, p < 0.001",
+        "notes": "Significantly higher in non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Glucose (mg/dL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 132.00 (106.00, 177.00), Survivors 134.00 (108.00, 182.50), Non-survivors 131.00 (105.00, 174.00)",
+        "performance": "Z = 1.747, p = 0.081",
+        "notes": "No significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Creatinine (mg/dL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 1.50 (1.00, 2.50), Survivors 1.40 (1.00, 2.25), Non-survivors 1.60 (1.00, 2.70)",
+        "performance": "Z = -2.998, p = 0.003",
+        "notes": "Significantly higher in non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "BUN (mg/dL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 31.50 (20.00, 51.00), Survivors 27.50 (18.00, 44.00), Non-survivors 35.00 (22.00, 57.00)",
+        "performance": "Z = -5.852, p < 0.001",
+        "notes": "Significantly higher in non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Bicarbonate (mEq/L)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 22.56 ± 5.56, Survivors 22.28 ± 5.28, Non-survivors 22.78 ± 5.75",
+        "performance": "t = -1.68, p = 0.093",
+        "notes": "No significant difference between survivors and non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Albumin",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 2.90 ± 0.65, Survivors 2.97 ± 0.67, Non-survivors 2.85 ± 0.62",
+        "performance": "t = 3.37, p < 0.001",
+        "notes": "Significantly higher in survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "TBIL (mg/dL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 0.70 (0.40, 1.50), Survivors 0.60 (0.40, 1.30), Non-survivors 0.70 (0.40, 1.70)",
+        "performance": "Z = -2.038, p = 0.042",
+        "notes": "Significantly higher in non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Hematocrit (%)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 33.99 ± 6.51, Survivors 34.94 ± 6.50, Non-survivors 33.26 ± 6.43",
+        "performance": "t = 4.78, p < 0.001",
+        "notes": "Significantly higher in survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "Hemoglobin (g/dL)",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 11.25 ± 2.21, Survivors 11.64 ± 2.22, Non-survivors 10.96 ± 2.16",
+        "performance": "t = 5.72, p < 0.001",
+        "notes": "Significantly higher in survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "MCHC",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "t-test",
+        "effect_size": "Mean ± SD: Overall 33.12 ± 1.66, Survivors 33.31 ± 1.67, Non-survivors 32.97 ± 1.64",
+        "performance": "t = 3.73, p < 0.001",
+        "notes": "Significantly higher in survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients (overall cohort vs survivors vs non-survivors)",
+        "sample_size": "Not reported",
+        "predictor": "ALP",
+        "outcome": "Survival vs non-survival in sepsis",
+        "timing": "At admission/ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 99.00 (70.00, 155.00), Survivors 91.00 (65.00, 135.00), Non-survivors 103.00 (73.00, 168.00)",
+        "performance": "Z = -4.354, p < 0.001",
+        "notes": "Significantly higher in non-survivors",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_22"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported in excerpt",
+        "predictor": "MCHC",
+        "outcome": "Group comparison (survivors vs non-survivors or similar binary outcome)",
+        "timing": "At admission or during ICU stay",
+        "method": "Independent samples t-test",
+        "effect_size": "Mean ± SD: Overall 33.12 ± 1.66, Group 1: 33.31 ± 1.67, Group 2: 32.97 ± 1.64",
+        "performance": "t = 3.73, p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported in excerpt",
+        "predictor": "ALP",
+        "outcome": "Group comparison (survivors vs non-survivors or similar binary outcome)",
+        "timing": "At admission or during ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 99.00 (70.00, 155.00), Group 1: 91.00 (65.00, 135.00), Group 2: 103.00 (73.00, 168.00)",
+        "performance": "Z = -4.354, p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported in excerpt",
+        "predictor": "ALT",
+        "outcome": "Group comparison (survivors vs non-survivors or similar binary outcome)",
+        "timing": "At admission or during ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 30.00 (17.00, 64.00), Group 1: 30.50 (18.00, 64.10), Group 2: 30.00 (17.00, 64.00)",
+        "performance": "Z = 0.373, p = 0.709",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported in excerpt",
+        "predictor": "AST",
+        "outcome": "Group comparison (survivors vs non-survivors or similar binary outcome)",
+        "timing": "At admission or during ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 43.00 (25.00, 100.00), Group 1: 43.00 (25.00, 86.00), Group 2: 43.00 (26.00, 110.00)",
+        "performance": "Z = -0.878, p = 0.380",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported in excerpt",
+        "predictor": "LDH",
+        "outcome": "Group comparison (survivors vs non-survivors or similar binary outcome)",
+        "timing": "At admission or during ICU stay",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median (Q1, Q3): Overall 281.00 (213.00, 426.50), Group 1: 258.50 (206.00, 371.00), Group 2: 300.00 (219.00, 486.50)",
+        "performance": "Z = -4.829, p < 0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 5,
+            "chunk": "page_5_chunk_23"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "CK (U/L)",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 134.50 (IQR 60.00-329.50) survival vs 97.50 (IQR 40.00-259.00) death",
+        "performance": "Z=4.279, p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "CK-MB (U/L)",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 4.00 (IQR 2.00-8.00) survival vs 4.61 (IQR 3.00-8.50) death",
+        "performance": "Z=-2.308, p=0.021",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "PO2",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 100.00 (IQR 69.00-184.50) survival vs 95.20 (IQR 67.00-174.50) death",
+        "performance": "Z=0.605, p=0.545",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "PCO2",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 39.30 (IQR 34.00-47.00) survival vs 39.00 (IQR 33.00-47.00) death",
+        "performance": "Z=0.909, p=0.363",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Congestive heart failure",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Yes: 44.33% survival vs 50.13% death",
+        "performance": "χ2=4.584, p=0.032",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Malignant tumor",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Yes: 21.50% survival vs 30.08% death",
+        "performance": "χ2=12.904, p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Atrial fibrillation",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Yes: 37.00% survival vs 46.95% death",
+        "performance": "χ2=13.799, p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Respiratory failure",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Yes: 49.33% survival vs 61.55% death",
+        "performance": "χ2=20.654, p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Septic shock",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Yes: 52.33% survival vs 55.46% death",
+        "performance": "χ2=1.338, p=0.247",
+        "notes": "Not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Elixhauser score",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 18.00 (IQR 9.00-29.00) survival vs 27.00 (IQR 18.00-36.00) death",
+        "performance": "Z=-10.266, p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "SOFA total score",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 7.00 (IQR 4.00-10.00) survival vs 8.00 (IQR 5.00-11.00) death",
+        "performance": "Z=-5.016, p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "SAPS II",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Mann-Whitney U test",
+        "effect_size": "Median 41.00 (IQR 33.00-51.00) survival vs 50.00 (IQR 41.00-61.00) death",
+        "performance": "Z=-11.426, p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "RRT (renal replacement therapy)",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Yes: 7.83% survival vs 12.44% death",
+        "performance": "χ2=7.715, p=0.005",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "N=1388 (Survival n=668, Death n=824)",
+        "predictor": "Mechanical ventilation",
+        "outcome": "In-hospital mortality (survival vs death)",
+        "timing": "ICU admission",
+        "method": "Chi-square test",
+        "effect_size": "Yes: 62.17% survival vs 70.81% death",
+        "performance": "χ2=11.529, p<0.001",
+        "notes": "None",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_24"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "N=1388",
+        "predictor": "LDH (Lactic dehydrogenase)",
+        "outcome": "One-year mortality",
+        "timing": "ICU admission",
+        "method": "Logistic regression (Model 1, unadjusted)",
+        "effect_size": "OR 1.28, 95% CI 1.09–1.49",
+        "performance": "p=0.002",
+        "notes": "Model 1 is unadjusted",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "N=1388",
+        "predictor": "AST (Aspartic transaminase)",
+        "outcome": "One-year mortality",
+        "timing": "ICU admission",
+        "method": "Logistic regression (Model 1, unadjusted)",
+        "effect_size": "OR 1.06, 95% CI 0.94–1.20",
+        "performance": "p=0.332",
+        "notes": "Model 1 is unadjusted; not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "N=1388",
+        "predictor": "CK-MB (Creatine kinase isoenzyme)",
+        "outcome": "One-year mortality",
+        "timing": "ICU admission",
+        "method": "Logistic regression (Model 1, unadjusted)",
+        "effect_size": "OR 1.04, 95% CI 0.93–1.16",
+        "performance": "p=0.508",
+        "notes": "Model 1 is unadjusted; not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "N=1388",
+        "predictor": "CK (Creatine kinase)",
+        "outcome": "One-year mortality",
+        "timing": "ICU admission",
+        "method": "Logistic regression (Model 1, unadjusted)",
+        "effect_size": "OR 0.94, 95% CI 0.82–1.08",
+        "performance": "p=0.404",
+        "notes": "Model 1 is unadjusted; not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "N=1388",
+        "predictor": "LDH (Lactic dehydrogenase)",
+        "outcome": "One-year mortality",
+        "timing": "ICU admission",
+        "method": "Logistic regression (Model 2, adjusted)",
+        "effect_size": "OR 1.28, 95% CI 1.08–1.52",
+        "performance": "p=0.005",
+        "notes": "Model 2 is adjusted",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "N=1388",
+        "predictor": "AST (Aspartic transaminase)",
+        "outcome": "One-year mortality",
+        "timing": "ICU admission",
+        "method": "Logistic regression (Model 2, adjusted)",
+        "effect_size": "OR 1.05, 95% CI 0.89–1.23",
+        "performance": "p=0.551",
+        "notes": "Model 2 is adjusted; not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "N=1388",
+        "predictor": "CK-MB (Creatine kinase isoenzyme)",
+        "outcome": "One-year mortality",
+        "timing": "ICU admission",
+        "method": "Logistic regression (Model 2, adjusted)",
+        "effect_size": "OR 1.06, 95% CI 0.94–1.21",
+        "performance": "p=0.349",
+        "notes": "Model 2 is adjusted; not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis in ICU",
+        "sample_size": "N=1388",
+        "predictor": "CK (Creatine kinase)",
+        "outcome": "One-year mortality",
+        "timing": "ICU admission",
+        "method": "Logistic regression (Model 2, adjusted)",
+        "effect_size": "OR 0.98, 95% CI 0.87–1.11",
+        "performance": "p=0.795",
+        "notes": "Model 2 is adjusted; not statistically significant",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_25"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Not reported",
+        "sample_size": "Not reported",
+        "predictor": "CK (Creatine kinase)",
+        "outcome": "Not reported",
+        "timing": "Not reported",
+        "method": "Logistic regression (crude and adjusted models)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Model 1: crude model; Model 2: adjusted for age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, alkaline phosphatase, vasopressor, Elixhauser score and respiratory failure. No specific effect sizes or outcomes reported in this excerpt.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Not reported",
+        "sample_size": "Not reported",
+        "predictor": "CK-MB (Creatine kinase isoenzyme)",
+        "outcome": "Not reported",
+        "timing": "Not reported",
+        "method": "Logistic regression (crude and adjusted models)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Model 1: crude model; Model 2: adjusted for age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, alkaline phosphatase, vasopressor, Elixhauser score and respiratory failure. No specific effect sizes or outcomes reported in this excerpt.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Not reported",
+        "sample_size": "Not reported",
+        "predictor": "AST (Aspartic transaminase)",
+        "outcome": "Not reported",
+        "timing": "Not reported",
+        "method": "Logistic regression (crude and adjusted models)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Model 1: crude model; Model 2: adjusted for age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, alkaline phosphatase, vasopressor, Elixhauser score and respiratory failure. No specific effect sizes or outcomes reported in this excerpt.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Not reported",
+        "sample_size": "Not reported",
+        "predictor": "LDH (Lactic dehydrogenase)",
+        "outcome": "Not reported",
+        "timing": "Not reported",
+        "method": "Logistic regression (crude and adjusted models)",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Model 1: crude model; Model 2: adjusted for age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, alkaline phosphatase, vasopressor, Elixhauser score and respiratory failure. No specific effect sizes or outcomes reported in this excerpt.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_26"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "LDH (lactic dehydrogenase)",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Nomogram",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "LDH level was found to be associated with the risk of one-year mortality among patients with sepsis. A nomogram was developed incorporating LDH and ALP (alkaline phosphatase) for predicting one-year mortality probability.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_27"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "ALP (alkaline phosphatase)",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Nomogram",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ALP was included in the nomogram predicting one-year mortality probability in patients with sepsis.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_27"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Prediction model integrating LDH, age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, ALP, vasopressor, Elixhauser score, and respiratory failure",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Multivariate prediction model",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Retrospective cohort study exploring association of myocardial enzymes and prognosis of sepsis. Full performance metrics not provided in this excerpt.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_28"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients from MIMIC-III database",
+        "sample_size": "Not reported",
+        "predictor": "LDH-model (integrating LDH and clinical features including ALP)",
+        "outcome": "One-year mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis, calibration curves, DCA curves, nomogram",
+        "effect_size": "Not reported",
+        "performance": "Not reported in this excerpt",
+        "notes": "LDH-model compared with SAPS II, SOFA scoring systems and LDH alone for one-year prediction of septic mortality; nomogram developed for clinical application",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_29"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients from MIMIC-III database",
+        "sample_size": "Not reported",
+        "predictor": "SAPS II score",
+        "outcome": "One-year mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported in this excerpt",
+        "notes": "Used as comparator to LDH-model",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_29"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients from MIMIC-III database",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "One-year mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported in this excerpt",
+        "notes": "Used as comparator to LDH-model",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_29"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients from MIMIC-III database",
+        "sample_size": "Not reported",
+        "predictor": "LDH alone (lactic dehydrogenase)",
+        "outcome": "One-year mortality",
+        "timing": "At ICU admission",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported in this excerpt",
+        "notes": "Used as comparator to LDH-model",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_29"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "LDH level",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Association analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "LDH was associated with one-year mortality risk in sepsis patients",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Conclusion**",
+            "page": 8,
+            "chunk": "page_8_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "LDH-based nomogram (LDHmodel) combining LDH and clinical characteristics",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "Nomogram development",
+        "effect_size": "Not reported",
+        "performance": "Surpassed predictive ability of LDH alone, SAPS II, and SOFA scoring systems",
+        "notes": "Nomogram developed to assist clinicians in predicting one-year mortality risk",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "**Conclusion**",
+            "page": 8,
+            "chunk": "page_8_chunk_31"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "LDH-model",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Cut-off: 0.530",
+        "performance": "Training set: AUC 0.773 (0.748–0.798), Sensitivity 0.761 (0.732–0.791), Specificity 0.662 (0.624–0.700), PPV 0.747 (0.717–0.777), NPV 0.679 (0.641–0.716), Accuracy 0.718 (0.695–0.742); Testing set: AUC 0.750 (0.711–0.789), Sensitivity 0.751 (0.704–0.798), Specificity 0.619 (0.561–0.676), PPV 0.703 (0.655–0.751), NPV 0.673 (0.615–0.732), Accuracy 0.691 (0.654–0.728)",
+        "notes": "LDH-model is a composite prediction model including LDH among other variables",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Cut-off: 0.629",
+        "performance": "Training set: AUC 0.578 (0.548–0.608), Sensitivity 0.283 (0.252–0.314), Specificity 0.827 (0.796–0.857), PPV 0.682 (0.631–0.732), NPV 0.467 (0.437–0.498), Accuracy 0.518 (0.492–0.544); Testing set: AUC 0.542 (0.495–0.588), Sensitivity 0.178 (0.137–0.220), Specificity 0.833 (0.789–0.878), PPV 0.563 (0.467–0.659), NPV 0.457 (0.413–0.501), Accuracy 0.476 (0.436–0.516)",
+        "notes": "SOFA: Sequential Organ Failure Assessment score",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "SAPS II score",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Cut-off: 0.570",
+        "performance": "Training set: AUC 0.679 (0.651–0.707), Sensitivity 0.624 (0.591–0.658), Specificity 0.662 (0.624–0.700), PPV 0.708 (0.674–0.742), NPV 0.573 (0.536–0.610), Accuracy 0.640 (0.615–0.666); Testing set: AUC 0.653 (0.609–0.697), Sensitivity 0.594 (0.540–0.647), Specificity 0.630 (0.572–0.687), PPV 0.659 (0.604–0.713), NPV 0.563 (0.507–0.619), Accuracy 0.610 (0.571–0.649)",
+        "notes": "SAPS II: Simplified Acute Physiology Score II",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "LDH alone",
+        "outcome": "One-year mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Cut-off: 0.556",
+        "performance": "Training set: AUC 0.576 (0.546–0.606), Sensitivity 0.525 (0.491–0.560), Specificity 0.603 (0.564–0.642), PPV 0.635 (0.598–0.672), NPV 0.492 (0.456–0.528), Accuracy 0.559 (0.533–0.585); Testing set: AUC 0.565 (0.519–0.611), Sensitivity 0.542 (0.487–0.596), Specificity 0.530 (0.470–0.589), PPV 0.581 (0.525–0.636), NPV 0.490 (0.432–0.547), Accuracy 0.536 (0.496–0.576)",
+        "notes": "LDH: Lactic dehydrogenase measured alone as a single predictor",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_32"
+        }
+    },
+    {
+        "study": "Wang 2023",
+        "population": "Sepsis patients",
+        "sample_size": "Not reported",
+        "predictor": "LDH-model (integrating LDH and clinical features: age, gender, ethnicity, potassium, calcium, albumin, hemoglobin, alkaline phosphatase, vasopressor, Elixhauser score, and respiratory failure)",
+        "outcome": "Not reported",
+        "timing": "Not reported",
+        "method": "ROC analysis (AUC with 95% CI)",
+        "effect_size": "Not reported",
+        "performance": "Training set AUC: 0.606 (0.560–0.642) to 0.672 (0.528–0.636) range across metrics; Testing set AUC: 0.536 (0.496–0.576) to 0.581 (0.525–0.636) range across metrics",
+        "notes": "LDH-model is a predicting model integrating LDH and clinical features. A nomogram was developed for clinical decision-making. External validation cohort noted as needed for future studies.",
+        "source_info": {
+            "file": "Wang_2023.pdf",
+            "doi": "10.1186/s12879-023-08636-8",
+            "section": "General",
+            "page": 9,
+            "chunk": "page_9_chunk_33"
+        }
+    }
+]

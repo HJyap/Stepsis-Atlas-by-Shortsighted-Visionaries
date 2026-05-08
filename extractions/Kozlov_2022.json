@@ -1,0 +1,1408 @@
+[
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis in the ICU",
+        "sample_size": "N=134",
+        "predictor": "SOFA score >8 points",
+        "outcome": "ICU mortality",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression and ROC analysis",
+        "effect_size": "OR 1.5712 (95% CI 1.1934–2.0686)",
+        "performance": "AUC 0.813, sensitivity 74%, specificity 81%, p=0.0001",
+        "notes": "SOFA score identified as independent predictor of fatal outcome. Median age 58.5 (43–71) years. APACHE II score 13 (11–17), SOFA score 6 (4–8). ICU mortality 47%. Central hemodynamics assessed by transpulmonary thermodilution.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "_**Abstract**_",
+            "page": 1,
+            "chunk": "page_1_chunk_2"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis in the ICU",
+        "sample_size": "N=134",
+        "predictor": "Lactatemia >1.8 mmol/L",
+        "outcome": "ICU mortality",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression and ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Lactatemia >1.8 mmol/L identified as independent predictor of fatal outcome. Full performance metrics not provided in the extracted text.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "_**Abstract**_",
+            "page": 1,
+            "chunk": "page_1_chunk_2"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to ICU",
+        "sample_size": "N=134",
+        "predictor": "SOFA score >8",
+        "outcome": "ICU mortality",
+        "timing": "First 24 hours of ICU stay",
+        "method": "Logistic regression and ROC analysis",
+        "effect_size": "OR 1.5712; 95% CI 1.1934–2.0686",
+        "performance": "AUC 0.813; sensitivity 74%, specificity 81%; p=0.0001",
+        "notes": "Median age 58.5 (43–71) years; APACHE II score 13 (11–17); SOFA score 6 (4–8); ICU lethality 47%",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "_**Abstract**_",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to ICU",
+        "sample_size": "N=134",
+        "predictor": "Lactataemia >1.8 mmol/l",
+        "outcome": "ICU mortality",
+        "timing": "First 24 hours of ICU stay",
+        "method": "Logistic regression and ROC analysis",
+        "effect_size": "OR 3.5293; 95% CI 1.7421–7.1500",
+        "performance": "AUC 0.799; sensitivity 63%, specificity 79%; p=0.0001",
+        "notes": "Median age 58.5 (43–71) years; APACHE II score 13 (11–17); SOFA score 6 (4–8); ICU lethality 47%",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "_**Abstract**_",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to ICU",
+        "sample_size": "N=134",
+        "predictor": "Combination of SOFA >8 and lactataemia >1.8 mmol/l",
+        "outcome": "Cardiac index <2.5 l/min/m²",
+        "timing": "First 24 hours of ICU stay",
+        "method": "Logistic regression",
+        "effect_size": "OR 37.0; 95% CI 3.9167–349.5290",
+        "performance": "p=0.002",
+        "notes": "Central hemodynamics studied using transpulmonary thermodilution",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "_**Abstract**_",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to ICU",
+        "sample_size": "N=134",
+        "predictor": "Combination of SOFA >8 and lactataemia >1.8 mmol/l",
+        "outcome": "Cardiac function index <5.8 min⁻¹",
+        "timing": "First 24 hours of ICU stay",
+        "method": "Logistic regression",
+        "effect_size": "OR 11.8182; 95% CI 2.8189–49.5303",
+        "performance": "Not reported",
+        "notes": "Central hemodynamics studied using transpulmonary thermodilution; p-value not fully reported in excerpt",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "_**Abstract**_",
+            "page": 1,
+            "chunk": "page_1_chunk_3"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis in the ICU",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score > 8 points",
+        "outcome": "Lethal outcome (mortality)",
+        "timing": "First 24 hours in ICU",
+        "method": "ROC analysis / logistic regression",
+        "effect_size": "OR 3.5293; 95% CI 1.7421–7.1500",
+        "performance": "AUC 0.799; sensitivity 63%, specificity 79%; p=0.0001",
+        "notes": "None",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_4"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis in the ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactateemia > 1.8 mmol/l",
+        "outcome": "Lethal outcome (mortality)",
+        "timing": "First 24 hours in ICU",
+        "method": "ROC analysis / logistic regression",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "Identified as a significant predictor of lethal outcome alongside SOFA score > 8",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_4"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis in the ICU with combination of risk factors (SOFA > 8 and lactateemia > 1.8 mmol/l)",
+        "sample_size": "Not reported",
+        "predictor": "Combination of SOFA > 8 and lactateemia > 1.8 mmol/l",
+        "outcome": "Cardiac index < 2.5 l/min/m²",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression",
+        "effect_size": "OR 37.0; 95% CI 3.9167–349.5290",
+        "performance": "p=0.002",
+        "notes": "None",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_4"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis in the ICU with combination of risk factors (SOFA > 8 and lactateemia > 1.8 mmol/l)",
+        "sample_size": "Not reported",
+        "predictor": "Combination of SOFA > 8 and lactateemia > 1.8 mmol/l",
+        "outcome": "Cardiac function index < 5.8 min⁻¹",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression",
+        "effect_size": "OR 11.8182; 95% CI 2.8189–49.5303",
+        "performance": "p=0.0007",
+        "notes": "None",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 2,
+            "chunk": "page_2_chunk_4"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Adult patients with abdominal sepsis complicating various acute surgical conditions (acute destructive pancreatitis, gangrenous appendicitis, perforated duodenal/gastric ulcer, intestinal perforation, intestinal obstruction, acute destructive cholecystitis, acute cholangitis, obstructive pyelonephritis, ulcerative colitis, mesenteric thrombosis, bladder perforation, ovarian rupture, stab wound to large and small intestine) admitted to ICU",
+        "sample_size": "N=134",
+        "predictor": "APACHE II score at ICU admission",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "APACHE II score range 4–31, median 13 [11–17]",
+        "performance": "ICU mortality 47% (n=63); septic shock in 26.9% (n=36)",
+        "notes": "Vasopressors prescribed in first 24h in 86 (64%) cases. All patients received broad-spectrum antibiotic therapy with anti-anaerobic coverage.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Материалы и методы**",
+            "page": 3,
+            "chunk": "page_3_chunk_9"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Adult patients with abdominal sepsis complicating various acute surgical conditions admitted to ICU",
+        "sample_size": "N=134",
+        "predictor": "SOFA score at ICU admission",
+        "outcome": "ICU mortality",
+        "timing": "At ICU admission",
+        "method": "Descriptive statistics",
+        "effect_size": "SOFA score range 1–14, median 6 [4–8]",
+        "performance": "ICU mortality 47% (n=63); septic shock in 26.9% (n=36)",
+        "notes": "Vasopressors prescribed in first 24h in 86 (64%) cases.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Материалы и методы**",
+            "page": 3,
+            "chunk": "page_3_chunk_9"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis undergoing invasive hemodynamic monitoring via transpulmonary thermodilution (TPTD) 24-72 hours after ICU admission, all on mechanical ventilation and propofol sedation",
+        "sample_size": "N=52 (men n=33, women n=19), age 22-83 (median 48 [39-64]) years",
+        "predictor": "Combination of risk factors: SOFA > 8 points AND lactatemia > 1.8 mmol/L",
+        "outcome": "ICU mortality",
+        "timing": "Within 24-72 hours of ICU admission",
+        "method": "Retrospective subgroup analysis; patients divided into group with risk factors (n=14) and without risk factors (n=38)",
+        "effect_size": "Not reported",
+        "performance": "ICU mortality 30.7% (n=16) overall",
+        "notes": "Risk factors (SOFA > 8 and lactatemia > 1.8 mmol/L) were identified as predictors of fatal outcome in the first stage of the study. Vasopressors/sympathomimetics were used in 63.4% of cases (n=33). Hemodynamic parameters recorded included cardiac index (CI), indexed total peripheral vascular resistance (ITPVR), stroke volume index (SVI), global end-diastolic volume index (GEDVI), global ejection fraction (GEF), cardiac function index (CFI = GEDVI/CI, normal 4.5-6.5 min-1), cardiac power index (CPI = CI × MAP/451), and afterload-related cardiac performance (ACP).",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 4,
+            "chunk": "page_4_chunk_11"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "APACHE II score",
+        "outcome": "Severity assessment on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR)",
+        "effect_size": "Median 13 [IQR 11–17], Min 4, Max 31",
+        "performance": "Not reported",
+        "notes": "Scores indicated sepsis and severe condition in the majority of patients",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "SOFA score",
+        "outcome": "Severity assessment on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR)",
+        "effect_size": "Median 6 [IQR 4–8], Min 2, Max 14",
+        "performance": "Not reported",
+        "notes": "Scores indicated sepsis and severe condition in the majority of patients",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "Heart rate (ЧСС)",
+        "outcome": "Hemodynamic status on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR, mean ± SE)",
+        "effect_size": "Median 102 [IQR 90.3–112.8], Mean 102.3 ± 1.7 min⁻¹, Min 57, Max 150",
+        "performance": "Not reported",
+        "notes": "HR >90 min⁻¹ recorded in 76% of patients; median indicated moderate tachycardia",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "Mean arterial pressure (АДср)",
+        "outcome": "Hemodynamic status on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR, mean ± SE)",
+        "effect_size": "Median 88 [IQR 77–101] mmHg, Mean 89.0 ± 1.8 mmHg, Min 57, Max 128",
+        "performance": "Not reported",
+        "notes": "7% of patients had MAP <70 mmHg; 14.9% had MAP >100 mmHg; median corresponded to recommended level for sepsis patients",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "Inotropic index (ИИ)",
+        "outcome": "Vasopressor/inotropic support on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR)",
+        "effect_size": "Median 7.4 [IQR 4.25–14.5], Min 1, Max 29.5",
+        "performance": "Not reported",
+        "notes": "Norepinephrine prescribed to 61.2% of patients; additional sympathomimetics to 26.1%",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "Vasoactive-inotropic index (ВИИ)",
+        "outcome": "Vasopressor/inotropic support on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR)",
+        "effect_size": "Median 27 [IQR 14–50], Min 3, Max 240",
+        "performance": "Not reported",
+        "notes": "Not reported",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "Lactate (лактатемия)",
+        "outcome": "Metabolic status on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR)",
+        "effect_size": "Median 2.1 [IQR 1.1–3.2] mmol/L, Min 0.5, Max 20.3",
+        "performance": "Not reported",
+        "notes": "Hyperlactatemia (>2 mmol/L) detected in 37.3% of cases",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "Mixed venous oxygen saturation (sO2v / sVO2)",
+        "outcome": "Oxygen delivery/consumption status on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR, mean ± SE)",
+        "effect_size": "Median 75.3% [IQR 68–79.9], Mean 74.2 ± 1.0%, Min 56.4, Max 90.3",
+        "performance": "Not reported",
+        "notes": "Values varied widely, exceeding physiological norm boundaries; mean values corresponded to normal range",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "Blood pH",
+        "outcome": "Acid-base status on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR)",
+        "effect_size": "Median 7.319 [IQR 7.27–7.39], Min 6.97, Max 7.52",
+        "performance": "Not reported",
+        "notes": "Values varied widely, exceeding physiological norm boundaries; mean values corresponded to normal range",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=134",
+        "predictor": "Procalcitonin (ПКТ)",
+        "outcome": "Bacterial infection confirmation on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR)",
+        "effect_size": "Median 7.0 [IQR 0.655–41.8] ng/mL, Min 0.05, Max 200",
+        "performance": "Not reported",
+        "notes": "PCT >0.05 ng/mL in 92.5% of patients; PCT >0.5 ng/mL in 76% of patients",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis admitted to the ICU",
+        "sample_size": "N=54",
+        "predictor": "NT-proBNP",
+        "outcome": "Cardiac biomarker status on ICU admission",
+        "timing": "On ICU admission",
+        "method": "Descriptive statistics (median, IQR)",
+        "effect_size": "Median 2570 [IQR 1116–6559] pg/mL, Min 117, Max 35000",
+        "performance": "Not reported",
+        "notes": "NT-proBNP above upper limit of normal (450 pg/mL) detected in 87% of patients; in many cases the excess was manifold",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_14"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality",
+        "timing": "Early after ICU admission",
+        "method": "Multiple logistic regression and ROC analysis",
+        "effect_size": "OR 1.4179; 95% CI 1.0374–1.9380; cutoff >8 points",
+        "performance": "AUC 0.813; 95% CI 0.698–0.897; p<0.0001; sensitivity 74%, specificity 81%",
+        "notes": "SOFA score retained independent predictor significance in multiple regression analysis",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Lactatemia (blood lactate)",
+        "outcome": "Mortality",
+        "timing": "Early after ICU admission",
+        "method": "Multiple logistic regression and ROC analysis",
+        "effect_size": "OR 2.7536; 95% CI 1.2859–5.8965; cutoff >1.8 mmol/L",
+        "performance": "AUC 0.799; 95% CI 0.684–0.887; p<0.0001; sensitivity 63%, specificity 79%",
+        "notes": "Lactatemia retained independent predictor significance in multiple regression analysis",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality",
+        "timing": "Early after ICU admission",
+        "method": "Multiple logistic regression",
+        "effect_size": "OR 1.006; 95% CI 0.8177–1.2390",
+        "performance": "p=0.951",
+        "notes": "APACHE II lost predictive significance in multiple regression analysis when combined with SOFA and lactatemia",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score combined with lactatemia",
+        "outcome": "Mortality",
+        "timing": "Early after ICU admission",
+        "method": "Combined ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "AUC 0.847; 95% CI 0.738–0.923; p<0.0001",
+        "notes": "Combined model showed improved discriminatory ability compared to individual predictors",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_15"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis undergoing invasive central hemodynamic monitoring",
+        "sample_size": "Not reported",
+        "predictor": "Combination of risk factors for lethal outcome",
+        "outcome": "Cardiac index (CI) < 2.5 L/min/m²",
+        "timing": "At initiation of invasive central hemodynamic monitoring (Stage 2 of study)",
+        "method": "Frequency comparison between subgroups",
+        "effect_size": "CI < 2.5 L/min/m²: 50% in subgroup with risk factors vs 2.7% in subgroup without risk factors",
+        "performance": "p = 0.0002",
+        "notes": "Subgroup 1 (with combination of risk factors): 50% had CI < 2.5 L/min/m²; Subgroup 2 (without risk factors): 2.7%. Combination of risk factors was present in 26.9% of observations.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis undergoing invasive central hemodynamic monitoring",
+        "sample_size": "Not reported",
+        "predictor": "Combination of risk factors for lethal outcome",
+        "outcome": "Cardiac stroke index (IFS/ИФС) < 5.8 min⁻¹",
+        "timing": "At initiation of invasive central hemodynamic monitoring (Stage 2 of study)",
+        "method": "Frequency comparison between subgroups",
+        "effect_size": "IFS < 5.8 min⁻¹: 78.6% in subgroup with risk factors vs 26.3% in subgroup without risk factors",
+        "performance": "p = 0.00002",
+        "notes": "Subgroup 1 (with combination of risk factors): 78.6% had IFS < 5.8 min⁻¹; Subgroup 2 (without risk factors): 26.3%. Standard circulatory parameters and sympathomimetic therapy intensity did not differ between subgroups. Parameters CI, IMS, PSOP, IFS, GFIS were significantly lower in patients with combination of risk factors.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Результаты исследования**",
+            "page": 5,
+            "chunk": "page_5_chunk_16"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Sex (Пол)",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 0.7540 (95% CI 0.2545–2.2337)",
+        "performance": "p=0.6115",
+        "notes": "Table 2. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "APACHE II score",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 1.1814 (95% CI 1.0112–1.3804)",
+        "performance": "p=0.0297",
+        "notes": "Table 2. Statistically significant predictor.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 1.5712 (95% CI 1.1934–2.0686)",
+        "performance": "p=0.0001",
+        "notes": "Table 2. Statistically significant predictor.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Mean arterial pressure (АДср)",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 1.0016 (95% CI 0.9734–1.0307)",
+        "performance": "p=0.9124",
+        "notes": "Table 2. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Heart rate (ЧСС)",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 0.9835 (95% CI 0.9527–1.0153)",
+        "performance": "p=0.2999",
+        "notes": "Table 2. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "ИИ (инотропный индекс)",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 0.8820 (95% CI 0.7052–1.1031)",
+        "performance": "p=0.2148",
+        "notes": "Table 2. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "ВИИ (вазоинотропный индекс)",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 0.9884 (95% CI 0.9643–1.0130)",
+        "performance": "p=0.2888",
+        "notes": "Table 2. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Lactate (Лактат)",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 3.5293 (95% CI 1.7421–7.1500)",
+        "performance": "p=0.0001",
+        "notes": "Table 2. Statistically significant predictor.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "sO2v (venous oxygen saturation)",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 0.9701 (95% CI 0.9026–1.0428)",
+        "performance": "p=0.4091",
+        "notes": "Table 2. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "pH",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 6.8555 (95% CI 0.014–3230.30)",
+        "performance": "p=0.5342",
+        "notes": "Table 2. Not statistically significant. Very wide confidence interval.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Procalcitonin (ПКТ)",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 0.9948 (95% CI 0.9846–1.0051)",
+        "performance": "p=0.3225",
+        "notes": "Table 2. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis",
+        "sample_size": "Not reported",
+        "predictor": "NT-proBNP",
+        "outcome": "Mortality (летальный исход)",
+        "timing": "First 24 hours in ICU",
+        "method": "Logistic regression (OR with 95% CI)",
+        "effect_size": "OR 1.0000 (95% CI 0.9999–1.0001)",
+        "performance": "p=0.545",
+        "notes": "Table 2. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "SOFA score at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR], mean ± SE)",
+        "effect_size": "10.5 [9–12] (10.37±0.4) vs 7 [6–8.5] (7.3±0.34)",
+        "performance": "p<0.0001",
+        "notes": "Table 3. Significantly higher SOFA in group with combination of risk factors.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "Lactatemia (Лактатемия), mmol/L at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR], mean ± SE)",
+        "effect_size": "2.9 [2.3–3.2] (2.8±0.2) vs 1 [0.8–1.5]",
+        "performance": "p<0.0001",
+        "notes": "Table 3. Significantly higher lactate in group with combination of risk factors.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "Mean arterial pressure (АДср), mmHg at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR], mean ± SE)",
+        "effect_size": "88.8 [77.2–110] (95.5±6.0) vs 89.7 [77.3–104] (90.9±2.4)",
+        "performance": "p=0.742",
+        "notes": "Table 3. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "Heart rate (ЧСС), min-1 at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR], mean ± SE)",
+        "effect_size": "100 [88–115.5] (100±5.0) vs 100 [89.8–110.5] (98.8±2.7)",
+        "performance": "p=0.880",
+        "notes": "Table 3. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "ИИ (inotropic index) at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR], mean ± SE)",
+        "effect_size": "8 [4.5–10.3] (7.8±1.9) vs 5 [3.8–9.7]",
+        "performance": "p=0.679",
+        "notes": "Table 3. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "ВИИ (vasoinotropic index) at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR])",
+        "effect_size": "17.5 [0–27] vs 3.25 [0–16]",
+        "performance": "p=0.373",
+        "notes": "Table 3. Not statistically significant.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "Cardiac index (СИ), L/min/m2 at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR], mean ± SE)",
+        "effect_size": "2.9 [2.4–3] (2.8±0.2) vs 3.8 [3.5–4.1]",
+        "performance": "p=0.0006",
+        "notes": "Table 3. Significantly lower cardiac index in group with combination of risk factors.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "ИМС (cardiac power index), W at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR])",
+        "effect_size": "0.694 [0.455–0.805] vs 0.821 [0.707–1.019]",
+        "performance": "p=0.0372",
+        "notes": "Table 3. Significantly lower cardiac power index in group with combination of risk factors.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with abdominal sepsis undergoing invasive monitoring; group with combination of risk factors vs group without",
+        "sample_size": "N=52 (n=14 with risk factor combination, n=38 without)",
+        "predictor": "ПСОП (peripheral vascular resistance index), % at start of invasive monitoring",
+        "outcome": "Comparison between risk factor groups",
+        "timing": "At beginning of invasive monitoring",
+        "method": "Group comparison (median [IQR], mean ± SE)",
+        "effect_size": "78.8 [73.5–87.7] (81.1±4.0) vs 86.7 [82.1–95.7]",
+        "performance": "p=0.041",
+        "notes": "Table 3. Significantly lower ПСОП in group with combination of risk factors.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_17"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients (hemodynamic monitoring)",
+        "sample_size": "Not reported",
+        "predictor": "СИ (Cardiac Index), л/мин/м2",
+        "outcome": "Hemodynamic parameter comparison between groups",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "2,9 [2,4–3] vs 3,8 [3,5–4,1]",
+        "performance": "p=0,0006",
+        "notes": "Values presented as median [IQR] and mean ± SD where available",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients (hemodynamic monitoring)",
+        "sample_size": "Not reported",
+        "predictor": "ИМС (Cardiac Power Index), Вт",
+        "outcome": "Hemodynamic parameter comparison between groups",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "0,694 [0,455–0,805] vs 0,821 [0,707–1,019]",
+        "performance": "p=0,0372",
+        "notes": "None",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients (hemodynamic monitoring)",
+        "sample_size": "Not reported",
+        "predictor": "ПСОП (%), likely systolic function parameter",
+        "outcome": "Hemodynamic parameter comparison between groups",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "78,8 [73,5–87,7] vs 86,7 [82,1–95,7]",
+        "performance": "p=0,041",
+        "notes": "Mean ± SD also reported for first group: 81,1 ± 4,0",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients (hemodynamic monitoring)",
+        "sample_size": "Not reported",
+        "predictor": "ИФС (мин–1)",
+        "outcome": "Hemodynamic parameter comparison between groups",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "5,1 [4–5,5] vs 6 [5,42–7]",
+        "performance": "p=0,003",
+        "notes": "Mean ± SD for first group: 4,9 ± 0,3",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients (hemodynamic monitoring)",
+        "sample_size": "Not reported",
+        "predictor": "ИУО (Stroke Volume Index), мл/м2",
+        "outcome": "Hemodynamic parameter comparison between groups",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "35,7 [23,0–45,5] vs 41 [35,7–53]",
+        "performance": "p=0,08",
+        "notes": "Mean ± SD: 35,9 ± 3,2 vs 43,1 ± 1,8; not statistically significant",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients (hemodynamic monitoring)",
+        "sample_size": "Not reported",
+        "predictor": "ГФИС (Global Fractional Area Change or similar), %",
+        "outcome": "Hemodynamic parameter comparison between groups",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "20,7 [17,2–27,0] vs 28,9 [21,52–32,7]",
+        "performance": "p=0,01",
+        "notes": "Mean ± SD for first group: 21,3 ± 2,0",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients (hemodynamic monitoring)",
+        "sample_size": "Not reported",
+        "predictor": "ИГКДО (Global End-Diastolic Volume Index), мл/м2",
+        "outcome": "Hemodynamic parameter comparison between groups",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "694 [573–783] vs 625 [502–761]",
+        "performance": "p=0,3",
+        "notes": "Mean ± SD for first group: 690 ± 38; not statistically significant",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients (hemodynamic monitoring)",
+        "sample_size": "Not reported",
+        "predictor": "ИОПСС (Systemic Vascular Resistance Index), дин×с×см5×м2",
+        "outcome": "Hemodynamic parameter comparison between groups",
+        "timing": "Not reported",
+        "method": "Group comparison",
+        "effect_size": "2124 [1788–2578] vs 1895 [1691–2420]",
+        "performance": "p=0,22",
+        "notes": "Mean ± SD: 2324 ± 214 vs 2060 ± 97,5; not statistically significant",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 6,
+            "chunk": "page_6_chunk_18"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients with hypoperfusion despite infusions and vasopressors",
+        "sample_size": "Not reported",
+        "predictor": "Combination of established risk factors for fatal outcome",
+        "outcome": "Cardiac index (CI) < 2.5 L/min/m²",
+        "timing": "Not reported",
+        "method": "Logistic regression",
+        "effect_size": "OR 37.0; 95% CI 3.9167–349.5290",
+        "performance": "p = 0.002",
+        "notes": "Combination of risk factors was an independent predictor of CI < 2.5 L/min/m²",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_19"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients with hypoperfusion despite infusions and vasopressors",
+        "sample_size": "Not reported",
+        "predictor": "Combination of established risk factors for fatal outcome",
+        "outcome": "IFS (ИФС) < 5.8 min⁻¹",
+        "timing": "Not reported",
+        "method": "Logistic regression",
+        "effect_size": "OR 11.8182; 95% CI 2.8189–49.5303",
+        "performance": "p = 0.0007",
+        "notes": "Combination of risk factors was an independent predictor of IFS < 5.8 min⁻¹",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_19"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients with hypoperfusion despite infusions and vasopressors",
+        "sample_size": "Not reported",
+        "predictor": "Lactatemia",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curve presented for lactatemia in mortality prediction (Fig. 1); specific AUC values not reported in excerpt",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_19"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients with hypoperfusion despite infusions and vasopressors",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score",
+        "outcome": "Mortality",
+        "timing": "Not reported",
+        "method": "ROC analysis",
+        "effect_size": "Not reported",
+        "performance": "Not reported",
+        "notes": "ROC curve presented for SOFA score in mortality prediction (Fig. 1); specific AUC values not reported in excerpt",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 7,
+            "chunk": "page_7_chunk_19"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Patients with abdominal sepsis in the ICU",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score combined with tendency to hyperlactatemia",
+        "outcome": "Fatal outcome (lethal outcome)",
+        "timing": "First 24 hours in ICU",
+        "method": "ROC analysis (AUC and predictive value reported)",
+        "effect_size": "Not reported",
+        "performance": "AUC and predictive values (ППК and ПЗ) consistent with contemporary studies; specific values not reported in this excerpt",
+        "notes": "Authors concluded that SOFA score combined with hyperlactatemia tendency most reliably predicted fatal outcome. PCT and NT-proBNP did not provide early identification of mortality risk.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_23"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis at high risk of mortality (based on SOFA score and lactate level predictors)",
+        "sample_size": "Not reported",
+        "predictor": "Central hemodynamic parameters: cardiac index (CI), myocardial contractility index (IMS), systolic volume index (PSOP), stroke work index (IFS), global end-diastolic volume index (IGKDO), systemic vascular resistance index (IOPSS)",
+        "outcome": "In-hospital mortality",
+        "timing": "First day in ICU",
+        "method": "Comparative analysis of hemodynamic parameters between high-risk and low-risk mortality groups",
+        "effect_size": "CI, IMS, PSOP, IFS, GFIS were reduced in high-risk group; IGKDO and IOPSS did not differ between groups",
+        "performance": "Not reported",
+        "notes": "High-risk group defined by combination of SOFA score and lactate level. MAP, HR, and vasopressor therapy intensity did not differ between groups. Depression of cardiac pump function without differences in preload and afterload suggests septic cardiomyopathy as the primary cause.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "ICU patients with sepsis",
+        "sample_size": "Not reported",
+        "predictor": "Combination of SOFA score and lactate level",
+        "outcome": "In-hospital mortality",
+        "timing": "First day in ICU",
+        "method": "Predictive analysis (predictor identification)",
+        "effect_size": "Lactate threshold established below the level characteristic of septic shock",
+        "performance": "Predictive ability for mortality was more pronounced when SOFA score and lactate level were combined compared to either alone",
+        "notes": "Authors suggest that patients without overt septic shock on day 1 in ICU may still have elevated mortality risk. Combined SOFA + lactate predictor considered indication for early initiation of targeted hemodynamic therapy (TPTD) due to suspected myocardial dysfunction.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_24"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Combination of established mortality risk factors (сочетание установленных факторов риска летальности)",
+        "outcome": "Significant reduction in cardiac index (СИ) suggesting combination of sepsis with cardiogenic shock",
+        "timing": "Early ICU stay",
+        "method": "Comparative frequency analysis",
+        "effect_size": "18.5 times more frequent than in patients without such combination; detected in half of observations with combined risk factors",
+        "performance": "Not reported",
+        "notes": "Authors argue this supports early invasive central hemodynamic monitoring (ТПТД) to detect pump dysfunction before overt clinical signs",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_25"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Cardiac Function Index (ИФС) measured by transpulmonary thermodilution (ТПТД)",
+        "outcome": "ICU mortality",
+        "timing": "First several days in ICU",
+        "method": "ROC analysis / threshold analysis",
+        "effect_size": "ИФС < 5.8 min⁻¹ associated with mortality",
+        "performance": "Not reported",
+        "notes": "ИФС indicates persistent myocardial dysfunction despite standard corrective measures; combination of risk factors was a significant predictor of ИФС < 5.8 min⁻¹, found in majority of corresponding subgroup patients. ИФС can only be assessed via ТПТД (transpulmonary thermodilution), not by non-invasive methods",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_25"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Cardiac index (СИ), ПСОП, ГФИС measured by ТПТД",
+        "outcome": "High mortality risk",
+        "timing": "First several days in ICU during corrective measures",
+        "method": "Discriminant analysis",
+        "effect_size": "Not reported",
+        "performance": "Discriminatory ability may substantially worsen during corrective measures; myocardial contractility impairment may persist despite normal СИ",
+        "notes": "ПСОП and ГФИС also showed reduced discriminatory capacity during active treatment phase",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "General",
+            "page": 8,
+            "chunk": "page_8_chunk_25"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Septic shock patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score > 8 points combined with lactatemia > 1.8 mmol/L",
+        "outcome": "Indication for early initiation of transpulmonary thermodilution (TPTD)",
+        "timing": "Early/at ICU admission",
+        "method": "Retrospective clinical observation",
+        "effect_size": "SOFA > 8 and lactate > 1.8 mmol/L (combined threshold)",
+        "performance": "Not reported",
+        "notes": "Authors propose this combination as an indication for early TPTD initiation. Study limitations include retrospective design, limited number of clinical observations, and inability to include expert-level echocardiography data in the analysis.",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "ИТ СЕПСИСА",
+            "page": 9,
+            "chunk": "page_9_chunk_27"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "SOFA score > 8 points",
+        "outcome": "Fatal outcome (lethal outcome)",
+        "timing": "First 24 hours in ICU",
+        "method": "Not reported",
+        "effect_size": "SOFA > 8 points",
+        "performance": "Significant predictor of lethal outcome",
+        "notes": "Among clinical and laboratory parameters assessable in the first 24 hours of ICU stay",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Заключение**",
+            "page": 9,
+            "chunk": "page_9_chunk_28"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients in ICU",
+        "sample_size": "Not reported",
+        "predictor": "Lactatemia > 1.8 mmol/L",
+        "outcome": "Fatal outcome (lethal outcome)",
+        "timing": "First 24 hours in ICU",
+        "method": "Not reported",
+        "effect_size": "Lactate > 1.8 mmol/L",
+        "performance": "Significant predictor of lethal outcome",
+        "notes": "Among clinical and laboratory parameters assessable in the first 24 hours of ICU stay",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Заключение**",
+            "page": 9,
+            "chunk": "page_9_chunk_28"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients in ICU with both risk factors (SOFA > 8 and lactate > 1.8 mmol/L)",
+        "sample_size": "Not reported",
+        "predictor": "Combination of SOFA > 8 and lactatemia > 1.8 mmol/L",
+        "outcome": "Myocardial dysfunction",
+        "timing": "First 24 hours in ICU",
+        "method": "Not reported",
+        "effect_size": "Not reported",
+        "performance": "78.6% of observations",
+        "notes": "Presence of signs of myocardial dysfunction in patients with both risk factors",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Заключение**",
+            "page": 9,
+            "chunk": "page_9_chunk_28"
+        }
+    },
+    {
+        "study": "Kozlov 2022",
+        "population": "Sepsis patients in ICU with both risk factors (SOFA > 8 and lactate > 1.8 mmol/L)",
+        "sample_size": "Not reported",
+        "predictor": "Combination of SOFA > 8 and lactatemia > 1.8 mmol/L",
+        "outcome": "Critical reduction of cardiac index (CI) < 2.5 L/min/m²",
+        "timing": "First 24 hours in ICU",
+        "method": "Not reported",
+        "effect_size": "CI < 2.5 L/min/m²",
+        "performance": "50% of patients",
+        "notes": "Indicates the appropriateness of invasive central hemodynamic monitoring (e.g., transpulmonary thermodilution, TPTD) in these patients",
+        "source_info": {
+            "file": "Kozlov_2022.pdf",
+            "doi": "10.21320/1818-474X-2022-2-70-79",
+            "section": "**Заключение**",
+            "page": 9,
+            "chunk": "page_9_chunk_28"
+        }
+    }
+]
