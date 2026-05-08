@@ -1,0 +1,486 @@
+{
+  "study_cohort_level_records": [
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "papers": "Liu 2019",
+      "doi": "10.1186/s13049-019-0609-3",
+      "encounters_period": "2001 to 2012",
+      "population_location": "Beth Israel Deaconess Medical Center, Boston, Massachusetts",
+      "data_sets": "MIMIC-III v1.4",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Adult patients (>= 18 years) diagnosed with sepsis, severe sepsis, or septic shock on discharge with documented lactate and main laboratory tests.",
+      "cohort": "Total Cohort",
+      "cohort_size_n": "1865",
+      "cohort_characteristics": "Not reported",
+      "cohort_characteristics_timepoint": "First ICU day",
+      "mortality_rate_percent": "Not reported",
+      "mortality_timepoint": "Not reported"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Lactate Group 1",
+      "papers": "Liu 2019",
+      "doi": "10.1186/s13049-019-0609-3",
+      "encounters_period": "2001 to 2012",
+      "population_location": "Beth Israel Deaconess Medical Center, Boston, Massachusetts",
+      "data_sets": "MIMIC-III v1.4",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Sepsis patients with lactate < 3.225 mmol/L",
+      "cohort": "Other: Lactate < 3.225 mmol/L",
+      "cohort_size_n": "1166",
+      "cohort_characteristics": "Median lactate 2.05 mmol/L; Median SOFA 7; qSOFA >= 2 (84.48%); Septic shock (63.29%)",
+      "cohort_characteristics_timepoint": "First ICU day",
+      "mortality_rate_percent": "33.88% (30-day); 43.57% (90-day); 51.46% (1-year); 34.99% (In-hospital); 60.12% (Overall)",
+      "mortality_timepoint": "Other: Multiple timepoints"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Lactate Group 2",
+      "papers": "Liu 2019",
+      "doi": "10.1186/s13049-019-0609-3",
+      "encounters_period": "2001 to 2012",
+      "population_location": "Beth Israel Deaconess Medical Center, Boston, Massachusetts",
+      "data_sets": "MIMIC-III v1.4",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Sepsis patients with lactate >= 3.225 mmol/L",
+      "cohort": "Other: Lactate >= 3.225 mmol/L",
+      "cohort_size_n": "699",
+      "cohort_characteristics": "Median lactate 4.95 mmol/L; Median SOFA 11; qSOFA >= 2 (91.99%); Septic shock (70.24%)",
+      "cohort_characteristics_timepoint": "First ICU day",
+      "mortality_rate_percent": "59.23% (30-day); 67.81% (90-day); 71.39% (1-year); 60.80% (In-hospital); 77.97% (Overall)",
+      "mortality_timepoint": "Other: Multiple timepoints"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "papers": "Liu 2019",
+      "doi": "10.1186/s13049-019-0630-3",
+      "encounters_period": "Not reported",
+      "population_location": "Not reported",
+      "data_sets": "Not reported",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Adult patients with sepsis",
+      "cohort": "Total Cohort",
+      "cohort_size_n": "1865",
+      "cohort_characteristics": "Age 68 (56-78.25); Male 1063 (57.00%); White 1356 (72.71%); SAPS II 50 (40-61); SOFA 8 (6-11); Lactate 3.23 (2.04-4.96)",
+      "cohort_characteristics_timepoint": "At ICU admission",
+      "mortality_rate_percent": "43.38%",
+      "mortality_timepoint": "30-day mortality"
+    },
+    {
+      "cohort_id": "Liu 2019 Lactate group 1",
+      "papers": "Liu 2019",
+      "doi": "10.1186/s13049-019-0630-3",
+      "encounters_period": "Not reported",
+      "population_location": "Not reported",
+      "data_sets": "Not reported",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Adult patients with sepsis with lower lactate levels",
+      "cohort": "Other: Lactate group 1",
+      "cohort_size_n": "1166",
+      "cohort_characteristics": "Age 70 (56-80); Male 664 (56.95%); SAPS II 47 (37-56); SOFA 7 (5-10); Lactate 2.05 (1.53-2.80)",
+      "cohort_characteristics_timepoint": "At ICU admission",
+      "mortality_rate_percent": "33.88%",
+      "mortality_timepoint": "30-day mortality"
+    },
+    {
+      "cohort_id": "Liu 2019 Lactate group 2",
+      "papers": "Liu 2019",
+      "doi": "10.1186/s13049-019-0630-3",
+      "encounters_period": "Not reported",
+      "population_location": "Not reported",
+      "data_sets": "Not reported",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Adult patients with sepsis with higher lactate levels",
+      "cohort": "Other: Lactate group 2",
+      "cohort_size_n": "699",
+      "cohort_characteristics": "Age 66 (55.5-77); Male 399 (57.08%); SAPS II 57 (46-69); SOFA 11 (8-13); Lactate 4.95 (3.90-7.35)",
+      "cohort_characteristics_timepoint": "At ICU admission",
+      "mortality_rate_percent": "59.23%",
+      "mortality_timepoint": "30-day mortality"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "papers": "Liu 2019",
+      "doi": "10.1186/s13049-019-0606-2",
+      "encounters_period": "2001-2012",
+      "population_location": "Beth Israel Deaconess Medical Center, Boston, USA",
+      "data_sets": "MIMIC-III",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Adult patients with sepsis (Sepsis-3 criteria) in the MIMIC-III database",
+      "cohort": "Total Cohort",
+      "cohort_size_n": "Not reported",
+      "cohort_characteristics": "Not reported",
+      "cohort_characteristics_timepoint": "Not reported",
+      "mortality_rate_percent": "Not reported",
+      "mortality_timepoint": "30-day mortality; 90-day mortality; Hospital mortality; 1-year mortality"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "papers": "Liu 2019",
+      "doi": "10.1186/s13049-019-0606-x",
+      "encounters_period": "Not reported",
+      "population_location": "Not reported",
+      "data_sets": "MIMIC-III",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Adult patients with infection who were admitted in the emergency department",
+      "cohort": "Total Cohort",
+      "cohort_size_n": "Not reported",
+      "cohort_characteristics": "Not reported",
+      "cohort_characteristics_timepoint": "Not reported",
+      "mortality_rate_percent": "Not reported",
+      "mortality_timepoint": "Not reported"
+    }
+  ],
+  "predictor_model_level_records": [
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUROC: 0.664 (95% CI 0.639-0.689)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUROC: 0.547 (95% CI 0.521-0.574)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUROC: 0.686 (95% CI 0.661-0.710)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "30-day mortality",
+      "model_specification": "Multivariable logistic regression",
+      "effect_size_performance_and_significance": "Independent prognostic predictor; p < 0.05"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "At ICU admission",
+      "outcome": "30-day mortality",
+      "model_specification": "Multivariable logistic regression",
+      "effect_size_performance_and_significance": "Hazard Ratio 1.936 (95% CI 1.649-2.271), p<0.001"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "At ICU admission",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC 0.664 (95% CI 0.639-0.689); Sensitivity 0.512; Specificity 0.730; PPV 0.592; NPV 0.339; LR+ 1.453; LR- 0.512"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "At ICU admission",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC 0.547 (95% CI 0.521-0.574); Sensitivity 0.236; Specificity 0.822; PPV 0.496; NPV 0.416; LR+ 0.817; LR- 0.481"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "At ICU admission",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC 0.686 (95% CI 0.661-0.710); Sensitivity 0.545; Specificity 0.725; PPV 0.603; NPV 0.325; LR+ 1.521; LR- 0.480"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "At ICU admission",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC 0.672 (95% CI 0.647-0.697)"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "At ICU admission",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC 0.656 (95% CI 0.632-0.681); Sensitivity 0.414; Specificity 0.820; PPV 0.669; NPV 0.361; LR+ 2.023; LR- 0.566"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "At ICU admission",
+      "outcome": "Hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC 0.668 (95% CI 0.643-0.693); Sensitivity 0.421; Specificity 0.829; PPV 0.666; NPV 0.360; LR+ 1.994; LR- 0.563"
+    },
+    {
+      "cohort_id": "Liu 2019 Total",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "At ICU admission",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC 0.636 (95% CI 0.611-0.661); Sensitivity 0.394; Specificity 0.804; PPV 0.757; NPV 0.523; LR+ 3.117; LR- 1.097"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "30-day mortality",
+      "model_specification": "Multivariate logistic regression",
+      "effect_size_performance_and_significance": "HR 1.936 (95% CI 1.649-2.271), p<0.001; AUC: 0.664 (95% CI 0.639-0.689); Sensitivity: 0.512; Specificity: 0.730; PPV: 0.592; NPV: 0.339; LR+: 1.453; LR-: 0.512"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.547 (95% CI 0.521-0.574); Sensitivity: 0.236; Specificity: 0.822; PPV: 0.496; NPV: 0.416; LR+: 0.817; LR-: 0.481"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.686 (95% CI 0.661-0.710); Sensitivity: 0.545; Specificity: 0.725; PPV: 0.603; NPV: 0.325; LR+: 1.521; LR-: 0.480"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.672 (95% CI 0.647-0.697)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.656 (95% CI 0.632-0.681); Sensitivity: 0.414; Specificity: 0.820; PPV: 0.669; NPV: 0.361; LR+: 2.023; LR-: 0.566"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.539 (95% CI 0.513-0.565); Sensitivity: 0.230; Specificity: 0.827; PPV: 0.594; NPV: 0.509; LR+: 1.159; LR-: 0.837"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.673 (95% CI 0.648-0.697); Sensitivity: 0.510; Specificity: 0.740; PPV: 0.685; NPV: 0.424; LR+: 2.178; LR-: 0.737"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.661 (95% CI 0.636-0.685)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.668 (95% CI 0.643-0.693); Sensitivity: 0.421; Specificity: 0.829; PPV: 0.666; NPV: 0.360; LR+: 1.994; LR-: 0.563"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.544 (95% CI 0.518-0.571); Sensitivity: 0.234; Specificity: 0.822; PPV: 0.515; NPV: 0.429; LR+: 0.856; LR-: 0.529"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.695 (95% CI 0.671-0.719); Sensitivity: 0.645; Specificity: 0.647; PPV: 0.595; NPV: 0.307; LR+: 1.475; LR-: 0.443"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.674 (95% CI 0.650-0.699)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.636 (95% CI 0.611-0.661); Sensitivity: 0.394; Specificity: 0.804; PPV: 0.757; NPV: 0.523; LR+: 3.117; LR-: 1.097"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.541 (95% CI 0.514-0.567); Sensitivity: 0.232; Specificity: 0.838; PPV: 0.673; NPV: 0.568; LR+: 1.478; LR-: 1.174"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.653 (95% CI 0.628-0.677); Sensitivity: 0.482; Specificity: 0.738; PPV: 0.725; NPV: 0.498; LR+: 2.637; LR-: 0.993"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "First ICU day",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.640 (95% CI 0.616-0.665)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.664 (95% CI 0.639-0.689); Sensitivity: 0.512; Specificity: 0.730; PPV: 0.592; NPV: 0.339; LR+: 1.453; LR-: 0.512"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.547 (95% CI 0.521-0.574); Sensitivity: 0.236; Specificity: 0.822; PPV: 0.496; NPV: 0.416; LR+: 0.817; LR-: 0.481"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.686 (95% CI 0.661-0.710); Sensitivity: 0.545; Specificity: 0.725; PPV: 0.603; NPV: 0.325; LR+: 1.521; LR-: 0.480"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "30-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.672 (95% CI 0.647-0.697)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.656 (95% CI 0.632-0.681); Sensitivity: 0.414; Specificity: 0.820; PPV: 0.669; NPV: 0.361; LR+: 2.023; LR-: 0.566"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.539 (95% CI 0.513-0.565); Sensitivity: 0.230; Specificity: 0.827; PPV: 0.594; NPV: 0.509; LR+: 1.159; LR-: 0.837"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.673 (95% CI 0.648-0.697); Sensitivity: 0.510; Specificity: 0.740; PPV: 0.685; NPV: 0.424; LR+: 2.178; LR-: 0.737"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "90-day mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.661 (95% CI 0.636-0.685)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.668 (95% CI 0.643-0.693); Sensitivity: 0.421; Specificity: 0.829; PPV: 0.666; NPV: 0.360; LR+: 1.994; LR-: 0.563"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.544 (95% CI 0.518-0.571); Sensitivity: 0.234; Specificity: 0.822; PPV: 0.515; NPV: 0.429; LR+: 0.856; LR-: 0.529"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.695 (95% CI 0.671-0.719); Sensitivity: 0.645; Specificity: 0.647; PPV: 0.595; NPV: 0.307; LR+: 1.475; LR-: 0.443"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.674 (95% CI 0.650-0.699)"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.636 (95% CI 0.611-0.661); Sensitivity: 0.394; Specificity: 0.804; PPV: 0.757; NPV: 0.523; LR+: 3.117; LR-: 1.097"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.541 (95% CI 0.514-0.567); Sensitivity: 0.232; Specificity: 0.838; PPV: 0.673; NPV: 0.568; LR+: 1.478; LR-: 1.174"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.653 (95% CI 0.628-0.677); Sensitivity: 0.482; Specificity: 0.738; PPV: 0.725; NPV: 0.498; LR+: 2.637; LR-: 0.993"
+    },
+    {
+      "cohort_id": "Liu 2019 MIMIC-III Total Cohort",
+      "predictors": "Lactate+qSOFA",
+      "timing_of_predictor_measurement": "Not reported",
+      "outcome": "1-year mortality",
+      "model_specification": "ROC analysis",
+      "effect_size_performance_and_significance": "AUC: 0.640 (95% CI 0.616-0.665)"
+    }
+  ]
+}
