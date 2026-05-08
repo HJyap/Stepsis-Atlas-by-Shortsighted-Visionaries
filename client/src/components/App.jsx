@@ -82,7 +82,7 @@ export default function App() {
   };
 
   return (
-    <div data-theme={themeName} style={styles.container(theme)}>
+    <div data-theme={themeName} className="app-container" style={styles.container(theme)}>
       <div style={styles.header}>
         <h1 style={styles.title(theme)}>Sepsis Atlas</h1>
         <button
@@ -96,12 +96,12 @@ export default function App() {
         </button>
       </div>
 
-      <div style={styles.layout}>
-        <div style={styles.leftColumn}>
+      <div className="app-layout">
+        <div className="app-column">
           <LeftPanel onQuerySelect={handleQuerySelect} theme={theme} />
         </div>
 
-        <div style={styles.middleColumn}>
+        <div className="app-column">
           <MiddlePanel
             data={sepsisData}
             result={activeResult}
@@ -110,7 +110,7 @@ export default function App() {
           />
         </div>
 
-        <div style={styles.rightColumn}>
+        <div className="app-column">
           <RightPanel data={sepsisData} result={activeResult} theme={theme} />
         </div>
       </div>
@@ -127,11 +127,8 @@ const styles = {
         : theme.background,
     backgroundSize:
       theme.title === "#e0b13f" ? "52px 52px, 52px 52px, auto" : "auto",
-    minHeight: "100vh",
-    padding: "30px",
+    minHeight: "100dvh",
     color: theme.text,
-    margin: 0,
-    width: "100%",
     transition: "background 0.2s ease, color 0.2s ease",
   }),
   header: {
@@ -157,23 +154,4 @@ const styles = {
     fontWeight: "800",
     cursor: "pointer",
   }),
-  layout: {
-    display: "grid",
-    gridTemplateColumns: "1fr 2fr 1.5fr",
-    gap: "20px",
-    width: "100%",
-    height: "calc(100vh - 150px)",
-  },
-  leftColumn: {
-    minHeight: "400px",
-    overflowY: "auto",
-  },
-  middleColumn: {
-    minHeight: "100%",
-    overflowY: "auto",
-  },
-  rightColumn: {
-    minHeight: "100%",
-    overflowY: "auto",
-  },
 };
