@@ -1,0 +1,42 @@
+{
+  "study": "Suttapanit et al. 2022",
+  "population": "Patients with sepsis in the triage area of the emergency department",
+  "sample_size": "N = 550 (Survivor n = 482, Non-survivor n = 68)",
+  "predictor": "NEWS, SOS, qSOFA, SIRS, ESI triage",
+  "outcome": "28-day mortality, 28-day mechanical ventilator usage, 28-day vasopressor usage",
+  "timing": "At ED triage; 28-day follow-up",
+  "method": "Retrospective single-center study, ROC analysis, Sensitivity and Specificity analysis",
+  "effect_size": "NEWS vs Non-survivor median score: 8 (IQR 6, 10) vs Survivor: 5 (IQR 3, 7), p < 0.001; SOS median: 6 (4, 7) vs 3 (2, 5), p < 0.001",
+  "performance": "AUROC for 28-day mortality: NEWS 0.770 (0.705-0.835), SOS 0.750 (0.685-0.815), qSOFA 0.747 (0.688-0.806), ESI 0.599 (0.542-0.656), SIRS 0.588 (0.522-0.654)",
+  "mortality_rate": "12.36% (68/550 total; 6 deaths in ED, 23 in palliative care)",
+  "sofa_score": "qSOFA median (IQR): All 1 (1, 2), Survivor 1 (1, 2), Non-survivor 2 (1, 2), p < 0.001",
+  "age": "Not reported",
+  "lactate": "Not reported",
+  "apache_ii": "Not reported",
+  "mechanical_ventilation": "28-day intubation free day (mean): Survivor 28 (2.2), Non-survivor 4 (3.1), p < 0.001",
+  "gender": "Not reported",
+  "icu_los": "Not reported",
+  "hospital_los": "Median (IQR): All 68 (11, 233) hours, Survivor 56 (11, 199) hours, Non-survivor 142 (63, 342) hours, p = 0.045",
+  "septic_shock": "Not reported",
+  "creatinine": "Not reported",
+  "platelets": "Not reported",
+  "bilirubin": "Not reported",
+  "albumin": "Not reported",
+  "procalcitonin": "Not reported",
+  "vasopressor_use": "28-day vasopressor free day (mean): Survivor 28 (2.0), Non-survivor 6 (2.4), p < 0.001",
+  "rrt_use": "Not reported",
+  "sensitivity": "NEWS (cutoff \u22655): 86.96%; SOS (\u22655): 68.12%; qSOFA (\u22652): 69.57%; SIRS (\u22652): 85.51%",
+  "specificity": "NEWS (cutoff \u22655): 45.74%; SOS (\u22655): 70.89%; qSOFA (\u22652): 74.84%; SIRS (\u22652): 25.78%",
+  "auc_value": "28-day mortality: NEWS 0.770, SOS 0.750, qSOFA 0.747; 28-day MV: NEWS 0.750, SOS 0.751; 28-day Vasopressor: NEWS 0.763, SOS 0.755",
+  "notes": "Data extracted from Tables 1, 2, and 3, and Figures 3 and 4 across pages 6-8. NEWS demonstrated the highest AUROC for mortality prediction. Hospital LOS is reported in hours. Secondary outcomes include intubation-free and vasopressor-free days.",
+  "source_info": {
+    "file": "Suttapanit_2022.pdf",
+    "center_page": 8,
+    "page_range": {
+      "start": 6,
+      "end": 10
+    },
+    "included_pages": [6, 7, 8, 9],
+    "chunk": "pages_006_to_010_combined"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "study": "Suttapanit et al. 2022",
+  "population": "Patients with sepsis in the triage area of the Emergency Department (ED)",
+  "sample_size": "Not reported",
+  "predictor": "NEWS (National Early Warning Score), SOS (Search Out Severity Score), qSOFA (quick Sequential Organ Failure Assessment), ESI triage (Emergency Severity Index), SIRS (Systemic Inflammatory Response syndrome)",
+  "outcome": "28-day mortality, 28-day mechanical ventilator usage, 28-day vasopressor usage",
+  "timing": "At ED triage; 28-day follow-up",
+  "method": "Retrospective, single-center study; ROC analysis (AUROC), sensitivity and specificity analysis",
+  "effect_size": "Not reported",
+  "performance": "AUROC for 28-day mortality: NEWS 0.770 (0.705-0.835), SOS 0.750 (0.685-0.815), qSOFA 0.747 (0.688-0.806), ESI 0.599, SIRS 0.588. NEWS cut-off ≥4: sensitivity 91.30%, specificity 28.69%. NEWS cut-off ≥5: sensitivity 86.96%, specificity 45.74%.",
+  "mortality_rate": "Not reported",
+  "sofa_score": "Not reported",
+  "age": "Not reported",
+  "lactate": "Not reported",
+  "apache_ii": "Not reported",
+  "mechanical_ventilation": "AUROC for 28-day usage: NEWS 0.750, SOS 0.751, qSOFA 0.734, ESI 0.642, SIRS 0.581",
+  "gender": "Not reported",
+  "icu_los": "Not reported",
+  "hospital_los": "Not reported",
+  "septic_shock": "Not reported",
+  "creatinine": "Not reported",
+  "platelets": "Not reported",
+  "bilirubin": "Not reported",
+  "albumin": "Not reported",
+  "procalcitonin": "Not reported",
+  "vasopressor_use": "AUROC for 28-day usage: NEWS 0.763, SOS 0.755, qSOFA 0.741, ESI 0.624, SIRS 0.579",
+  "rrt_use": "Not reported",
+  "sensitivity": "NEWS (cut-off ≥5): 86.96%; SOS (cut-off ≥5): 68.12%; qSOFA (cut-off 2): 69.57%; SIRS (cut-off 2): 85.51%",
+  "specificity": "NEWS (cut-off ≥5): 45.74%; SOS (cut-off ≥5): 70.89%; qSOFA (cut-off 2): 74.84%; SIRS (cut-off 2): 25.78%",
+  "auc_value": "NEWS: 0.770 (Mortality), 0.750 (Ventilator), 0.763 (Vasopressor)",
+  "notes": "Data extracted from Tables 2 and 3 (page 7) and Figures 3 and 4 (page 8). The study concludes NEWS outperforms other scores in the ED triage setting for predicting sepsis outcomes. Demographic and baseline clinical characteristics (age, lactate, etc.) were not present on the included pages 7-9.",
+  "source_info": {
+    "file": "Suttapanit_2022.pdf",
+    "center_page": 9,
+    "page_range": {
+      "start": 7,
+      "end": 11
+    },
+    "included_pages": [
+      7,
+      8,
+      9
+    ],
+    "chunk": "pages_007_to_011_combined"
+  }
+}

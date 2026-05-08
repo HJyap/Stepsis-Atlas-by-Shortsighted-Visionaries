@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "page_8_chunk_35",
+    "doi": "10.5811/westjem.2022.6.56754",
+    "global_chunk_index": 862.0,
+    "page": 8.0,
+    "section": "**REFERENCES**",
+    "source_file": "Suttapanit_2022.pdf",
+    "source_json": "Suttapanit_2022.json"
+  },
+  {
+    "chunk_id": "page_9_chunk_36",
+    "doi": "10.5811/westjem.2022.6.56754",
+    "global_chunk_index": 863.0,
+    "page": 9.0,
+    "section": "General",
+    "source_file": "Suttapanit_2022.pdf",
+    "source_json": "Suttapanit_2022.json"
+  },
+  {
+    "chunk_id": "page_6_chunk_20",
+    "doi": "10.1186/s12245-024-00655-9",
+    "global_chunk_index": 84.0,
+    "page": 6.0,
+    "section": "**Discussion**",
+    "source_file": "Bidart_2024.pdf",
+    "source_json": "Bidart_2024.json"
+  },
+  {
+    "chunk_id": "page_2_chunk_13",
+    "doi": "10.5811/westjem.2022.6.56754",
+    "global_chunk_index": 840.0,
+    "page": 2.0,
+    "section": "**INTRODUCTION**",
+    "source_file": "Suttapanit_2022.pdf",
+    "source_json": "Suttapanit_2022.json"
+  },
+  {
+    "chunk_id": "page_5_chunk_20",
+    "doi": "10.1001/jama.2016.0288",
+    "global_chunk_index": 788.0,
+    "page": 5.0,
+    "section": "General",
+    "source_file": "Seymour_2016.pdf",
+    "source_json": "Seymour_2016.json"
+  }
+]

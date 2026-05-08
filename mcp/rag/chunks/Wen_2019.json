@@ -1,0 +1,272 @@
+[
+    {
+        "chunk_text": "Therapeutics and Clinical Risk Management  \nDovepress  \nopen access to scientific and medical research  \nO R I G I N A L R E S E A R C H  \nOpen Access Full Text Article",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 1,
+            "section": "General",
+            "chunk_id": "page_1_chunk_1"
+        }
+    },
+    {
+        "chunk_text": "This article was published in the following Dove Press journal: Therapeutics and Clinical Risk Management  \nMiao-Yun Wen[,] * Lin-Qiang Huang[,] * Fan Yang[,] Jing-Kun Ye[,] Geng-Xin Cai[,] Xu-Sheng Li[,] Hong-Guang Ding Hong-Ke Zeng  \n> 1Department of Emergency and Critical Care Medicine, Guangdong Provincial People’s Hospital and Guangdong Academy of Medical Sciences, Guangzhou, People’s Republic of China;  \n> 2School of Medicine, South China University of Technology, Guangzhou, People’s Republic of China; The Second School of Clinical Medicine, Southern Medical University, Guangzhou, People’s Republic of China  \n*These authors contributed equally to this work  \nBackground: Early recognition of septic patients with poor prognosis is important for clinicians to prescribe personalized therapies which include timely fluid resuscitation therapy and appropriate antimicrobial therapy. We aimed to evaluate the effect of the presepsin level on predicting the prognosis of patients with sepsis under the sepsis-3 criteria.  \nMethods: Patients who were diagnosed as sepsis under the sepsis-3 criteria were recruited and assigned to the survivor group and the non-survivor group according to their in-hospital mortality. The two groups’ baseline characteristics were analyzed with Pearson’s chi-square (χ ) test or Kruskal–Wallis test. Binary logistic regression analysis was performed to determine the independent predictors of in-hospital mortality from sepsis. Receiver operating characteristic analysis was conducted to evaluate the efficacy of presepsin in predicting patients’ in-hospital mortality from sepsis. The correlation between presepsin and the Sequential Organ Failure Assessment (SOFA) score was measured with Spearman’s rank correlation coefficient. P-values of less than 0.05 were considered to indicate statistical significance.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 1,
+            "section": "Presepsin level in predicting patients’ in-hospital mortality from sepsis under sepsis-3 criteria",
+            "chunk_id": "page_1_chunk_2"
+        }
+    },
+    {
+        "chunk_text": "Results: Overall, 138 patients were included in this study. The presepsin level of the non-survivor group was significantly higher than that of the other group (P=0.000). Binary logistic regression showed that the presepsin level was an independent risk factor of patients’ in-hospital mortality from sepsis (OR =1.221 P=0.026). The presepsin level was positively associated with the SOFA score (ρ=0.396, P=0.000). ROC curve analysis revealed the presepsin level was highly accurate in predicting patients’ in-hospital mortality from sepsis (AUC =0.703, P=0.000). The AUC value of a combination of presepsin and the SOFA score was significantly larger than that of the SOFA score alone (AUC: 0.817 vs 0.793, P=0.041).  \nConclusions: Presepsin is a prognostic biomarker with high accuracy in predicting the prognosis of sepsis under the sepsis-3 criteria.  \nKeywords: presepsin, sepsis, biomarker, mortality, outcomes",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 1,
+            "section": "Presepsin level in predicting patients’ in-hospital mortality from sepsis under sepsis-3 criteria",
+            "chunk_id": "page_1_chunk_3"
+        }
+    },
+    {
+        "chunk_text": "Correspondence: Hong-Ke Zeng; HongGuang Ding Department of Emergency and Critical Care Medicine, Guangdong Provincial People’s Hospital and Guangdong Academy of Medical Sciences, 106 Zhongshan Er Road, Guangzhou, People’s Republic of China Tel +86 020 8382 7812 Fax +86 020 8382 7812 Email zenghongke@vip.163.com; xingfulr@163.com  \nSepsis is one of the leading causes of death worldwide. Early recognition of patients with poor prognosis is important for clinicians to prescribe personalized therapies, including timely fluid, resuscitation therapy,[–] and appropriate antimicrobial therapy. However, not all patients with sepsis present with infection-related symptoms, and patients’ clinical signs, along with several comorbidities, can be misleading. Thus, it is crucial to find out ways to predict the prognosis of sepsis.[–] Biomarkers, as inflammatory variables, have been introduced to guide treatment and predict the prognosis of sepsis.  \nTherapeutics and Clinical Risk Management 2019:15 733–739  \n© 2019 Wen et al. This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at https://www.dovepress.com/terms.php and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (http://creativecommons.org/licenses/by-nc/3.0/). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (https://www.dovepress.com/terms.php).  \n733  \nsubmit your manuscript | www.dovepress.com DovePress fy ing http://doi.org/10.2147/TCRM.S209710",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 1,
+            "section": "Introduction",
+            "chunk_id": "page_1_chunk_4"
+        }
+    },
+    {
+        "chunk_text": "Dovepress  \nWen et al  \nAmong various molecules, presepsin seems to be a promising biomarker since it has been reported to be associated with the early stage of the septic process. Presepsin was first discovered in 2004. When monocytes are activated by infectious agents, presepsin, as a soluble CD14 subtype, will be released into the plasma. The level of presepsin continues to increase in the early stage of sepsis. It has been reported in several studies that presepsin is a hopeful diagnostic marker of sepsis.[,] Increasing numbers of studies have highlighted the superior value of presepsin to procalcitonin (PCT), interleukin-6, and C reactive protein in the diagnosis of sepsis. However, the prognostic performance of the presepsin level in patients’ with sepsis is uncertain. This study aimed to evaluate the efficacy of the presepsin level in predicting the prognosis of patients with sepsis under the sepsis-3 criteria.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 2,
+            "section": "General",
+            "chunk_id": "page_2_chunk_5"
+        }
+    },
+    {
+        "chunk_text": "The categorical variables were expressed as counts (percentages) and analyzed with Pearson’s chi-square (χ ) test, while the continuous variables were represented as medians (interquartile ranges) and analyzed with Kruskal– Wallis test. Binary logistic regression analysis was employed to determine the independent predictors of patients’ in-hospital mortality. Receiver operating characteristic (ROC) curve analysis was carried out to evaluate the prediction accuracy. A correlation analysis was performed with Spearman’s rank correlation coefficient. All statistical analyses were done using SPSS 20.0. P-values of less than 0.05 were considered to indicate statistical significance.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 2,
+            "section": "Statistical analysis",
+            "chunk_id": "page_2_chunk_6"
+        }
+    },
+    {
+        "chunk_text": "This prospective observational study was conducted among the ICU patients who were diagnosed as sepsis in Guangdong Provincial People’s Hospital and Guangdong Academy of Medical Sciences from June 2017 to November 2018. The inclusion criteria were: sepsis under the sepsis-3 criteria; more than 18 years old; measurement of the presepsin level. Exclusion criteria were: age ≤18 years; pregnancy; cancers; hematologic disorders; a history of transplantation; and immunosuppressive drug use. All participants included in the study were assigned to two groups according to their inhospital mortality: the survivor group and the nonsurvivor group.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 2,
+            "section": "Patients and study design",
+            "chunk_id": "page_2_chunk_7"
+        }
+    },
+    {
+        "chunk_text": "Age, sex, laboratory data (white blood cell and platelet count, and levels of total bilirubin, creatinine, PCT, and lactate), and blood samples were collected upon admission. The blood samples were used to measure the levels of presepsin with an automatic analyzer (LSI Medience Corporation, Tokyo, Japan), and the detection range was 20–20,000 pg/mL. During hospitalization, clinical data (mechanical ventilation, SOFA score, APACHE II score, sources of infection, and pathogens) related to the patient’s prognosis were collected. Patients were observed from the admission day to the day of discharge or death. Subsequently, a retrospective analysis was carried out.  \nOverall 138 patients met the inclusion criteria, including 74 survivors and 64 non-survivors. Their baseline characteristics are listed in Table 1. The differences in age and sex between the two groups were not statistically significant (age: P=0.553; sex: P=0.251).",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 2,
+            "section": "Data collection",
+            "chunk_id": "page_2_chunk_8"
+        }
+    },
+    {
+        "chunk_text": "The levels of presepsin and lactate in the non-survivor group were significantly higher than those of the survivor group (presepsin: P=0.000; lactate: P=0.000) (Figure 1A and B). There was no significant difference in the PCT level between the two groups (P=0.403) (Figure 1C). The SOFA scores and APACHE II scores of the non-survivor group were significantly higher than those of the survivor group (SOFA score: P=0.000; APACHE II score: P=0.002) (Figure 1D and E).",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 2,
+            "section": "Comparison of the SOFA score, APACHE II score, and levels of presepsin, PCT and lactate between the two groups",
+            "chunk_id": "page_2_chunk_9"
+        }
+    },
+    {
+        "chunk_text": "Binary logistic regression showed that the presepsin level (Odds ratio (OR) =1.221, 95% confidence interval (CI): 1.024–1.455, P=0.026), lactate level (OR =1.296, 95% CI: 1.071–1.569, P=0.008) and SOFA score (OR =1.404, 95% CI: 1.209–1.632, P=0.000) were risk factors for patients’ in-hospital mortality from sepsis. However, there was no association between patients’ in-hospital mortality and  \n734 submit your manuscript | www.dovepress.com DovePress  \nTherapeutics and Clinical Risk Management 2019:15",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 2,
+            "section": "Independent predictors of patients’ inhospital mortality determined by binary logistic regression analysis",
+            "chunk_id": "page_2_chunk_10"
+        }
+    },
+    {
+        "chunk_text": "Dovepress  \nWen et al  \nTable 1 Patients’ baseline characteristics  \n|Table 1 Patients’’ baseline characteristics|||||\n|---|---|---|---|---|\n||All patients,<br>n=138|Survivors,<br>n=74|Non-survivors,<br>n=64|P-value|\n|Age (years)<br>Male (%)|62 (51–73)<br>89 (64)|61 (50–71)<br>45 (61)|62 (52–74)<br>44 (69)|0.553<br>0.251|\n|Laboratory values<br>White blood cells (109/L)<br>Platelets (109/L)<br>Total bilirubin (mg/dL)<br>Creatinine (mg/dL)<br>Procalcitonin (ng/mL)<br>Presepsin (pg/mL)<br>Lactate (mmol/L)|12.0 (7.7–18.3)<br>141 (74–232)<br>1.3 (0.8–2.9)<br>1.4 (0.9–2.7)<br>6.26 (1.82–31.02)<br>1,348 (661–3273)<br>1.6 (1.1–2.7)|11.2 (7.3–18.0)<br>152 (81–228)<br>1.3 (0.8–3.0)<br>1.3 (0.9–2.0)<br>6.01 (1.54–34.78)<br>1,125 (484–2268)<br>1.4 (0.9–2.2)|13.1 (8.0–19.1)<br>130 (67–247)<br>1.3 (0.8–2.7)<br>1.9 (1.0–3.5)<br>6.73 (2.55–27.42)<br>1,692 (1028–4286)<br>2.3 (1.4–4.2)|0.588<br>0.544<br>0.842<br>0.010<br>0.403<br>0.000<br>0.000|\n|Mechanical ventilation<br>Number of patients|100 (72)|44 (59)|56 (88)|0.000|\n|Severity of sepsis<br>SOFA score<br>APACHE II score|8 (5–11)<br>21 (16–26)|6 (4–8)<br>20 (14–23)|10 (8–12)<br>24 (17–31)|0.000<br>0.002|\n|Sources of infection<br>Respiratory tract<br>Urinary tract<br>Intra-abdomen<br>Others|67 (49)<br>12 (9)<br>44 (32)<br>15 (11)|23 (31)<br>9 (12)<br>32 (43)<br>10 (14)|44 (69)<br>3 (5)<br>12 (19)<br>5 (8)|0.001<br>0.070<br>0.000<br>0.336|\n|Pathogens<br>Gram-negative rods<br>Gram-positive cocci<br>Fungi<br>Gram-negative bacilli and Gram-positive cocci<br>Gram-negative bacilli and fungi<br>Gram-positive cocci and fungi<br>Gram-positive cocci, Gram-negative bacilli, and fungi<br>Negative cultures|41 (30)<br>7 (5)<br>10 (7)<br>8 (6)<br>12 (9)<br>2 (1)<br>1 (1)<br>57 (41)|18 (24)<br>4 (5)<br>5 (7)<br>3 (4)<br>7 (9)<br>1 (1)<br>0 (0)<br>36 (49)|23 (36)<br>3 (5)<br>5 (8)<br>5 (8)<br>5 (8)<br>1 (2)<br>1 (2)<br>21 (33)|0.137<br>0.848<br>0.811<br>0.346<br>0.732<br>0.918<br>0.280<br>0.060|",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 3,
+            "section": "General",
+            "chunk_id": "page_3_chunk_11"
+        }
+    },
+    {
+        "chunk_text": "Note: The categorical variables are expressed as counts (percentages) and analyzed with Pearson’s chi-square (χ ) test, while the continuous variables are expressed as medians (interquartile ranges) and analyzed with Kruskal–Wallis test. Abbreviations: SOFA score, Sequential Organ Failure Assessment score; APACHE II score, Acute Physiology and Chronic Health Evaluation II score.  \ntheir PCT levels (OR =0.995, 95% CI: 0.957–1.089, P=0.527) and APACHE II scores (OR =1.021, 95% CI: 0.985–1.006, P=0.403) (Table 2).",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 3,
+            "section": "General",
+            "chunk_id": "page_3_chunk_12"
+        }
+    },
+    {
+        "chunk_text": "The performance of the presepsin level, lactate level, and SOFA score in predicting patients’ in-hospital mortality from sepsis was evaluated with ROC curves (Figure 2). The levels of presepsin and lactate had good performance in predicting the prognosis of sepsis (presepsin: AUC =0.703, P=0.000; lactate: AUC =0.711, P=0.000). The  \nSOFA score had the best performance with the highest AUC value (AUC =0.793, P=0.000). Furthermore, the AUC value of a combination of the SOFA score and the presepsin level was significantly higher than that of the SOFA score alone in predicting patients’ in-hospital mortality (AUC: 0.817 vs 0.793, P=0.041). The best prognostic cutoff point for presepsin was 2,623 pg/mL, at which level the sensitivity and specificity were 62.71% (95% CI: 49.15% to 74.96%) and 72.6% (95% CI: 60.91% to 82.39%), respectively. The patients’ levels of presepsin and lactate upon admission were positively associated with their SOFA scores (presepsin: ρ=0.396, P=0.000, lactate: ρ=0.411, P=0.000), however, there was no positive  \nsubmit your manuscript | www.dovepress.com 735 DovePress  \nTherapeutics and Clinical Risk Management 2019:15",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 3,
+            "section": "Prognostic value of the presepsin level, lactate level, and SOFA score",
+            "chunk_id": "page_3_chunk_13"
+        }
+    },
+    {
+        "chunk_text": "Dovepress  \nWen et al  \n**==> picture [488 x 489] intentionally omitted <==**  \n**----- Start of picture text -----**<br>\nA<br>25000<br>P =0.000<br>20000<br>15000<br>10000<br>5000<br>0<br>Survivors Non-survivors<br>B C<br>20 P =0.000 250<br>P =0.403<br>200<br>15<br>150<br>10<br>100<br>5<br>50<br>0<br>0<br>Survivors Non-survivors Survivors Non-survivors<br>D E<br>20 P =0.000 50 P =0.002<br>40<br>15<br>30<br>10<br>at 20 IL<br>5<br>10<br>0<br>0<br>Survivors Non-survivors Survivors Non-survivors<br>Figure 1 The SOFA score, APACHE II score, and the levels of presepsin, PCT and lactate upon admission in the survivor and non-survivor groups. ( ot 8 A and B) The levels of<br>presepsin and lactate in the non-survivor group are significantly higher than those of the survivor group (presepsin: P=0.000; lactate: P=0.000). (C) There is no significant<br>difference in the PCT level between the two groups (P=0.403). (D and E) The SOFA score and APACHE II score of the non-survivor group are significantly higher than those<br>of the survivor group (SOFA score: P=0.000; APACHE II score: P=0.002).<br>Presepsin concentration (pg/ml)<br>PCT concentration (pg/ml)<br>Lactate concentration (mmol/L)<br>SOFA score<br>APACHE II score<br>**----- End of picture text -----**<br>  \nAbbreviations: SOFA score, Sequential Organ Failure Assessment score; APACHE II score, Acute Physiology and Chronic Health Evaluation II score; PCT, procalcitonin.  \ncorrelation between their PCT levels and SOFA scores (ρ=0.136, P=0.114) (Figure 3).",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 4,
+            "section": "General",
+            "chunk_id": "page_4_chunk_14"
+        }
+    },
+    {
+        "chunk_text": "This observational study was conducted on adult patients with sepsis who were diagnosed under the sepsis-3 criteria. The patients were assigned to two groups while doing retrospective analysis according to their inhospital mortality: the survivor group and the non-survivor group. We aimed to evaluate the performance of presepsin  \nas a biomarker in predicting patients’ in-hospital mortality from pepesis. The performance of the presepsin level in predicting patients’ in-hospital mortality was compared with that of the lactate level and SOFA score. Correlation between the presepsin level and SOFA score was also analyzed.  \nIt has been reported that the presepsin level is capable of predicting the mortality from sepsis under the sepsis-1 criteria and sepsis-2 criteria.[–] ICU patients’ mortality from sepsis was reported to be associated with the  \nsubmit your manuscript | www.dovepress.com DovePress  \nTherapeutics and Clinical Risk Management 2019:15  \n736",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 4,
+            "section": "Discussion",
+            "chunk_id": "page_4_chunk_15"
+        }
+    },
+    {
+        "chunk_text": "Dovepress  \nWen et al  \nTable 2 Univariate binary logistic regression analysis results  \n|Parameters<br>E~~EL~~|Odds ratio<br>~~EL~~|95% CI<br>~~EL~~|P-value<br>~~EL~~|\n|---|---|---|---|\n|Procalcitonin (ng/mL)<br>Presepsin (pg/mL)<br>Lactate (mmol/L)<br>APACHE II score<br>SOFA score<br>E~~EL~~|0.995<br>1.221<br>1.296<br>1.021<br>1.404<br>~~EL~~|0.957–1.089<br>1.024–1.455<br>1.071–1.569<br>0.985–1.006<br>1.209–1.632<br>~~EL~~|0.527<br>0.026<br>0.008<br>0.403<br>0.000<br>~~EL~~|  \n**==> picture [238 x 273] intentionally omitted <==**  \n**----- Start of picture text -----**<br>\n1.0<br>0.8<br>0.6<br>Presepsin (AUC: 0.703)<br>0.4<br>Lactate (AUC: 0.711)<br>SOFA score (AUC: 0.793)<br>0.2<br>SOFA score + presepsin (AUC: 0.817)<br>Reference line<br>0.0 ye<br>0.0 0.2 0.4 0.6 0.8 1.0<br>1-specificity<br>Figure 2 Receiver operating characteristic curves of the presepsin level, lactate<br>level, and the SOFA score in predicting patients’ in-hospital mortality. Areas under<br>the receiver operating characteristic (ROC) curves: the lactate level (blue line):<br>0.711 (95% confidence interval (CI): 0.622 to 0.800, P=0.000); the presepsin level<br>(red line): 0.703 (95% CI: 0.614 to 0.793, P=0.000); the SOFA score (green line):<br>0.793 (95% CI: 0.716 to 0.870, P=0.000); the SOFA score + the presepsin level<br>(purple line): 0.817 (95% CI: 0.742 to 0.892, P=0.000). The AUC value of<br>a combination of the SOFA score and the presepsin level is significantly larger<br>than that of the SOFA score alone in predicting patients’ in-hospital mortality from<br>sepsis (AUC: 0.817 vs 0.793, P=0.041).<br>Abbreviation: CI, confidence interval; SOFA score, Sequential Organ Failure<br>Assessment score; APACHE II score, Acute Physiology and Chronic Health<br>Evaluation II score.<br>Sensitivity<br>**----- End of picture text -----**<br>",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 5,
+            "section": "General",
+            "chunk_id": "page_5_chunk_16"
+        }
+    },
+    {
+        "chunk_text": "presepsin level and the non-survivors’ presepsin levels were significantly higher than the survivors’ presepsin levels. In the present study, the presepsin level of the non-survivor group is higher than that of the survivor group. Besides, analysis of the ROC curves demonstrates that the presepsin level has a good performance in predicting the in-hospital mortality from sepsis under the sepsis-3 criteria. The best prognostic cutoff point for presepsin in this study is 2,623 pg/mL, which is similar to the level of 2,455 pg/mL reported previously. It was reported that the presepsin level upon admission, not the level of PCT, was significantly correlated with patients’ in-hospital mortality from sepsis. Besides, the presepsin level showed better prognostic performance than the PCT level in predicting patients’ 30-day mortality. Similar findings are obtained in this study. There is no significant  \ndifference in the PCT level between the two groups, and binary logistic regression shows that the PCT level is not correlated with patients’ in-hospital mortality. Furthermore, the correlation analysis reveals that there is no significant association between the PCT level and the SOFA score. These results suggest that the level of PCT is not correlated with the severity of sepsis in the early hours.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 5,
+            "section": "General",
+            "chunk_id": "page_5_chunk_17"
+        }
+    },
+    {
+        "chunk_text": "Binary logistic regression shows that the presepsin level, lactate level, and the SOFA score are independent risk factors for patients’ in-hospital mortality from sepsis. Analysis of the ROC curves shows that the presepsin and lactate levels have similar performance in predicting the prognosis of sepsis (AUC: 0.703 vs 0.711). The SOFA score has a better prognostic performance than the presepsin level (AUC: 0.793 vs 0.703). However, the presepsin level upon admission is positively associated with the SOFA score, and the prognostic performance of a combination of the SOFA score and the presepsin level is significantly better than that of the SOFA score alone. These results suggest that presepsin is a biomarker which helps recognize patients with poor prognosis in the early period and plays a significant role in guiding the treatment of sepsis.  \nThis study has several limitations. Firstly, the sample size is relatively small. However, to the best of our knowledge, other studies have similar or smaller samples in size.[−] Secondly, this study is a single-center study, which might lead to inherent selection bias. Thirdly, patients’ presepsin levels were only measured upon admission, rather than monitored daily.  \nThe results in this study demonstrate that presepsin is a powerful prognostic biomarker of the short-term prognosis of sepsis under the sepsis-3 criteria. These preliminary findings suggest that the presepsin level may be of clinical importance in identifying high-risk patients earlier.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 5,
+            "section": "General",
+            "chunk_id": "page_5_chunk_18"
+        }
+    },
+    {
+        "chunk_text": "The presepsin level is valuable in predicting patients’ inhospital mortality from sepsis under the sepsis-3 criteria. Combining use with the SOFA score increases its prognostic accuracy significantly.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 5,
+            "section": "Conclusions",
+            "chunk_id": "page_5_chunk_19"
+        }
+    },
+    {
+        "chunk_text": "The study protocol was approved by the Research Ethics Committee of Guangdong Provincial People’s Hospital and Guangdong Academy of Medical Sciences, Guangzhou, China (No. GDREC 2016318H). All patients  \nsubmit your manuscript | www.dovepress.com 737 DovePress  \nTherapeutics and Clinical Risk Management 2019:15",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 5,
+            "section": "Ethics approval",
+            "chunk_id": "page_5_chunk_20"
+        }
+    },
+    {
+        "chunk_text": "Dovepress  \nWen et al  \n**==> picture [202 x 309] intentionally omitted <==**  \n**----- Start of picture text -----**<br>\nA<br>20<br>15<br>10<br>5<br>P =0.396 P =0.000<br>0<br>0 5000 10000 15000 20000<br>Presepsin (pg/ml)<br>B<br>20<br>15<br>10<br>5<br>P =0.136 P =0.114<br>0<br>0 50 100 150 200 250<br>PCT (ng/ml)<br>SOFA score<br>SOFA score<br>**----- End of picture text -----**<br>  \n**==> picture [196 x 148] intentionally omitted <==**  \n**----- Start of picture text -----**<br>\nC<br>20<br>15<br>10<br>5<br>P =0.411 P =0.000<br>0<br>0 5 10 15<br>Lactate (mmol/L)<br>SOFA score<br>**----- End of picture text -----**<br>  \nFigure 3 Association between the levels of presepsin, lactate,and PCT and the SOFA score. The levels of presepsin and lactate are positively correlated with the SOFA score (presepsin: ρ=0.396, P=0.000; lactate: ρ=0.411, P=0.000), while no correlation between the PCT level and the SOFA score is observed (ρ=0.136; P=0.114). Abbreviations: SOFA score, Sequential Organ Failure Assessment score; PCT, procalcitonin.  \nprovided written informed consent, and that this study was conducted in accordance with the Declaration of Helsinki.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 6,
+            "section": "General",
+            "chunk_id": "page_6_chunk_21"
+        }
+    },
+    {
+        "chunk_text": "This study was supported by the Natural Science Foundation of Guangdong Province (2016A030313763) and Science and Technology Program of Guangzhou (201707010322).",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 6,
+            "section": "Acknowledgments",
+            "chunk_id": "page_6_chunk_22"
+        }
+    },
+    {
+        "chunk_text": "The authors report no conflicts of interest in this work.",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 6,
+            "section": "Disclosure",
+            "chunk_id": "page_6_chunk_23"
+        }
+    },
+    {
+        "chunk_text": "1. Prescott HC, Osterholzer JJ, Langa KM, et al. Late mortality after sepsis: propensity matched cohort study. Bmj. 2016;353:i2375. doi:10.1136/bmj.i2996  \n2. Emrath ET, Fortenberry JD, Travers C, et al. Resuscitation with balanced fluids is associated with improved survival in pediatric severe sepsis. Crit Care Med. 2017;45(7):1177. doi:10.1097/CCM.0000000000002365  \n3. Martin GS, Bassett P. Crystalloids vs. colloids for fluid resuscitation in the intensive care unit: a systematic review and meta-analysis. J Crit Care. 2018;50:144. doi:10.1016/j.jcrc.2018.11.031  \n4. Tigabu BM, Davari M, Kebriaeezadeh A, et al. Fluid volume, fluid balance and patient outcome in severe sepsis and septic shock: a systematic review. J Crit Care. 2018;48:153. doi:10.1016/j. jcrc.2018.08.018  \n5. Armstrong BA, Betzold RD, May AK. Sepsis and septic shock strategies. Surg Clin North Am. 2017;97(6):1339. doi:10.1016/j. suc.2017.07.003  \n6. Harimtepathip P, Lee JR, Griffith E, et al. Quick sepsis-related organ failure assessment versus systemic inflammatory response syndrome criteria for predicting organ dysfunction and mortality. Cureus. 2018;10(10):e3511.  \n7. Silosi CA, Silosi I, Padureanu V, et al. Sepsis and identification of reliable biomarkers for postoperative period prognosis. Rom J Morphol Embryol. 2018;59(1):77.  \n8. Prescott HC, Angus DC. Enhancing recovery from sepsis: a review. Jama. 2018;319(1):62. doi:10.1001/jama.2017.17687  \n9. Brodska H, Valenta J, Pelinkova K, et al. Diagnostic and prognostic value of presepsin vs. established biomarkers in critically ill patients with sepsis or systemic inflammatory response syndrome. Clin Chem Lab Med. 2018;56(4):658. doi:10.1515/cclm-2017-0839  \n10. Yaegashi Y, Shirakawa K, Sato N, et al. Evaluation of a newly identified soluble CD14 subtype as a marker for sepsis. J Infect Chemother. 2005;11(5):234. doi:10.1007/s10156-005-0400-4",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 6,
+            "section": "References",
+            "chunk_id": "page_6_chunk_24"
+        }
+    },
+    {
+        "chunk_text": "10. Yaegashi Y, Shirakawa K, Sato N, et al. Evaluation of a newly identified soluble CD14 subtype as a marker for sepsis. J Infect Chemother. 2005;11(5):234. doi:10.1007/s10156-005-0400-4  \n11. Mihajlovic D, Brkic S, Uvelin A, et al. Use of presepsin and procalcitonin for prediction of SeptiFast results in critically ill patients. J Crit Care. 2017;40:197. doi:10.1016/j.jcrc.2017.04.008  \n12. de Guadiana Romualdo LG, Torrella PE, Acebes SR, et al. Diagnostic accuracy of presepsin (sCD14-ST) as a biomarker of infection and sepsis in the emergency department. Clin Chim Acta. 2017;464:6–11. doi:10.1016/j.cca.2016.11.003  \n738 submit your manuscript | www.dovepress.com DovePress  \nTherapeutics and Clinical Risk Management 2019:15",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 6,
+            "section": "References",
+            "chunk_id": "page_6_chunk_25"
+        }
+    },
+    {
+        "chunk_text": "Dovepress  \nWen et al  \n13. Wu CC, Lan HM, Han ST, et al. Comparison of diagnostic accuracy in sepsis between presepsin, procalcitonin, and C-reactive protein: a systematic review and meta-analysis. Ann Intensive Care. 2017;7 (1):91. doi:10.1186/s13613-017-0316-z  \n14. Endo S, Suzuki Y, Takahashi G, et al. Usefulness of presepsin in the diagnosis of sepsis in a multicenter prospective study. J Infect Chemother. 2012;18(6):891. doi:10.1007/s10156-012-0435-2  \n15. Singer M, Deutschman CS, Seymour CW, et al. The third international consensus definitions for sepsis and septic shock (Sepsis-3). Jama. 2016;315(8):801. doi:10.1001/jama.2016.0287  \n16. Yang HS, Hur M, Yi A, et al. Prognostic value of presepsin in adult patients with sepsis: systematic review and meta-analysis. PLoS One. 2018;13(1):e0191486. doi:10.1371/journal.pone.0191486  \n17. Kim H, Hur M, Moon HW, et al. Multi-marker approach using procalcitonin, presepsin, galectin-3, and soluble suppression of tumorigenicity 2 for the prediction of mortality in sepsis. Ann Intensive Care. 2017;7(1):27. doi:10.1186/s13613-017-0252-y  \n18. Popa TO, Cimpoesu D, Dorobat CM. Diagnostic and prognostic value of presepsin in the emergency department. Rev Med Chir Soc Med Nat Iasi. 2015;119(1):69.  \n19. Matera G, Quirino A, Peronace C, et al. Soluble CD14 subtype-a new biomarker in predicting the outcome of critically ill septic patients. Am J Med Sci. 2017;353(6):543–551. doi:10.1016/j.amjms. 2017.03.036  \n20. Sargentini V, Ceccarelli G, D’Alessandro M, et al. Presepsin as a potential marker for bacterial infection relapse in critical care patients. A preliminary study. Clin Chem Lab Med. 2015;53 (4):567.  \n21. Godnic M, Stubljar D, Skvarc M, et al. Diagnostic and prognostic value of sCD14-ST–presepsin for patients admitted to hospital intensive care unit (ICU). Wien Klin Wochenschr. 2015;127(13–14):521. doi:10.1007/s00508-015-0719-5  \nTherapeutics and Clinical Risk Management  \nDovepress",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 7,
+            "section": "General",
+            "chunk_id": "page_7_chunk_26"
+        }
+    },
+    {
+        "chunk_text": "Therapeutics and Clinical Risk Management is an international, peerreviewed journal of clinical therapeutics and risk management, focusing on concise rapid reporting of clinical studies in all therapeutic areas, outcomes, safety, and programs for the effective, safe, and sustained use of medicines. This journal is indexed on PubMed Central, CAS,  \nEMBase, Scopus and the Elsevier Bibliographic databases. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use. Visit http://www.dovepress.com/testimonials.php to read real quotes from published authors.  \nSubmit your manuscript here: https://www.dovepress.com/therapeutics-and-clinical-risk-management-journal  \nsubmit your manuscript | www.dovepress.com  \n739  \nTherapeutics and Clinical Risk Management 2019:15  \nDovePress",
+        "metadata": {
+            "source_file": "Wen_2019.pdf",
+            "doi": "10.2147/tcrm.s209710",
+            "page": 7,
+            "section": "Publish your work in this journal",
+            "chunk_id": "page_7_chunk_27"
+        }
+    }
+]
