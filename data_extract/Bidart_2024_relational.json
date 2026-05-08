@@ -1,0 +1,54 @@
+{
+    "study_cohort_level_records": [
+        {
+            "cohort_id": "Bidart_2024_Total",
+            "papers": "Bidart 2024",
+            "doi": "NA",
+            "encounters_period": "NA",
+            "population_location": "NA",
+            "data_sets": "NA",
+            "detailed_study_design_description": "Prospective observational study",
+            "population_description": "Patients with suspicion of sepsis presenting to the emergency department triage",
+            "cohort": "Total Cohort",
+            "cohort_size_n": "665",
+            "cohort_characteristics": "qSOFA assessed at ED triage; severity criteria evaluated",
+            "cohort_characteristics_timepoint": "At ED admission",
+            "mortality_rate_percent": "113/665 (30-day mortality)",
+            "mortality_timepoint": "30-day mortality"
+        }
+    ],
+    "predictor_model_level_records": [
+        {
+            "cohort_id": "Bidart_2024_Total",
+            "predictors": "qSOFA",
+            "timing_of_predictor_measurement": "At ED admission",
+            "outcome": "30-day mortality",
+            "model_specification": "Univariate logistic regression",
+            "effect_size_performance_and_significance": "RR (95% CI) and p value reported in Table 3; exact values not provided in excerpt"
+        },
+        {
+            "cohort_id": "Bidart_2024_Total",
+            "predictors": "qSOFA",
+            "timing_of_predictor_measurement": "At ED admission",
+            "outcome": "30-day mortality",
+            "model_specification": "Multivariable logistic regression",
+            "effect_size_performance_and_significance": "RR (95% CI) and p value reported in Table 3; exact values not provided in excerpt"
+        },
+        {
+            "cohort_id": "Bidart_2024_Total",
+            "predictors": "Severity criteria",
+            "timing_of_predictor_measurement": "At ED admission",
+            "outcome": "30-day mortality",
+            "model_specification": "Univariate logistic regression",
+            "effect_size_performance_and_significance": "RR (95% CI) and p value reported in Table 3; exact values not provided in excerpt"
+        },
+        {
+            "cohort_id": "Bidart_2024_Total",
+            "predictors": "Severity criteria",
+            "timing_of_predictor_measurement": "At ED admission",
+            "outcome": "30-day mortality",
+            "model_specification": "Multivariable logistic regression",
+            "effect_size_performance_and_significance": "RR (95% CI) and p value reported in Table 3; exact values not provided in excerpt"
+        }
+    ]
+}

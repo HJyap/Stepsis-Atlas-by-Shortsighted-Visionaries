@@ -1,0 +1,62 @@
+{
+    "study_cohort_level_records": [
+        {
+            "cohort_id": "Seymour_2016_PrimaryCohort",
+            "papers": "Seymour 2016",
+            "doi": "NA",
+            "encounters_period": "2010-2012",
+            "population_location": "UPMC hospitals (12 hospitals), USA",
+            "data_sets": "UPMC",
+            "detailed_study_design_description": "Retrospective cohort study; development and validation",
+            "population_description": "Patient encounters with suspected infection in ED, ICU, ward, step-down unit, or PACU at 12 UPMC hospitals",
+            "cohort": "Total Cohort",
+            "cohort_size_n": "148907",
+            "cohort_characteristics": "Suspected infection; median time from encounter start to suspected infection onset 4.2 hours (IQR 1.6-19.2h); minority had surgery prior; positive blood cultures in 5-19% of encounters",
+            "cohort_characteristics_timepoint": "Not reported",
+            "mortality_rate_percent": "Not reported",
+            "mortality_timepoint": "In-Hospital Mortality"
+        },
+        {
+            "cohort_id": "Seymour_2016_DerivationCohort",
+            "papers": "Seymour 2016",
+            "doi": "NA",
+            "encounters_period": "2010-2012",
+            "population_location": "UPMC hospitals (12 hospitals), USA",
+            "data_sets": "UPMC",
+            "detailed_study_design_description": "Retrospective cohort study; development and validation",
+            "population_description": "Derivation cohort of patient encounters with suspected infection at 12 UPMC hospitals",
+            "cohort": "Derivation cohort",
+            "cohort_size_n": "74453",
+            "cohort_characteristics": "7836 in ICU; 66617 outside ICU; suspected infection in ED, ICU, ward, step-down unit, or PACU",
+            "cohort_characteristics_timepoint": "Not reported",
+            "mortality_rate_percent": "Not reported",
+            "mortality_timepoint": "In-Hospital Mortality"
+        },
+        {
+            "cohort_id": "Seymour_2016_ValidationCohort",
+            "papers": "Seymour 2016",
+            "doi": "NA",
+            "encounters_period": "2010-2012",
+            "population_location": "UPMC hospitals (12 hospitals), USA",
+            "data_sets": "UPMC",
+            "detailed_study_design_description": "Retrospective cohort study; development and validation",
+            "population_description": "Validation cohort of patient encounters with suspected infection at 12 UPMC hospitals",
+            "cohort": "Validation set",
+            "cohort_size_n": "74454",
+            "cohort_characteristics": "7932 in ICU; 66522 outside ICU; suspected infection in ED, ICU, ward, step-down unit, or PACU",
+            "cohort_characteristics_timepoint": "Not reported",
+            "mortality_rate_percent": "Not reported",
+            "mortality_timepoint": "In-Hospital Mortality"
+        }
+    ],
+    "predictor_model_level_records": [
+        {
+            "cohort_id": "Seymour_2016_PrimaryCohort",
+            "predictors": "Baseline risk model (demographics and comorbidities)",
+            "timing_of_predictor_measurement": "At hospital admission",
+            "outcome": "In-Hospital Mortality",
+            "model_specification": "Other: Baseline risk model",
+            "effect_size_performance_and_significance": "10-fold variation in in-hospital mortality across deciles of baseline risk, ranging from 0.7% to 8%"
+        }
+    ]
+}
