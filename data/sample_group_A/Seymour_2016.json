@@ -1,0 +1,134 @@
+{
+  "study_cohort_level_records": [
+    {
+      "cohort_id": "Seymour 2016 UPMC Primary Cohort",
+      "papers": "Seymour 2016",
+      "doi": "Not reported",
+      "encounters_period": "2010-2012",
+      "population_location": "12 UPMC hospitals, Pennsylvania",
+      "data_sets": "UPMC",
+      "detailed_study_design_description": "Retrospective cohort study; development and validation",
+      "population_description": "Encounters with suspected infection",
+      "cohort": "Total Cohort",
+      "cohort_size_n": "148 907",
+      "cohort_characteristics": "Age mean 61 (SD 19); Male 43%; White 76%; Black 14%; Weighted Charlson comorbidity index median 1 (IQR 0-2); ICU admission 25%",
+      "cohort_characteristics_timepoint": "At hospital admission",
+      "mortality_rate_percent": "4%",
+      "mortality_timepoint": "In-hospital mortality"
+    },
+    {
+      "cohort_id": "Seymour 2016 KPNC",
+      "papers": "Seymour 2016",
+      "doi": "Not reported",
+      "encounters_period": "2009-2013",
+      "population_location": "20 hospitals in northern California",
+      "data_sets": "KPNC",
+      "detailed_study_design_description": "Retrospective study of EHRs",
+      "population_description": "Encounters with suspected infection",
+      "cohort": "External validation cohort",
+      "cohort_size_n": "321 380",
+      "cohort_characteristics": "Not reported",
+      "cohort_characteristics_timepoint": "Not reported",
+      "mortality_rate_percent": "5%",
+      "mortality_timepoint": "In-hospital mortality"
+    },
+    {
+      "cohort_id": "Seymour 2016 VA",
+      "papers": "Seymour 2016",
+      "doi": "Not reported",
+      "encounters_period": "2008-2010",
+      "population_location": "130 hospitals in the US VA system",
+      "data_sets": "VA",
+      "detailed_study_design_description": "Retrospective study of EHRs",
+      "population_description": "Encounters with suspected infection",
+      "cohort": "External validation cohort",
+      "cohort_size_n": "377 325",
+      "cohort_characteristics": "Not reported",
+      "cohort_characteristics_timepoint": "Not reported",
+      "mortality_rate_percent": "6%",
+      "mortality_timepoint": "In-hospital mortality"
+    },
+    {
+      "cohort_id": "Seymour 2016 ALERTS",
+      "papers": "Seymour 2016",
+      "doi": "Not reported",
+      "encounters_period": "2011-2012",
+      "population_location": "Single university hospital, Jena, Germany",
+      "data_sets": "ALERTS",
+      "detailed_study_design_description": "Prospective cohort study",
+      "population_description": "Encounters with suspected infection",
+      "cohort": "External validation cohort",
+      "cohort_size_n": "1186",
+      "cohort_characteristics": "Not reported",
+      "cohort_characteristics_timepoint": "Not reported",
+      "mortality_rate_percent": "18%",
+      "mortality_timepoint": "In-hospital mortality"
+    },
+    {
+      "cohort_id": "Seymour 2016 KCEMS",
+      "papers": "Seymour 2016",
+      "doi": "Not reported",
+      "encounters_period": "2009-2010",
+      "population_location": "King County, Washington",
+      "data_sets": "KCEMS",
+      "detailed_study_design_description": "Retrospective study of administrative records",
+      "population_description": "Out-of-hospital records from integrated emergency medical services",
+      "cohort": "External validation cohort",
+      "cohort_size_n": "6508",
+      "cohort_characteristics": "Not reported",
+      "cohort_characteristics_timepoint": "Not reported",
+      "mortality_rate_percent": "11%",
+      "mortality_timepoint": "In-hospital mortality"
+    },
+    {
+      "cohort_id": "Seymour 2016 UPMC ICU Validation cohort",
+      "papers": "Seymour 2016",
+      "doi": "Not reported",
+      "encounters_period": "2010-2012",
+      "population_location": "12 UPMC hospitals",
+      "data_sets": "UPMC",
+      "detailed_study_design_description": "Retrospective cohort study; internal validation",
+      "population_description": "ICU encounters with suspected infection",
+      "cohort": "ICU Validation cohort",
+      "cohort_size_n": "7932",
+      "cohort_characteristics": "Age mean 62 (SD 17); Male 54%; White 74%; SIRS mean 2.5 (SD 1.0); SOFA mean 6.2 (SD 3.9); LODS mean 6.3 (SD 3.8)",
+      "cohort_characteristics_timepoint": "Maximum value from 48h before to 24h after infection onset",
+      "mortality_rate_percent": "16%",
+      "mortality_timepoint": "In-hospital mortality"
+    }
+  ],
+  "predictor_model_level_records": [
+    {
+      "cohort_id": "Seymour 2016 UPMC ICU Validation cohort",
+      "predictors": "SOFA",
+      "timing_of_predictor_measurement": "Maximum score from 48h before to 24h after infection onset",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC",
+      "effect_size_performance_and_significance": "AUROC = 0.74 (95% CI, 0.73-0.76)"
+    },
+    {
+      "cohort_id": "Seymour 2016 UPMC ICU Validation cohort",
+      "predictors": "LODS",
+      "timing_of_predictor_measurement": "Maximum score from 48h before to 24h after infection onset",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC",
+      "effect_size_performance_and_significance": "AUROC = 0.75 (95% CI, 0.73-0.76); P = .20 vs SOFA"
+    },
+    {
+      "cohort_id": "Seymour 2016 UPMC ICU Validation cohort",
+      "predictors": "SIRS",
+      "timing_of_predictor_measurement": "Maximum score from 48h before to 24h after infection onset",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC",
+      "effect_size_performance_and_significance": "AUROC = 0.64 (95% CI, 0.62-0.66); P < .001 vs SOFA or LODS"
+    },
+    {
+      "cohort_id": "Seymour 2016 UPMC non-ICU Validation cohort",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "Maximum score from 48h before to 24h after infection onset",
+      "outcome": "In-hospital mortality",
+      "model_specification": "ROC",
+      "effect_size_performance_and_significance": "AUROC = 0.70 (95% CI, 0.68-0.71); P < .001 vs SIRS"
+    }
+  ]
+}
