@@ -10,6 +10,7 @@ export const sepsisData = [
     "28-day Mortality": 32,
     Source: "Page 4, Table 2",
     Confidence: "91%",
+    URL: "https://pubmed.ncbi.nlm.nih.gov/33400990/",
   },
   {
     Study: "Garcia et al.",
@@ -22,6 +23,7 @@ export const sepsisData = [
     "28-day Mortality": 25,
     Source: "Page 6, Results",
     Confidence: "86%",
+    URL: "https://pubmed.ncbi.nlm.nih.gov/32167524/",
   },
   {
     Study: "Chen et al.",
@@ -34,6 +36,7 @@ export const sepsisData = [
     "28-day Mortality": 41,
     Source: "Page 5, Table 3",
     Confidence: "93%",
+    URL: "https://pubmed.ncbi.nlm.nih.gov/31665629/",
   },
   {
     Study: "Patel et al.",
@@ -46,6 +49,7 @@ export const sepsisData = [
     "28-day Mortality": 38,
     Source: "Page 7, Table 1",
     Confidence: "89%",
+    URL: "https://pubmed.ncbi.nlm.nih.gov/35042837/",
   },
   {
     Study: "Johnson et al.",
@@ -58,5 +62,6 @@ export const sepsisData = [
     "28-day Mortality": 22,
     Source: "Page 3, Results",
     Confidence: "84%",
+    URL: "https://pubmed.ncbi.nlm.nih.gov/29347874/",
   },
 ];

@@ -1,10 +1,11 @@
 import React from "react";
 import { sepsisData } from "./data";
-import { articleResults, getArticleResultFromQuery } from "./testData";
 import LeftPanel from "./components/LeftPanel";
 import MiddlePanel from "./components/MiddlePanel";
 import RightPanel from "./components/RightPanel";
 import "./style.css";
+
+const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:3001";
 
 const themes = {
   light: {
@@ -66,19 +67,57 @@ const themes = {
   },
 };
 
+const NOT_FOUND = { status: "not_found", query: "", answer: "Could not reach the server.", references: [] };
+
+function buildReferences(matchedStudies) {
+  return (matchedStudies ?? []).map(({ study, excerpt }) => {
+    const entry = sepsisData.find((d) => d.Study === study);
+    return {
+      study,
+      year: entry?.Year ?? "",
+      population: entry?.Population ?? "",
+      source: entry?.Source ?? "",
+      excerpt: excerpt ?? "",
+      lactate: entry?.Lactate ?? null,
+      mortality: entry?.["28-day Mortality"] ?? null,
+      confidence: entry?.Confidence ?? "",
+    };
+  }).filter((r) => r.study);
+}
+
+async function callChat(query) {
+  try {
+    const res = await fetch(`${API_URL}/api/chat`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt: query }),
+    });
+    const data = await res.json();
+    return {
+      status: data.status,
+      query,
+      answer: data.answer ?? "No answer returned.",
+      references: buildReferences(data.matched_studies),
+    };
+  } catch {
+    return { ...NOT_FOUND, query };
+  }
+}
+
 export default function App() {
-  const [activeResult, setActiveResult] = React.useState(
-    articleResults.lactate_mortality
-  );
+  const [activeResult, setActiveResult] = React.useState({ status: "idle", query: "", answer: "", references: [] });
   const [themeName, setThemeName] = React.useState("light");
   const theme = themes[themeName];
 
-  const handleQuerySelect = (queryKey) => {
-    setActiveResult(articleResults[queryKey] ?? articleResults.not_found);
+  const handleQuerySelect = async (label) => {
+    const result = await callChat(label);
+    setActiveResult(result);
   };
 
-  const handleQuerySend = (query) => {
-    setActiveResult(getArticleResultFromQuery(query));
+  const handleQuerySend = async (query) => {
+    const result = await callChat(query);
+    setActiveResult(result);
+    return result;
   };
 
   return (

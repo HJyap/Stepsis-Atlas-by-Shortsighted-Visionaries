@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import DynamicGraph from "./DynamicGraph";
 
 export default function RightPanel({ data, result, theme }) {
-  const [chartType, setChartType] = useState("Lactate vs 28-day Mortality");
+  const [chartType, setChartType] = useState("");
   const references = result.references ?? [];
   const graphData =
     result.status === "found"
@@ -16,6 +16,14 @@ export default function RightPanel({ data, result, theme }) {
     setSelectedStudy(references[0]?.study ?? data[0]?.Study ?? "");
   }, [data, references]);
 
+  useEffect(() => {
+    if (result.status === "found" && graphData.length > 0) {
+      setChartType("Lactate vs 28-day Mortality");
+    } else {
+      setChartType("");
+    }
+  }, [result]);
+
   const activeStudy =
     graphData.some((d) => d.Study === selectedStudy)
       ? selectedStudy
@@ -24,7 +32,7 @@ export default function RightPanel({ data, result, theme }) {
   const selectedReference = references.find((ref) => ref.study === activeStudy);
 
   const getGraphSpec = () => {
-    if (result.status !== "found" || graphData.length === 0) {
+    if (result.status !== "found" || graphData.length === 0 || !chartType) {
       return null;
     }
 
@@ -122,28 +130,30 @@ export default function RightPanel({ data, result, theme }) {
       <div style={styles.card(theme)}>
         <h2 style={styles.sectionTitle(theme)}>Graph</h2>
 
-        <div style={styles.selectWrapper}>
-          <select
-            value={chartType}
-            onChange={(e) => setChartType(e.target.value)}
-            style={styles.select(theme)}
-          >
-            <option>Lactate vs 28-day Mortality</option>
-            <option>SOFA vs 28-day Mortality</option>
-            <option>Antibiotic Timing vs Mortality</option>
-          </select>
-          <span style={styles.selectIcon(theme)}>▼</span>
-        </div>
-
-        <div style={{ height: "400px", marginTop: "15px" }}>
-          {result.status === "found" ? (
-            <DynamicGraph spec={getGraphSpec()} />
-          ) : (
-            <div style={styles.emptyState(theme)}>
-              No graph data available for this query.
+        {result.status === "found" && graphData.length > 0 ? (
+          <>
+            <div style={styles.selectWrapper}>
+              <select
+                value={chartType}
+                onChange={(e) => setChartType(e.target.value)}
+                style={styles.select(theme)}
+              >
+                <option value="">Select a chart...</option>
+                <option>Lactate vs 28-day Mortality</option>
+                <option>SOFA vs 28-day Mortality</option>
+                <option>Antibiotic Timing vs Mortality</option>
+              </select>
+              <span style={styles.selectIcon(theme)}>▼</span>
             </div>
-          )}
-        </div>
+            <div style={{ height: "400px", marginTop: "15px" }}>
+              <DynamicGraph spec={getGraphSpec()} />
+            </div>
+          </>
+        ) : (
+          <div style={styles.emptyState(theme)}>
+            No graph data available for this query.
+          </div>
+        )}
       </div>
 
       <div style={{ ...styles.card(theme), marginTop: "20px" }}>

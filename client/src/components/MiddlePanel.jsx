@@ -1,21 +1,23 @@
 import { useEffect, useRef, useState } from "react";
-import { articleResults, matchQueryKey, testChatResponses } from "../testData";
 
 export default function MiddlePanel({ data, result, onQuerySend, theme }) {
-  const buildMessages = (currentResult) => [
-    {
+  const buildMessages = (currentResult) => {
+    const msgs = [{
       role: "ai",
       text: "Ask about the uploaded articles. I will show a matched answer, source evidence, and a graph only when the articles support it.",
       references: [],
-    },
-    { role: "user", text: currentResult.query },
-    {
-      role: "ai",
-      text: currentResult.answer,
-      status: currentResult.status,
-      references: currentResult.references ?? [],
-    },
-  ];
+    }];
+    if (currentResult.query) {
+      msgs.push({ role: "user", text: currentResult.query });
+      msgs.push({
+        role: "ai",
+        text: currentResult.answer,
+        status: currentResult.status,
+        references: currentResult.references ?? [],
+      });
+    }
+    return msgs;
+  };
 
   const [inputValue, setInputValue] = useState("");
   const [messages, setMessages] = useState(buildMessages(result));
@@ -40,33 +42,31 @@ export default function MiddlePanel({ data, result, onQuerySend, theme }) {
     chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
   }, [messages]);
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (!inputValue.trim()) return;
 
     const submittedQuery = inputValue.trim();
-    const responseKey = matchQueryKey(submittedQuery);
-    const responseText =
-      testChatResponses[responseKey]?.response ??
-      testChatResponses.not_found.response;
-    const resultData = articleResults[responseKey] ?? articleResults.not_found;
-
-    setMessages((prev) => [...prev, { role: "user", text: submittedQuery }]);
+    setMessages((prev) => [
+      ...prev,
+      { role: "user", text: submittedQuery },
+      { role: "ai", text: "Thinking...", status: "thinking" },
+    ]);
     skipSyncRef.current = true;
-    onQuerySend(submittedQuery);
     setInputValue("");
 
-    setTimeout(() => {
-      setMessages((prev) => [
-        ...prev,
-        {
-          role: "ai",
-          text: responseText,
-          status: responseKey === "not_found" ? "not_found" : "found",
-          references: resultData.references ?? [],
-        },
-      ]);
-      setSelectedArticle(resultData.references?.[0]?.study ?? null);
-    }, 1000);
+    const result = await onQuerySend(submittedQuery);
+
+    setMessages((prev) => {
+      const updated = [...prev];
+      updated[updated.length - 1] = {
+        role: "ai",
+        text: result?.answer ?? "No answer returned.",
+        status: result?.status ?? "not_found",
+        references: result?.references ?? [],
+      };
+      return updated;
+    });
+    setSelectedArticle(result?.references?.[0]?.study ?? null);
   };
 
   const handleDownloadCSV = () => {
@@ -168,7 +168,7 @@ export default function MiddlePanel({ data, result, onQuerySend, theme }) {
         <div style={{ ...styles.card(theme), marginTop: "20px" }}>
           <h2 style={styles.sectionTitle(theme)}>Matched Results</h2>
 
-          {result.status === "found" ? (
+          {result.status === "idle" ? null : result.status === "found" ? (
             <>
               <div style={styles.tableWrapper}>
                 <table style={styles.table(theme)}>
@@ -182,7 +182,12 @@ export default function MiddlePanel({ data, result, onQuerySend, theme }) {
                     </tr>
                   </thead>
                   <tbody>
-                    {data.map((row, idx) => (
+                    {(result.references?.length
+                      ? data.filter((row) =>
+                          result.references.some((ref) => ref.study === row.Study)
+                        )
+                      : data
+                    ).map((row, idx) => (
                       <tr
                         key={idx}
                         style={{
@@ -227,7 +232,20 @@ export default function MiddlePanel({ data, result, onQuerySend, theme }) {
           {articleDetails ? (
             <>
               <div style={styles.articleHeader(theme)}>
-                <h3 style={styles.articleTitle(theme)}>{articleDetails.Study}</h3>
+                <h3 style={styles.articleTitle(theme)}>
+                  {articleDetails.URL ? (
+                    <a
+                      href={articleDetails.URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "inherit", textDecoration: "underline", cursor: "pointer" }}
+                    >
+                      {articleDetails.Study} ↗
+                    </a>
+                  ) : (
+                    articleDetails.Study
+                  )}
+                </h3>
                 <p style={styles.articleMeta}>
                   <span style={styles.badge(theme)}>{articleDetails.Year}</span>
                   {articleDetails.Region ? (
