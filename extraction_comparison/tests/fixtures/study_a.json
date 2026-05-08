@@ -1,0 +1,62 @@
+{
+  "study_cohort_level_records": [
+    {
+      "cohort_id": "Bidart 2024 Total Cohort",
+      "papers": "Bidart 2024",
+      "doi": "10.1186/s12245-024-00654-w",
+      "encounters_period": "Not reported",
+      "population_location": "Tertiary referral hospital, Brazil",
+      "data_sets": "Bidart",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Patients with suspicion of sepsis admitted in the ED",
+      "cohort": "Total Cohort",
+      "cohort_size_n": "665",
+      "cohort_characteristics": "Age 73.3 (19.19); qSOFA >= 2 391 (58.80%)",
+      "cohort_characteristics_timepoint": "At ED admission",
+      "mortality_rate_percent": "19.7%",
+      "mortality_timepoint": "In-hospital mortality"
+    },
+    {
+      "cohort_id": "Bidart 2024 Survivors",
+      "papers": "Bidart 2024",
+      "doi": "10.1186/s12245-024-00654-w",
+      "encounters_period": "Not reported",
+      "population_location": "Tertiary referral hospital, Brazil",
+      "data_sets": "Bidart",
+      "detailed_study_design_description": "Retrospective cohort study",
+      "population_description": "Patients with suspicion of sepsis admitted in the ED",
+      "cohort": "Survivors",
+      "cohort_size_n": "552",
+      "cohort_characteristics": "Age >= 65 408 (73.91%)",
+      "cohort_characteristics_timepoint": "At ED admission",
+      "mortality_rate_percent": "0%",
+      "mortality_timepoint": "30-day mortality"
+    }
+  ],
+  "predictor_model_level_records": [
+    {
+      "cohort_id": "Bidart 2024 Total Cohort",
+      "predictors": "qSOFA",
+      "timing_of_predictor_measurement": "At ED admission",
+      "outcome": "30-day mortality",
+      "model_specification": "Multivariate logistic regression",
+      "effect_size_performance_and_significance": "AUC 0.58"
+    },
+    {
+      "cohort_id": "Bidart 2024 Total Cohort",
+      "predictors": "Vasopressor at ED",
+      "timing_of_predictor_measurement": "At ED admission",
+      "outcome": "30-day mortality",
+      "model_specification": "Multivariate logistic regression",
+      "effect_size_performance_and_significance": "RR 2.14 (95% CI 1.44-3.17), p<0.001"
+    },
+    {
+      "cohort_id": "Bidart 2024 Total Cohort",
+      "predictors": "Vasopressor at ED",
+      "timing_of_predictor_measurement": "At ED admission",
+      "outcome": "In-hospital mortality",
+      "model_specification": "Multivariate logistic regression",
+      "effect_size_performance_and_significance": "RR 2.25 (95% CI 1.58-3.21), p<0.001"
+    }
+  ]
+}

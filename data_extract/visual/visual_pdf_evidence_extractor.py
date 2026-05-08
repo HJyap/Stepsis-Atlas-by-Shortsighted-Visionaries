@@ -1,4 +1,3 @@
-#data_extract/visual/visual_pdf_evidence_extractor.py
 from __future__ import annotations
 
 import base64
@@ -34,6 +33,12 @@ from helpers import (
     source_file_name,
 )
 
+from helpers.models import (
+    PREDICTOR_MODEL_LEVEL_FIELDS,
+    STUDY_COHORT_LEVEL_FIELDS,
+    CONTROLLED_VALUES,
+)
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent.parent
 ENV_PATH = ROOT_DIR / ".env"
@@ -46,12 +51,12 @@ GOOGLE_MODEL = os.getenv("GOOGLE_MODEL", "gemini-3-flash-preview")
 
 INPUT_JSON = ROOT_DIR / "data_extract" / "extract_input.json"
 IMAGES_DIR = SCRIPT_DIR / "images"
-OUTPUT_DIR = SCRIPT_DIR / "extracted_visual"
+OUTPUT_DIR = ROOT_DIR / "data_extract" / "visual_extract_output"
 
-CONTEXT_RADIUS = 2
-TEMPERATURE = 0.0
-MAX_TOKENS = 4096
-TIMEOUT_SECONDS = 180
+CONTEXT_RADIUS = int(os.getenv("CONTEXT_RADIUS", "2"))
+TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))
+MAX_TOKENS = int(os.getenv("MAX_TOKENS", "12000"))
+TIMEOUT_SECONDS = int(os.getenv("TIMEOUT_SECONDS", "180"))
 
 
 class VisualPDFEvidenceExtractor:
@@ -148,6 +153,33 @@ class VisualPDFEvidenceExtractor:
 
         return cls.list_page_b64_files(b64_dir).get(page_number)
 
+    @staticmethod
+    def _table_row_key(row: dict[str, Any], fields: list[str]) -> tuple[str, ...]:
+        return tuple(
+            re.sub(r"\s+", " ", str(row.get(field, "")).strip()).lower()
+            for field in fields
+        )
+
+    @classmethod
+    def _dedupe_table_rows(
+        cls,
+        rows: list[dict[str, Any]],
+        fields: list[str],
+    ) -> list[dict[str, Any]]:
+        seen: set[tuple[str, ...]] = set()
+        output: list[dict[str, Any]] = []
+
+        for row in rows:
+            key = cls._table_row_key(row, fields)
+
+            if key in seen:
+                continue
+
+            seen.add(key)
+            output.append(row)
+
+        return output
+
     def build_messages(
         self,
         pdf_file: str,
@@ -198,6 +230,13 @@ class VisualPDFEvidenceExtractor:
         if not self.openrouter_api_key:
             raise EnvironmentError(f"Missing OPENROUTER_API_KEY in {ENV_PATH}")
 
+        request_payload: dict[str, Any] = {
+            "model": self.model,
+            "messages": messages,
+            "temperature": self.temperature,
+            "max_tokens": self.max_tokens,
+        }
+
         response = requests.post(
             OPENROUTER_URL,
             headers={
@@ -205,12 +244,7 @@ class VisualPDFEvidenceExtractor:
                 "Content-Type": "application/json",
                 "X-Title": "Sepsis Visual PDF Extraction",
             },
-            json={
-                "model": self.model,
-                "messages": messages,
-                "temperature": self.temperature,
-                "max_tokens": self.max_tokens,
-            },
+            json=request_payload,
             timeout=self.timeout_seconds,
         )
 
@@ -252,8 +286,10 @@ class VisualPDFEvidenceExtractor:
 
                 if item.get("type") == "text":
                     text = item.get("text", "")
+
                     if text:
                         parts.append(text)
+
                     continue
 
                 if item.get("type") != "image_url":
@@ -374,9 +410,6 @@ class VisualPDFEvidenceExtractor:
         page_number: int,
         b64_dir: Path,
     ) -> CombinedRecord:
-        pdf_output_dir = self.output_dir / Path(source_file).stem
-        pdf_output_dir.mkdir(parents=True, exist_ok=True)
-
         messages, included_pages, start_page, end_page = self.build_messages(
             pdf_file=source_file,
             b64_dir=b64_dir,
@@ -398,18 +431,6 @@ class VisualPDFEvidenceExtractor:
             else:
                 raise
 
-        file_prefix = f"pages_{start_page:03d}_to_{end_page:03d}"
-
-        (pdf_output_dir / f"{file_prefix}_raw_{provider}_response.json").write_text(
-            json.dumps(response_json, indent=2, ensure_ascii=False),
-            encoding="utf-8",
-        )
-
-        (pdf_output_dir / f"{file_prefix}_raw_model_text.txt").write_text(
-            model_text,
-            encoding="utf-8",
-        )
-
         record = RecordNormalizer.normalize(
             parsed_json=parsed_json,
             pdf_file=source_file,
@@ -419,11 +440,6 @@ class VisualPDFEvidenceExtractor:
             included_pages=included_pages,
         )
 
-        (pdf_output_dir / f"{file_prefix}_visual_extract.json").write_text(
-            record.model_dump_json(indent=2),
-            encoding="utf-8",
-        )
-
         return record
 
     def extract_from_input_json(self) -> dict[str, Any]:
@@ -431,32 +447,45 @@ class VisualPDFEvidenceExtractor:
 
         chunks = read_chunks(INPUT_JSON)
 
-        results: list[dict[str, Any]] = []
+        # Organize by source_file (paper)
+        papers_data: dict[str, dict[str, Any]] = {}
         errors: list[dict[str, Any]] = []
-        cache: dict[tuple[str, int], CombinedRecord] = {}
 
         for input_index, chunk in enumerate(chunks):
             try:
                 source_file = source_file_name(chunk)
                 page_number = page_as_int(chunk)
-                cache_key = (source_file, page_number)
 
-                if cache_key not in cache:
-                    b64_dir = b64_dir_for_chunk(chunk, IMAGES_DIR)
-
-                    cache[cache_key] = self.extract_pdf(
-                        source_file=source_file,
-                        page_number=page_number,
-                        b64_dir=b64_dir,
-                    )
-
-                results.append(
-                    {
-                        "input_index": input_index,
-                        "input_chunk": chunk,
-                        "record": cache[cache_key].model_dump(),
+                if source_file not in papers_data:
+                    papers_data[source_file] = {
+                        "study_cohort_level_records": [],
+                        "predictor_model_level_records": [],
+                        "processed_chunks": [],
                     }
+
+                # Skip if we've already processed this exact page from this paper
+                cache_key = (source_file, page_number)
+                if any(
+                    k == cache_key for k, _ in
+                    [(c["source_file"], c["page"]) for c in papers_data[source_file]["processed_chunks"]]
+                ):
+                    continue
+
+                b64_dir = b64_dir_for_chunk(chunk, IMAGES_DIR)
+
+                record = self.extract_pdf(
+                    source_file=source_file,
+                    page_number=page_number,
+                    b64_dir=b64_dir,
                 )
+
+                papers_data[source_file]["study_cohort_level_records"].extend(
+                    record.study_cohort_level_records
+                )
+                papers_data[source_file]["predictor_model_level_records"].extend(
+                    record.predictor_model_level_records
+                )
+                papers_data[source_file]["processed_chunks"].append(chunk)
 
             except Exception as exc:
                 errors.append(
@@ -467,22 +496,78 @@ class VisualPDFEvidenceExtractor:
                     }
                 )
 
-        output_file = self.output_dir / "extract_input_visual_results.json"
+        # Consolidate and deduplicate records for each paper
+        results: list[dict[str, Any]] = []
+
+        for source_file, paper_data in papers_data.items():
+            # Convert Pydantic models to dictionaries for deduplication
+            study_cohort_dicts = [
+                row.model_dump(mode="json") if hasattr(row, "model_dump") else row
+                for row in paper_data["study_cohort_level_records"]
+            ]
+            
+            predictor_model_dicts = [
+                row.model_dump(mode="json") if hasattr(row, "model_dump") else row
+                for row in paper_data["predictor_model_level_records"]
+            ]
+            
+            study_cohort_rows = self._dedupe_table_rows(
+                study_cohort_dicts,
+                STUDY_COHORT_LEVEL_FIELDS,
+            )
+
+            predictor_model_rows = self._dedupe_table_rows(
+                predictor_model_dicts,
+                PREDICTOR_MODEL_LEVEL_FIELDS,
+            )
+
+            # Create consolidated output for this paper
+            consolidated_record = {
+                "study_cohort_level_records": study_cohort_rows,
+                "predictor_model_level_records": predictor_model_rows,
+            }
+
+            paper_stem = Path(source_file).stem
+            paper_output_file = self.output_dir / f"{paper_stem}.json"
+
+            paper_output_file.write_text(
+                json.dumps(consolidated_record, indent=2, ensure_ascii=False),
+                encoding="utf-8",
+            )
+
+            results.append(
+                {
+                    "source_file": source_file,
+                    "output_file": str(paper_output_file),
+                    "study_cohort_level_record_count": len(study_cohort_rows),
+                    "predictor_model_level_record_count": len(predictor_model_rows),
+                    "processed_chunks_count": len(paper_data["processed_chunks"]),
+                }
+            )
+
+        output_file = self.output_dir / "extraction_results.json"
 
         payload = {
             "input_json": str(INPUT_JSON),
             "images_dir": str(IMAGES_DIR),
+            "output_dir": str(self.output_dir),
             "output_file": str(output_file),
+            "total_papers": len(papers_data),
             "total_chunks": len(chunks),
-            "successful_chunks": len(results),
             "failed_chunks": len(errors),
-            "deduplicated_extractions": len(cache),
             "results": results,
             "errors": errors,
         }
 
         output_file.write_text(
             json.dumps(payload, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
+        # Write controlled_values.json as reference
+        controlled_values_file = self.output_dir / "controlled_values.json"
+        controlled_values_file.write_text(
+            json.dumps({"controlled_values": CONTROLLED_VALUES}, indent=2, ensure_ascii=False),
             encoding="utf-8",
         )
 
@@ -494,11 +579,12 @@ def main() -> None:
         payload = VisualPDFEvidenceExtractor().extract_from_input_json()
 
         summary: dict[str, Any] = {
+            "output_dir": payload["output_dir"],
             "output_file": payload["output_file"],
+            "total_papers": payload["total_papers"],
             "total_chunks": payload["total_chunks"],
-            "successful_chunks": payload["successful_chunks"],
             "failed_chunks": payload["failed_chunks"],
-            "deduplicated_extractions": payload["deduplicated_extractions"],
+            "results": payload["results"],
         }
 
         if payload["errors"]:

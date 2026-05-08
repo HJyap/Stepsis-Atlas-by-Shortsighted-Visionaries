@@ -1,0 +1,492 @@
+[
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_ https://doi.org/10.1186/s12879-022-07837-x",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 1,
+            "section": "General",
+            "chunk_id": "page_1_chunk_1"
+        }
+    },
+    {
+        "chunk_text": "Chan Hee Park , Jeong Woo Lee , Hak Jae Lee , Dong Kyu Oh , Mi Hyeon Park , Chae‑Man Lim and Suk‑Kyung Hong[2*] on behalf of the Korean Sepsis Alliance (KSA) investigators",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 1,
+            "section": "Clinical outcomes and prognostic factors of patients with sepsis caused by intra-abdominal infection in the intensive care unit: a post-hoc analysis of a prospective cohort study in Korea",
+            "chunk_id": "page_1_chunk_2"
+        }
+    },
+    {
+        "chunk_text": "**Background:** Sepsis is the most common cause of death in hospitals, and intra‑abdominal infection (IAI) accounts for a large portion of the causes of sepsis. We investigated the clinical outcomes and factors influencing mortality of patients with sepsis due to IAI.  \n**Methods:** This post‑hoc analysis of a prospective cohort study included 2126 patients with sepsis who visited 16 tertiary care hospitals in Korea (September 2019–February 2020). The analysis included 219 patients aged > 19 years who were admitted to intensive care units owing to sepsis caused by IAI.  \n**Results:** The incidence of septic shock was 47% and was significantly higher in the non‑survivor group (58.7% vs 42.3%, _p_ = 0.028). The overall 28‑day mortality was 28.8%. In multivariable logistic regression, after adjusting for age, sex, Charlson Comorbidity Index, and lactic acid, only coagulation dysfunction (odds ratio: 2.78 [1.47–5.23], _p_ = 0.001) was independently associated, and after adjusting for each risk factor, only simplified acute physiology score III (SAPS 3) ( _p_ < 0.001) and continuous renal replacement therapy (CRRT) ( _p_ < 0.001) were independently associated with higher 28‑day mortality.  \n**Conclusions:** The SAPS 3 score and acute kidney injury with CRRT were independently associated with increased 28‑day mortality. Additional support may be needed in patients with coagulopathy than in those with other organ dysfunctions due to IAI because patients with coagulopathy had worse prognosis.  \n**Keywords:** Intensive care unit, Intra‑abdominal infection, Mortality rate, Organ dysfunction, Sepsis, Source control",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 1,
+            "section": "**Abstract**",
+            "chunk_id": "page_1_chunk_3"
+        }
+    },
+    {
+        "chunk_text": "*Correspondence:  skhong94@amc.seoul.kr  \n2 Division of Acute Care Surgery, Department of Surgery, Asan Medical Center, University of Ulsan College of Medicine, 88 Olympic‑Ro 43‑Gil, Songpa‑Gu, Seoul 05505, Republic of Korea  \nFull list of author information is available at the end of the article  \nSepsis is an uncontrolled reaction of the host to infection, which can be potentially life-threatening. Accurate calculation of the global burden of sepsis is difficult. A recent study has reported approximately 48.9 million cases and 11 million sepsis-related deaths in 2017. This accounts for nearly 20% of all deaths worldwide, and sepsis is the most common cause of death in hospitals in the United  \n© The Author(s) 2022. **Open Access** This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat iveco mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 1,
+            "section": "**Introduction**",
+            "chunk_id": "page_1_chunk_4"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 2 of 11  \nStates . Sepsis is a major public health issue, and the costs for treating sepsis in hospitals have increased, exceeding US $24 billion per year . Likewise, the incidence of sepsis and the treatment costs in Korea have steadily increased, particularly among older adults .  \nIntra-abdominal infection (IAI) is defined as an inflammatory reaction to bacteria and their toxins in the peritoneum, resulting in a purulent exudate in the peritoneal cavity [5–8]. Among all the causes of sepsis, IAI is reportedly the second most common cause, with a relatively high mortality rate of nearly 30.0% . In particular, most sepsis cases in surgical intensive care units (ICUs) are caused by IAI. Source control and antibiotic use are essential in the treatment of these patients. Various forms of IAIs may exist, including those in the hepatobiliary tract, stomach, small bowel, and colon. In addition, there are differences in mortality and clinical outcomes according to the type of organ, degree of anatomical disruption, and duration of IAI . Treatment of IAI can be difficult because the spectrum of infection is wide compared with that of other infection causes and source control, wherein drainage or surgical treatment is often required.  \nHowever, studies on the clinical outcomes and impact of organ dysfunction in patients with sepsis due to IAI are limited. Therefore, the primary objective of our study was to investigate the clinical outcomes and the factors affecting the mortality in patients with sepsis due to IAI. The secondary objective was to determine the impact of organ dysfunction on mortality rates.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 2,
+            "section": "General",
+            "chunk_id": "page_2_chunk_5"
+        }
+    },
+    {
+        "chunk_text": "This post-hoc analysis of a prospective cohort study was performed by the Korean Sepsis Alliance (KSA) encompassing 16 tertiary or university-affiliated hospitals in Korea. The Steering Committee developed the research data collection methods to manage the sepsis data platform, periodically reviewed the progress of each study, and supervised the overall research progress in association with the Korea Disease Control and Prevention Agency (KDCA). The data used in this study were screened from all consecutive patients who visited the participating hospitals for six months (September 1, 2019, to February 29, 2020).  \nThis prospective cohort study analyzed data from the Korean sepsis registry, and this study was already deliberated as a service project by the KDCA. The study was approved by the institutional review boards (IRB) of all participating hospitals, including the IRB of Asan Medical Center (approval number 2018-0675). Data were collected and analyzed in an ethical manner while protecting the patients’ right to privacy. The requirement for  \ninformed consent was waived owing to the non-interventional, observational characteristics by the IRB of all participating hospitals, including the IRB of Asan Medical Center (approval number 2018-0675).",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 2,
+            "section": "**Study design, setting, and definition**",
+            "chunk_id": "page_2_chunk_6"
+        }
+    },
+    {
+        "chunk_text": "Our study enrolled a total of 2126 patients with sepsis who were admitted to the participating hospitals for 6 months. Of these patients, 901 were treated in ICUs. Finally, the study included 219 patients who were admitted to the ICU due to sepsis caused by IAI (Fig. 1). Sepsis patients aged ≥ 19 years were included and followed up until death or discharge. As defined by the Clinical Criteria of the Third International Consensus Definition (Sepsis-3), sepsis was defined as a life-threatening organ dysfunction resulting from an uncontrolled host response to infection . Organ dysfunction was included in the definition of sepsis, and the presence or absence of organ dysfunction was determined using a Sequential Organ Failure Assessment (SOFA) score. In this study, sepsis was diagnosed if the patient met the following two conditions: (1) suspicion or confirmation of infection and (2) increase in SOFA score by two points or more when an event occurred. The base SOFA score of each organ was assumed to be zero for patients with no known pre-existing organ dysfunction, and patients with a SOFA score of two or higher at the time of the event were enrolled in the study. Peritonitis caused by perforation of a hollow viscus, intra-abdominal abscess, biliary tract infection, pancreatic infection, enteritis, and colitis were defined as having IAI. The Eastern Cooperative Oncology Group (ECOG) scale is a measurement index created to check performance status, determine appropriate treatment policy, and predict prognosis in cancer patients. Using the ECOG scale, it is possible to objectively evaluate the patient’s level of functioning in terms of their ability to care for themselves, perform activities of daily living, and their physical ability. It is divided into six scales: (0) fully active and no performance restrictions; (1) strenuous physical activity restricted, fully ambulatory and able to carry out light work; (2) capable of all self-care but unable to carry out any work",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 2,
+            "section": "**Study design, setting, and definition**",
+            "chunk_id": "page_2_chunk_7"
+        }
+    },
+    {
+        "chunk_text": "active and no performance restrictions; (1) strenuous physical activity restricted, fully ambulatory and able to carry out light work; (2) capable of all self-care but unable to carry out any work activities; up and about > 50% of waking hours; (3) capable of only limited self-care and confined to bed or chair > 50% of waking hours; (4) completely disabled and cannot carry out any self-care; and (5) death. Continuous renal replacement therapy (CRRT) refers to patients who underwent CRRT for the treatment of acute kidney injury, and excludes patients who underwent conventional hemodialysis as renal replacement therapy. In community-acquired sepsis, time zero was defined as the time of an emergency room triage visit. In-hospital-acquired sepsis, time zero was defined as the first time the rapid response team recognized the sepsis. Source control was defined as non-surgical treatments such as percutaneous drainage, and surgical",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 2,
+            "section": "**Study design, setting, and definition**",
+            "chunk_id": "page_2_chunk_8"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 3 of 11  \n**Fig. 1** Flow chart of patients’ enrollment. _ICU_ intensive care unit, _IAI_ intra‑abdominal infection  \ntreatment such as debridement or laparotomy. Patients who were treated with antibiotics and received intensive care, without any such procedures, were considered not to have received source control.  \nand analysis of the number of organ dysfunctions. Additional data compared with those in previous studies were collected. However, these were not used in our study.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 3,
+            "section": "General",
+            "chunk_id": "page_3_chunk_9"
+        }
+    },
+    {
+        "chunk_text": "All trained research coordinators in each participating hospital completed their entry into the shared data platform, and the coordinating hospital evaluated the quality of the data for completeness and logical errors. The data collected retrospectively in each hospital were as follows: (1) patient characteristics, including age, sex, body mass index (BMI), Charlson Comorbidity Index (CCI), physiological status, medical history, SOFA score, simplified acute physiology score III (SAPS 3), and laboratory data at time zero; (2) clinical results, including the duration from time zero to antibiotic administration, source control implementation, and duration from time zero to source control implementation; (3) infection and microbiological data, including the type of isolated bacteria and fungi, occurrence of bacteremia and multidrug resistance (MDR), and location of infection; and (4) organ dysfunction data, including the type of organ dysfunction results  \nStatistical analysis was conducted by the staff of the coordinating center and by a professor at the Department of Clinical Epidemiology and Biostatistics, Asan Medical Center, who did not participate in data collection.  \nData are presented as numbers (percentages) or as mean ± standard deviation. The characteristics and clinical data of the survivor and non-survivor groups were compared using the chi-square test or Fisher’s exact test (for categorical variables) and Student’s t-test (for continuous variables). Risk factors associated with 28-day mortality were analyzed by univariate and then multivariate logistic regression, and the degree of association with 28-day mortality was presented as an independent factor by means of odds ratios (ORs) with their corresponding 95% confidence intervals. Infection profile data were analyzed using the number (percentage) or mean ± standard deviation. The microbiological data were described by total numbers and proportions, which showed the",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 3,
+            "section": "**Data collection**",
+            "chunk_id": "page_3_chunk_10"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 4 of 11  \ndistribution of bacteria and fungi in patients with sepsis due to IAI. Multivariate logistic regression analysis was used to estimate the association between organ dysfunction and 28-day mortality, with unadjusted and adjusted evaluations. We adjusted 28-day mortality for age, sex, CCI, and lactic acid levels. We used OR to present the impact of organ dysfunction on 28-day mortality and analyzed the impact of the number of organ dysfunctions on 28-day mortality using ORs in the logistic regression analysis. Also, the multiple logistic regression by stepwise selection was used to explain the 28-day mortality using independent variables. The logistic regression performance is denoted by c-statistics and Hosmer–Lemeshow tests. Differences were considered statistically significant at P < 0.05. All analyses were conducted using SPSS software (version 25.0; IBM Corp., Armonk, NY, USA).",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 4,
+            "section": "General",
+            "chunk_id": "page_4_chunk_11"
+        }
+    },
+    {
+        "chunk_text": "During the 6-month study period, total 2126 patients were admitted owing to sepsis at the participating hospitals; 219 (10.3%) were admitted to the ICU owing to sepsis caused by IAI according to collected data review. The 28-day mortality rate of all enrolled patients with = sepsis was 28.1% (n 598/2126). Among these patients, = the mortality rate was 28.8% (n 63/219) for sepsis due to IAI in the ICU.  \nPatient characteristics and clinical data at the time of sepsis diagnosis are summarized in Table 1. The mean age of the patients was 69.4 ± 13.1 years, and 53.9% were men. The mean BMI was 23.0 ± 4.2 kg/m ; no significant difference was noted in BMI between the survivor and non-survivor groups. The mean CCI in the non-survivor  \n**Table 1** Patient characteristics and clinical data  \n|**Table 1**Patient characteristics and clinical data|||||\n|---|---|---|---|---|\n||**All patients**|**Survivors**|**Non-survivors**|**P-value**|\n||**(n**=**219)**|**(n**=**156)**|**(n**=**63)**||\n|Age (years), mean (±SD)|69.4±13.1|69.1±13.0|70.2±13.5|0.886|\n|Sex, n (%)||||0.538|\n|Male|118 (53.9)|82 (52.6)|36 (57.1)||\n|BMI (kg/m2), mean (±SD)|23.0±4.2|22.8±3.9|23.6±4.8|0.091|\n|Charlson comorbidity index, mean (±SD)|5.3±2.6|5.1±2.3|5.9±3.0|0.011|\n|Initial ECOG score, n (%)||||0.075|\n|0|52 (23.7)|39 (25.0)|13 (20.6)||\n|1|59 (26.9)|46 (29.5)|13 (20.6)||\n|2|47 (21.5)|31 (19.9)|16 (25.4)||\n|3|38 (17.4)|21 (13.5)|17 (27.0)||\n|4|23 (10.5)|19 (12.2)|4 (6.3)||\n|Septic shock, n (%)|103 (47.0)|66 (42.3)|37 (58.7)|0.028|\n|Initial lactate level (mmol/L), mean (±SD)|5.3±4.0|4.5±3.1|7.2±5.0|< 0.001|\n|Initial SOFA score, mean (±SD)|9.5±4.0|8.4±3.1|12.2±4.6|< 0.001|\n|SAPS 3 score, mean (±SD)|73.9±16.4|70.1±14.4|83.4±17.3|0.098|\n|CRRT, n (%)|68 (31.1)|25 (16.0)|43 (68.3)|< 0.001|\n|Steroid use, n (%)|64 (29.2)|42 (26.9)|22 (34.9)|0.239|\n|Initial laboratory results|||||\n|Platelet count  (103/uL)|170.7±125.6|184.5±130.0|136±107.2|0.299|\n|Creatinine level (mg/dL)|2.1±1.9|1.96±2.0|2.40±1.5|0.796|",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 4,
+            "section": "**Patient characteristics and clinical data**",
+            "chunk_id": "page_4_chunk_12"
+        }
+    },
+    {
+        "chunk_text": "|Initial laboratory results|||||\n|Platelet count  (103/uL)|170.7±125.6|184.5±130.0|136±107.2|0.299|\n|Creatinine level (mg/dL)|2.1±1.9|1.96±2.0|2.40±1.5|0.796|\n|Total bilirubin level (mg/dL)|3.0±5.1|2.2±2.8|4.9±8.2|< 0.001|\n|CRP level (mg/dL)|14.2±10.3|14.3±9.5|14.0±12.2|0.027|\n|Procalcitonin level (ng/ml)|37.0±67.2|31.7±50.0|50.6±97.9|0.006|\n|BNP level (pg/mL)|699.0±1207.3|458.6±886.0|1312.0±1659.0|< 0.001|\n|Time zero to time of antibiotics administration (min)|184.7±303.0|171.4±238.8|217.5±422.8|0.495|\n|Source control, n (%)|90 (41.1)|73 (46.8)|17 (27.0)|0.007|\n|Source control time (h)|22.1±37.0|22.9±39.4|18.5±24.9|0.489|\n|Number of organ dysfunction, mean (±SD)|1.7±1.3|1.4±1.21|2.3±1.4|0.019|  \nData are shown as mean ± standard deviation or number (percentage) _SD_ standard deviation, _BMI_ body mass index, _ECOG_ Eastern Cooperative Oncology Group, _SOFA_ Sequential Organ Failure Assessment, _SAPS 3_ simplified acute physiology score III, _CRRT_ continuous renal replacement therapy, _CRP_ C-reactive protein, _BNP_ brain natriuretic peptide",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 4,
+            "section": "**Patient characteristics and clinical data**",
+            "chunk_id": "page_4_chunk_13"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 5 of 11  \ngroup was higher than that of the survivor group, with ± 3.0 vs. 5.1 ± 2.3, _p_ = 0.011). significant differences (5.9 The initial Eastern Cooperative Oncology Group scores ranged from 0 to 4. However, there was no significant difference in the scores between the two groups ( _p_ = 0.075). The incidence of septic shock was 47%, and was significantly higher in the non-survivor group than in the survivor group (58.7% vs. 42.3%, _p_ = 0.028). The initial lactate level was significantly higher in the non-survivor group than in the survivor group (7.2 ± 5.0 vs. 4.5 ± 3.1, p < 0.001). In addition, the initial SOFA score was significantly higher in the non-survivor group than in the survivor group (12.2 ± 4.6 vs. 8.4 ± 3.1, p < 0.001). Moreover, patients who underwent CRRT had a higher mortality rate than those who did not undergo CRRT (68.3% vs. 16%, p < 0.001). By contrast, no significant difference was noted in the number of patients who were prescribed steroids to treat sepsis between the two groups (26.9% vs. 34.9%, _p_ = 0.239). In the initial laboratory tests at time zero, total bilirubin, C-reactive protein, procalcitonin, and brain natriuretic peptide levels were higher in the non-survivor group.  \nIn addition, there was no significant difference between the two groups in the duration from time zero to the administration of antibiotics and source control. However, the number of patients who underwent source control through non-surgical treatment such as percutaneous drainage, or surgical treatment was significantly higher in the survivor group than in the non-survivor group (46.8% vs. 27%, _p_ = 0.007). The mean number of organ dysfunction was significantly higher in the nonsurvivor group than in the survivor group (2.3 ± 1.4 vs. 1.4 ± 1.2, _p_ = 0.019).",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 5,
+            "section": "General",
+            "chunk_id": "page_5_chunk_14"
+        }
+    },
+    {
+        "chunk_text": "Table 2 shows the distribution of the isolated microbiological pathogens expressed by per species percentage of bacteria and fungi from patients with sepsis due to IAI. Of the 219 patients, 157 (71.7%) were identified with a causative pathogen. Among the patients with isolated pathogens, gram-negative bacteria were found in 81.5%, gram-positive bacteria in 32.5%, and fungi in 4.5% of patients. Among the isolated causative pathogens in our study, the most common pathogen was _Escherichia coli_ (48.4%), followed by _Klebsiella pneumoniae_ (22.9%), _Enterococcus faecium_ (8.9%), and _Enterococcus faecalis_ (5.7%). Additionally, _Acinetobacter baumannii_ (4.5%), _Enterobacter cloacae_ (3.8%), _Klebsiella oxytoca_ (3.2%), and _Pseudomonas aeruginosa_ (3.2%) were other gram-negative bacteria, and _Staphylococcus aureus_ (1.8%) and _Corynebacterium striatum_  \n**Table 2** Distribution of the microbiological pathogens isolated from cultures in patients with sepsis due to IAI  \n||**No. of patients (total,**|**% Total**|\n|---|---|---|\n||**n**=**157)**||\n|Gram‑positive|51|32.5|\n|_Enterococcus faecium_|14|8.9|\n|_Enterococcus faecalis_|9|5.7|\n|_Staphylococcus aureus_|4|1.8|\n|_Corynebacterium striatum_|1|0.5|\n|Others|26|11.9|\n|Gram‑negative|128|81.5|\n|_Escherichia coli_|76|48.4|\n|_Klebsiella pneumoniae_|36|22.9|\n|_Acinetobacter baumannii_|7|4.5|\n|_Enterobacter cloacae_|6|3.8|\n|_Klebsiella oxytoca_|5|3.2|\n|_Pseudomonas aeruginosa_|5|3.2|\n|Others|24|15.3|\n|Fungus|7|4.5|\n|_Candida albicans_|5|3.2|\n|_Candida glabrata_|4|2.5|\n|_Candida krusei_|1|0.6|  \n(0.5%) were other gram-positive bacteria. Moreover, _Candida albicans_ (3.2%), _Candida glabrata_ (2.5%), and _Candida krusei_ (0.6%) were the identified fungi.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 5,
+            "section": "**Microbiological pathogens (or spectrum) and characteristics**",
+            "chunk_id": "page_5_chunk_15"
+        }
+    },
+    {
+        "chunk_text": "|_Candida krusei_|1|0.6|  \n(0.5%) were other gram-positive bacteria. Moreover, _Candida albicans_ (3.2%), _Candida glabrata_ (2.5%), and _Candida krusei_ (0.6%) were the identified fungi.  \nBacteremia occurred in 49.3% of all patients, and did not differ significantly between the survivor and nonsurvivor groups (48.7% vs. 50.8%, _p_ = 0.781). Among the identified pathogens, there were no statistically significant differences in the types of bacteria and fungus between the survivor and the non-survivor groups. Mixed growth was defined as the detection of more than one type of gram-positive, gram-negative, and fungal pathogens. Of the patients with identified causative pathogens, 19.1% had a mixed growth on culture. The proportion of patients with mixed growth was higher in the non-survivor group than in the survivor group, although the difference was not statistically sig- _p_ = nificant (27.5% vs. 16.2%, 0.304). MDR was defined as the antimicrobial resistance of a microorganism to at least one antibiotic in three or more antimicrobial categories . The overall prevalence of MDR pathogens did not differ significantly between the survivor and non-survivor groups (47.9% vs. 40.0%, _p_ = 0.134). Among the MDR pathogens, the most common were _Enterobacteriaceae_ (54.2%), followed by _Enterococcus_ spp _._ (12.5%), _Acinetobacter_ spp. (4.2%), _Staphylococcus aureus_ (2.8%), and _Pseudomonas aeruginosa_ (2.8%). There was no difference in the mortality rate according to the location of infection (Table 3).",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 5,
+            "section": "**Microbiological pathogens (or spectrum) and characteristics**",
+            "chunk_id": "page_5_chunk_16"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 6 of 11  \n**Table 3** Microbiological profile on survivors and non‑survivors  \n||**All patients**|**Survivors**|**Non-survivors**|**P-value**|\n|---|---|---|---|---|\n||**(n**=**219)**|**(n**=**156)**|**(n**=**63)**||\n|Identifed pathogens, n (%)|157 (71.1)|117 (75.0)|40 (63.5)|0.087|\n|Bacteremia, n (%)|108 (49.3)|76 (48.7)|32 (50.8)|0.781|\n|Type of bacteria, n (%)|||||\n|Gram‑positive|51 (32.5)|34 (29.1)|17 (42.5)|0.112|\n|Gram‑negative|128 (81.5)|95 (81.2)|33 (82.5)|0.322|\n|Fungus, n (%)|7 (4.5)|6 (5.1)|1 (2.5)|0.390|\n|Mixed growth, n (%)|30 (19.1)|19 (16.2)|11 (27.5)|0.304|\n|MDR, n (%)|72 (45.9)|56 (47.9)|16 (40.0)|0.134|\n|_Enterobacteriaceae_|39 (54.2)|30 (53.6)|9 (56.3)|0.387|\n|_Enterococcus_spp.|9 (12.5)|5 (8.9)|4 (25.0)|0.289|\n|_Acinetobacter_spp.|3 (4.2)|2 (3.6)|1 (6.3)|0.860|\n|_Staphylococcus aureus_|2 (2.8)|1 (1.8)|1 (6.3)|0.505|\n|_Pseudomonas aeruginosa_|2 (2.8)|2 (3.6)|0|0.367|\n|Others|21 (29.2)|18 (32.1)|3 (18.8)|0.123|\n|Location of infection, n (%)|||||\n|Community‑acquired|135 (61.6)|96 (61.5)|39 (61.9)|0.960|\n|Healthcare‑acquired|84 (38.4)|60 (38.5)|24 (38.1)|0.960|  \n_MDR_ multidrug resistance  \n**Table 4** Organ dysfunction analysis data in sepsis due to IAI  \n||**All patients**|**Survivors**|**Non-survivors**|**P-value**|\n|---|---|---|---|---|\n||**(n**=**219)**|**(n**=**156)**|**(n**=**63)**||\n|_Organ dysfunction, n (%)_|||||\n|Respiratory|80 (36.5)|50 (62.5)|30 (37.5)|0.030|\n|Coagulation|75 (34.2)|42 (56.0)|33 (44.0)|< 0.001|\n|Liver|40 (18.3)|29 (72.5)|11 (27.5)|0.845|\n|Cardiovascular|56 (25.6)|36 (64.3)|20 (35.7)|0.183|\n|CNS|43 (19.6)|24 (55.8)|19 (44.2)|0.013|\n|Renal|79 (36.1)|49 (62.0)|30 (38.0)|0.024|  \n_IAI_ intra-abdominal infection, _CNS_ central nervous system",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 6,
+            "section": "General",
+            "chunk_id": "page_6_chunk_17"
+        }
+    },
+    {
+        "chunk_text": "In the organ dysfunction analysis, the most common type of organ dysfunction in patients with sepsis due to IAI was respiratory dysfunction (36.5%), followed by renal (36.1%), coagulation (34.2%), cardiovascular (25.6%), central nervous system (CNS) (19.6%), and liver (18.3%) dysfunctions. Among the dysfunctional organs, the mortality rate associated with each organ dysfunction was the highest in patients with CNS dysfunction, followed by coagulation, renal, respiratory, cardiovascular, and liver dysfunctions (Table 4).  \nMultivariate logistic regression analysis was used to estimate the association between organ dysfunction and 28-day mortality. Among the organ dysfunctions, the 28-day mortality rate was more significantly  \n**Table 5** Multivariable logistic regression analysis for each organ dysfunction in patients with sepsis due to IAI  \n|**Variable**|**Crude**<br>**OR (95% CI)**<br>**P**|**Adjusted**|\n|---|---|---|\n|||**OR (95% CI)**<br>**P-value**|\n|Respiratory<br>Coagulation<br>Liver<br>Cardiovascular<br>Central nervous<br>system<br>Renal|1.93 (1.06–3.5)<br>0.031<br>2.99 (1.63–5.48)<br>< 0.001<br>0.93 (0.43–1.99)<br>0.845<br>1.55 (0.81–2.96)<br>0.185<br>2.38 (1.19–4.75)<br>0.014<br>1.99 (1.09–3.61)<br>0.025|1.71 (0.9–3.25) 0.102<br>2.78 (1.47–5.23) 0.001<br>0.99 (0.44–2.25) 0.979<br>1.35 (0.67–2.71) 0.398<br>1.79 (0.85–3.79) 0.127<br>1.45 (0.76–2.76) 0.260|  \nAdjusting was performed according to age, sex, CCI, and lactic acid level _IAI_ intra-abdominal infection, _OR_ odds ratio, _CI_ confidence interval, _CCI_ Charlson Comorbidity Index  \naffected with coagulation (OR = 2.99 [1.63–5.48], _p_ < 0.001), CNS (OR = 2.38 [1.19–4.75], _p_ = 0.014), renal (OR = 1.99 [1.09–3.61], _p_ = 0.024), and respiratory (OR = 1.93 [1.06–3.5], _p_ = 0.031) dysfunctions. Furthermore, after adjusting for age, sex, CCI, and lactic acid level, only coagulation dysfunction appeared to affect 28-day mortality significantly (OR = 2.78 [1.47– 5.23], _p_ = 0.001) (Table 5).",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 6,
+            "section": "**Organ dysfunction**",
+            "chunk_id": "page_6_chunk_18"
+        }
+    },
+    {
+        "chunk_text": "On studying the association between the number of organ dysfunctions and the 28-day mortality rate, mortality was found to be 24.7% (n = 20/81, _p_ = 0.307) in patients with one organ dysfunction and 18.4% (n = 9/49,",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 6,
+            "section": "**Organ dysfunction**",
+            "chunk_id": "page_6_chunk_19"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 7 of 11  \n_p_ = 0.068) in patients with two organ dysfunctions. The 28-day mortality was 55.6% in patients with three organ dysfunctions (OR = 9.06 [2.64–31.15], _p_ = 0.001) and 50% in patients with four or more organ dysfunctions (OR = 7.25 (1.85–28.36], _p_ = 0.004). In patients with three or more organ dysfunctions, 28-day mortality was more than twice that of single organ dysfunction (Table 6). In time, the mortality rate in patients with more than three organ dysfunctions distinctly increased.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 7,
+            "section": "General",
+            "chunk_id": "page_7_chunk_20"
+        }
+    },
+    {
+        "chunk_text": "CCI, septic shock, initial lactate level, initial SOFA score, SAPS 3 score, CRRT, source control, and the number of dysfunctional organs were associated with 28-day mortality in the univariate analyses. In the multivariate  \n**Table 6** OR of multiple organ dysfunctions for 28‑day mortality in logistic regression analysis  \n|**Number**|**n**|**Mortality**|**OR (95% CI) Crude**|**P-value**|\n|---|---|---|---|---|\n|**of organ**|||||\n|**dysfunction**|||||\n|0|33|4/33 (12.1)|Reference||\n|1|81|20/81 (24.7)|2.38 (0.74–7.59)|0.144|\n|2|49|9/49 (18.4)|1.63 (0.46–5.81)|0.451|\n|3|36|20/36 (55.6)|9.06 (2.64–31.15)|0.001|\n|≥4|20|10/20 (50.0)|7.25 (1.85–28.36)|0.004|  \n_OR_ odds ratio, _CI_ confidence interval C-statistics = 0.69, Hosmer–Lemeshow test _p_ = 1.000  \nlogistic regression analysis, after adjusting for each risk and confounding factor, only the SAPS 3 score ( _p_ < 0.001) and CRRT ( _p_ < 0.001) were independently associated with higher 28-day mortality (Table 7).",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 7,
+            "section": "**Predictive factors for 28-day mortality**",
+            "chunk_id": "page_7_chunk_21"
+        }
+    },
+    {
+        "chunk_text": "Despite the increased incidence of sepsis and septic shock, recent studies have consistently shown a decrease in sepsis mortality over time, owing to advances in medical technology . However, the overall in-hospital mortality rate due to sepsis was still quite high at 29.0% in some recent studies in Korea . Similarly, our study showed that the overall in-hospital mortality rate with sepsis was 28.1%, and the mortality rate for sepsis caused by IAI was 23.3%. In addition, in the ICU, the overall sepsis mortality rate was 35.1%, and the mortality rate of sepsis due to IAI was 28.8%. The finding of higher sepsis mortality rates in the ICU is not surprising because patients treated in the ICU tend to have more severe disease than patients treated in the wards, but more efforts should be made to reduce the high mortality rates.  \nThere have been many studies on tools for predicting the progress and prognosis of the disease, which are still underway [15–17]. One of the most important factors affecting the mortality and clinical outcomes in sepsis is comorbidity, and the CCI can quantify a patient’s comorbidity. In this time of aging populations, the CCI of patients is increasing. The CCI is widely used as a tool to predict the mortality rate of patients with sepsis due to IAI and determine their prognosis in advance [14,  \n**Table 7** Multivariable logistic regression analysis for 28‑day mortality in patients with sepsis due to IAI  \n|**Variable**|**Univariable**<br>**OR (95% CI)**<br>**P-value**|**Multivariable**|\n|---|---|---|\n|||**OR (95% CI)**<br>**P-value**|",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 7,
+            "section": "**Discussion**",
+            "chunk_id": "page_7_chunk_22"
+        }
+    },
+    {
+        "chunk_text": "|**Variable**|**Univariable**<br>**OR (95% CI)**<br>**P-value**|**Multivariable**|\n|---|---|---|\n|||**OR (95% CI)**<br>**P-value**|\n|Age (years), mean (±SD)<br>BMI (kg/m2), mean (±SD)<br>Charlson comorbidity index, mean (±SD)<br>Septic shock, n (%)<br>Initial lactate level (mmol/L), mean (±SD)<br>Initial SOFA score, mean (±SD)<br>SAPS 3 score, mean (±SD)<br>CRRT, n (%)<br>Bacteremia, n (%)<br>Time zero to time of antibiotic administration (min)<br>Source control, n (%)<br>Source control time (h), mean (±SD)<br>Number of organ dysfunction, n (%)<br>MDR, n (%)|1.01 (0.98–1.03)<br>0.581<br>1.04 (0.97–1.12)<br>0.239<br>1.13 (1.00–1.26)<br>0.039<br>1.94 (1.07–3.51)<br>0.029<br>1.19 (1.09–1.3)<br>< 0.001<br>1.24 (1.12–1.36)<br>< 0.001<br>1.05 (1.03–1.08)<br>< 0.001<br>109.58 (24.89–482.48)<br>< 0.001<br>1.09 (0.61–1.95)<br>0.780<br>1.00 (1.00–1.01)<br>0.330<br>2.38 (1.26–4.51)<br>0.008<br>1.00 (1.00–1.00)<br>0.660<br>1.66 (1.30–2.13)<br>< 0.001<br>0.61 (0.32–1.17)<br>0.136|1.04 (1.02–1.07)<br>< 0.001<br>7.71 (3.76–15.82)<br>< 0.001<br>2.02 (0.95–4.30)<br>0.069|  \n_IAI_ intra-abdominal infection, _OR_ odds ratio, _CI_ confidence interval, _BMI_ body mass index, _SOFA_ Sequential Organ Failure Assessment, _SAPS 3_ simplified acute physiology score III, _CRRT_ continuous renal replacement therapy, _MDR_ multidrug resistance Multiple logistic: C-statistics = 0.83, Hosmer–Lemeshow test _p_ = 0.53",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 7,
+            "section": "**Discussion**",
+            "chunk_id": "page_7_chunk_23"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 8 of 11  \n18, 19]. In our study, the mean CCI in the non-survivor group was higher than that in the survivor group, with ± 3.0 vs. 5.1 ± 2.3, _p_ = 0.011). significant differences (5.9 In addition, CCI ( _p_ = 0.039, OR = 1.13 [1.00–1.26]) was an independent risk factor for mortality prediction in the univariate logistic regression analysis.  \nMulticenter research and efforts are being conducted worldwide to improve the clinical outcomes of patients with sepsis. For instance, the Surviving Sepsis Campaign released new guidelines for the treatment of sepsis and a new updated “Hour-1 bundle” for sepsis treatment . Immediate resuscitation, initial early screening, antibiotic treatment, and source control are imperative to improve patient outcomes . In addition, initial lactate levels and initial SOFA scores can be used to predict clinical progress and prognosis of sepsis. A large number of studies have already shown that, the higher the initial lactate level and initial SOFA score, the higher the mortality rate in patients with sepsis . In our study, initial lactate level and SOFA score were also independent risk factors in predicting the mortality rate in patients with sepsis caused by IAI (p < 0.001).",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 8,
+            "section": "General",
+            "chunk_id": "page_8_chunk_24"
+        }
+    },
+    {
+        "chunk_text": "In the treatment of patients with sepsis due to IAI, the usage of antibiotics and source control is very important. Adequate and swift antibiotic administration and coverage from the time of recognition of sepsis are vital [24–27]. Although no significant difference was noted, the non-survivor group showed a tendency of delayed antibiotic administration in our study compared with that in the survivor group (217.5 ± 422.8 min vs. 171.4 ± 238.8 min, _p_ = 0.495). Sepsis caused by IAI due to biliary sepsis, intestinal perforation, postoperative leakage, and intra-abdominal abscess can be controlled using open laparotomy, percutaneous transhepatic biliary drainage, and percutaneous catheter drainage insertion. Ultimately, the prognosis of patients with sepsis depends on the source controls, and the faster the source control, the lower is the mortality rate . Our study showed a significantly higher number of survivors in the source control group (46.8% vs. 27.0%, _p_ = 0.007).  \nIn several studies on IAI, _E. coli_ and _K. pneumoniae_ were the most common gram-negative causative pathogens. In gram-positive pathogens, most of them were _E. faecalis_ and _E. faecium_ . In our study, the same pathogens were also detected and the proportion was similar, as previously mentioned. In several studies, identifying causative pathogens were not significantly correlated to mortality . Likewise, in our study, there was no significant difference in the identification of causative pathogens between the survivor group and the non-survivor group. However, a study by Gupta et al.  showed that the mortality rate was higher in patients in whom the causative pathogen was not identified, and  \nthat non-identification of the pathogen was an independent predictor of death. Additionally, some studies on IAI have shown that MDR is an independent risk factor for mortality . However, the impact of MDR on _p_ = 0.136). mortality was not significant in our study (",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 8,
+            "section": "General",
+            "chunk_id": "page_8_chunk_25"
+        }
+    },
+    {
+        "chunk_text": "Organ dysfunction is a useful prognostic indicator for mortality in patients with sepsis, and the mortality rate increases significantly as the number of organ dysfunctions increases [34–36]. In one study by Umegaki et al. , patients with three (23.5%) and four or more organ dysfunctions (38.9%) had over two and four times the ICU mortality rates, respectively, compared with that of single organ dysfunction (8.9%). In addition, the hazard ratios were 1.6, 2.0, and 2.7 in 2-, 3-, and 4 or more organ dysfunctions, respectively, showing an increasing trend as the number of organ dysfunctions increases. In our study, the mortality rate was more than two-fold higher in patients with three organ dysfunctions (55.6%) or four or more organ dysfunctions (50.0%) than that of patients with a single organ dysfunction (24.7%) or two organ dys- _p_ = 0.001) and functions (18.4%). The ORs were also 9.06 ( 7.25 ( _p_ = 0.004) in patients with three and four or more organ dysfunctions, respectively. Similarly, the dysfunction of three or more organs in our study could be considered as an independent risk factor for mortality.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 8,
+            "section": "General",
+            "chunk_id": "page_8_chunk_26"
+        }
+    },
+    {
+        "chunk_text": "The impact of each organ dysfunction on mortality and the proportion of organ dysfunction occurring in patients with sepsis varies between the studies. In several studies of organ dysfunction in patients with sepsis, respiratory and cardiovascular dysfunction were the most common . However, in our study of patients with sepsis due to IAI, respiratory and renal dysfunction were the most common. In some studies of patients with sepsis, respiratory and cardiovascular dysfunctions had a higher mortality rate than that of patients with other organ dysfunctions [13, 34–36]. However, in our study, the mortality rate was higher in patients with CNS or coagulation dysfunction than in patients with other organ dysfunctions. There are few studies on the impact of each organ dysfunction on mortality in sepsis caused by IAI, so the exact mechanisms by which different organ dysfunctions are associated with death are poorly understood. However, some other studies have shown a higher mortality rate in patients with CNS or coagulation dysfunction than in patients with respiratory or cardiovascular dysfunction , as in our study.  \nThe coagulation cascade may be abrogated owing to the aberrant expression of cytokines and tissue factors in response to sepsis with systemic inflammation. Microvascular thrombosis and ischemia are the most important processes in sepsis, causing tissue damage and multiple organ dysfunctions . As the coagulation system is disordered, sepsis-induced coagulopathy",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 8,
+            "section": "General",
+            "chunk_id": "page_8_chunk_27"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 9 of 11  \noccurs, and manifestations of bleeding increase [38–40]. Several studies have shown that coagulopathy in patients with sepsis is associated with high mortality rates . In our study, coagulation dysfunction was closely related to mortality, which may have been due to sepsisinduced coagulopathy or bleeding tendency. However, in this study, data were not collected on the cause of death, so it is unknown whether the deaths were caused by bleeding.  \nThis study has several limitations. First, this was a retrospective study based on medical records conducted in multiple institutions. Each hospital differed in its treatment policy, level, and system, including its facilities. As this study did not only focus on sepsis caused by IAI, the data may also be inadequate. To overcome these limitations, a prospective study of patients with sepsis caused by IAIs may be needed.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "General",
+            "chunk_id": "page_9_chunk_28"
+        }
+    },
+    {
+        "chunk_text": "In our study, CCI, septic shock, initial lactate level, initial SOFA score, SAPS 3 score, acute kidney injury with CRRT, source control, and the number of dysfunctional organs were found to be independent risk factors affecting 28-day mortality. Among the organ dysfunctions in sepsis caused by IAI, coagulopathy was found to be an independent risk factor for 28-day mortality. Therefore, more intensive care may be needed because the prognosis could be worse in patients with coagulopathy than in those with other organ dysfunctions due to IAI.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Conclusions**",
+            "chunk_id": "page_9_chunk_29"
+        }
+    },
+    {
+        "chunk_text": "IAI: Intra‑abdominal infection; ICUs: Intensive care units; KSA: Korean Sepsis Alliance; KDCA: Korea Disease Control and Prevention Agency; SOFA: Sequen‑ tial Organ Failure Assessment; BMI: Body mass index; CCI: Charlson Comor‑ bidity Index; SAP 3: Simplified acute physiology score III; MDR: Multidrug resistance; ORs: Odds ratios; CRRT : Continuous renal replacement therapy; CNS: Central nervous system.  \n**Acknowledgements** Not applicable.  \n_Consortium list:_ The following persons and institutions participated in the Korean Sepsis Alliance (KSA): _Steering Committee—_ Chae‑Man  Lim[c] (Chair), Sang‑Bum  Hong[c] , Dong Kyu  oh[c] , Gee Young  Suh[d] , Kyeongman  Jeon[d] , Ryoung‑Eun  Ko[d] , Young‑Jae  Cho[e] , Yeon Joo  Lee[e] , Sung Yoon  Lim[e] , Sunghoon Park[f]  \n_Participated Persons and Centers:_ Chae‑Man  Lim[c] , Suk‑Kyung  Hong[b] , Sang Hyun Kwak[g] , Song‑I  Lee[h] , Jae Young  Moon[i] , Kyung Chan  Kim[j] , Sunghoon  Park[f] , Tai Sun  Park[k] , Youjin  Chang[l] , Gil Myeong  Seong[m] , Heung Bum  Lee[n] , Jeongwon Heo[o] , Jae‑myeong  Lee[p] , Woo Hyun  Cho[q] , Kyeongman  Jeon[d] , Yeon Joo  Lee[e] , Sang‑Min  Lee[r] , Su Hwan  Lee[s] , Jong‑Joon  Ahn[t] , Eun Young  Choi[u] . bDivision of Acute Care Surgery, Department of Surgery, Asan Medical center, University of Ulsan College of Medicine, Seoul, Republic of Korea;[c] Depart‑ ment of Pulmonary and Critical Care Medicine, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea;[d] Department of Critical Care Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea;[e] Department of Pulmonary and Critical Care Medicine, Seoul National University Bundang Hospital, Seongnam, Republic of Korea;[f] Department of Pulmonary, Allergy and Critical Care Medicine, Hallym University Sacred Heart Hospital, Anyang, Republic of Korea;[g] Department of Anesthesiology, Chonnam National University",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Abbreviations**",
+            "chunk_id": "page_9_chunk_30"
+        }
+    },
+    {
+        "chunk_text": "Hospital, Gwangju, Republic of Korea;[h] Division of Pulmonary and Critical Care Medicine, Department of Internal Medicine, Chungnam National University Hospital, Daejeon, Republic of Korea;[i] Division of Pulmonary and Critical Care Medicine, Department of Internal Medicine, Chungnam National University Sejong Hospital, Sejong, Republic of Korea;[j] Department of Internal Medicine, Daegu Catholic University Medical Center, Daegu Catholic University College of Medicine, Daegu, Republic of Korea;[k] Division of Pulmonology, Department of Internal Medicine, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Republic of Korea;[l] Division of Pulmonary and Criti‑ cal Care Medicine, Department of Internal Medicine, Inje University Sanggye Paik Hospital, Seoul, Republic of Korea;[m] Department of Internal Medicine, Jeju National University Hospital, Jeju National University School of Medicine, Jeju, Republic of Korea;[n] Department of Internal Medicine, Research Center for Pulmonary Disorders, Jeonbuk National University Medical School, Jeonju, Republic of Korea;[o] Department of Internal Medicine, Kangwon National University Hospital, Chuncheon, Republic of Korea;[p] Department of Acute Care Surgery, Korea University Anam Hospital, Korea University College of Medicine, Seoul, Republic of Korea;[q] Division of Allergy, Pulmonary and Critical Care Medicine, Department of Internal Medicine, Pusan National University Yangsan Hospital, Yangsan, Republic of Korea;[r] Department of Pulmonary and Critical Care Medicine, Seoul National University Hospital, Seongnam, Republic of Korea;[s] Department of Internal Medicine, Severance Hospital, Yonsei University College of Medicine, Seoul, Republic of Korea;[t] Department of Internal Medicine, Ulsan University Hospital, University of Ulsan College of Medicine, Ulsan, Republic of Korea;[u] Division of Respiratory and Critical Care Medicine, Department of Internal Medicine, Yeungnam University Medical",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Abbreviations**",
+            "chunk_id": "page_9_chunk_31"
+        }
+    },
+    {
+        "chunk_text": "Hospital, University of Ulsan College of Medicine, Ulsan, Republic of Korea;[u] Division of Respiratory and Critical Care Medicine, Department of Internal Medicine, Yeungnam University Medical Center, Daegu, Republic of Korea",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Abbreviations**",
+            "chunk_id": "page_9_chunk_32"
+        }
+    },
+    {
+        "chunk_text": "CH analyzed and interpreted the patient data regarding sepsis patients. JW and HJ reviewed the literature and contributed to manuscript drafting. All authors read and approved the final manuscript.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Author contributions**",
+            "chunk_id": "page_9_chunk_33"
+        }
+    },
+    {
+        "chunk_text": "This work was supported by the Research Program funded by the Korea Disease Control and Prevention Agency (fund code 2020E280700).",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Funding**",
+            "chunk_id": "page_9_chunk_34"
+        }
+    },
+    {
+        "chunk_text": "The datasets generated during and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Availability of data and materials**",
+            "chunk_id": "page_9_chunk_35"
+        }
+    },
+    {
+        "chunk_text": "This study was conducted according to the guidelines of the Declaration of Helsinki. The study was approved by the Institutional Review Board of Asan Medical Center (approval number 2018‑0675). And this study also approved by the Institutional Review Boards of all participating hospitals; Chonnam National University Hospital (approval number CNUH2029075), Chungnam National University Hospital (approval number 2019‑11‑048‑001), Daegu Catholic University Medical Center (approval number CR‑18‑163‑L), Hallym University Sacred heart hospital (approval number 2018‑09‑004), Hanyang University Guri Hospital (approval number 2020‑08‑015), Inje University Sang‑ gye Paik Hospital (approval number 2018‑08‑014), Jeju National University Hospital (approval number 2018‑06‑012), Jeonbuk national university hospital (approval number CUH 2018‑10‑027), Kangwon national university hospital (approval number 2018‑08‑004‑001), Korea University Anam Hospital (approval number 2 0 1 9 A N 0 0 2 7), Pusan National University Yangsan Hospital (approval number 05‑2019‑092), Samsung Medical Center (approval number 2018‑05‑108), Seoul National University Bundang Hospital (approval number B‑1810‑500‑402), Seoul national university hospital (approval number H‑1808‑135‑967), Ulsan university hospital (approval number UUH 2018‑08‑ 003). Data were collected and analyzed in an ethical manner while protect‑ ing the patients’ right to privacy. The requirement for informed consent was waived by the Institutional Review Boards (IRB) of all participating hospitals owing to the non‑interventional, observational study design.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Ethics approval and consent to participate**",
+            "chunk_id": "page_9_chunk_36"
+        }
+    },
+    {
+        "chunk_text": "Not applicable.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 9,
+            "section": "**Consent for publication**",
+            "chunk_id": "page_9_chunk_37"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 10 of 11",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 10,
+            "section": "General",
+            "chunk_id": "page_10_chunk_38"
+        }
+    },
+    {
+        "chunk_text": "All authors declare that they have no competing interests.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 10,
+            "section": "**Competing interests**",
+            "chunk_id": "page_10_chunk_39"
+        }
+    },
+    {
+        "chunk_text": "1 Division of Trauma Surgery, Department of Surgery, Dongsan Medical Center, Keimyung University School of Medicine, Daegu, Republic of Korea. Division of Acute Care Surgery, Department of Surgery, Asan Medical Center, University of Ulsan College of Medicine, 88 Olympic‑Ro 43‑Gil, Songpa‑Gu, Seoul 05505, Republic of Korea. Department of Pulmonary and Critical Care Medicine, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.  \nReceived: 27 July 2022   Accepted: 3 November 2022",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 10,
+            "section": "**Author details**",
+            "chunk_id": "page_10_chunk_40"
+        }
+    },
+    {
+        "chunk_text": "1. Rudd KE, Johnson SC, Agesa KM, Shackelford KA, Tsoi D, Kievlan DR, et al. Global, regional, and national sepsis incidence and mortality, 1990–2017: analysis for the Global Burden of Disease Study. Lancet. 2020;395:200–11. https:// doi. org/ 10. 1016/ S0140‑ 6736(19) 32989‑7.  \n2. Liu V, Escobar GJ, Greene JD, Soule J, Whippy A, Angus DC, et al. Hospital deaths in patients with sepsis from 2 independent cohorts. JAMA. 2014;312:90–2. https:// doi. org/ 10. 1001/ jama. 2014. 5804.  \n3. Martin AB, Hartman M, Benson J, Catlin A, National Health Expenditure Accounts Team. National health spending in 2014: faster growth driven by coverage expansion and prescription drug spending. Health Aff (Millwood). 2016;35:150–60. https:// doi. org/ 10. 1377/ hltha ff. 2015. 1194.  \n4. Oh SY, Cho S, Kim GH, Jang EJ, Choi S, Lee H, et al. Incidence and out‑ comes of sepsis in Korea: a nationwide cohort study from 2007 to 2016. Crit Care Med. 2019;47:e993–8. https:// doi. org/ 10. 1097/ CCM. 00000 00000 004041.  \n5. Lopez N, Kobayashi L, Coimbra R. A comprehensive review of abdomi‑ nal infections. World J Emerg Surg. 2011;6:7. https:// doi. org/ 10. 1186/ 1749‑ 7922‑6‑7.  \n6. Sartelli M, Chichom‑Mefire A, Labricciosa FM, Hardcastle T, Abu‑Zidan FM, Adesunkanmi AK, et al. The management of intra‑abdominal infections from a global perspective: 2017 WSES guidelines for management of intra‑abdominal infections. World J Emerg Surg. 2017;12:29. https:// doi. org/ 10. 1186/ s13017‑ 015‑ 0013‑x.  \n7. Solomkin JS, Mazuski JE, Bradley JS, Rodvold KA, Goldstein EJ, Baron EJ, et al. Diagnosis and management of complicated intra‑abdominal infection in adults and children: guidelines by the Surgical Infection Society and the Infectious Diseases Society of America. Clin Infect Dis. 2010;50:133–64. https:// doi. org/ 10. 1086/ 649554.  \n8. Wittmann DH, Schein M, Condon RE. Management of secondary peritoni‑ tis. Ann Surg. 1996;224:10–8. https:// doi. org/ 10. 1097/ 00000 658‑ 19960 7000‑ 00003.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 10,
+            "section": "**References**",
+            "chunk_id": "page_10_chunk_41"
+        }
+    },
+    {
+        "chunk_text": "8. Wittmann DH, Schein M, Condon RE. Management of secondary peritoni‑ tis. Ann Surg. 1996;224:10–8. https:// doi. org/ 10. 1097/ 00000 658‑ 19960 7000‑ 00003.  \n9. Blot S, Antonelli M, Arvaniti K, Blot K, Creagh‑Brown B, de Lange D, et al. Epidemiology of intra‑abdominal infection and sepsis in critically ill patients: “AbSeS”, a multinational observational cohort study and ESICM Trials Group Project. Intensive Care Med. 2019;45:1703–17. https:// doi. org/ 10. 1007/ s00134‑ 019‑ 05819‑3.  \n10. Jeon K, Na SJ, Oh DK, Park S, Choi EY, Kim SC, et al. Characteristics, management and clinical outcomes of patients with sepsis: a multicenter cohort study in Korea. Acute Crit Care. 2019;34:179–91. https:// doi. org/ 10. 4266/ acc. 2019. 00514.  \n11. Singer M, Deutschman CS, Seymour CW, Shankar‑Hari M, Annane D, Bauer M, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis‑3). JAMA. 2016;315:801–10. https:// doi. org/ 10. 1001/ jama. 2016. 0287.  \n12. Magiorakos AP, Srinivasan A, Carey RB, Carmeli Y, Falagas ME, Giske CG, et al. Multidrug‑resistant, extensively drug‑resistant and pandrug‑ resistant bacteria: an international expert proposal for interim standard definitions for acquired resistance. Clin Microbiol Infect. 2012;18:268–81. https:// doi. org/ 10. 1111/j. 1469‑ 0691. 2011. 03570.x.  \n13. Pedersen PB, Henriksen DP, Brabrand M, Lassen AT. Prevalence of organ failure and mortality among patients in the emergency department: a population‑based cohort study. BMJ Open. 2019;9: e032692. https:// doi. org/ 10. 1136/ bmjop en‑ 2019‑ 032692.  \n14. Kim J, Kim K, Lee H, Ahn S. Epidemiology of sepsis in Korea: a population‑ based study of incidence, mortality, cost and risk factors for death in sepsis. Clin Exp Emerg Med. 2019; 6:49–63. https:// doi. org/ 10. 15441/ ceem. 18. 007.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 10,
+            "section": "**References**",
+            "chunk_id": "page_10_chunk_42"
+        }
+    },
+    {
+        "chunk_text": "15. Balcan B, Olgun S, Torlak F, Sagmen SB, Eryuksel E, Karakurt S. Determi‑ nation of factors affecting mortality of patients with sepsis in a tertiary intensive care unit. Turk Thorac J. 2015;16:128–32. https:// doi. org/ 10. 5152/ ttd. 2015. 4510.  \n16. Kassyap CK, Abraham SV, Krishnan SV, Palatty BU, Rajeev PC. Factors affecting early treatment goals of sepsis patients presenting to the emer‑ gency department. Indian J Crit Care Med. 2018;22:797–800. https:// doi. org/ 10. 4103/ ijccm. ijccm_ 27_ 18.  \n17. Ruiz‑Mesa JD, Marquez‑Gomez I, Sena G, Buonaiuto VA, Mora‑Ordoñez J, Salido M, et al. Factors associated with severe sepsis or septic shock in complicated pyelonephritis. Medicine. 2017;96: e8371. https:// doi. org/ 10. 1097/ md. 00000 00000 008371.  \n18. Emami‑Razavi SH, Mohammadi A, Alibakhshi A, Jalali M, Ghajarzadeh M. Incidence of post‑operative sepsis and role of Charlson Co‑Morbidity Score for predicting postoperative sepsis. Acta Med Iran. 2016;54:318–22.  \n19. Sinapidis D, Kosmas V, Vittoros V, Koutelidakis IM, Pantazi A, Stefos A, et al. Progression into sepsis: an individualized process varying by the interaction of comorbidities with the underlying infection. BMC Infect Dis. 2018;18:242. https:// doi. org/ 10. 1186/ s12879‑ 018‑ 3156‑z.  \n20. Lavallee JF, Gray TA, Dumville J, Russell W, Cullum N. The effects of care bundles on patient outcomes: a systematic review and meta‑analysis. Implement Sci. 2017;12:142. https:// doi. org/ 10. 1186/ s13012‑ 017‑ 0670‑0.  \n21. Teles F, Rodrigues WG, Alves M, Albuquerque CFT, Bastos SMO, Mota MFA, et al. Impact of a sepsis bundle in wards of a tertiary hospital. J Intensive Care. 2017;5:45. https:// doi. org/ 10. 1186/ s40560‑ 017‑ 0231‑2.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 10,
+            "section": "**References**",
+            "chunk_id": "page_10_chunk_43"
+        }
+    },
+    {
+        "chunk_text": "22. Freund Y, Lemachatti N, Krastinova E, Van Laer M, Claessens YE, Avondo A, et al. Prognostic accuracy of Sepsis‑3 criteria for in‑hospital mortality among patients with suspected infection presenting to the emergency department. JAMA. 2017;317:301–8. https:// doi. org/ 10. 1001/ jama. 2016. 20329.  \n23. Lie KC, Lau CY, Van Vinh Chau N, West TE, Limmathurotsakul D, for South‑ east Asia Infectious Disease Clinical Research N. Utility of SOFA score, management and outcomes of sepsis in Southeast Asia: a multinational multicenter prospective observational study. J Intensive Care. 2018; 6:9. https:// doi. org/ 10. 1186/ s40560‑ 018‑ 0279‑7.  \n24. Ferrer R, Martin‑Loeches I, Phillips G, Osborn TM, Townsend S, Dellinger RP, et al. Empiric antibiotic treatment reduces mortality in severe sepsis and septic shock from the first hour: results from a guideline‑based performance improvement program. Crit Care Med. 2014;42:1749–55. https:// doi. org/ 10. 1097/ ccm. 00000 00000 000330.  \n25. Micek ST, Welch EC, Khan J, Pervez M, Doherty JA, Reichley RM, et al. Empiric combination antibiotic therapy is associated with improved outcome against sepsis due to Gram‑negative bacteria: a retrospective analysis. Antimicrob Agents Chemother. 2010;54:1742–8. https:// doi. org/ 10. 1128/ aac. 01365‑ 09.  \n26. Kumar A, Ellis P, Arabi Y, Roberts D, Light B, Parrillo JE, et al. Initiation of inappropriate antimicrobial therapy results in a fivefold reduction of survival in human septic shock. Chest. 2009;136:1237–48. https:// doi. org/ 10. 1378/ chest. 09‑ 0087.  \n27. Kumar A, Roberts D, Wood KE, Light B, Parrillo JE, Sharma S, et al. Duration of hypotension before initiation of effective antimicrobial therapy is the critical determinant of survival in human septic shock. Crit Care Med. 2006;34:1589–96. https:// doi. org/ 10. 1097/ 01. ccm. 00002 17961. 75225. e9.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 10,
+            "section": "**References**",
+            "chunk_id": "page_10_chunk_44"
+        }
+    },
+    {
+        "chunk_text": "28. Bloos F, Thomas‑Rüddel D, Rüddel H, Engel C, Schwarzkopf D, Marshall JC, et al. Impact of compliance with infection management guidelines on outcome in patients with severe sepsis: a prospective observational multi‑center study. Crit Care. 2014;18:R42. https:// doi. org/ 10. 1186/ cc137 55.  \n29. Azuhata T, Kinoshita K, Kawano D, Komatsu T, Sakurai A, Chiba Y, et al. Time from admission to initiation of surgery for source control is a critical determinant of survival in patients with gastrointestinal perforation with associated septic shock. Crit Care. 2014;18:R87. https:// doi. org/ 10. 1186/ cc138 54.  \n30. Lee JK, Lee J, Park YS, Lee CH, Yim JJ, Yoo CG, et al. Clinical manifestations of pneumonia according to the causative organism in patients in the intensive care unit. Korean J Intern Med. 2015;30:829–36. https:// doi. org/ 10. 3904/ kjim. 2015. 30.6. 829.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 10,
+            "section": "**References**",
+            "chunk_id": "page_10_chunk_45"
+        }
+    },
+    {
+        "chunk_text": "Park _et al. BMC Infectious Diseases          (2022) 22:953_  \nPage 11 of 11  \n31. Sigakis MJG, Jewell E, Maile MD, Cinti SK, Bateman BT, Engoren M. Culture‑negative and culture‑positive sepsis: a comparison of character‑ istics and outcomes. Anesth Analg. 2019;129:1300–9. https:// doi. org/ 10. 1213/ ANE. 00000 00000 004072.  \n32. Gupta S, Sakhuja A, Kumar G, McGrath E, Nanchal RS, Kashani KB. Culture‑negative severe sepsis: nationwide trends and outcomes. Chest. 2016;150:1251–9. https:// doi. org/ 10. 1016/j. chest. 2016. 08. 1460.  \n33. Silva‑Nunes J, Cardoso T. Intra‑abdominal infections: the role of different classifications on the selection of the best antibiotic treatment. BMC Infect Dis. 2019;19:980. https:// doi. org/ 10. 1186/ s12879‑ 019‑ 4604‑0.  \n34. Umegaki T, Ikai H, Imanaka Y. The impact of acute organ dysfunction on patients’ mortality with severe sepsis. J Anaesthesiol Clin Pharmacol. 2011;27:180–4. https:// doi. org/ 10. 4103/ 0970‑ 9185. 81816.  \n35. Lone NI, Walsh TS. Impact of intensive care unit organ failures on mortal‑ ity during the five years after a critical illness. Am J Respir Crit Care Med. 2012;186:640–7. https:// doi. org/ 10. 1164/ rccm. 201201‑ 0059OC.  \n36. Nfor TK, Walsh TS, Prescott RJ. The impact of organ failures and their relationship with outcome in intensive care: analysis of a prospective multicentre database of adult admissions. Anaesthesia. 2006;61:731–8. https:// doi. org/ 10. 1111/j. 1365‑ 2044. 2006. 04707.x.  \n37. Sakr Y, Lobo SM, Moreno RP, Gerlach H, Ranieri VM, Michalopoulos A, et al. Patterns and early evolution of organ failure in the intensive care unit and their relation to outcome. Crit Care. 2012;16:R222. https:// doi. org/ 10. 1186/ cc118 68.  \n38. Levi M, van der Poll T. Coagulation and sepsis. Thromb Res. 2017;149:38– 44. https:// doi. org/ 10. 1016/j. throm res. 2016. 11. 007.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 11,
+            "section": "General",
+            "chunk_id": "page_11_chunk_46"
+        }
+    },
+    {
+        "chunk_text": "38. Levi M, van der Poll T. Coagulation and sepsis. Thromb Res. 2017;149:38– 44. https:// doi. org/ 10. 1016/j. throm res. 2016. 11. 007.  \n39. Iba T, Levi M, Levy JH. Sepsis‑induced coagulopathy and disseminated intravascular coagulation. Semin Thromb Hemost. 2020;46:89–95. https:// doi. org/ 10. 1055/s‑ 0039‑ 16949 95.  \n40. Iba T, Levy JH, Warkentin TE, Thachil J, van der Poll T, Levi M, et al. Diagno‑ sis and management of sepsis‑induced coagulopathy and disseminated intravascular coagulation. J Thromb Haemost. 2019;17:1989–94. https:// doi. org/ 10. 1111/ jth. 14578.  \n41. Lyons PG, Micek ST, Hampton N, Kollef MH. Sepsis‑associated coagulopa‑ thy severity predicts hospital mortality. Crit Care Med. 2018;46:736–42. https:// doi. org/ 10. 1097/ CCM. 00000 00000 002997.  \n42. Semeraro N, Ammollo CT, Semeraro F, Colucci M. Sepsis, thrombosis and organ dysfunction. Thromb Res. 2012;129:290–5. https:// doi. org/ 10. 1016/j. throm res. 2011. 10. 013.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 11,
+            "section": "General",
+            "chunk_id": "page_11_chunk_47"
+        }
+    },
+    {
+        "chunk_text": "Springer Nature remains neutral with regard to jurisdictional claims in pub‑ lished maps and institutional affiliations.",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 11,
+            "section": "**Publisher’s Note**",
+            "chunk_id": "page_11_chunk_48"
+        }
+    },
+    {
+        "chunk_text": "- fast, convenient online submission  \n-  \n- rapid publication on acceptance  \n- support for research data, including large and complex data types  \n- gold Open Access which fosters wider collaboration and increased citations  \n- maximum visibility for your research: over 100M website views per year  \n**At BMC, research is always in progress.**  \n**Learn more** biomedcentral.com/submissions",
+        "metadata": {
+            "source_file": "Park_2022.pdf",
+            "doi": "10.1186/s12879-022-07837-x",
+            "page": 11,
+            "section": "Ready to submit your research?  Choose BMC and benefit from:",
+            "chunk_id": "page_11_chunk_49"
+        }
+    }
+]
