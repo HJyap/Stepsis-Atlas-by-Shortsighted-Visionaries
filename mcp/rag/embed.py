@@ -6,7 +6,7 @@ from uuid import uuid4
 
 from langchain_core.documents import Document
 
-from init_pinecone import init_pinecone
+from mcp.rag.init_pinecone import init_pinecone
 
 
 class Embedder:

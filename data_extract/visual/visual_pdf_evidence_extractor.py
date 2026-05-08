@@ -22,7 +22,7 @@ except ImportError:
     google_types = None
     HAS_GOOGLE_API = False
 
-from helpers import (
+from data_extract.visual.helpers import (
     CombinedRecord,
     ExtractionPromptBuilder,
     JSONParser,
@@ -33,7 +33,7 @@ from helpers import (
     source_file_name,
 )
 
-from helpers.models import (
+from data_extract.visual.helpers.models import (
     PREDICTOR_MODEL_LEVEL_FIELDS,
     STUDY_COHORT_LEVEL_FIELDS,
     CONTROLLED_VALUES,

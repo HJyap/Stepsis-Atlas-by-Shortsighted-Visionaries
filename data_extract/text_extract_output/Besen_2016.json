@@ -1,0 +1,70 @@
+{
+    "study_cohort_level_records": [
+        {
+            "cohort_id": "Besen_2016_OverallCohort",
+            "papers": "Besen 2016",
+            "doi": "NA",
+            "encounters_period": "NA",
+            "population_location": "NA",
+            "data_sets": "NA",
+            "detailed_study_design_description": "Not reported",
+            "population_description": "Patients categorized by Sepsis-2 and Sepsis-3 definitions, with lactate levels analyzed.",
+            "cohort": "Overall cohort",
+            "cohort_size_n": "NA",
+            "cohort_characteristics": "Lactate levels according to sepsis categories; stratified according to survival.",
+            "cohort_characteristics_timepoint": "Not reported",
+            "mortality_rate_percent": "NA",
+            "mortality_timepoint": "Not reported"
+        }
+    ],
+    "predictor_model_level_records": [
+        {
+            "cohort_id": "Besen_2016_OverallCohort",
+            "predictors": "Sepsis-2 definition",
+            "timing_of_predictor_measurement": "Not reported",
+            "outcome": "Other: [Lactate levels]",
+            "model_specification": "Group comparison",
+            "effect_size_performance_and_significance": "Kruskal-Wallis’ test P < 0.001 among the three sepsis categories. Mann-Whitney’s P < 0.05 post-hoc analysis vs. other categories."
+        },
+        {
+            "cohort_id": "Besen_2016_OverallCohort",
+            "predictors": "Sepsis-2 definition; Survival status",
+            "timing_of_predictor_measurement": "Not reported",
+            "outcome": "Other: [Lactate levels]",
+            "model_specification": "Group comparison",
+            "effect_size_performance_and_significance": "Mann-Whitney’s test P < 0.05 vs. survivors."
+        },
+        {
+            "cohort_id": "Besen_2016_OverallCohort",
+            "predictors": "Sepsis-3 definition",
+            "timing_of_predictor_measurement": "Not reported",
+            "outcome": "Other: [Lactate levels]",
+            "model_specification": "Group comparison",
+            "effect_size_performance_and_significance": "Kruskal-Wallis’ test P < 0.001 among the three sepsis categories. Mann-Whitney’s P < 0.05 post-hoc analysis vs. other categories."
+        },
+        {
+            "cohort_id": "Besen_2016_OverallCohort",
+            "predictors": "Sepsis-3 definition; Survival status",
+            "timing_of_predictor_measurement": "Not reported",
+            "outcome": "Other: [Lactate levels]",
+            "model_specification": "Group comparison",
+            "effect_size_performance_and_significance": "Mann-Whitney’s test P < 0.05 vs. survivors."
+        },
+        {
+            "cohort_id": "Besen_2016_OverallCohort",
+            "predictors": "Sepsis-2 categories; Lactate concentration (> 2 mmol/L, > 4 mmol/L)",
+            "timing_of_predictor_measurement": "Not reported",
+            "outcome": "Other: [Mortality]",
+            "model_specification": "Group comparison",
+            "effect_size_performance_and_significance": "Pearson’s Chi-squared test P < 0.001 among the three sepsis categories (same lactate level). Pearson’s Chi-squared test P < 0.05 post-hoc analysis vs. severe sepsis (same lactate level) category. Pearson’s Chi-squared test P < 0.001 among the three lactate categories (same sepsis category level). Pearson’s Chi-squared test P < 0.05 post-hoc analysis vs. whole group and Lactate > 2 mmol/L (same sepsis category level) categories."
+        },
+        {
+            "cohort_id": "Besen_2016_OverallCohort",
+            "predictors": "Sepsis-3 categories; Lactate concentration (> 2 mmol/L, > 4 mmol/L)",
+            "timing_of_predictor_measurement": "Not reported",
+            "outcome": "Other: [Mortality]",
+            "model_specification": "Group comparison",
+            "effect_size_performance_and_significance": "Pearson’s Chi-squared test P < 0.001 among the three sepsis categories (same lactate level). Pearson’s Chi-squared test P < 0.05 post-hoc analysis vs. sepsis (same lactate level) category. Pearson’s Chi-squared test P < 0.001 among the three lactate categories (same sepsis category level). Pearson’s Chi-squared test P < 0.05 post-hoc analysis vs. whole group and Lactate > 2 mmol/L (same sepsis category level) categories."
+        }
+    ]
+}

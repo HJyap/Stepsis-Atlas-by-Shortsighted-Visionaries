@@ -1,0 +1,46 @@
+{
+    "study_cohort_level_records": [
+        {
+            "cohort_id": "Liu_2019_AnalysisCohort",
+            "papers": "Liu 2019",
+            "doi": "NA",
+            "encounters_period": "NA",
+            "population_location": "NA",
+            "data_sets": "Medical Information Mart for Intensive Care III database (MIMIC III)",
+            "detailed_study_design_description": "Retrospective cohort study",
+            "population_description": "sepsis patients",
+            "cohort": "Overall cohort",
+            "cohort_size_n": "1865",
+            "cohort_characteristics": "24-h average lactate levels; worst SOFA/qSOFA scores during the first 24 h of ICU admission",
+            "cohort_characteristics_timepoint": "Within 24h of ICU admission",
+            "mortality_rate_percent": "Not reported",
+            "mortality_timepoint": "In-Hospital Mortality"
+        }
+    ],
+    "predictor_model_level_records": [
+        {
+            "cohort_id": "Liu_2019_AnalysisCohort",
+            "predictors": "lactate level",
+            "timing_of_predictor_measurement": "Within 24h of ICU admission",
+            "outcome": "In-Hospital Mortality",
+            "model_specification": "Multivariate logistic regression; ROC analysis",
+            "effect_size_performance_and_significance": "AUROC, 0.664 [95% CI, 0.639–0.689]"
+        },
+        {
+            "cohort_id": "Liu_2019_AnalysisCohort",
+            "predictors": "SOFA score",
+            "timing_of_predictor_measurement": "Within 24h of ICU admission",
+            "outcome": "In-Hospital Mortality",
+            "model_specification": "ROC analysis",
+            "effect_size_performance_and_significance": "AUROC, 0.686 [95% CI, 0.661–0.710]"
+        },
+        {
+            "cohort_id": "Liu_2019_AnalysisCohort",
+            "predictors": "qSOFA score",
+            "timing_of_predictor_measurement": "Within 24h of ICU admission",
+            "outcome": "In-Hospital Mortality",
+            "model_specification": "ROC analysis",
+            "effect_size_performance_and_significance": "AUROC, 0.547 [95% CI, 0.521–0.574]"
+        }
+    ]
+}
