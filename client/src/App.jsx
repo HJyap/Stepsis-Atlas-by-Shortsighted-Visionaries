@@ -129,10 +129,8 @@ const styles = {
       ? "linear-gradient(rgba(224, 177, 63, 0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(224, 177, 63, 0.06) 1px, transparent 1px), linear-gradient(180deg, #14110c 0%, #0b0a08 55%, #080808 100%)"
       : theme.background,
     backgroundSize: isDark ? "52px 52px, 52px 52px, auto" : "auto",
-    minHeight: "100vh",
+    minHeight: "100dvh",
     color: theme.text,
-    margin: 0,
-    width: "100%",
     transition: "background 0.2s ease, color 0.2s ease",
   }),
   header: {
