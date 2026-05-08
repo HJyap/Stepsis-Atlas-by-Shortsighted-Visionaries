@@ -3,30 +3,23 @@
   "images_dir": "/Users/minh/Stepsis-Atlas-by-Shortsighted-Visionaries/data_extract/visual/images",
   "output_dir": "/Users/minh/Stepsis-Atlas-by-Shortsighted-Visionaries/data_extract/visual_extract_output",
   "output_file": "/Users/minh/Stepsis-Atlas-by-Shortsighted-Visionaries/data_extract/visual_extract_output/extraction_results.json",
-  "total_papers": 3,
+  "total_papers": 2,
   "total_chunks": 5,
   "failed_chunks": 0,
   "results": [
     {
-      "source_file": "Suttapanit_2022.pdf",
-      "output_file": "/Users/minh/Stepsis-Atlas-by-Shortsighted-Visionaries/data_extract/visual_extract_output/Suttapanit_2022.json",
-      "study_cohort_level_record_count": 7,
-      "predictor_model_level_record_count": 31,
-      "processed_chunks_count": 3
-    },
-    {
-      "source_file": "Bidart_2024.pdf",
-      "output_file": "/Users/minh/Stepsis-Atlas-by-Shortsighted-Visionaries/data_extract/visual_extract_output/Bidart_2024.json",
-      "study_cohort_level_record_count": 3,
+      "source_file": "Besen_2016.pdf",
+      "output_file": "/Users/minh/Stepsis-Atlas-by-Shortsighted-Visionaries/data_extract/visual_extract_output/Besen_2016.json",
+      "study_cohort_level_record_count": 1,
       "predictor_model_level_record_count": 11,
       "processed_chunks_count": 1
     },
     {
-      "source_file": "Seymour_2016.pdf",
-      "output_file": "/Users/minh/Stepsis-Atlas-by-Shortsighted-Visionaries/data_extract/visual_extract_output/Seymour_2016.json",
-      "study_cohort_level_record_count": 6,
-      "predictor_model_level_record_count": 4,
-      "processed_chunks_count": 1
+      "source_file": "Liu_2019.pdf",
+      "output_file": "/Users/minh/Stepsis-Atlas-by-Shortsighted-Visionaries/data_extract/visual_extract_output/Liu_2019.json",
+      "study_cohort_level_record_count": 8,
+      "predictor_model_level_record_count": 44,
+      "processed_chunks_count": 4
     }
   ],
   "errors": []
