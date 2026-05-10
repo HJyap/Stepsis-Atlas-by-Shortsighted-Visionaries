@@ -115,19 +115,25 @@ function formatConfidence(value) {
 }
 
 function getRecordConfidence(record, fallbackConfidence) {
-  return formatConfidence(
+  const value =
     record?.confidence_score ??
-      record?.confidenceScore ??
-      record?.confidence ??
-      fallbackConfidence ??
-      ""
-  );
+    record?.confidenceScore ??
+    record?.confidence ??
+    fallbackConfidence ??
+    "";
+  const formatted = formatConfidence(value);
+  return formatted || "Pending";
 }
 
-function flattenVisualExtracts(visualExtracts, fallbackConfidence = "") {
+function flattenVisualExtracts(visualExtracts, comparisonScores = {}) {
   const rows = [];
 
   Object.entries(visualExtracts ?? {}).forEach(([paperName, paperExtract]) => {
+    const paperScores = comparisonScores?.[paperName] ?? {};
+    const cohortFallback = paperScores.cohort_level_mean_confidence_score != null
+      ? `${paperScores.cohort_level_mean_confidence_score}%` : "";
+    const predictorFallback = paperScores.predictor_level_mean_confidence_score != null
+      ? `${paperScores.predictor_level_mean_confidence_score}%` : "";
     const cohortRecords = Array.isArray(
       paperExtract?.study_cohort_level_records
     )
@@ -170,7 +176,7 @@ function flattenVisualExtracts(visualExtracts, fallbackConfidence = "") {
         Outcome: "",
         "Model / Analysis": "",
         "Effect / Performance": "",
-        "Confidence Score": getRecordConfidence(record, fallbackConfidence),
+        "Confidence Score": getRecordConfidence(record, cohortFallback),
       });
     });
 
@@ -208,7 +214,7 @@ function flattenVisualExtracts(visualExtracts, fallbackConfidence = "") {
         "Effect / Performance": valueOrBlank(
           record.effect_size_performance_and_significance
         ),
-        "Confidence Score": getRecordConfidence(record, fallbackConfidence),
+        "Confidence Score": getRecordConfidence(record, predictorFallback),
       });
     });
   });
@@ -266,7 +272,7 @@ async function callChat(query) {
 
     const visualRows = flattenVisualExtracts(
       data.visual_extracts,
-      data.confidence_score
+      data.comparison_confidence_scores
     );
 
     const references = visualRows.length

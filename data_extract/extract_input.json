@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "page_9_chunk_36",
+    "doi": "10.12659/MSM.932227",
+    "global_chunk_index": 140.0,
+    "page": 9.0,
+    "section": "**References:**",
+    "source_file": "Cao_2021.pdf",
+    "source_json": "Cao_2021.json"
+  },
+  {
+    "chunk_id": "page_3_chunk_14",
+    "doi": "10.1186/s13054-024-05176-8",
+    "global_chunk_index": 953.0,
+    "page": 3.0,
+    "section": "**Results**",
+    "source_file": "Todi_2024.pdf",
+    "source_json": "Todi_2024.json"
+  },
+  {
+    "chunk_id": "page_4_chunk_16",
+    "doi": "10.1186/s13054-024-05176-8",
+    "global_chunk_index": 955.0,
+    "page": 4.0,
+    "section": "General",
+    "source_file": "Todi_2024.pdf",
+    "source_json": "Todi_2024.json"
+  },
+  {
+    "chunk_id": "page_10_chunk_35",
+    "doi": "10.21320/1818-474X-2022-2-70-79",
+    "global_chunk_index": 426.0,
+    "page": 10.0,
+    "section": "General",
+    "source_file": "Kozlov_2022.pdf",
+    "source_json": "Kozlov_2022.json"
+  },
+  {
+    "chunk_id": "page_3_chunk_15",
+    "doi": "10.1186/s12879-019-3790-0",
+    "global_chunk_index": 1166.0,
+    "page": 3.0,
+    "section": "Study cohort characteristics",
+    "source_file": "Zhang_2019.pdf",
+    "source_json": "Zhang_2019.json"
+  }
+]

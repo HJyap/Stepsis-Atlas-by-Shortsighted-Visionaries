@@ -33,7 +33,7 @@ app.add_middleware(
 # Paths
 EXTRACT_INPUT = ROOT_DIR / "data_extract" / "extract_input.json"
 
-TEXT_EXTRACT_OUTPUT_DIR = ROOT_DIR / "data_extract" / "text_extract_output"
+TEXT_EXTRACT_OUTPUT_DIR = ROOT_DIR / "data_extract" / "text"
 VISUAL_EXTRACTOR = ROOT_DIR / "data_extract" / "visual" / "visual_pdf_evidence_extractor.py"
 VISUAL_EXTRACT_OUTPUT_DIR = ROOT_DIR / "data_extract" / "visual_extract_output"
 
@@ -120,7 +120,6 @@ async def handle_chat(request: ChatRequest):
             "llm_answer": llm_answer,
             "visual_extracts": visual_data,
             "comparison_confidence_scores": comparison_confidence_scores,
-            "confidence_score": comparison_confidence_scores,
         }
 
     except Exception as e:
